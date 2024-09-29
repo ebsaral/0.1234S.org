@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import SectionItem, { SectionItemType } from "./SectionItem";
 
 export type SectionWithItemsType = {
