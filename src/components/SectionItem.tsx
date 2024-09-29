@@ -38,10 +38,12 @@ export default async function SectionItem({item} : {item: SectionItemType}) {
         </div>
 
         <div className="flex-row basis-9/12">
+          <a className="hover:underline hover:underline-offset-4" href={item.link} target="_blank">
             <div className="font-bold">
-              <a className="hover:underline hover:underline-offset-4" href={item.link} target="_blank">{t(item.translationPaths.title)}</a>
+              {t(item.translationPaths.title)}
             </div>
             {t(item.translationPaths.text)}
+          </a>
         </div>
     </div>
     )
