@@ -1,0 +1,94 @@
+{
+    "Text": {
+        "LastUpdate": "Son güncelleme"
+    },
+    "NotFoundPage": {
+        "title": "Sayfa bulunamadı"
+    },
+    "Metadata": {
+        "title": "Emin Buğra Saral",
+        "name": "Emin Buğra Saral"
+    },
+    "Link": {
+        "home": "Ana Sayfa",
+        "cvName": "Özgeçmiş (CV)",
+        "cvLink": "https://github.com/ebsaral/CV/blob/main/Emin%20Bu%C4%9Fra%20Saral%2C%20T%C3%BCrk%C3%A7e%20CV.pdf",
+        "contact": "İletişim (e-posta)"
+    },
+    "Info": {
+        "title": "hakkında uzun bir metin",
+        "text": "Kara mizahın güzide temsilcilerinden Emin Buğra Saral, 28 Eylül 1988 tarihinde Sürmene Devlet Hastanesi'nde dünyaya arz edildi. Annesinin koynunda Of'a geri döndükten sonra uzun bir süre burada ailesiyle birlikte türlü aksiyonları ve farklılıkları yaşamaya başladı. Yeteneklerini fark ederek ve ailesine katkıda bulunarak büyüyen zibidimiz, Rize Anadolu Öğretmen Lisesi'ni bitirdikten sonra taşı toprağı altın olan İstanbul'a taşındı. Koç Üniversitesi'ndeki bilgisayar mühendisliği bölümünü burssuz olarak orta düzeyde bir akademik başarıyla tamamladı.\n\nGelecek vaadeden bireyimiz, üniversite deneyimi sürecinde Bordeaux'da yurt dışına ilk adımını atma imkanı yakaladı. Kitap okuma konusunda çok seçici olan erkeksi bireyimiz, karşılaştığı insanların hikâyelerini okurken ve dinlerken her seferinde kendini daha iyi tanıma fırsatı yakaladı. Üniversitenin ardından İstanbul'daki yazılım firmalarında tecrübe edindi ve çok güzel arkadaşlıklar kurdu. Fazlasıyla eğlendi, fazlasıyla da hüzünlendi.\n\nDeğişiklik zamanı geldiğini hissettiğinde bir diğer adımını San Francisco'ya attı. Hayat tecrübesi kısıtlı olduğu için bacaklarını başka bir kıtaya açmakta zorlanmış olsa gerek ki kısa bir sürenin ardından İstanbul'a geri döndü. Daha sonra Münih'e taşınarak şansını farklı bir yöne şekillendirdi. Almanya'da birkaç yıl farklı kültürleri iliklerine kadar deneyimledi ve Avrupa'ya küskün bir şekilde Türkiye'ye dönüş yaptı.\n\nYazılım dünyasının kendi üzerindeki cazibesini kaybetmesi üzerine, sanatı ve onun ardında saklı olan politikayı hayatının merkezine aldı. Bu durumdan mutlu olduğu söylenemez. Vizyoner ve zeki olmanın buğdayını ekmeyi umarken, saf ve iyi niyetli olmasından ötürü adil olan yolu izlemekte zorlanan Saral, başladığı noktaya daha deneyimli olarak geri döndü. Aslında en büyük derdi sevmek ve sevilmek; anlamak ve anlaşılmak. Hayat üniversitesinden diplomasını almak için çabalamaya devam ederken geleceğe dair yapıcı, empati dolu ve kapsamlı fikirlerini kendisiyle paylaşabilecek kadar yetenekli ve cesur insanlara rastlamayı umuyor.\n\nHayatının detaylarına içeriklerinin inceliklerinde rastlayacağınız ekşi suratlı fakat güleryüzlü bireyimiz, zamanla daha anlaşılabilir olmayı ve üretime aktif olarak katılmayı umuyor. Kendine kanıtlaması gereken birçok şeyi kanıtlamış durumda olsa bile, günümüz dünyasında var olabilmek adına kendini başkalarına da kanıtlaması gerektiği için bezgin bir gezgin modunda hayatına devam ediyor. Hayatın detaylarda saklı olduğunun bilincinde olan Emin Bey, zihnini bu bağlamda geliştirmekten keyif alıyor.\n\nGeleceği incelikleriyle birlikte düşünüp anı yaşamaya çalışmaktan memnuniyet duyuyor. Yaş aldıkça insanlara ve aptallığa olan tahammül seviyesi azalsa dahi içindeki kıvılcımın sönmemesi için çaba sarf etmeyi sürdürüyor. Çünkü kendisi de zamanında birçok şeyi kavrayamayan ve hata yapanlardan biri olmuştu. Zihindeki kavramların pekişmesiyle aptallığın abdallığa dönüşme potansiyelinin farkındadır. Bu öğrenme döngüsünün varlığı zaman içinde çift yönlü değişimler gösterebilir.\n\nNot: Kendi hakkında yazarken bazen üçüncü tekil şahıs olmak hoşuna gidiyor."
+    },
+    "Projects": {
+        "title": "projeler",
+        "TouchSensei": {
+            "title": "Touch Sensei (mobil oyun)",
+            "text": "Touch Sensei ile duygusal bir yolculuğa çık! Parmaklarını hareket ettirerek hisleri aç, sırları keşfet ve eşsiz dokuların dünyasını keşfet. Hemen deneyin."
+        },
+        "EBSLifeSolutions": {
+            "title": "EBS Yaşam Çözümleri",
+            "text": "20 yılı aşkın zengin hayat tecrübesine dayanan profesyonel ve şefkatli bir yaklaşımla, hayatın zorluklarının üstesinden gelmenize yardımcı oluyorum. Burada, öğrenilen dersler paylaşılan derslere dönüşüyor. :)"
+        }
+    },
+    "Hobbies": {
+        "title": "ilgi alanları",
+        "Blog": {
+            "title": "Kişisel Blog (www.saral.blog) - Medium",
+            "text": "Denemeler, şiirler, hikâyeler ve fikirlerimin dışarıya yansıdığı samimi ve dürüst bir içerik koleksiyonu."
+        },
+        "Medium": {
+            "title": "Eski Blog (medium.com/@ebsaral) - Sadece İngilizce",
+            "text": "Yeterince özenilmeden yazılmış ve artık güncellenmeyen içerik koleksiyonu."
+        },
+        "SoundCloud": {
+            "title": "SoundCloud (@ebsaral)",
+            "text": "Müziğe olan ilgimi amatörce yansıttığım bir platform."
+        },
+        "DeviantArt": {
+            "title": "DeviantArt (@eminbugrasaral)",
+            "text": "Fotoğraf çekmeye ve resim çizmeye olan ilgimi yansıttığım kişisel galeri."
+        },
+        "Flickr": {
+            "title": "Flickr (@eminbugrasaral)",
+            "text": "Daha çok eski fotoğrafları arşivlemek için kullandığım kişisel fotoğraf koleksiyonu."
+        },
+        "YouTube": {
+            "title": "YouTube (@eminbugrasaral)",
+            "text": "Amatörce çekilmiş olan kişisel videolar."
+        },
+        "Vimeo": {
+            "title": "Vimeo (@rahmetli)",
+            "text": "Eskiden kalan ama hatırası derin olan birkaç video."
+        }
+    },
+    "Career": {
+        "title": "profesyonel kariyer",
+        "LinkedIn": {
+            "title": "LinkedIn (@eminbugrasaral)",
+            "text": "Profesyonel gözükmek için kendimi fazla kasmadığım beyaz yakalıların toplanma alanı."
+        },
+        "Github": {
+            "title": "GitHub (@ebsaral)",
+            "text": "Yazılım projelerimin birçoğunun bulunduğu platform."
+        },
+        "DevTo": {
+            "title": "Dev.to (@ebsaral)",
+            "text": "Yazılıma dair kalemimden çıkan bazı teknik paylaşımlar."
+        },
+        "Stackoverflow": {
+            "title" : "Stackoverflow",
+            "text": "Yazılımcılar arasında yardımlaşmayı kolaylaştıran bir platform."
+        }
+    },
+    "SocialMedia": {
+        "title": "sosyal medya",
+        "Instagram": {
+            "title": "Instagram (eminbugrasaral)",
+            "text": "Pek fazla filtre kullanmadan, moduma göre içten paylaşımlar yaptığım fotoğraf ve story galerisi."
+        },
+        "Twitter": {
+            "title": "Twitter / X (eminbugrasaral)",
+            "text": "Kapatıp kapatmamaya bir türlü karar veremediğim düşünce çöplüğü. Orijinal fikirlerimin dağınık bir biçimde toplanmaya çalıştığı alan."
+        }
+    }
+}
