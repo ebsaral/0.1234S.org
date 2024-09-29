@@ -1,6 +1,6 @@
 import Image from "next/image";
 import {Link} from '@/i18n/routing';
-import { useTranslations } from "next-intl";
+import { useTranslations, useFormatter } from "next-intl";
 import SectionWithItems, { SectionWithItemsType } from "./SectionWithItems";
 import { CareerSection } from "@/sections/Career";
 import { ProjectsSection } from "@/sections/Projects";
@@ -20,6 +20,7 @@ const Sections: SectionWithItemsType[] = [
 
 export default function Layout({locale}: LayoutParams) {
     const t = useTranslations();
+    const format = useFormatter();
 
     return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen w-full pb-8 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -99,6 +100,7 @@ export default function Layout({locale}: LayoutParams) {
           {t("Link.contact")}
         </a>
       </footer>
+      <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(new Date("2024-09-28"))}</div>
     </div>
     );
 }
