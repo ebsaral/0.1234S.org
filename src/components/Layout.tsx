@@ -63,8 +63,11 @@ export default function Layout({locale}: LayoutParams) {
         <div className="row-start-3 flex gap-6 text-2xl text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
           {t('Info.title')}
         </div>
-        <div className="row-start-3 flex gap-6 text-sm text-justify pl-5 pr-5 font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
-          {t('Info.text')}
+        <div className="row-start-3 flex-row space-y-2 gap-6 text-sm indent-4 text-justify pl-5 pr-5 font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
+          {t.rich('Info.text', {
+            p: (chunks) => <p>{chunks}</p>,
+            b: (chunks) => <b>{chunks}</b>,
+          })}
         </div>
         <div className="flex flex-col gap-8 row-start-2 items-justify pl-5 pr-5">
           {Sections.map((section, i) => <SectionWithItems key={i} translationPaths={section.translationPaths} items={section.items} />)}      
