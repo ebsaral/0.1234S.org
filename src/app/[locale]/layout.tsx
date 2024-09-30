@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import localFont from "next/font/local";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
@@ -38,6 +39,7 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider messages={messages}>
           {children}
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>
