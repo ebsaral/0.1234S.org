@@ -14,17 +14,6 @@ const HobbiesItems: SectionItemType[] = [
         }
     },
     {
-        link: "https://www.soundcloud.com/ebsaral",
-        image: {
-            src: "/images/soundcloud-logo.png",
-            alt: "SoundCloud logo"
-        },
-        translationPaths: {
-            title: "Hobbies.SoundCloud.title",
-            text: "Hobbies.SoundCloud.text"
-        }
-    },
-    {
         link: "https://www.deviantart.com/eminbugrasaral",
         image: {
             src: "/images/deviantart-logo.png",
@@ -36,14 +25,14 @@ const HobbiesItems: SectionItemType[] = [
         }
     },
     {
-        link: "https://www.flickr.com/photos/eminbugrasaral",
+        link: "https://www.soundcloud.com/ebsaral",
         image: {
-            src: "/images/flickr-logo.png",
-            alt: "Flickr logo"
+            src: "/images/soundcloud-logo.png",
+            alt: "SoundCloud logo"
         },
         translationPaths: {
-            title: "Hobbies.Flickr.title",
-            text: "Hobbies.Flickr.text"
+            title: "Hobbies.SoundCloud.title",
+            text: "Hobbies.SoundCloud.text"
         }
     },
     {
@@ -55,6 +44,17 @@ const HobbiesItems: SectionItemType[] = [
         translationPaths: {
             title: "Hobbies.YouTube.title",
             text: "Hobbies.YouTube.text"
+        }
+    },
+    {
+        link: "https://www.flickr.com/photos/eminbugrasaral",
+        image: {
+            src: "/images/flickr-logo.png",
+            alt: "Flickr logo"
+        },
+        translationPaths: {
+            title: "Hobbies.Flickr.title",
+            text: "Hobbies.Flickr.text"
         }
     },
     {
