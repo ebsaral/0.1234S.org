@@ -14,7 +14,7 @@ const SocialMediaItems: SectionItemType[] = [
         }
     },
     {
-        link: "https://www.x.com/eminbugrasaral",
+        link: "https://www.x.com/cbsaral",
         image: {
             src: "/images/twitter-logo.png",
             alt: "X (Twitter) logo"
