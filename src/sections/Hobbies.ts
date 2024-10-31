@@ -3,17 +3,6 @@ import { SectionWithItemsType } from "@/components/SectionWithItems";
 
 const HobbiesItems: SectionItemType[] = [
     {
-        link: "https://www.saral.blog",
-        image: {
-            src: "/images/eminbugrasaral-blog-logo.png",
-            alt: "Emin Bugra Saral blog logo"
-        },
-        translationPaths: {
-            title: "Hobbies.Blog.title",
-            text: "Hobbies.Blog.text"
-        }
-    },
-    {
         link: "https://www.deviantart.com/eminbugrasaral",
         image: {
             src: "/images/deviantart-logo.png",

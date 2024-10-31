@@ -29,14 +29,14 @@
         "EBSLifeSolutions": {
             "title": "EBS Yaşam Çözümleri",
             "text": "20 yılı aşkın zengin hayat tecrübesine dayanan profesyonel ve şefkatli bir yaklaşımla, hayatın zorluklarının üstesinden gelmenize yardımcı oluyorum. Burada, öğrenilen dersler paylaşılan derslere dönüşüyor. :)"
+        },
+        "Blog": {
+            "title": "Blog (www.saral.blog) - Devam edecek...",
+            "text": "Denemeler, şiirler, hikâyeler ve fikirlerimin dışarıya yansıdığı samimi ve dürüst bir içerik koleksiyonu. Fikirlerimi ve projelerimi detaylarıyla birlikte profesyonel kariyerime taşımak adına blog yazımını sonlandırma kararı aldım."
         }
     },
     "Hobbies": {
         "title": "ilgi alanları",
-        "Blog": {
-            "title": "Blog (www.saral.blog) - Medium",
-            "text": "Denemeler, şiirler, hikâyeler ve fikirlerimin dışarıya yansıdığı samimi ve dürüst bir içerik koleksiyonu."
-        },
         "Medium": {
             "title": "Eski Blog (medium.com/@ebsaral) - Sadece İngilizce",
             "text": "Yeterince özenilmeden yazılmış ve artık güncellenmeyen içerik koleksiyonu."
