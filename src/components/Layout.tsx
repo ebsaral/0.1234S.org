@@ -108,7 +108,7 @@ export default function Layout({locale}: LayoutParams) {
           {t("Link.contact")}
         </a>
       </footer>
-      <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(new Date("2024-09-29"))}</div>
+      <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(new Date("2024-11-04"))}</div>
     </div>
     );
 }
