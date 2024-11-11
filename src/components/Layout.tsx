@@ -99,9 +99,10 @@ export default function Layout({locale}: LayoutParams) {
           {Sections.map((section, i) => <SectionWithItems key={i} translationPaths={section.translationPaths} items={section.items} />)}      
         </div>
         <div className="flex gap-6 text-xs text-center justify-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
-        {t("LegalWarning.title")}<br></br>
-        {t("LegalWarning.text")}
-      </div>
+          {t("LegalWarning.title")}<br></br>
+          {t("LegalWarning.text")}
+        </div>
+        <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(new Date("2024-11-11"))}</div>
       </main>
     </div>
     );
