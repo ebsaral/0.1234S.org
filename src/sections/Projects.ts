@@ -14,6 +14,17 @@ const ProjectsItems : SectionItemType[] = [
         }
     },
     {
+        link: "https://www.saral.blog",
+        image: {
+            src: "/images/eminbugrasaral-blog-logo.png",
+            alt: "Emin Bugra Saral blog logo"
+        },
+        translationPaths: {
+            title: "Projects.Blog.title",
+            text: "Projects.Blog.text"
+        }
+    },
+    {
         link: "https://www.linkedin.com/company/ebs-life-solutions",
         image: {
             src: "/images/ebs-life-solutions-logo.png",
@@ -24,17 +35,6 @@ const ProjectsItems : SectionItemType[] = [
             text: "Projects.EBSLifeSolutions.text"
         }
     },
-    {
-        link: "https://www.saral.blog",
-        image: {
-            src: "/images/eminbugrasaral-blog-logo.png",
-            alt: "Emin Bugra Saral blog logo"
-        },
-        translationPaths: {
-            title: "Projects.Blog.title",
-            text: "Projects.Blog.text"
-        }
-    }
 ]
 
 export const ProjectsSection: SectionWithItemsType = {
