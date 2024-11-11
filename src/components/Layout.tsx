@@ -13,8 +13,8 @@ export type LayoutParams = {
 
 const Sections: SectionWithItemsType[] = [
   ProjectsSection,
-  HobbiesSection,
   CareerSection,
+  HobbiesSection,
   SocialMediaSection
 ]
 
