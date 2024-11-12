@@ -102,7 +102,7 @@ export default function Layout({locale}: LayoutParams) {
           {t("LegalWarning.title")}<br></br>
           {t("LegalWarning.text")}
         </div>
-        <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(new Date("2024-11-11"))}</div>
+        <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(new Date("2024-11-12"))}</div>
       </main>
     </div>
     );
