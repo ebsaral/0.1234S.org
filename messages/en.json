@@ -18,11 +18,15 @@
         "contact": "Contact (e-mail)"
     },
     "Info": {
-        "title": "intro",
+        "title": "info",
         "text": "<p><b>Birth:</b> September 28, 1988. Of / Trabzon / Türkiye.</p>\n<p><b>Education:</b></p><p> Bachelor in Computer Science, Koç University, Istanbul.</p>\n<p><b>Work Experience:</b></p><p> Software Programming, Project Management.</p>\n<p><b>Current Status:</b></p><p><b>Looking for a job.</b> Trying to switch from software engineering to any kind of art, consultancy or managerial positions.\nYour support or help is appreciated.</p>\n<p><b>Talents:</b> </p><p>Fast learner, visionary leading, mentorship, creative ideation, problem solving, attention to detail, writing, acting, directing, photography, pencil drawing, empathy, dancing.</p>\n<p><b>Lived in:</b></p><p> Istanbul (Türkiye), Bordeaux (France), San Jose (USA), Munich (Germany), Currently: Trabzon (Türkiye).</p>\n<p><b>Countries Visited:</b> </p><p>USA, France, Netherlands, Belgium, Italy, Germany, Austria, Portugal.</p>"
     },
     "Projects": {
         "title": "projects",
+        "CB": {
+            "title": "Towards the Presidency (under construction)",
+            "text": "It is time for visionary, inclusive and innovative leadership for the Republic of Turkey. Moving for a better future for all."
+        },
         "TouchSensei": {
             "title": "Touch Sensei (mobile game)",
             "text": "Join Touch Sensei on an emotional journey! Move your finger to unlock feelings, discover secrets, and explore a world of unique textures. Try it now."

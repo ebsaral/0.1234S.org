@@ -22,6 +22,10 @@
     },
     "Projects": {
         "title": "projeler",
+        "CB": {
+            "title": "Cumhurbaşkanlığına Doğru - Yapım aşamasında",
+            "text": "Türkiye Cumhuriyeti için vizyoner, kapsayıcı ve yenilikçi liderlik zamanı. Herkes için daha iyi bir gelecek adına harekete geçiyoruz."
+        },
         "TouchSensei": {
             "title": "Touch Sensei (mobil oyun)",
             "text": "Touch Sensei ile duygusal bir yolculuğa çık! Parmaklarını hareket ettirerek hisleri aç, sırları keşfet ve eşsiz dokuların dünyasını keşfet. Hemen deneyin."

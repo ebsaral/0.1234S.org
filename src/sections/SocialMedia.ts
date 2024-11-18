@@ -3,17 +3,6 @@ import { SectionWithItemsType } from "@/components/SectionWithItems";
 
 const SocialMediaItems: SectionItemType[] = [
     {
-        link: "https://www.instagram.com/eminbugrasaral",
-        image: {
-            src: "/images/instagram-logo.png",
-            alt: "Instagram logo"
-        },
-        translationPaths: {
-            title: "SocialMedia.Instagram.title",
-            text: "SocialMedia.Instagram.text"
-        }
-    },
-    {
         link: "https://www.x.com/cbsaral",
         image: {
             src: "/images/twitter-logo.png",
@@ -22,6 +11,17 @@ const SocialMediaItems: SectionItemType[] = [
         translationPaths: {
             title: "SocialMedia.Twitter.title",
             text: "SocialMedia.Twitter.text"
+        }
+    },
+    {
+        link: "https://www.instagram.com/eminbugrasaral",
+        image: {
+            src: "/images/instagram-logo.png",
+            alt: "Instagram logo"
+        },
+        translationPaths: {
+            title: "SocialMedia.Instagram.title",
+            text: "SocialMedia.Instagram.text"
         }
     },
     {

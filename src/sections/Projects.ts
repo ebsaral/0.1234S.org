@@ -14,6 +14,17 @@ const ProjectsItems : SectionItemType[] = [
         }
     },
     {
+        link: "https://cb.saral.me",
+        image: {
+            src: "/images/emin-bugra-saral-100.jpg",
+            alt: "Emin Buğra Saral yüz fotoğrafı"
+        },
+        translationPaths: {
+            title: "Projects.CB.title",
+            text: "Projects.CB.text"
+        }
+    },
+    {
         link: "https://www.saral.blog",
         image: {
             src: "/images/eminbugrasaral-blog-logo.png",
