@@ -36,17 +36,6 @@ const HobbiesItems: SectionItemType[] = [
         }
     },
     {
-        link: "https://www.flickr.com/photos/eminbugrasaral",
-        image: {
-            src: "/images/flickr-logo.png",
-            alt: "Flickr logo"
-        },
-        translationPaths: {
-            title: "Hobbies.Flickr.title",
-            text: "Hobbies.Flickr.text"
-        }
-    },
-    {
         link: "https://www.vimeo.com/rahmetli",
         image: {
             src: "/images/vimeo-logo.png",
@@ -68,6 +57,17 @@ const HobbiesItems: SectionItemType[] = [
             text: "Hobbies.Medium.text"
         }
     },
+    {
+        link: "https://www.flickr.com/photos/eminbugrasaral",
+        image: {
+            src: "/images/flickr-logo.png",
+            alt: "Flickr logo"
+        },
+        translationPaths: {
+            title: "Hobbies.Flickr.title",
+            text: "Hobbies.Flickr.text"
+        }
+    }
 ]
 
 export const HobbiesSection: SectionWithItemsType = {
