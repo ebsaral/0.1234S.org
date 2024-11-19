@@ -23,7 +23,7 @@ export default function Layout({locale}: LayoutParams) {
     const format = useFormatter();
 
     return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen w-full pb-8 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen w-11/12 pb-8 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <div className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
           <Image
@@ -89,7 +89,7 @@ export default function Layout({locale}: LayoutParams) {
             {t("Link.contact")}
           </a>
         </div>
-        <div className="row-start-3 flex gap-6 flex-wrap items-center justify-center text-xs text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
+        <div className="row-start-3 flex gap-6 pl-5 pr-5 flex-wrap items-center justify-center text-xs text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
           {t("Apology.text")}
         </div>
         <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
@@ -107,7 +107,7 @@ export default function Layout({locale}: LayoutParams) {
           })}
         </div>
         <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
-        <div className="flex gap-6 text-xs text-center justify-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
+        <div className="flex gap-6 pl-5 pr-5 text-xs text-center justify-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
           {t("LegalWarning.title")}<br></br>
           {t("LegalWarning.text")}
         </div>
