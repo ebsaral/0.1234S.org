@@ -88,21 +88,21 @@
     },
     "SocialMedia": {
         "title": "social media",
-        "Instagram": {
-            "title": "Instagram (@eminbugrasaral)",
-            "text": "A photo and story gallery where I make heartfelt shares according to my mood, without using too many filters."
-        },
         "Twitter": {
             "title": "Twitter / X (@cbsaral)",
             "text": "An account for future. Not active, yet."
         },
         "FetLife": {
             "title": "FetLife (@rahmetli) - 18+ (NSFW)",
-            "text": "A social network for the BDSM, Fetish & Kinky Community that I seldomly use."
+            "text": "A social network for the BDSM, Fetish & Kinky Community that I seldomly use with respect to consent and privacy."
         }
     },
     "LegalWarning": {
         "title":"Legal Information",
-        "text": "I would like to state that I do not grant permission for the use of any information about me, my direct or indirect contributions, or my real name—whether included or excluded—in any research, article, project, or actions involving financial gain, without compensation. Legal actions have been, and will be, initiated against any individuals or institutions that act otherwise. You are required to communicate with me verbally (face-to-face, directly) or in writing to work together on any of your projects or ideas. You must also refrain from any actions that could harm my physical integrity. No, I cannot hear your inner voice; you are hearing yourself. Testing or questioning my honesty and goodwill is strictly prohibited."
+        "text": "I would like to state that I do not grant permission for the use of any information about me, my direct or indirect contributions, or my real name—whether included or excluded—in any research, article, project, or actions involving financial gain, without compensation. Legal actions have been, and will be, initiated against any individuals or institutions that act otherwise. You are required to communicate with me verbally (face-to-face, directly) or in writing to work together on any of your projects or ideas. You have to also refrain from any actions that could harm my physical integrity. Testing or questioning my honesty and goodwill is strictly prohibited. (No, I cannot hear your inner voice; you are hearing your inner self.)"
+    },
+    "Apology": {
+        "title": "Apology Text",
+        "text": "If I have caused any negativity in your life (directly or indirectly) and you are right, I sincerely apologize."
     }
 }

@@ -87,21 +87,21 @@
     },
     "SocialMedia": {
         "title": "sosyal medya",
-        "Instagram": {
-            "title": "Instagram (eminbugrasaral)",
-            "text": "Pek fazla filtre kullanmadan, moduma göre içten paylaşımlar yaptığım fotoğraf ve story galerisi."
-        },
         "Twitter": {
             "title": "Twitter / X (@cbsaral)",
             "text": "Değeri henüz anlaşılamayan hesap. Aktif değil."
         },
         "FetLife": {
             "title": "FetLife (@rahmetli) - 18+ (NSFW)",
-            "text": "BDSM, Fetish ve Kinky topluluğu için nadiren kullandığım bir sosyal ağ."
+            "text": "BDSM, Fetiş ve Kinky Topluluğu için saygı, rıza ve özel hayatın ön planda olduğu, nadiren kullandığım bir sosyal ağ."
         }
     },
     "LegalWarning": {
         "title":"Yasal Bilgi",
-        "text": "Hakkımdaki herhangi bir bilgiyi, dolaylı veya dolaysız katkılarımı, gerçek adımı ekleyerek veya eklemeyerek, herhangi bir araştırma konusu, makale, proje veya maddi çıkar içeren eylemlerinizde karşılığını vermeden kullanım hakkına izin vermediğimi belirtmek isterim. Aksini gerçekleştiren kişi veya kurumlar için yasal uygulamaların başlatıldığını ve başlatılacağını belirtirim. Herhangi bir projenizde veya fikrinizde beraber çalışmak için sözlü (yüz yüze, direkt) veya yazılı iletişim kurmak zorundasınız. Fiziksel bütünlüğüme zarar verecek herhangi bir eyleme kalkışmamanız zorunludur. Hayır, iç sesinizi duymuyorum, kendinizi duyuyorsunuz. Dürüstlüğümü ve iyi niyetimi test etmeniz ve/ya sorgulamanız yasaktır."
+        "text": "Hakkımdaki herhangi bir bilginin, doğrudan veya dolaylı katkılarımın veya gerçek ismimin - dahil edilsin veya edilmesin - herhangi bir araştırma, makale, proje veya maddi kazanç içeren eylemlerde karşılıksız olarak kullanılmasına izin vermediğimi belirtmek isterim. Aksi yönde hareket eden kişi veya kurumlara karşı yasal işlemler başlatılmıştır ve başlatılacaktır. Herhangi bir projeniz veya fikriniz üzerinde birlikte çalışmak için benimle sözlü (yüz yüze, doğrudan) veya yazılı olarak iletişim kurmanız gerekmektedir. Ayrıca fiziksel bütünlüğüme zarar verebilecek her türlü eylemden kaçınmanız zorunludur. Dürüstlüğümü ve iyi niyetimi test etmek veya sorgulamak kesinlikle yasaktır. (Hayır, ben sizin iç sesinizi duymuyorum; siz kendi iç sesinizi duyuyorsunuz)."
+    },
+    "Apology": {
+        "title": "Özür Metni",
+        "text": "Eğer hayatınızdaki herhangi bir olumsuzluğa (dolaylı veya dolaysız bir şekilde) sebep olduysam ve siz haklıysanız, samimiyetle özür dilerim."
     }
 }
