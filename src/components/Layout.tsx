@@ -89,7 +89,9 @@ export default function Layout({locale}: LayoutParams) {
             {t("Link.contact")}
           </a>
         </div>
-        
+        <div className="row-start-3 flex gap-6 flex-wrap items-center justify-center text-xs text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
+          {t("Apology.text")}
+        </div>
         <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
         <div className="flex flex-col gap-8 row-start-2 items-justify pl-5 pr-5">
           {Sections.map((section, i) => <SectionWithItems key={i} translationPaths={section.translationPaths} items={section.items} />)}      
@@ -109,7 +111,7 @@ export default function Layout({locale}: LayoutParams) {
           {t("LegalWarning.title")}<br></br>
           {t("LegalWarning.text")}
         </div>
-        <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(new Date("2024-11-18"))}</div>
+        <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(new Date("2024-11-19"))}</div>
       </main>
     </div>
     );
