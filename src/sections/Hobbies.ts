@@ -25,17 +25,6 @@ const HobbiesItems: SectionItemType[] = [
         }
     },
     {
-        link: "https://www.youtube.com/@eminbugrasaral",
-        image: {
-            src: "/images/youtube-logo.png",
-            alt: "YouTube logo"
-        },
-        translationPaths: {
-            title: "Hobbies.YouTube.title",
-            text: "Hobbies.YouTube.text"
-        }
-    },
-    {
         link: "https://www.vimeo.com/rahmetli",
         image: {
             src: "/images/vimeo-logo.png",
