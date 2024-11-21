@@ -111,7 +111,7 @@ export default function Layout({locale}: LayoutParams) {
           {t("LegalWarning.title")}<br></br>
           {t("LegalWarning.text")}
         </div>
-        <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(new Date("2024-11-21T14:26:00+03:00"), {year: "numeric", month: "long", day: "2-digit", localeMatcher: "best fit", hour: "2-digit", minute: "2-digit"})}</div>
+        <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(new Date("2024-11-21T14:28:00+03:00"), {year: "numeric", month: "long", day: "2-digit", localeMatcher: "best fit", hour: "2-digit", minute: "2-digit"})}</div>
       </main>
     </div>
     );
