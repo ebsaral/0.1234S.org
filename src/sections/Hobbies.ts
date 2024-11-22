@@ -45,17 +45,6 @@ const HobbiesItems: SectionItemType[] = [
             title: "Hobbies.Medium.title",
             text: "Hobbies.Medium.text"
         }
-    },
-    {
-        link: "https://www.flickr.com/photos/eminbugrasaral",
-        image: {
-            src: "/images/flickr-logo.png",
-            alt: "Flickr logo"
-        },
-        translationPaths: {
-            title: "Hobbies.Flickr.title",
-            text: "Hobbies.Flickr.text"
-        }
     }
 ]
 
