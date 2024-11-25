@@ -3,6 +3,17 @@ import { SectionWithItemsType } from "@/components/SectionWithItems";
 
 const ProjectsItems : SectionItemType[] = [
     {
+        link: "https://www.linkedin.com/company/ebs-life-solutions",
+        image: {
+            src: "/images/ebs-life-solutions-animated-logo.gif",
+            alt: "EBS Life Solutions Logo"
+        },
+        translationPaths: {
+            title: "Projects.EBSLifeSolutions.title",
+            text: "Projects.EBSLifeSolutions.text"
+        }
+    },
+    {
         link: "https://touch-sensei.saral.me",
         image: {
             src: "/images/touch-sensei-logo.png",
@@ -34,18 +45,7 @@ const ProjectsItems : SectionItemType[] = [
             title: "Projects.Blog.title",
             text: "Projects.Blog.text"
         }
-    },
-    {
-        link: "https://www.linkedin.com/company/ebs-life-solutions",
-        image: {
-            src: "/images/ebs-life-solutions-logo.png",
-            alt: "EBS Life Solutions Logo"
-        },
-        translationPaths: {
-            title: "Projects.EBSLifeSolutions.title",
-            text: "Projects.EBSLifeSolutions.text"
-        }
-    },
+    }
 ]
 
 export const ProjectsSection: SectionWithItemsType = {
