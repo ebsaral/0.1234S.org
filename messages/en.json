@@ -19,13 +19,13 @@
     },
     "Info": {
         "title": "info",
-        "text": "<p><b>Birth:</b> September 28, 1988. Of / Trabzon / Türkiye.</p>\n<p><b>Education:</b></p><p> Bachelor in Computer Science, Koç University, Istanbul.</p>\n<p><b>Work Experience:</b></p><p> Software Engineering, Project Management, Team Leading, Activism.</p>\n<p><b>Current Status:</b></p><p><b>Unemployed.</b> I'm trying to switch from software engineering to any kind of art, consultancy or managerial positions.\nIdeal position(s): Chief Spirit Officer, People & Project Manager, (Multi-Dimensional) Team Management, or Director.\nYour support or help is appreciated.</p>\n<p><b>Talents:</b> </p><p>Fast learner, visionary leading, mentorship, creative ideation, problem solving, attention to detail, writing, acting, directing, photography, pencil drawing, empathy, spiritual / mental enhancement, dancing.</p>\n<p><b>Topics of Interest:</b></p><p>Art, technology, science, health, psychology, sociology, economics, philosophy, literature, religion, cinema, music, dance, history, and more...</p>\n<p><b>Lived in:</b></p><p> Istanbul (Türkiye), Bordeaux (France), San Jose (USA), Munich (Germany), Currently: Trabzon (Türkiye).</p>"
+        "text": "<p><b>Birth:</b> September 28, 1988. Of / Trabzon / Türkiye.</p>\n<p><b>Education:</b></p><p> Bachelor in Computer Science, Koç University, Istanbul.</p>\n<p><b>Work Experience:</b></p><p> Software Engineering, Project Management, Team Leading, Activism.</p>\n<p><b>Current Status:</b></p><p><b>Unemployed.</b> I'm trying to switch from software engineering to any kind of art, consultancy or managerial positions.\nIdeal position(s): Chief Spirit Officer, People & Project Manager, (Multi-Dimensional) Team Management, or Director.\nYour support or help is appreciated.</p>\n<p><b>Talents:</b> </p><p>Fast learner, visionary leading, mentorship, creative ideation, problem solving, attention to detail, writing, acting, directing, photography, pencil drawing, empathy, spiritual / mental enhancement, dancing.</p>\n<p><b>Topics of Interest:</b></p><p>Art, dark humor, technology, science, health, psychology, sociology, economics, philosophy, literature, religion, cinema, music, dance, history, and more...</p>\n<p><b>Lived in:</b></p><p> Istanbul (Türkiye), Bordeaux (France), San Jose (USA), Munich (Germany), Currently: Trabzon (Türkiye).</p>"
     },
     "Projects": {
         "title": "projects",
         "CB": {
-            "title": "Towards the Presidency (under construction)",
-            "text": "It is time for visionary, inclusive and innovative leadership for the Republic of Türkiye. Moving for a better future for all."
+            "title": "CB (under construction)",
+            "text": "A platform where I share my theories, articles, projects and work for a better future for everyone."
         },
         "TouchSensei": {
             "title": "Touch Sensei (mobile game)",
@@ -36,7 +36,7 @@
             "text": "I offer a professional and compassionate approach to overcoming life’s challenges, grounded in over 20 years of rich personal experience. I offer ideal and lasting solutions for you to deal with the negativity that hinders the luck factor."
         },
         "Blog": {
-            "title": "Blog (www.saral.blog) - To be continued...",
+            "title": "Blog (www.saral.blog) - Archived...",
             "text": "A sincere and honest collection of content where my essays, poems, stories, and ideas are reflected outward. I have decided to end this blogging journey to focus on bringing my ideas and projects, along with their details, into my professional career."
         }
     },
@@ -95,7 +95,7 @@
     },
     "LegalWarning": {
         "title":"Legal Information",
-        "text": "I would like to state that I do not grant permission for the use of any information about me, my direct or indirect contributions, or my real name—whether included or excluded—in any research, article, project, or actions involving financial gain, without compensation. Legal actions have been, and will be, initiated against any individuals or institutions that act otherwise. You are required to communicate with me verbally (face-to-face, directly) or in writing to work together on any of your projects or ideas. You have to also refrain from any actions that could harm my physical integrity. Testing or questioning my honesty and goodwill is strictly prohibited. (No, I cannot hear your inner voice; you are hearing your inner self.)"
+        "text": "I would like to state that I do not grant permission for the use of any information about me, my direct or indirect contributions, or my real name—whether included or excluded—in any research, article, project, or actions involving financial gain, without compensation. Legal actions have been, and will be, initiated against any individuals or institutions that act otherwise. You are required to communicate with me verbally (face-to-face, directly) or in writing to work together on any of your projects or ideas. You have to also refrain from any actions that could harm my physical integrity. Testing or questioning my honesty and goodwill is strictly prohibited."
     },
     "Apology": {
         "title": "Apology Text",

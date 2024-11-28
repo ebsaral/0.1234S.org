@@ -21,6 +21,7 @@ const Sections: SectionWithItemsType[] = [
 export default function Layout({locale}: LayoutParams) {
     const t = useTranslations();
     const format = useFormatter();
+    const lastUpdateDate = new Date("2024-11-28T13:54:09.586Z");
 
     return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen w-auto pb-8 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -111,7 +112,7 @@ export default function Layout({locale}: LayoutParams) {
           {t("LegalWarning.title")}<br></br>
           {t("LegalWarning.text")}
         </div>
-        <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(new Date("2024-11-25T09:50:00+03:00"), {year: "numeric", month: "long", day: "2-digit", localeMatcher: "best fit", hour: "2-digit", minute: "2-digit"})}</div>
+        <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(lastUpdateDate, {year: "numeric", month: "long", day: "2-digit", localeMatcher: "best fit", hour: "2-digit", minute: "2-digit"})}</div>
       </main>
     </div>
     );
