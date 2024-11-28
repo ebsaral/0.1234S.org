@@ -23,13 +23,13 @@
     },
     "Projects": {
         "title": "projects",
-        "CB": {
-            "title": "CB (under construction)",
-            "text": "A platform where I share my theories, articles, projects and work for a better future for everyone."
-        },
         "TouchSensei": {
             "title": "Touch Sensei (mobile game)",
             "text": "Join Touch Sensei on an emotional journey! Move your finger to unlock feelings, discover secrets, and explore a world of unique textures. Try it now."
+        },
+        "CB": {
+            "title": "CB - Under construction",
+            "text": "A platform where I share my theories, articles, projects and work for a better future for everyone."
         },
         "EBSLifeSolutions": {
             "title": "EBS Life Solutions - In the establishment phase",
