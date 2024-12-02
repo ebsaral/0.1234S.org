@@ -94,8 +94,8 @@
         }
     },
     "LegalWarning": {
-        "title":"Legal Information",
-        "text": "I would like to state that I do not grant permission for the use of any information about me, my direct or indirect contributions, or my real name—whether included or excluded—in any research, article, project, or actions involving financial gain, without compensation. Legal actions have been, and will be, initiated against any individuals or institutions that act otherwise. You are required to communicate with me verbally (face-to-face, directly) or in writing to work together on any of your projects or ideas. You have to also refrain from any actions that could harm my physical integrity. Testing or questioning my honesty and goodwill is strictly prohibited."
+        "title":"< WARNING >\n",
+        "text": "I do not consent to the gratuitous use of any information about me, my direct or indirect contributions or my name - whether included or not - in any research, articles, projects or actions involving financial gain. You are required to communicate with me verbally (face-to-face, directly) or in writing to work together on any of your projects or ideas. No evidence or content will be used against you.\n\nYou must refrain from any direct or indirect action that harms my biological or physiological integrity (my health). Your assumptions about me become reality for you and do not reflect my reality. No communication channel belonging to me is intended as a threat. Every content is meant to be a warning and/or has an educational purpose.\n\nIt is strictly forbidden to test or question my honesty and good faith. It is imperative that you ask questions so that we can build a healthy communication or relationship.\n\n< \/ WARNING >"
     },
     "Apology": {
         "title": "Apology Text",

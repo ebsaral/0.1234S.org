@@ -93,9 +93,9 @@
         }
     },
     "LegalWarning": {
-        "title":"Yasal Bilgi",
-        "text": "Hakkımdaki herhangi bir bilginin, doğrudan veya dolaylı katkılarımın veya gerçek ismimin - dahil edilsin veya edilmesin - herhangi bir araştırma, makale, proje veya maddi kazanç içeren eylemlerde karşılıksız olarak kullanılmasına izin vermediğimi belirtmek isterim. Aksi yönde hareket eden kişi veya kurumlara karşı yasal işlemler başlatılmıştır ve başlatılacaktır. Herhangi bir projeniz veya fikriniz üzerinde birlikte çalışmak için benimle sözlü (yüz yüze, doğrudan) veya yazılı olarak iletişim kurmanız gerekmektedir. Ayrıca fiziksel bütünlüğüme zarar verebilecek her türlü eylemden kaçınmanız zorunludur. Dürüstlüğümü ve iyi niyetimi test etmek veya sorgulamak kesinlikle yasaktır."
-    },
+        "title":"< UYARI >\n",
+        "text": "Hakkımdaki herhangi bir bilginin, doğrudan veya dolaylı katkılarımın veya ismimin - dahil edilsin veya edilmesin - herhangi bir araştırma, makale, proje veya maddi kazanç içeren eylemlerde karşılıksız olarak kullanılmasına izin vermiyorum. Herhangi bir projeniz veya fikriniz üzerinde birlikte çalışmak için benimle sözlü (yüz yüze, doğrudan) veya yazılı olarak iletişim kurmanız gerekmektedir. Bana ait hiçbir iletişim kanalı tehdit amacı bulundurmaz. Her içerik bir uyarı niteliğindedir ve/veya eğitim amaçlıdır. Hiçbir kanıt veya içerik aleyhinizde kullanılmaz.\n\nBiyolojik veya fizyolojik bütünlüğüme (sağlığıma) zarar veren her türlü doğrudan veya dolaylı eylemden kaçınmanız zorunludur. Hakkımdaki varsayımlarınız sizin için gerçeğe dönüşür ve benim gerçeğimi yansıtmaz.\n\nDürüstlüğümü ve iyi niyetimi test etmek veya sorgulamak kesinlikle yasaktır. Sağlıklı bir iletişim veya ilişki kurabilmemiz için soru sormanız zorunludur.\n\n< \/ UYARI >"
+    }, 
     "Apology": {
         "title": "Özür Metni",
         "text": "Eğer hayatınızdaki herhangi bir olumsuzluğa (dolaylı veya dolaysız bir şekilde) sebep olduysam ve siz haklıysanız, samimiyetle özür dilerim. Ben haklıysam, özür dilemelisiniz."
