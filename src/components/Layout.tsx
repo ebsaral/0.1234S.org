@@ -21,7 +21,7 @@ const Sections: SectionWithItemsType[] = [
 export default function Layout({locale}: LayoutParams) {
     const t = useTranslations();
     const format = useFormatter();
-    const lastUpdateDate = new Date("2024-12-02T11:31:25.706Z");
+    const lastUpdateDate = new Date("2024-12-02T12:04:52.393Z");
 
     return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen w-auto pb-8 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
