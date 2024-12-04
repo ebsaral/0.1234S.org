@@ -3,6 +3,17 @@ import { SectionWithItemsType } from "@/components/SectionWithItems";
 
 const HobbiesItems: SectionItemType[] = [
     {
+        link: "Hobbies.Gallery.link",
+        image: {
+            src: "/images/gallery-logo.png",
+            alt: "Gallery logo"
+        },
+        translationPaths: {
+            title: "Hobbies.Gallery.title",
+            text: "Hobbies.Gallery.text"
+        }
+    },
+    {
         link: "https://www.deviantart.com/eminbugrasaral",
         image: {
             src: "/images/deviantart-logo.png",

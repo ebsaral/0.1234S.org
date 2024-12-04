@@ -8,8 +8,13 @@
     "Metadata": {
         "title": "Emin Buğra Saral",
         "description": "Emin Bugra Saral'ın açık kaynak yaşamı.",
-        "name": "Emin Buğra Saral"
+        "name": "Emin Buğra Saral",
+        "Gallery": {
+            "title": "Galeri",
+            "description": "Karalamalarım."
+        }
     },
+
     "Link": {
         "home": "Ana Sayfa",
         "cvName": "Özgeçmiş (CV)",
@@ -60,6 +65,11 @@
         "Vimeo": {
             "title": "Vimeo (@rahmetli)",
             "text": "Eskiden kalan ama hatırası derin olan birkaç video."
+        },
+        "Gallery": {
+            "title": "Galeri",
+            "text": "Rastgele savrulan çizimlerimi ve karalamalarımı paylaştığım sayfa.",
+            "link": "/tr/gallery"
         }
     },
     "Career": {

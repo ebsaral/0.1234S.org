@@ -8,7 +8,11 @@
     "Metadata": {
         "title": "Emin Bugra Saral",
         "description": "Open source life of Emin Bugra Saral.",
-        "name": "Emin Bugra Saral"
+        "name": "Emin Bugra Saral",
+        "Gallery": {
+            "title": "Galeri",
+            "description": "Karalamalarım."
+        }
         
     },
     "Link": {
@@ -61,6 +65,11 @@
         "Vimeo": {
             "title": "Vimeo (@rahmetli)",
             "text": "A few old videos with deep memories attached."
+        },
+        "Gallery": {
+            "title": "Gallery",
+            "text": "The page where I share my randomly scattered drawings and doodles.",
+            "link": "/en/gallery"
         }
     },
     "Career": {
