@@ -6,13 +6,8 @@ import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import arrayShuffle from 'array-shuffle';
 import { images as orgImages, CustomImage } from "@/gallery";
-import { useTranslations } from "next-intl";
-import Image from "next/image"
 
-export default function Page({params: {locale}}: {
-    params: {locale: string};
-  }) {
-  const t = useTranslations({locale});
+export default function Page() {
 
   const [index, setIndex] = useState(0);
   const [key, setKey] = useState(0);
@@ -22,7 +17,7 @@ export default function Page({params: {locale}}: {
 
   const images: CustomImage[] = useMemo(() => arrayShuffle(orgImages), [])
 
-  const handleClick = (index: number, item: CustomImage) => {setIndex(index) ; setIsOpen(true)};
+  const handleClick = (index: number) => {setIndex(index) ; setIsOpen(true)};
   const handleClose = () => {setIndex(-1) ; setIsOpen(false)};
   const handleMovePrev = () => setIndex((index + images.length - 1) % images.length);
   const handleMoveNext = () => setIndex((index + 1) % images.length);
@@ -40,7 +35,7 @@ export default function Page({params: {locale}}: {
         enableImageSelection={false}
       />
       {isOpen && (
-        /* @ts-ignore */
+        /* @ts-expect-error: Loading error */
         <Lightbox
           key={key}
           mainSrc={images[index].original}
