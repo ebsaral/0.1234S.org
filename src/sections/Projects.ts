@@ -34,17 +34,6 @@ const ProjectsItems : SectionItemType[] = [
             title: "Projects.CB.title",
             text: "Projects.CB.text"
         }
-    },
-    {
-        link: "https://www.saral.blog",
-        image: {
-            src: "/images/eminbugrasaral-blog-logo.png",
-            alt: "Emin Bugra Saral blog logo"
-        },
-        translationPaths: {
-            title: "Projects.Blog.title",
-            text: "Projects.Blog.text"
-        }
     }
 ]
 

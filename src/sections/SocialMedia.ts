@@ -3,6 +3,17 @@ import { SectionWithItemsType } from "@/components/SectionWithItems";
 
 const SocialMediaItems: SectionItemType[] = [
     {
+        link: "https://www.linkedin.com/in/eminbugrasaral",
+        image: {
+            src: "/images/linkedin-logo.png",
+            alt: "LinkedIn logo"
+        },
+        translationPaths: {
+            title: "Career.LinkedIn.title",
+            text: "Career.LinkedIn.text"
+        }
+    },
+    {
         link: "https://fetlife.com/users/16201534",
         image: {
             src: "/images/fetlife-logo.png",
@@ -11,17 +22,6 @@ const SocialMediaItems: SectionItemType[] = [
         translationPaths: {
             title: "SocialMedia.FetLife.title",
             text: "SocialMedia.FetLife.text"
-        }
-    },
-    {
-        link: "https://www.x.com/cbsaral",
-        image: {
-            src: "/images/twitter-logo.png",
-            alt: "X (Twitter) logo"
-        },
-        translationPaths: {
-            title: "SocialMedia.Twitter.title",
-            text: "SocialMedia.Twitter.text"
         }
     }
 ]
