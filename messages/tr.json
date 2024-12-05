@@ -11,7 +11,7 @@
         "name": "Emin Buğra Saral",
         "Gallery": {
             "title": "Emin Buğra Saral: Çizim Galerisi",
-            "description": "Rastgele savrulan çizimlerimi ve karalamalarımı paylaştığım galeri bölümü.",
+            "description": "Rastgele savrulan çizimlerimi, resimlerimi ve karalamalarımı paylaştığım galeri bölümü.",
             "keywords": "emin buğra saral, galeri, çizim, karalama, karakalem"
         }
     },
@@ -49,8 +49,12 @@
         "title": "ilgi alanları & arșivler",
         "Gallery": {
             "title": "Çizim Galerisi",
-            "text": "Rastgele savrulan çizimlerimi ve karalamalarımı paylaştığım galeri bölümü.",
+            "text": "Rastgele savrulan çizimlerimi, resimlerimi ve karalamalarımı paylaştığım galeri bölümü.",
             "link": "/tr/gallery"
+        },
+        "DeviantArt": {
+            "title": "DeviantArt (@eminbugrasaral)",
+            "text": "Fotoğraf çekmeye olan ilgimi yansıttığım kişisel galeri."
         },
         "Medium": {
             "title": "Eski Blog (medium.com/@ebsaral) - Sadece İngilizce",
@@ -59,10 +63,6 @@
         "SoundCloud": {
             "title": "SoundCloud (@ebsaral)",
             "text": "Müziğe olan ilgimi amatörce yansıttığım bir platform."
-        },
-        "DeviantArt": {
-            "title": "DeviantArt (@eminbugrasaral)",
-            "text": "Fotoğraf çekmeye ve resim çizmeye olan ilgimi yansıttığım kişisel galeri."
         },
         "Flickr": {
             "title": "Flickr (@eminbugrasaral)",

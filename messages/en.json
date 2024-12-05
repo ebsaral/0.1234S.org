@@ -11,7 +11,7 @@
         "name": "Emin Bugra Saral",
         "Gallery": {
             "title": "Drawing Gallery of Emin Bugra Saral",
-            "description": "The gallery section where I share my randomly scattered drawings and doodles.",
+            "description": "The gallery section where I share my randomly scattered drawings, paintings and doodles.",
             "keywords": "emin bugra saral, gallery, doodling, drawing, sketches, pencil drawing"
         }
         
@@ -49,8 +49,12 @@
         "title": "hobbies & archives",
         "Gallery": {
             "title": "Drawing Gallery",
-            "text": "The gallery section where I share my randomly scattered drawings and doodles.",
+            "text": "The gallery section where I share my randomly scattered drawings, paintings and doodles.",
             "link": "/en/gallery"
+        },
+        "DeviantArt": {
+            "title": "DeviantArt (@eminbugrasaral)",
+            "text": "A personal gallery where I reflect my interest in photography."
         },
         "Medium": {
             "title": "Old Blog (medium.com/@ebsaral) - Only in English",
@@ -59,10 +63,6 @@
         "SoundCloud": {
             "title": "SoundCloud (@ebsaral)",
             "text": "A platform where I amateurishly reflect my interest in music."
-        },
-        "DeviantArt": {
-            "title": "DeviantArt (@eminbugrasaral)",
-            "text": "A personal gallery where I reflect my interest in photography and drawing."
         },
         "Flickr": {
             "title": "Flickr (@eminbugrasaral)",

@@ -7,15 +7,19 @@ import "react-photo-album/rows.css";
 
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/captions.css";
 
 // import optional lightbox plugins
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import Captions from "yet-another-react-lightbox/plugins/captions";
+
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
-import photos from "@/utils/gallery/photos"
+import doodles from "@/utils/gallery/doodles"
+import drawings from "@/utils/gallery/drawings"
 import { useTranslations } from "next-intl";
 import Head from "next/head";
 import Image from "next/image"
@@ -24,8 +28,10 @@ import LastUpdate from "@/components/LastUpdate";
 export default function Gallery() {
   const [index, setIndex] = useState(-1);
   const t = useTranslations();
-  const lastUpdateDate = new Date("2024-12-05T10:02:16.408Z");
+  const lastUpdateDate = new Date("2024-12-05T14:21");
   
+  const photos = [...doodles, ...drawings];
+
   <RowsPhotoAlbum photos={photos} targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
 
   return (
@@ -53,7 +59,14 @@ export default function Gallery() {
             />
             {t("Link.home")}
           </a>  
-
+          <Image
+            className="rounded-3xl"
+            src="/images/gallery/eminbugrasaral-gallery-main.jpg"
+            alt="Emin Bugra Saral"
+            width={350}
+            height={350}
+            priority
+          />
           <h1 className="flex items-center text-2xl mt-2 font-bold">{t("Metadata.Gallery.title")}</h1>
           <p className="flex flex-row text-center text-lg">{t("Metadata.Gallery.description")}</p>
         </div>
@@ -65,7 +78,7 @@ export default function Gallery() {
           index={index}
           close={() => setIndex(-1)}
           // enable optional lightbox plugins
-          plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+          plugins={[Fullscreen, Slideshow, Thumbnails, Zoom, Captions]}
         />
 
         <div className="text-center mt-10 mb-5 text-sm"><LastUpdate date={lastUpdateDate} /></div>
