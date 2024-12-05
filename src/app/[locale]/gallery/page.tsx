@@ -35,7 +35,7 @@ export default function Gallery() {
   <RowsPhotoAlbum photos={photos} targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
 
   return (
-    <>
+    <div>
       <Head>
         <title>{t("Metadata.Gallery.title")}</title>
         <meta name="description" content={t("Metadata.Gallery.description")} />
@@ -82,7 +82,7 @@ export default function Gallery() {
         />
 
         <div className="text-center mt-10 mb-5 text-sm"><LastUpdate date={lastUpdateDate} /></div>
-    </div>  
-    </>
+      </div>  
+    </div>
   );
 }
