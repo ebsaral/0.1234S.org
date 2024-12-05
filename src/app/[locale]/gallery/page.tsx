@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import { RowsPhotoAlbum, RenderImageProps, RenderImageContext } from "react-photo-album";
+import { RowsPhotoAlbum } from "react-photo-album";
 import "react-photo-album/rows.css";
 
 import Lightbox from "yet-another-react-lightbox";
@@ -25,30 +25,6 @@ import Head from "next/head";
 import Image from "next/image"
 import LastUpdate from "@/components/LastUpdate";
 
-function renderNextImage(
-  { alt = "", title, sizes }: RenderImageProps,
-  { photo, width, height }: RenderImageContext,
-) {
-  return (
-    <div
-      style={{
-        width: "100%",
-        position: "relative",
-        aspectRatio: `${width} / ${height}`,
-      }}
-    >
-      <Image
-        fill
-        src={photo}
-        alt={alt}
-        title={title}
-        sizes={sizes}
-        placeholder={"blurDataURL" in photo ? "blur" : undefined}
-      />
-    </div>
-  );
-}
-
 export default function Gallery() {
   const [index, setIndex] = useState(-1);
   const t = useTranslations();
@@ -56,7 +32,7 @@ export default function Gallery() {
   
   const photos = [...doodles, ...drawings];
 
-  <RowsPhotoAlbum photos={photos} render={{ "image": renderNextImage }} targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
+  <RowsPhotoAlbum photos={photos} targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
 
   return (
     <>
