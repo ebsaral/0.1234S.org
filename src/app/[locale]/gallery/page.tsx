@@ -36,14 +36,12 @@ export default function Gallery() {
 
   return (
     <>
-      <Head>
-        <title>{t("Metadata.Gallery.title")}</title>
-        <meta name="description" content={t("Metadata.Gallery.description")} />
-        <meta name="keywords" content={t("Metadata.Gallery.keywords")} />
-        <meta property="og:title" content={t("Metadata.Gallery.title")} />
-        <meta property="og:description" content={t("Metadata.Gallery.description")} />
-        <meta property="og:image" content="/images/gallery-logo.png" />
-      </Head>
+      <title>{t("Metadata.Gallery.title")}</title>
+      <meta name="description" content={t("Metadata.Gallery.description")} />
+      <meta name="keywords" content={t("Metadata.Gallery.keywords")} />
+      <meta property="og:title" content={t("Metadata.Gallery.title")} />
+      <meta property="og:description" content={t("Metadata.Gallery.description")} />
+      <meta property="og:image" content="https://saral.me/images/gallery-logo.png" />
       <div className="w-auto mr-3 ml-3">
         <div className="flex-col flex gap-6 flex-wrap items-center justify-center text-center w-auto m-auto mb-10">
           <a
