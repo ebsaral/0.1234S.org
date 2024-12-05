@@ -23,7 +23,7 @@ export default async function SectionItem({item} : {item: SectionItemType}) {
           <a
               className="rounded-full border border-solid border-transparent transition-colors"
               href={item.link.startsWith("http")?item.link:t(item.link)}
-              target="_blank"
+              target={item.link.startsWith("http")?"_blank":"_self"}
               rel="noopener noreferrer"
             >
               <Image
@@ -38,7 +38,7 @@ export default async function SectionItem({item} : {item: SectionItemType}) {
         </div>
 
         <div className="flex-row basis-9/12">
-          <a className="hover:underline hover:underline-offset-4" href={item.link.startsWith("http")?item.link:t(item.link)} target="_blank">
+          <a className="hover:underline hover:underline-offset-4" href={item.link.startsWith("http")?item.link:t(item.link)} target={item.link.startsWith("http")?"_blank":"_self"}>
             <div className="font-bold">
               {t(item.translationPaths.title)}
             </div>

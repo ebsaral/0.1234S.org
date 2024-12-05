@@ -1,11 +1,12 @@
 import Image from "next/image";
 import {Link} from '@/i18n/routing';
-import { useTranslations, useFormatter } from "next-intl";
+import { useTranslations } from "next-intl";
 import SectionWithItems, { SectionWithItemsType } from "./SectionWithItems";
 import { CareerSection } from "@/sections/Career";
 import { ProjectsSection } from "@/sections/Projects";
 import { SocialMediaSection } from "@/sections/SocialMedia";
 import { HobbiesSection } from "@/sections/Hobbies";
+import LastUpdate from "./LastUpdate";
 
 export type LayoutParams = {
     locale: string
@@ -13,14 +14,13 @@ export type LayoutParams = {
 
 const Sections: SectionWithItemsType[] = [
   ProjectsSection,
-  CareerSection,
   HobbiesSection,
+  CareerSection,
   SocialMediaSection
 ]
 
 export default function Layout({locale}: LayoutParams) {
     const t = useTranslations();
-    const format = useFormatter();
     const lastUpdateDate = new Date("2024-12-04T21:45:27.213Z");
 
     return (
@@ -112,7 +112,7 @@ export default function Layout({locale}: LayoutParams) {
           {t("LegalWarning.title")}<br></br>
           {t("LegalWarning.text")}
         </div>
-        <div className="row-start-4 flex flex-wrap items-center justify-center">{t("Text.LastUpdate")}: {format.dateTime(lastUpdateDate, {year: "numeric", month: "long", day: "2-digit", localeMatcher: "best fit", hour: "2-digit", minute: "2-digit"})}</div>
+        <div className="row-start-4 flex flex-wrap items-center justify-center"><LastUpdate date={lastUpdateDate} /></div>
       </main>
     </div>
     );

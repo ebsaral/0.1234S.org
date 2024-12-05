@@ -1,56 +1,75 @@
-'use client'
+"use client"
 
-import { useEffect, useMemo, useState } from "react";
-import { Gallery } from "react-grid-gallery";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
-import arrayShuffle from 'array-shuffle';
-import { images as orgImages, CustomImage } from "@/gallery";
+import { useState } from "react";
 
-export default function Page() {
+import { RowsPhotoAlbum } from "react-photo-album";
+import "react-photo-album/rows.css";
 
-  const [index, setIndex] = useState(0);
-  const [key, setKey] = useState(0);
-  const [isOpen, setIsOpen] = useState(false);
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
-  useEffect(() => { setTimeout(() => setKey(key + 1)); }, [index]);
+// import optional lightbox plugins
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
 
-  const images: CustomImage[] = useMemo(() => arrayShuffle(orgImages), [])
+import photos from "@/utils/gallery/photos"
+import { useTranslations } from "next-intl";
+import Head from "next/head";
+import Image from "next/image"
+import LastUpdate from "@/components/LastUpdate";
 
-  const handleClick = (index: number) => {setIndex(index) ; setIsOpen(true)};
-  const handleClose = () => {setIndex(-1) ; setIsOpen(false)};
-  const handleMovePrev = () => setIndex((index + images.length - 1) % images.length);
-  const handleMoveNext = () => setIndex((index + 1) % images.length);
+export default function Gallery() {
+  const [index, setIndex] = useState(-1);
+  const t = useTranslations();
+  const lastUpdateDate = new Date("2024-12-05T10:02:16.408Z");
+  
+  <RowsPhotoAlbum photos={photos} targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
 
   return (
-    <div className="w-auto mr-3 ml-3">
-      <title>Gallery of Emin Bugra Saral</title>
-      <h1 className="text-center text-2xl mt-6 font-bold">Gallery: A collection of doodles</h1>
-      <p className="text-center text-lg mt-3">by <b>Emin Bugra Saral</b></p>
-      <br></br>
-    
-      <Gallery
-        images={images}
-        onClick={handleClick}
-        enableImageSelection={false}
-      />
-      {isOpen && (
-        /* @ts-expect-error: Loading error */
+    <>
+      <Head>
+        <title>{t("Metadata.Gallery.title")}</title>
+        <meta name="description" content={t("Metadata.Gallery.description")} />
+        <meta name="keywords" content={t("Metadata.Gallery.keywords")} />
+        <meta property="og:title" content={t("Metadata.Gallery.title")} />
+        <meta property="og:description" content={t("Metadata.Gallery.description")} />
+        <meta property="og:image" content="/images/gallery-logo.png" />
+      </Head>
+      <div className="w-auto mr-3 ml-3">
+        <div className="flex-col flex gap-6 flex-wrap items-center justify-center text-center w-auto m-auto mb-10">
+          <a
+            className="flex items-center gap-2 mt-6 hover:underline hover:underline-offset-4"
+            href="/"
+          >
+            <Image
+              aria-hidden
+              src="https://nextjs.org/icons/file.svg"
+              alt="File icon"
+              width={16}
+              height={16}
+            />
+            {t("Link.home")}
+          </a>  
+
+          <h1 className="flex items-center text-2xl mt-2 font-bold">{t("Metadata.Gallery.title")}</h1>
+          <p className="flex flex-row text-center text-lg">{t("Metadata.Gallery.description")}</p>
+        </div>
+
+        <RowsPhotoAlbum photos={photos} targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
         <Lightbox
-          key={key}
-          mainSrc={images[index].original}
-          imageTitle={images[index].caption}
-          mainSrcThumbnail={images[index].src}
-          nextSrc={(images[(index + 1) % images.length] || images[index]).original}
-          nextSrcThumbnail={(images[(index + 1) % images.length] || images[index]).src}
-          prevSrc={images[(index + images.length - 1) % images.length] || images[index].original}
-          prevSrcThumbnail={images[(index + images.length - 1) % images.length] || images[index].src}
-          onCloseRequest={handleClose}
-          onMovePrevRequest={handleMovePrev}
-          onMoveNextRequest={handleMoveNext}
-          imagePadding={100}
+          slides={photos}
+          open={index >= 0}
+          index={index}
+          close={() => setIndex(-1)}
+          // enable optional lightbox plugins
+          plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
         />
-      )}
-    </div>
+
+        <div className="text-center mt-10 mb-5 text-sm"><LastUpdate date={lastUpdateDate} /></div>
+    </div>  
+    </>
   );
 }

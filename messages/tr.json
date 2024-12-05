@@ -10,8 +10,9 @@
         "description": "Emin Bugra Saral'ın açık kaynak yaşamı.",
         "name": "Emin Buğra Saral",
         "Gallery": {
-            "title": "Galeri",
-            "description": "Karalamalarım."
+            "title": "Emin Buğra Saral: Çizim Galerisi",
+            "description": "Rastgele savrulan çizimlerimi ve karalamalarımı paylaştığım galeri bölümü.",
+            "keywords": "emin buğra saral, galeri, çizim, karalama, karakalem"
         }
     },
 
@@ -46,6 +47,11 @@
     },
     "Hobbies": {
         "title": "ilgi alanları & arșivler",
+        "Gallery": {
+            "title": "Çizim Galerisi",
+            "text": "Rastgele savrulan çizimlerimi ve karalamalarımı paylaştığım galeri bölümü.",
+            "link": "/tr/gallery"
+        },
         "Medium": {
             "title": "Eski Blog (medium.com/@ebsaral) - Sadece İngilizce",
             "text": "Yeterince özenilmeden yazılmış ve artık güncellenmeyen içerik koleksiyonu."
@@ -65,11 +71,6 @@
         "Vimeo": {
             "title": "Vimeo (@rahmetli)",
             "text": "Eskiden kalan ama hatırası derin olan birkaç video."
-        },
-        "Gallery": {
-            "title": "Galeri",
-            "text": "Rastgele savrulan çizimlerimi ve karalamalarımı paylaştığım sayfa.",
-            "link": "/tr/gallery"
         }
     },
     "Career": {

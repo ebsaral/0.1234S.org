@@ -10,8 +10,9 @@
         "description": "Open source life of Emin Bugra Saral.",
         "name": "Emin Bugra Saral",
         "Gallery": {
-            "title": "Galeri",
-            "description": "Karalamalarım."
+            "title": "Drawing Gallery of Emin Bugra Saral",
+            "description": "The gallery section where I share my randomly scattered drawings and doodles.",
+            "keywords": "emin bugra saral, gallery, doodling, drawing, sketches, pencil drawing"
         }
         
     },
@@ -46,6 +47,11 @@
     },
     "Hobbies": {
         "title": "hobbies & archives",
+        "Gallery": {
+            "title": "Drawing Gallery",
+            "text": "The gallery section where I share my randomly scattered drawings and doodles.",
+            "link": "/en/gallery"
+        },
         "Medium": {
             "title": "Old Blog (medium.com/@ebsaral) - Only in English",
             "text": "A collection of content that was written without enough care and is no longer being updated."
@@ -65,11 +71,6 @@
         "Vimeo": {
             "title": "Vimeo (@rahmetli)",
             "text": "A few old videos with deep memories attached."
-        },
-        "Gallery": {
-            "title": "Gallery",
-            "text": "The page where I share my randomly scattered drawings and doodles.",
-            "link": "/en/gallery"
         }
     },
     "Career": {
