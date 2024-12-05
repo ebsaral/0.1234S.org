@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import { RowsPhotoAlbum } from "react-photo-album";
+import { RowsPhotoAlbum, RenderImageProps, RenderImageContext } from "react-photo-album";
 import "react-photo-album/rows.css";
 
 import Lightbox from "yet-another-react-lightbox";
@@ -25,23 +25,49 @@ import Head from "next/head";
 import Image from "next/image"
 import LastUpdate from "@/components/LastUpdate";
 
+function renderNextImage(
+  { alt = "", title, sizes }: RenderImageProps,
+  { photo, width, height }: RenderImageContext,
+) {
+  return (
+    <div
+      style={{
+        width: "100%",
+        position: "relative",
+        aspectRatio: `${width} / ${height}`,
+      }}
+    >
+      <Image
+        fill
+        src={photo}
+        alt={alt}
+        title={title}
+        sizes={sizes}
+        placeholder={"blurDataURL" in photo ? "blur" : undefined}
+      />
+    </div>
+  );
+}
+
 export default function Gallery() {
   const [index, setIndex] = useState(-1);
   const t = useTranslations();
-  const lastUpdateDate = new Date("2024-12-05T14:21");
+  const lastUpdateDate = new Date("2024-12-05T14:40");
   
   const photos = [...doodles, ...drawings];
 
-  <RowsPhotoAlbum photos={photos} targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
+  <RowsPhotoAlbum photos={photos} render={{ "image": renderNextImage }} targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
 
   return (
     <>
-      <title>{t("Metadata.Gallery.title")}</title>
-      <meta name="description" content={t("Metadata.Gallery.description")} />
-      <meta name="keywords" content={t("Metadata.Gallery.keywords")} />
-      <meta property="og:title" content={t("Metadata.Gallery.title")} />
-      <meta property="og:description" content={t("Metadata.Gallery.description")} />
-      <meta property="og:image" content="https://saral.me/images/gallery-logo.png" />
+      <Head>
+        <title>{t("Metadata.Gallery.title")}</title>
+        <meta name="description" content={t("Metadata.Gallery.description")} />
+        <meta name="keywords" content={t("Metadata.Gallery.keywords")} />
+        <meta property="og:title" content={t("Metadata.Gallery.title")} />
+        <meta property="og:description" content={t("Metadata.Gallery.description")} />
+        <meta property="og:image" content="https://saral.me/images/gallery-logo.png" />
+      </Head>
       <div className="w-auto mr-3 ml-3">
         <div className="flex-col flex gap-6 flex-wrap items-center justify-center text-center w-auto m-auto mb-10">
           <a
