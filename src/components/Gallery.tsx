@@ -36,20 +36,7 @@ export default function Gallery() {
     const photos = [...doodles, ...drawings];
 
     return <div className="w-auto mr-3 ml-3">
-    <div className="flex-col flex gap-6 flex-wrap items-center justify-center text-center w-auto m-auto mb-10">
-      <a
-        className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-        href="/"
-      >
-        <Image
-          aria-hidden
-          src="https://nextjs.org/icons/file.svg"
-          alt="File icon"
-          width={16}
-          height={16}
-        />
-        {t("Link.home")}
-      </a>  
+    <div className="flex-col flex gap-6 mt-2 flex-wrap items-center justify-center text-center w-auto m-auto mb-10">
       <Image
         className="rounded-3xl"
         src="/images/gallery/eminbugrasaral-gallery-main.jpg"
@@ -58,6 +45,19 @@ export default function Gallery() {
         height={350}
         priority
       />
+      <a
+        className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+        href="/"
+      >
+        <Image
+          aria-hidden
+          src="https://nextjs.org/icons/window.svg"
+          alt="File icon"
+          width={16}
+          height={16}
+        />
+        {t("Link.home")}
+      </a>  
       <h1 className="flex items-center text-2xl mt-2 font-bold">{t("Metadata.Gallery.title")}</h1>
       <p className="flex flex-row text-center text-lg">{t("Metadata.Gallery.description")}</p>
     </div>

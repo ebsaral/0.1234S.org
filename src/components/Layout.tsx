@@ -21,7 +21,7 @@ export default function Layout() {
     const lastUpdateDate = new Date("2024-12-04T21:46");
 
     return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen w-auto pb-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[16px_1fr_20px] items-center gap-6 justify-items-center min-h-screen w-auto pb-8 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <LanguageSelection />
         <Image
