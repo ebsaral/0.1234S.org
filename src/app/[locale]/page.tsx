@@ -13,7 +13,7 @@ export async function generateMetadata({params: {locale}}: {
     opengraph: {
       images: [
         {
-          url:"/images/emin-bugra-saral-100.jpg"
+          url:"https://saral.me/images/emin-bugra-saral-100.jpg"
         }
       ]
     }

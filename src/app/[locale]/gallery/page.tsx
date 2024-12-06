@@ -14,7 +14,7 @@ export async function generateMetadata({params: {locale}}: {
     opengraph: {
       images: [
         {
-          url:"/images/gallery-logo.png"
+          url:"https://saral.me/images/gallery-logo.png"
         }
       ]
     }
