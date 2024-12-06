@@ -110,5 +110,9 @@
     "Apology": {
         "title": "Özür Metni",
         "text": "Eğer hayatınızdaki herhangi bir olumsuzluğa (dolaylı veya dolaysız bir şekilde) sebep olduysam ve siz haklıysanız, samimiyetle özür dilerim. Ben haklıysam, özür dilemelisiniz."
+    },
+    "Gallery": {
+        "doodles": "Karalamalar",
+        "drawings": "Resimler & Çizimler"
     }
 }

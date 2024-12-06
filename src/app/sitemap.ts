@@ -8,16 +8,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       alternates: {
         languages: {
-          tr: 'https://saral.me/tr'
+          tr: 'https://saral.me/tr',
         },
       },
     },
     {
-      url: 'https://www.saral.me/en/gallery',
+      url: 'https://www.saral.me/gallery',
       lastModified: new Date(),
       alternates: {
         languages: {
-          tr: 'https://saral.me/tr/gallery'
+          tr: 'https://saral.me/tr/gallery',
         },
       },
     }

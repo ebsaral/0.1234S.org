@@ -1,7 +1,6 @@
 
 import Layout from "@/components/Layout";
 import {getTranslations} from 'next-intl/server';
-import { unstable_setRequestLocale } from "next-intl/server";
 
 export async function generateMetadata({params: {locale}}: {
   params: {locale: string};
@@ -10,13 +9,17 @@ export async function generateMetadata({params: {locale}}: {
  
   return {
     title: t('title'),
-    description: t("description")
+    description: t("description"),
+    opengraph: {
+      images: [
+        {
+          url:"/images/emin-bugra-saral-100.jpg"
+        }
+      ]
+    }
   };
 }
 
-export default function Home({params: {locale}}: {
-  params: {locale: string};
-}) {
-  unstable_setRequestLocale(locale);
-  return <Layout locale={locale} />;
+export default function Home() {
+  return <Layout />;
 }

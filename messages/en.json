@@ -110,5 +110,9 @@
     "Apology": {
         "title": "Apology Text",
         "text": "If I have caused any negativity in your life (directly or indirectly) and you are right, I sincerely apologize. If I'm right, you must apologize."
+    },
+    "Gallery": {
+        "doodles": "Doodles",
+        "drawings": "Paintings & Drawings"
     }
 }

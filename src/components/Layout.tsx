@@ -1,16 +1,13 @@
 import Image from "next/image";
-import {Link} from '@/i18n/routing';
 import { useTranslations } from "next-intl";
 import SectionWithItems, { SectionWithItemsType } from "./SectionWithItems";
-import { CareerSection } from "@/sections/Career";
-import { ProjectsSection } from "@/sections/Projects";
-import { SocialMediaSection } from "@/sections/SocialMedia";
-import { HobbiesSection } from "@/sections/Hobbies";
-import LastUpdate from "./LastUpdate";
+import { CareerSection } from "@/utils/sections/Career";
+import { ProjectsSection } from "@/utils/sections/Projects";
+import { SocialMediaSection } from "@/utils/sections/SocialMedia";
+import { HobbiesSection } from "@/utils/sections/Hobbies";
+import LastUpdate from "@/components/LastUpdate";
+import LanguageSelection from "@/components/LanguageSelection";
 
-export type LayoutParams = {
-    locale: string
-}
 
 const Sections: SectionWithItemsType[] = [
   ProjectsSection,
@@ -19,37 +16,14 @@ const Sections: SectionWithItemsType[] = [
   SocialMediaSection
 ]
 
-export default function Layout({locale}: LayoutParams) {
+export default function Layout() {
     const t = useTranslations();
     const lastUpdateDate = new Date("2024-12-04T14:21");
 
     return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen w-auto pb-8 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen w-auto pb-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center">
-        <div className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-          <Image
-              aria-hidden
-              src="https://nextjs.org/icons/globe.svg"
-              alt="Globe icon"
-              width={16}
-              height={16}
-          />
-          <Link
-            className={`flex items-center gap-2 hover:underline hover:underline-offset-4` + `${locale === 'tr' && '  font-bold'}`}
-            href="/"
-            locale="tr"
-          >
-            Türkçe
-          </Link>
-          {" | "}
-          <Link
-            className={`flex items-center gap-2 hover:underline hover:underline-offset-4` + `${locale === 'en' && '  font-bold'}`}
-            href="/"
-            locale="en"
-          >
-            English
-          </Link>
-        </div>
+        <LanguageSelection />
         <Image
           className="rounded-3xl"
           src="/images/logo.png"
