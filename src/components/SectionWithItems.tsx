@@ -12,15 +12,16 @@ export type SectionWithItemsType = {
 
 export default function SectionWithItems({translationPaths, items = [], minCol, maxCol}: SectionWithItemsType) {
     const t = useTranslations();
-    return <>
-        <div className="flex first:mt-0 mt-10 mb-5 gap-6 text-3xl text-center justify-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
+    
+    return <div className="flex flex-col gap-6 items-center justify-center">
+        <div className="flex mt-10 mb-5 text-center text-3xl font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
           {t(translationPaths.title)}
         </div>
         
-        <div className={`grid grid-cols-${minCol} sm:grid-cols-${maxCol} gap-12`}>
+        <div className={`grid sm:grid-cols-${maxCol} grid-cols-${minCol} gap-12`}>
             {items.map((item, i) => {
                 return <SectionItem key={`sectionItem_${i}`} item={item} />;
             })}
         </div>
-    </>
+    </div>
 }
