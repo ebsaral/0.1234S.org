@@ -18,7 +18,7 @@ const Sections: SectionWithItemsType[] = [
 
 export default function Layout() {
     const t = useTranslations();
-    const lastUpdateDate = new Date("2024-12-04T21:46");
+    const lastUpdateDate = new Date("2024-12-06T22:04");
 
     return (
     <div className="grid grid-rows-[16px_1fr_20px] items-center gap-6 justify-items-center min-h-screen w-auto pb-8 font-[family-name:var(--font-geist-sans)]">
