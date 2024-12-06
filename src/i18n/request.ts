@@ -12,7 +12,7 @@ export default getRequestConfig(async ({requestLocale}) => {
   }
  
   return {
-    timeZone: "Asia/Istanbul",
+    timeZone: "Atlantic/St_Helena",
     locale,
     messages: (await import(`../../messages/${locale}.json`)).default
   };
