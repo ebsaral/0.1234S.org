@@ -68,21 +68,21 @@ export default function Layout() {
           {t("Apology.text")}
         </div>
         <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
-        <div className="flex flex-col gap-8 row-start-2 items-justify pl-5 pr-5">
-          {Sections.map((section, i) => <SectionWithItems key={i} translationPaths={section.translationPaths} items={section.items} />)}      
+        <div className="flex flex-col gap-6 row-start-2 items-justify pl-5 pr-5">
+          {Sections.map((section, i) => <SectionWithItems key={`sectionWithItems_${i}`} translationPaths={section.translationPaths} items={section.items} minCol={section.minCol} maxCol={section.maxCol} />)}      
         </div>
         <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
-        <div className="flex gap-6 text-2xl text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
+        <div className="flex gap-6 text-2xl text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl">
           {t("Info.title")}
         </div>
-        <div className="row-start-3 flex-row space-y-2 gap-6 text-sm indent-4 text-justify pl-5 pr-5 font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
+        <div className="row-start-3 flex-row space-y-2 gap-6 text-sm indent-4 text-justify pl-5 pr-5 font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl">
           {t.rich('Info.text', {
             p: (chunks) => <p>{chunks}</p>,
             b: (chunks) => <b>{chunks}</b>,
           })}
         </div>
         <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
-        <div className="flex gap-6 pl-5 pr-5 text-xs text-center justify-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
+        <div className="flex gap-6 pl-5 pr-5 text-xs text-center justify-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl">
           {t("LegalWarning.title")}<br></br>
           {t("LegalWarning.text")}
         </div>

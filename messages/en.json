@@ -29,78 +29,66 @@
     "Projects": {
         "title": "projects",
         "TouchSensei": {
-            "title": "Touch Sensei (mobile game)",
-            "text": "Join Touch Sensei on an emotional journey! Move your finger to unlock feelings, discover secrets, and explore a world of unique textures. Try it now."
+            "title": "Touch Sensei",
+            "text": "A simple mobile game.\nTry it now. (Only in iOS)"
         },
         "CB": {
-            "title": "CB - Under construction",
-            "text": "A platform where I share my theories, articles, projects and work for a better future for everyone."
+            "title": "CB\n(under construction)",
+            "text": "Theories, articles, projects\nand works for a better\nfuture for everyone."
         },
         "EBSLifeSolutions": {
-            "title": "EBS Life Solutions - In the establishment phase",
-            "text": "I offer a professional and compassionate approach to overcoming life’s challenges, grounded in over 20 years of rich personal experience. I offer ideal and lasting solutions for you to deal with the negativity that hinders the luck factor."
-        },
-        "Blog": {
-            "title": "Blog (www.saral.blog) - Archived...",
-            "text": "A sincere and honest collection of content where my essays, poems, stories, and ideas are reflected outward. I have decided to end this blogging journey to focus on bringing my ideas and projects, along with their details, into my professional career."
+            "title": "EBS Life Solutions\n(in the establishment phase)",
+            "text": "Consultancy company."
         }
     },
     "Hobbies": {
         "title": "hobbies & archives",
         "Gallery": {
             "title": "Drawing Gallery",
-            "text": "The gallery section where I share my randomly scattered drawings, paintings and doodles.",
+            "text": "Doodles,\ndrawings,\npaintings.",
             "link": "/en/gallery"
         },
         "DeviantArt": {
-            "title": "DeviantArt (@eminbugrasaral)",
-            "text": "A personal gallery where I reflect my interest in photography."
+            "title": "DeviantArt",
+            "text": "Photography."
         },
         "Medium": {
-            "title": "Old Blog (medium.com/@ebsaral) - Only in English",
-            "text": "A collection of content that was written without enough care and is no longer being updated."
+            "title": "Medium",
+            "text": "Outdated blog."
         },
         "SoundCloud": {
-            "title": "SoundCloud (@ebsaral)",
-            "text": "A platform where I amateurishly reflect my interest in music."
-        },
-        "Flickr": {
-            "title": "Flickr (@eminbugrasaral)",
-            "text": "A personal photo collection that I mainly use to archive old photographs."
+            "title": "SoundCloud",
+            "text": "Amateur music making."
         },
         "Vimeo": {
-            "title": "Vimeo (@rahmetli)",
-            "text": "A few old videos with deep memories attached."
+            "title": "Vimeo",
+            "text": "Amateur videos."
         }
     },
     "Career": {
         "title": "career",
-        "LinkedIn": {
-            "title": "LinkedIn (@eminbugrasaral)",
-            "text": "A gathering place for white-collar workers where I don't try too hard to appear professional."
-        },
         "Github": {
-            "title": "GitHub (@ebsaral)",
-            "text": "A platform where many of my software projects are hosted."
+            "title": "GitHub",
+            "text": ""
         },
         "DevTo": {
-            "title": "Dev.to (@ebsaral)",
-            "text": "Some technical shares that come from my pen about software programming."
+            "title": "Dev.to",
+            "text": ""
         },
         "Stackoverflow": {
             "title" : "Stackoverflow",
-            "text": "A platform that facilitates collaboration among developers."
+            "text": ""
         }
     },
     "SocialMedia": {
         "title": "social media",
-        "Twitter": {
-            "title": "Twitter / X (@cbsaral)",
-            "text": "An account for future. Not active, yet."
+        "LinkedIn": {
+            "title": "LinkedIn",
+            "text": "Funnywise professional profile."
         },
         "FetLife": {
-            "title": "FetLife (@rahmetli) - 18+ (NSFW)",
-            "text": "A social network for the BDSM, Fetish & Kinky Community that I seldomly use with respect to consent and privacy. (New Account)"
+            "title": "FetLife",
+            "text": "BDSM, Fetish & Kinky Community.\n(18+ NSFW)"
         }
     },
     "Apology": {

@@ -6,7 +6,8 @@ const CareerItems: SectionItemType[] = [
         link: "https://www.github.com/ebsaral",
         image: {
             src: "/images/github-logo.png",
-            alt: "GitHub logo"
+            alt: "GitHub logo",
+            width: 60
         },
         translationPaths: {
             title: "Career.Github.title",
@@ -17,7 +18,8 @@ const CareerItems: SectionItemType[] = [
         link: "https://www.dev.to/ebsaral",
         image: {
             src: "/images/devto-logo.png",
-            alt: "Dev.to logo"
+            alt: "Dev.to logo",
+            width: 60
         },
         translationPaths: {
             title: "Career.DevTo.title",
@@ -28,7 +30,8 @@ const CareerItems: SectionItemType[] = [
         link: "https://stackoverflow.com/users/1437254/emin-bugra-saral?tab=profile",
         image: {
             src: "/images/stackoverflow-logo.png",
-            alt: "Dev.to logo"
+            alt: "Stackoverflow logo",
+            width: 60
         },
         translationPaths: {
             title: "Career.Stackoverflow.title",
@@ -41,5 +44,7 @@ export const CareerSection: SectionWithItemsType = {
     translationPaths: {
         title: "Career.title"
     },
-    items: CareerItems
+    items: CareerItems,
+    minCol: 3,
+    maxCol: 3,
 }

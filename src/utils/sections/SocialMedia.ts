@@ -6,18 +6,20 @@ const SocialMediaItems: SectionItemType[] = [
         link: "https://www.linkedin.com/in/eminbugrasaral",
         image: {
             src: "/images/linkedin-logo.png",
-            alt: "LinkedIn logo"
+            alt: "LinkedIn logo",
+            width: 60
         },
         translationPaths: {
-            title: "Career.LinkedIn.title",
-            text: "Career.LinkedIn.text"
+            title: "SocialMedia.LinkedIn.title",
+            text: "SocialMedia.LinkedIn.text"
         }
     },
     {
         link: "https://fetlife.com/users/16201534",
         image: {
             src: "/images/fetlife-logo.png",
-            alt: "FetLife logo"
+            alt: "FetLife logo",
+            width: 60
         },
         translationPaths: {
             title: "SocialMedia.FetLife.title",
@@ -30,5 +32,7 @@ export const SocialMediaSection: SectionWithItemsType = {
     translationPaths: {
         title: "SocialMedia.title"
     },
-    items: SocialMediaItems
+    items: SocialMediaItems,
+    minCol: 2,
+    maxCol: 2,
 }

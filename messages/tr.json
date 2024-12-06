@@ -29,78 +29,63 @@
     "Projects": {
         "title": "projeler",        
         "TouchSensei": {
-            "title": "Touch Sensei (mobil oyun)",
-            "text": "Touch Sensei ile duygusal bir yolculuğa çık! Parmaklarını hareket ettirerek hisleri aç, sırları keşfet ve eşsiz dokuların dünyasını keşfet. Hemen deneyin."
+            "title": "Touch Sensei",
+            "text": "Basit bir mobil oyun.\nŞimdi deneyin. (Sadece iOS)"
         },
         "CB": {
-            "title": "CB - Yapım aşamasında",
-            "text": "Herkes için daha bir gelecek adına teorilerimin, makalelerimin, projelerimin ve çalışmalarımın paylaşıldığı platform."
+            "title": "CB\n(yapım aşamasında)",
+            "text": "Daha iyi bir gelecek için\nteorilerim, makalelerim,\nprojelerim ve çalışmalarım."
         },
         "EBSLifeSolutions": {
-            "title": "EBS Yaşam Çözümleri - Kuruluş aşamasında",
-            "text": "20 yılı aşkın zengin hayat tecrübesine dayanan profesyonel ve şefkatli bir yaklaşımla, hayatın zorluklarının üstesinden gelmenize yardımcı oluyorum. Şans faktörünü engelleyen olumsuzluklarla başa çıkmanız için ideal ve kalıcı çözümler sunuyorum."
-        },
-        "Blog": {
-            "title": "Blog (www.saral.blog) - Arşivlendi",
-            "text": "Denemeler, şiirler, hikâyeler ve fikirlerimin dışarıya yansıdığı samimi ve dürüst bir içerik koleksiyonu. Fikirlerimi ve projelerimi detaylarıyla birlikte profesyonel kariyerime taşımak adına blog yazımını sonlandırma kararı aldım."
+            "title": "EBS Yaşam Çözümleri\n(kuruluş aşamasında)",
+            "text": "Danışmanlık şirketi."
         }
     },
     "Hobbies": {
         "title": "ilgi alanları & arșivler",
         "Gallery": {
             "title": "Çizim Galerisi",
-            "text": "Rastgele savrulan çizimlerimi, resimlerimi ve karalamalarımı paylaştığım galeri bölümü.",
+            "text": "Karalamalar,\nçizimler,\nresimler.",
             "link": "/tr/gallery"
         },
         "DeviantArt": {
-            "title": "DeviantArt (@eminbugrasaral)",
-            "text": "Fotoğraf çekmeye olan ilgimi yansıttığım kişisel galeri."
-        },
-        "Medium": {
-            "title": "Eski Blog (medium.com/@ebsaral) - Sadece İngilizce",
-            "text": "Yeterince özenilmeden yazılmış ve artık güncellenmeyen içerik koleksiyonu."
+            "title": "DeviantArt",
+            "text": "Fotoğraf."
         },
         "SoundCloud": {
-            "title": "SoundCloud (@ebsaral)",
-            "text": "Müziğe olan ilgimi amatörce yansıttığım bir platform."
-        },
-        "Flickr": {
-            "title": "Flickr (@eminbugrasaral)",
-            "text": "Daha çok eski fotoğrafları arşivlemek için kullandığım kişisel fotoğraf koleksiyonu."
+            "title": "SoundCloud",
+            "text": "Amatör müzik yapımları."
         },
         "Vimeo": {
-            "title": "Vimeo (@rahmetli)",
-            "text": "Eskiden kalan ama hatırası derin olan birkaç video."
+            "title": "Vimeo",
+            "text": "Amatör videolar."
         }
     },
     "Career": {
         "title": "kariyer",
-        "LinkedIn": {
-            "title": "LinkedIn (@eminbugrasaral)",
-            "text": "Profesyonel gözükmek için kendimi fazla kasmadığım beyaz yakalıların toplanma alanı."
-        },
+        
         "Github": {
-            "title": "GitHub (@ebsaral)",
-            "text": "Yazılım projelerimin birçoğunun bulunduğu platform."
+            "title": "GitHub",
+            "text": ""
         },
         "DevTo": {
-            "title": "Dev.to (@ebsaral)",
-            "text": "Yazılıma dair kalemimden çıkan bazı teknik paylaşımlar."
+            "title": "Dev.to",
+            "text": ""
         },
         "Stackoverflow": {
             "title" : "Stackoverflow",
-            "text": "Yazılımcılar arasında yardımlaşmayı kolaylaştıran bir platform."
+            "text": ""
         }
     },
     "SocialMedia": {
         "title": "sosyal medya",
-        "Twitter": {
-            "title": "Twitter / X (@cbsaral)",
-            "text": "Değeri henüz anlaşılamayan hesap. Aktif değil."
+        "LinkedIn": {
+            "title": "LinkedIn",
+            "text": "Mizah-ı Nizam profesyonel profil."
         },
         "FetLife": {
-            "title": "FetLife (@rahmetli) - 18+ (NSFW)",
-            "text": "BDSM, Fetiş ve Kinky Topluluğu için saygı, rıza ve özel hayatın ön planda olduğu, nadiren kullandığım bir sosyal ağ. (Yeni Hesap)"
+            "title": "FetLife",
+            "text": "BDSM, Fetiş ve Kinky Topluluğu.\n(18+ NSFW)\n(Yeni Hesap)"
         }
     },
     "Apology": {
