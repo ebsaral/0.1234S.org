@@ -41,24 +41,27 @@
             "text": "Danışmanlık şirketi."
         }
     },
+    "Soon": {
+        "title": "yakında"
+    },
     "Hobbies": {
         "title": "ilgi alanları & arșivler",
         "Gallery": {
             "title": "Çizim Galerisi",
-            "text": "Karalamalar,\nçizimler,\nresimler.",
+            "text": "Karalamalar, çizimler\nve resimler.",
             "link": "/tr/gallery"
         },
         "DeviantArt": {
             "title": "DeviantArt",
-            "text": "Fotoğraf."
+            "text": ""
         },
         "SoundCloud": {
             "title": "SoundCloud",
-            "text": "Amatör müzik yapımları."
+            "text": ""
         },
         "Vimeo": {
             "title": "Vimeo",
-            "text": "Amatör videolar."
+            "text": ""
         }
     },
     "Career": {
@@ -81,11 +84,11 @@
         "title": "sosyal medya",
         "LinkedIn": {
             "title": "LinkedIn",
-            "text": "Mizah-ı Nizam profesyonel profil."
+            "text": ""
         },
         "FetLife": {
-            "title": "FetLife",
-            "text": "BDSM, Fetiş ve Kinky Topluluğu.\n(18+ NSFW)\n(Yeni Hesap)"
+            "title": "FetLife (18+ | NSFW)",
+            "text": ""
         }
     },
     "Apology": {
@@ -99,5 +102,8 @@
     "Gallery": {
         "doodles": "Karalamalar",
         "drawings": "Resimler & Çizimler"
+    },
+    "Links": {
+        "title": "──────────"
     }
 }

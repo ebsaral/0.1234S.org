@@ -1,24 +1,22 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import SectionWithItems, { SectionWithItemsType } from "./SectionWithItems";
-import { CareerSection } from "@/utils/sections/Career";
-import { ProjectsSection } from "@/utils/sections/Projects";
-import { SocialMediaSection } from "@/utils/sections/SocialMedia";
-import { HobbiesSection } from "@/utils/sections/Hobbies";
 import LastUpdate from "@/components/LastUpdate";
 import LanguageSelection from "@/components/LanguageSelection";
+import { ProjectsSection } from "@/utils/sections/Projects";
+import { SoonSection } from "@/utils/sections/Soon";
+import { LinksSection } from "@/utils/sections/Links";
 
 
 const Sections: SectionWithItemsType[] = [
   ProjectsSection,
-  HobbiesSection,
-  CareerSection,
-  SocialMediaSection
+  SoonSection,
+  LinksSection
 ]
 
 export default function Layout() {
     const t = useTranslations();
-    const lastUpdateDate = new Date("2024-12-06T22:04");
+    const lastUpdateDate = new Date("2024-12-07T01:05");
 
     return (
     <div className="grid grid-rows-[16px_1fr_20px] items-center gap-6 justify-items-center min-h-screen w-auto pb-8 font-[family-name:var(--font-geist-sans)]">

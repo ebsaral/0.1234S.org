@@ -3,15 +3,15 @@ import { SectionWithItemsType } from "@/components/SectionWithItems";
 
 const ProjectsItems : SectionItemType[] = [
     {
-        link: "https://www.linkedin.com/company/ebs-life-solutions",
+        link: "Hobbies.Gallery.link",
         image: {
-            src: "/images/ebs-life-solutions-animated-logo.gif",
-            alt: "EBS Life Solutions Logo",
+            src: "/images/gallery-logo.png",
+            alt: "Gallery logo",
             width: 120
         },
         translationPaths: {
-            title: "Projects.EBSLifeSolutions.title",
-            text: "Projects.EBSLifeSolutions.text"
+            title: "Hobbies.Gallery.title",
+            text: "Hobbies.Gallery.text"
         }
     },
     {
@@ -25,19 +25,7 @@ const ProjectsItems : SectionItemType[] = [
             title: "Projects.TouchSensei.title",
             text: "Projects.TouchSensei.text"
         }
-    },
-    {
-        link: "https://cb.saral.me",
-        image: {
-            src: "/images/emin-bugra-saral-100.jpg",
-            alt: "Emin Buğra Saral yüz fotoğrafı",
-            width: 120
-        },
-        translationPaths: {
-            title: "Projects.CB.title",
-            text: "Projects.CB.text"
-        }
-    },
+    }
     
 ]
 
@@ -47,5 +35,5 @@ export const ProjectsSection: SectionWithItemsType = {
     },
     items: ProjectsItems,
     minCol: 1,
-    maxCol: 3,
+    maxCol: 2,
 }

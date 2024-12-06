@@ -41,28 +41,27 @@
             "text": "Consultancy company."
         }
     },
+    "Soon": {
+        "title": "coming soon"
+    },
     "Hobbies": {
         "title": "hobbies & archives",
         "Gallery": {
             "title": "Drawing Gallery",
-            "text": "Doodles,\ndrawings,\npaintings.",
+            "text": "Doodles, drawings\nand paintings.",
             "link": "/en/gallery"
         },
         "DeviantArt": {
             "title": "DeviantArt",
-            "text": "Photography."
-        },
-        "Medium": {
-            "title": "Medium",
-            "text": "Outdated blog."
+            "text": ""
         },
         "SoundCloud": {
             "title": "SoundCloud",
-            "text": "Amateur music making."
+            "text": ""
         },
         "Vimeo": {
             "title": "Vimeo",
-            "text": "Amateur videos."
+            "text": ""
         }
     },
     "Career": {
@@ -84,11 +83,11 @@
         "title": "social media",
         "LinkedIn": {
             "title": "LinkedIn",
-            "text": "Funnywise professional profile."
+            "text": ""
         },
         "FetLife": {
-            "title": "FetLife",
-            "text": "BDSM, Fetish & Kinky Community.\n(18+ NSFW)"
+            "title": "FetLife (18+ | NSFW)",
+            "text": ""
         }
     },
     "Apology": {
@@ -102,5 +101,8 @@
     "Gallery": {
         "doodles": "Doodles",
         "drawings": "Paintings & Drawings"
+    },
+    "Links": {
+        "title": "──────────"
     }
 }

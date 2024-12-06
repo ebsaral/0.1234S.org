@@ -19,14 +19,13 @@ export default async function SectionItem({item} : {item: SectionItemType}) {
     const t = useTranslations();
 
     return (
-    <div className="flex flex-col items-center text-sm text-left font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
           <a
-              className="rounded-full border border-solid border-transparent transition-colors hover:underline hover:underline-offset-4"
+              className="flex flex-col items-center p-2 text-sm text-left font-[family-name:var(--font-geist-mono)] whitespace-pre-line border border-solid border-transparent transition-colors hover:underline hover:underline-offset-4 hover:bg-gray-800"
               href={item.link.startsWith("http")?item.link:t(item.link)}
               target={item.link.startsWith("http")?"_blank":"_self"}
               rel="noopener noreferrer"
           >
-            <div className="flex flex-col items-center justify-center gap-6">
+            <div className="flex flex-col items-center justify-center gap-3">
               <Image
                 className="flex rounded-2xl"
                 src={item.image.src}
@@ -35,13 +34,13 @@ export default async function SectionItem({item} : {item: SectionItemType}) {
                 height={item.image.width}
                 priority
               />
-              <div className="flex flex-col gap-3">
-                <div className="text-center font-bold">{t(item.translationPaths.title)}</div>
-                <div className="text-center hover:no-underline">{t(item.translationPaths.text)}</div>
+              <div className="flex flex-col gap-2 items-center justify-center">
+                <div className="flex text-center font-bold mb-1">{t(item.translationPaths.title)}</div>
+                {t(item.translationPaths.text) ??<div className="flex text-center hover:no-underline">{t(item.translationPaths.text)}</div>}
               </div>
             
             </div>
           </a>
-    </div>
+    
     )
 }
