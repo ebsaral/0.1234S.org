@@ -10,10 +10,10 @@ export async function generateMetadata({params: {locale}}: {
   return {
     title: t('title'),
     description: t("description"),
-    opengraph: {
+    openGraph: {
       images: [
         {
-          url:"https://saral.me/images/emin-bugra-saral-100.jpg"
+          url:"/images/emin-bugra-saral-100.jpg"
         }
       ]
     }

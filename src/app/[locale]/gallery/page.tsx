@@ -11,10 +11,10 @@ export async function generateMetadata({params: {locale}}: {
     title: t("Gallery.title"),
     description: t("Gallery.description"),
     keywords: t("Gallery.keywords"),
-    opengraph: {
+    openGraph: {
       images: [
         {
-          url:"https://saral.me/images/gallery-logo.png"
+          url:"/images/gallery-logo.png"
         }
       ]
     }
