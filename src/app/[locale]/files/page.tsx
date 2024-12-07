@@ -1,4 +1,3 @@
-import Gallery from "@/components/Gallery"
 import HomePageLink from "@/components/HomePageLink";
 import LanguageSelection from "@/components/LanguageSelection";
 import { useTranslations } from "next-intl";
