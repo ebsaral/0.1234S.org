@@ -23,8 +23,20 @@
         "contact": "Contact (e-mail)"
     },
     "Info": {
-        "title": "info summary",
-        "text": "<p><b>Birth:</b> September 28, 1988. Of / Trabzon / Türkiye.</p>\n<p><b>Education:</b></p><p> Bachelor in Computer Science, Koç University, Istanbul.</p>\n<p><b>Work Experience:</b></p><p> Software Engineering, Project Management, Team Leading, Activism.</p>\n<p><b>Current Status:</b></p><p><b>Unemployed.</b> I'm trying to switch from software engineering to any kind of art, consultancy or managerial positions.\nIdeal position(s): Chief Spirit Officer, People & Project Manager, (Multi-Dimensional) Team Management, or Director.\nYour support or help is appreciated.</p>\n<p><b>Talents:</b> </p><p>Fast learner, visionary leading, mentorship, creative ideation, problem solving, attention to detail, writing, acting, directing, photography, pencil drawing, empathy, spiritual / mental enhancement, dancing.</p>\n<p><b>Topics of Interest:</b></p><p>Art, dark humor, technology, science, health, psychology, sociology, economics, philosophy, literature, religion, cinema, music, dance, history, and more...</p>\n<p><b>Lived in:</b></p><p> Istanbul (Türkiye), Bordeaux (France), San Jose (USA), Munich (Germany), Currently: Trabzon (Türkiye).</p>"
+        "title1": "Education",
+        "text1": "Bachelors in Computer Science. (2008-2013)\nKoc University, Istanbul.",
+        "title2": "Work Experience",
+        "text2": "Professional engineering services in the areas of management (guidance), culture and visionary solutions.\nEducative, innovative, international, inclusive, community friendly, healthy and fair solutions for everyone.",
+        "title3": "Consultancy Solutions",
+        "text3": "Team Leader, Guide.\nProject / Product Manager.\nProduct Developer & Tester.\nCulture Cultivator.\nChief Spirit Officer.",
+        "title4": "Personality Traits",
+        "text4": "Authenticity, curiosity, adventurous bravery, openmind, directness, deep empathy with all surroundings, creative problem solving, fast-learning in all areas.",
+        "title5": "Interests",
+        "text5": "Social sciences, spirituality, creative writings (poem, article, essay, story, theory), freestyle dancing, creative cooking, team sports, painting, movies, activism...",
+        "title6": "Social Causes",
+        "text6": "Equality for all:\nHonest & fair politics.",
+        "title7": "Places Lived In",
+        "text7": "Trabzon (Türkiye).\nIstanbul (Türkiye).\nBordeaux (France).\nSan Jose (USA). \nMunich (Germany).\nRight Now: Trabzon (Türkiye)."
     },
     "Projects": {
         "title": "projects",
@@ -104,5 +116,16 @@
     },
     "Links": {
         "title": "──────────"
+    },
+    "Files": {
+        "title": "Files",
+        "file_cv": {
+            "filename": "Name",
+            "type": "Kind"
+        },
+        "Links": {
+            "download": "Download",
+            "link": "Link"
+        }
     }
 }

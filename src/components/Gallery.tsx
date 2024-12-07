@@ -26,6 +26,7 @@ import drawings from "@/utils/gallery/drawings"
 import { useTranslations } from "next-intl";
 import Image from "next/image"
 import LastUpdate from "@/components/LastUpdate";
+import HomePageLink from "./HomePageLink";
 
 
 export default function Gallery() {
@@ -45,19 +46,7 @@ export default function Gallery() {
         height={350}
         priority
       />
-      <a
-        className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-        href="/"
-      >
-        <Image
-          aria-hidden
-          src="https://nextjs.org/icons/window.svg"
-          alt="File icon"
-          width={16}
-          height={16}
-        />
-        {t("Link.home")}
-      </a>  
+      <HomePageLink />  
       <h1 className="flex items-center text-2xl mt-2 font-bold">{t("Metadata.Gallery.title")}</h1>
       <p className="flex flex-row text-center text-lg">{t("Metadata.Gallery.description")}</p>
     </div>
