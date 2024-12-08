@@ -24,20 +24,34 @@
     },
     "Info": {
         "title": "özgeçmiş özeti",
-        "title1": "Eğitim",
-        "text1": "Bilgisayar Bilimleri Lisansı. (2008-2013)\nKoç Üniversitesi, İstanbul.",
-        "title2": "İş Deneyimi",
-        "text2": "Yönetim (rehberlik), kültür ve vizyoner çözümler alanlarında profesyonel mühendislik hizmetleri.\nHerkes için eğitici, yenilikçi, uluslararası, kapsayıcı, toplum dostu, sağlıklı ve adil çözümler.",
-        "title3": "Danışmanlık Çözümleri",
-        "text3": "Ekip Lideri, Rehber.\nProje / Ürün Yöneticisi.\nÜrün Geliştirici & Test Uzmanı.\nKültür Geliştirici.\n'Chief Spirit Officer'.",
-        "title4": "Kişilik Özellikleri",
-        "text4": "Özgünlük, merak, maceracı cesaret, açık fikirlilik, doğrudanlık, tüm çevreyle derin empati, yaratıcı problem çözme, her alanda hızlı öğrenme.",
-        "title5": "İlgi Alanları",
-        "text5": "Sosyal bilimler, maneviyat, yaratıcı yazılar (şiir, makale, deneme, öykü, teori), serbest dans, yaratıcı yemek pişirme, takım sporları, resim, film, aktivizm...",
-        "title6": "Sosyal Sorumluluk Alanları",
-        "text6": "Herkes için eşitlik:\nDürüst ve adil siyaset.",
-        "title7": "Yaşadığım Yerler",
-        "text7": "Trabzon (Türkiye).\nİstanbul (Türkiye).\nBordeaux (Fransa).\nSan Jose (ABD). \nMünih (Almanya).\nŞu an: Trabzon (Türkiye)."
+        "education": {
+            "title": "Eğitim",
+            "text": "Bilgisayar Bilimleri Lisansı. (2008-2013)\nKoç Üniversitesi, İstanbul."
+        },
+        "work_experience": {
+            "title": "İş Deneyimi",
+            "text": "Yönetim (rehberlik), kültür ve vizyoner çözümler alanlarında profesyonel mühendislik hizmetleri.\nHerkes için eğitici, yenilikçi, uluslararası, kapsayıcı, toplum dostu, sağlıklı ve adil çözümler."
+        },
+        "consultancy_solutions": {
+            "title": "Danışmanlık Çözümleri",
+            "text": "Ekip Lideri, Rehber.\nProje / Ürün Yöneticisi.\nÜrün Geliştirici & Test Uzmanı.\nKültür Geliştirici.\n'Chief Spirit Officer'."
+        },
+        "personality_traits": {
+            "title": "Kişilik Özellikleri",
+            "text": "Özgünlük, merak, maceracı cesaret, açık fikirlilik, doğrudanlık, tüm çevreyle derin empati, yaratıcı problem çözme, her alanda hızlı öğrenme."
+        },
+        "interests": {
+            "title":"İlgi Alanları",
+            "text": "Sosyal bilimler, maneviyat, yaratıcı yazılar (şiir, makale, deneme, öykü, teori), serbest dans, yaratıcı yemek pişirme, takım sporları, resim, film, aktivizm..."
+        },
+        "social_causes": {
+            "title": "Sosyal Sorumluluk",
+            "text": "Herkes için eşitlik:\nDürüst ve adil siyaset."
+        },
+        "places": {
+            "title": "Yaşadığım Yerler",
+            "text": "Trabzon (Türkiye).\nİstanbul (Türkiye).\nBordeaux (Fransa).\nSan Jose (ABD). \nMünih (Almanya).\nŞu an: Trabzon (Türkiye)."
+        }
     },
     "Projects": {
         "title": "projeler",        

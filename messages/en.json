@@ -24,20 +24,34 @@
     },
     "Info": {
         "title": "resume summary",
-        "title1": "Education",
-        "text1": "Bachelors in Computer Science. (2008-2013)\nKoc University, Istanbul.",
-        "title2": "Work Experience",
-        "text2": "Professional engineering services in the areas of management (guidance), culture and visionary solutions.\nEducative, innovative, international, inclusive, community friendly, healthy and fair solutions for everyone.",
-        "title3": "Consultancy Solutions",
-        "text3": "Team Leader, Guide.\nProject / Product Manager.\nProduct Developer & Tester.\nCulture Cultivator.\nChief Spirit Officer.",
-        "title4": "Personality Traits",
-        "text4": "Authenticity, curiosity, adventurous bravery, openmind, directness, deep empathy with all surroundings, creative problem solving, fast-learning in all areas.",
-        "title5": "Interests",
-        "text5": "Social sciences, spirituality, creative writings (poem, article, essay, story, theory), freestyle dancing, creative cooking, team sports, painting, movies, activism...",
-        "title6": "Social Causes",
-        "text6": "Equality for all:\nHonest & fair politics.",
-        "title7": "Places Lived In",
-        "text7": "Trabzon (Türkiye).\nIstanbul (Türkiye).\nBordeaux (France).\nSan Jose (USA). \nMunich (Germany).\nRight Now: Trabzon (Türkiye)."
+        "education": {
+            "title": "Education",
+            "text": "Bachelors in Computer Science. (2008-2013)\nKoc University, Istanbul."
+        },
+        "work_experience": {
+            "title": "Work Experience",
+            "text": "Professional engineering services in the areas of management (guidance), culture and visionary solutions.\nEducative, innovative, international, inclusive, community friendly, healthy and fair solutions for everyone."
+        },
+        "consultancy_solutions": {
+            "title": "Consultancy Solutions",
+            "text": "Team Leader, Guide.\nProject / Product Manager.\nProduct Developer & Tester.\nCulture Cultivator.\nChief Spirit Officer."
+        },
+        "personality_traits": {
+            "title": "Personality Traits",
+            "text": "Authenticity, curiosity, adventurous bravery, openmind, directness, deep empathy with all surroundings, creative problem solving, fast-learning in all areas."
+        },
+        "interests": {
+            "title": "Interests",
+            "text": "Social sciences, spirituality, creative writings (poem, article, essay, story, theory), freestyle dancing, creative cooking, team sports, painting, movies, activism..."
+        },
+        "social_causes": {
+            "title": "Social Causes",
+            "text": "Equality for all:\nHonest & fair politics."
+        },
+        "places": {
+            "title": "Places Lived In",
+            "text": "Trabzon (Türkiye).\nIstanbul (Türkiye).\nBordeaux (France).\nSan Jose (USA). \nMunich (Germany).\nRight Now: Trabzon (Türkiye)."
+        }
     },
     "Projects": {
         "title": "projects",

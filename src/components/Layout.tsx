@@ -18,6 +18,16 @@ export default function Layout() {
     const t = useTranslations();
     const lastUpdateDate = new Date("2024-12-07T14:33");
 
+    const infoSectionKeys = [
+      "education",
+      "work_experience",
+      "consultancy_solutions",
+      "personality_traits",
+      "interests",
+      "social_causes",
+      "places"
+    ]
+
     return (
     <div className="grid grid-rows-[16px_1fr_20px] items-center gap-6 justify-items-center min-h-screen w-auto pb-8 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center">
@@ -67,27 +77,15 @@ export default function Layout() {
           {t("Info.title")}
         </div>
         <div className="row-start-3 flex-row space-y-2 gap-6 text-sm text-justify pl-5 pr-5 font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl">
-          <div className="grid grid-rows sm:grid-cols-3 gap-6">
-            <div className="font-bold text-2xl sm:text-right text-left">{t("Info.title1")}</div>
-            <div className="col-span-2">{t("Info.text1")}</div>  
-
-            <div className="font-bold text-2xl sm:text-right text-left mt-10 sm:mt-0">{t("Info.title2")}</div>
-            <div className="col-span-2">{t("Info.text2")}</div>  
-
-            <div className="font-bold text-2xl sm:text-right text-left mt-10 sm:mt-0">{t("Info.title3")}</div>
-            <div className="col-span-2">{t("Info.text3")}</div> 
-
-            <div className="font-bold text-2xl sm:text-right text-left mt-10 sm:mt-0">{t("Info.title4")}</div>
-            <div className="col-span-2">{t("Info.text4")}</div> 
-            
-            <div className="font-bold text-2xl sm:text-right text-left mt-10 sm:mt-0">{t("Info.title5")}</div>
-            <div className="col-span-2">{t("Info.text5")}</div> 
-            
-            <div className="font-bold text-2xl sm:text-right text-left mt-10 sm:mt-0">{t("Info.title6")}</div>
-            <div className="col-span-2">{t("Info.text6")}</div> 
-            
-            <div className="font-bold text-2xl sm:text-right text-left mt-10 sm:mt-0">{t("Info.title7")}</div>
-            <div className="col-span-2">{t("Info.text7")}</div> 
+          <div className="flex flex-col gap-6">
+            {infoSectionKeys.map((infoKey, i)=>(
+              (
+                <div key={i} className="flex flex-col gap-6 sm:flex-row [&:not(:first-child)]:mt-10 sm:[&:not(:first-child)]:mt-2">
+                  <div className="sm:basis-1/3 font-bold text-2xl sm:text-right text-left">{t(`Info.${infoKey}.title`)}</div>
+                  <div className="sm:basis-2/3 col-span-2">{t(`Info.${infoKey}.text`)}</div>  
+                </div>
+              )
+            ))}
           </div>
         </div>
         <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
