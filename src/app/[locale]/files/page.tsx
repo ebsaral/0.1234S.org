@@ -7,11 +7,11 @@ import Link from "next/link";
 export async function generateMetadata({params: {locale}}: {
   params: {locale: string};
 }) {
-  const t = await getTranslations({locale, namespace: 'Metadata'});
+  const t = await getTranslations({locale});
  
   return {
     title: t("Files.title"),
-    description: t("Files")
+    description: t("Files.title")
   };
 }
 
