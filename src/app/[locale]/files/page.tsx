@@ -21,7 +21,7 @@ export default function Page() {
     <div className="flex flex-col gap-6 items-center font-[family-name:var(--font-geist-sans)]">
         <LanguageSelection className="mt-10" />    
         <HomePageLink />    
-        <h1 className="text-2xl font-bold">{t("Files.title")} (1)</h1>
+        <h1 className="text-2xl font-bold">{t("Files.title")} (2)</h1>
         <div className="flex flex-col divide-y divide-slate-700 border-1 border-white">
             <div className="grid grid-cols-3 gap-6 p-6">
                 <div>{t("Files.file_cv.filename")}</div>
