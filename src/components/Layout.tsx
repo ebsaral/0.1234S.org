@@ -92,7 +92,6 @@ export default function Layout() {
         <div className="flex flex-col gap-6 row-start-2 items-justify pl-5 pr-5">
           {Sections.map((section, i) => <SectionWithItems key={`sectionWithItems_${i}`} translationPaths={section.translationPaths} items={section.items} minCol={section.minCol} maxCol={section.maxCol} />)}      
         </div>
-        <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
         <div className="flex gap-6 pl-5 pr-5 text-xs text-center justify-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl">
           {t("LegalWarning.title")}<br></br>
           {t("LegalWarning.text")}
@@ -101,6 +100,48 @@ export default function Layout() {
           {t("Apology.text")}
         </div>
         <div className="row-start-4 flex flex-wrap items-center justify-center"><LastUpdate date={lastUpdateDate} /></div>
+        <div className="row-start-4 flex flex-wrap items-center justify-center">
+        <iframe
+          width="100%"
+          height={166}
+          scrolling="no"
+          frameBorder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/148439599&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        />
+          <div
+            style={{
+              fontSize: 10,
+              color: "#cccccc",
+              lineBreak: "anywhere",
+              wordBreak: "normal",
+              overflow: "hidden",
+              whiteSpace: "nowrap",
+              textOverflow: "ellipsis",
+              fontFamily:
+                "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
+              fontWeight: 100
+            }}
+          >
+            <a
+              href="https://soundcloud.com/fattish"
+              title="fattish"
+              target="_blank"
+              style={{ color: "#cccccc", textDecoration: "none" }}
+            >
+              fattish
+            </a>{" "}
+            ·{" "}
+            <a
+              href="https://soundcloud.com/fattish/ferdi-ozbegen-koca-dunya-fattish-edit"
+              title="Ferdi Özbeğen - Koca Dünya (Fattish Edit)"
+              target="_blank"
+              style={{ color: "#cccccc", textDecoration: "none" }}
+            >
+              Ferdi Özbeğen - Koca Dünya (Fattish Edit)
+            </a>
+          </div>
+        </div>
       </main>
     </div>
     );
