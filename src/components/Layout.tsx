@@ -16,7 +16,7 @@ const Sections: SectionWithItemsType[] = [
 
 export default function Layout() {
     const t = useTranslations();
-    const lastUpdateDate = new Date("2024-12-07T14:33");
+    const lastUpdateDate = new Date("2024-12-09T22:40");
 
     const infoSectionKeys = [
       "education",

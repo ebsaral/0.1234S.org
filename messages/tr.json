@@ -37,16 +37,16 @@
             "text": "Ekip Lideri, Rehber.\nProje / Ürün Yöneticisi.\nÜrün Geliştirici & Test Uzmanı.\nKültür Geliştirici.\n'Chief Spirit Officer'."
         },
         "personality_traits": {
-            "title": "Kişilik Özellikleri",
-            "text": "Özgünlük, merak, maceracı cesaret, açık fikirlilik, doğrudanlık, tüm çevreyle derin empati, yaratıcı problem çözme, her alanda hızlı öğrenme."
+            "title": "Karakter Özellikleri",
+            "text": "Özgünlük, merak, maceracı cesaret, açık fikirlilik, doğrudanlık, tüm çevreyle derin empati (+ çok boyutlu ilham kaynağı), yaratıcı problem çözme, önsezi (vizyon), doğal, her alanda hızlı öğrenme."
         },
         "interests": {
-            "title":"İlgi Alanları",
-            "text": "Sosyal bilimler, maneviyat, yaratıcı yazılar (şiir, makale, deneme, öykü, teori), serbest dans, yaratıcı yemek pişirme, takım sporları, resim, film, aktivizm..."
+            "title":"İlgi Alanları & Yetenekler",
+            "text": "Sosyal bilimler, mühendislik, maneviyat, yaratıcı yazılar (şiir, makale, deneme, öykü, teori), elektronik müzik, serbest dans, mizah, yaratıcı yemek pişirme, takım sporları, resim, film, aktivizm, kapsamlı taklit etme (tarihte bilinen veya bilinmeyen herhangi biri), doğa senkronizasyonu..."
         },
         "social_causes": {
             "title": "Sosyal Sorumluluk",
-            "text": "Herkes için eşitlik:\nDürüst ve adil siyaset."
+            "text": "Herkes için eşitlik:\nHer alanda dürüst ve adil siyaset."
         },
         "places": {
             "title": "Yaşadığım Yerler",
