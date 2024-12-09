@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "validate": "node ./messages/validator.mjs",
+    "validate": "node ./messages/schemas/validator.mjs",
     "dev": "yarn validate && next lint && next dev",
     "build": "yarn validate && next build",
     "start": "next start",
