@@ -1,6 +1,7 @@
 {
     "Text": {
-        "LastUpdate": "Last update"
+        "LastUpdate": "Last update",
+        "GithubSource": "GitHub source"
     },
     "NotFoundPage": {
         "title": "Page not found"

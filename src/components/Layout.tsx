@@ -120,7 +120,8 @@ export default function Layout() {
               textOverflow: "ellipsis",
               fontFamily:
                 "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
-              fontWeight: 100
+              fontWeight: 100,
+              marginTop: 5
             }}
           >
             <a
@@ -144,7 +145,7 @@ export default function Layout() {
         </div>
 
         <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100 hover:underline hover:underline-offset-2"
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/ebsaral/saral.me"
@@ -161,7 +162,7 @@ export default function Layout() {
                 fill="currentColor"
               />
             </svg>
-            <p className="ml-2 h-7">Github</p>
+            <p className="ml-2 h-7">{t("Text.GithubSource")}</p>
           </a>
       </main>
     </div>

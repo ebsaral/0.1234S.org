@@ -1,6 +1,7 @@
 {
     "Text": {
-        "LastUpdate": "Son güncelleme"
+        "LastUpdate": "Son güncelleme",
+        "GithubSource": "GitHub kaynağı"
     },
     "NotFoundPage": {
         "title": "Sayfa bulunamadı"

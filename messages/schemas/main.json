@@ -8,9 +8,12 @@
 		"properties": {
 		  "LastUpdate": {
 			"type": "string"
+		  },
+		  "GithubSource": {
+			"type": "string"
 		  }
 		},
-		"required": ["LastUpdate"]
+		"required": ["LastUpdate", "GithubSource"]
 	  },
 	  "NotFoundPage": {
 		"type": "object",
