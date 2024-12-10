@@ -20,6 +20,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
           tr: 'https://saral.me/tr/gallery',
         },
       },
+    },
+    {
+      url: 'https://www.saral.me/files',
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          tr: 'https://saral.me/tr/files',
+        },
+      },
     }
   ]
 }
