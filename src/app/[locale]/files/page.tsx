@@ -29,14 +29,14 @@ export default function Page() {
                 <div>{t("Files.Links.link")}</div>
             </div>
             <div className="grid grid-cols-3 gap-6 p-6">
-                <div>ebsaral_cv_english</div>
+                <div>cv/english</div>
                 <div>pdf</div>
-                <div><Link className="underline underline-offset-2" href="/files/ebsaral_cv_english.pdf" target="_blank">/files/ebsaral_cv_english.pdf</Link></div>
+                <div><Link className="underline underline-offset-2" href="/files/cv/english.pdf" target="_blank">/files/cv/english.pdf</Link></div>
             </div>
             <div className="grid grid-cols-3 gap-6 p-6">
-                <div>ebsaral_cv_turkish</div>
+                <div>cv/turkish</div>
                 <div>pdf</div>
-                <div><Link className="underline underline-offset-2" href="/files/ebsaral_cv_turkish.pdf" target="_blank">/files/ebsaral_cv_turkish.pdf</Link></div>
+                <div><Link className="underline underline-offset-2" href="/files/cv/turkish.pdf" target="_blank">/files/cv/turkish.pdf</Link></div>
             </div>
         </div>
     </div>
