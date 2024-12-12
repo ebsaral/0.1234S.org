@@ -9,11 +9,14 @@
 		  "LastUpdate": {
 			"type": "string"
 		  },
+		  "LastRevelation": {
+			"type": "string"
+		  },
 		  "GithubSource": {
 			"type": "string"
 		  }
 		},
-		"required": ["LastUpdate", "GithubSource"]
+		"required": ["LastUpdate", "LastRevelation", "GithubSource"]
 	  },
 	  "NotFoundPage": {
 		"type": "object",
