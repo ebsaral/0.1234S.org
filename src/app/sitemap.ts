@@ -29,6 +29,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
           tr: 'https://saral.me/tr/files',
         },
       },
+    },
+    {
+      url: 'https://www.saral.me/hazzeti-emin',
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          tr: 'https://saral.me/tr/hazzeti-emin',
+        },
+      },
     }
   ]
 }
