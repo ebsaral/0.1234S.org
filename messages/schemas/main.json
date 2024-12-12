@@ -86,8 +86,7 @@
 		  "social_causes": {"$ref": "/TitleAndText"},
 		  "places": {"$ref": "/TitleAndText"}
 		},
-		"required": ["title", "education", "work_experience", "consultancy_solutions", "personality_traits", "interests", "social_causes", "places"
-		]
+		"required": ["title", "education", "work_experience", "consultancy_solutions", "personality_traits", "interests", "social_causes", "places"]
 	  },
 	  "Projects": {
 		"type": "object",
@@ -95,53 +94,25 @@
 		  "title": {
 			"type": "string"
 		  },
-		  "TouchSensei": {
-			"type": "object",
-			"properties": {
-			  "title": {
-				"type": "string"
-			  },
-			  "text": {
-				"type": "string"
-			  }
-			},
-			"required": ["title", "text"]
-		  },
-		  "CB": {
-			"type": "object",
-			"properties": {
-			  "title": {
-				"type": "string"
-			  },
-			  "text": {
-				"type": "string"
-			  }
-			},
-			"required": ["title", "text"]
-		  },
-		  "EBSLifeSolutions": {
-			"type": "object",
-			"properties": {
-			  "title": {
-				"type": "string"
-			  },
-			  "text": {
-				"type": "string"
-			  }
-			},
-			"required": ["title", "text"]
-		  }
+		  "Gallery": {"$ref": "/TitleAndTextWithLink"},
+		  "TouchSensei": {"$ref": "/TitleAndText"},
+		  "HazzetiEmin": {"$ref": "/TitleAndTextWithLink"},
+		  "CB": {"$ref": "/TitleAndText"},
+		  "EBSLifeSolutions": {"$ref": "/TitleAndText"}
 		},
-		"required": ["title", "TouchSensei", "CB", "EBSLifeSolutions"]
+		"required": ["title", "Gallery", "TouchSensei", "HazzetiEmin", "CB", "EBSLifeSolutions"]
 	  },
 	  "Soon": {
 		"type": "object",
 		"properties": {
 		  "title": {
 			"type": "string"
+		  },
+		  "HazzetiEmin": {
+			"type": "string"
 		  }
 		},
-		"required": ["title"]
+		"required": ["title", "HazzetiEmin"]
 	  },
 	  "Hobbies": {
 		"type": "object",
@@ -149,31 +120,11 @@
 		  "title": {
 			"type": "string"
 		  },
-		  "Gallery": {
-			"type": "object",
-			"properties": {
-			  "title": {
-				"type": "string"
-			  },
-			  "text": {
-				"type": "string"
-			  },
-			  "link": {
-				"type": "string"
-			  }
-			},
-			"required": ["title", "text", "link"]
-		  },
 		  "DeviantArt": {"$ref": "/TitleAndText"},
 		  "SoundCloud": {"$ref": "/TitleAndText"},
-		  "Vimeo": {"$ref": "/TitleAndText"},
-		"required": [
-		  "title",
-		  "Gallery",
-		  "DeviantArt",
-		  "SoundCloud",
-		  "Vimeo"
-		]
+		  "Vimeo": {"$ref": "/TitleAndText"}
+		},
+	    "required": ["title", "DeviantArt", "SoundCloud", "Vimeo"]
 	  },
 	  "Career": {
 		"type": "object",
@@ -183,7 +134,8 @@
 		  },
 		  "Github": {"$ref": "/TitleAndText"},
 		  "DevTo": {"$ref": "/TitleAndText"},
-		  "Stackoverflow": {"$ref": "/TitleAndText"},
+		  "Stackoverflow": {"$ref": "/TitleAndText"}
+		},
 		"required": [
 		  "title",
 		  "Github",
@@ -198,7 +150,8 @@
 			"type": "string"
 		  },
 		  "LinkedIn": {"$ref": "/TitleAndText"},
-		  "FetLife": {"$ref": "/TitleAndText"},
+		  "FetLife": {"$ref": "/TitleAndText"}
+		},
 		"required": [
 		  "title",
 		  "LinkedIn",
@@ -294,7 +247,4 @@
 	  "Links",
 	  "Files"
 	]
-  }
-	  }
-	}
 }

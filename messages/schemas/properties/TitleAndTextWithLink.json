@@ -1,0 +1,10 @@
+{
+	"id": "/TitleAndTextWithLink",
+  	"type": "object",
+  	"properties": {
+		"title": {"type": "string"},
+		"text": {"type": "string"},
+		"link": {"type": "string"}
+  	},
+	"required": ["title", "text", "link"]
+}

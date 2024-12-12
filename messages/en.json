@@ -56,9 +56,19 @@
     },
     "Projects": {
         "title": "projects",
+        "Gallery": {
+            "title": "Drawing Gallery",
+            "text": "Doodles, drawings\nand paintings.",
+            "link": "/en/gallery"
+        },
         "TouchSensei": {
             "title": "Touch Sensei",
             "text": "A simple mobile game.\nTry it now. (Only in iOS)"
+        },
+        "HazzetiEmin": {
+            "title": "Hazzeti Emin (HAV)",
+            "text": "Situation comedy\nin Turkish. (Audio)",
+            "link": "/en/hazzeti-emin"
         },
         "CB": {
             "title": "CB\n(under construction)",
@@ -70,15 +80,11 @@
         }
     },
     "Soon": {
-        "title": "coming soon"
+        "title": "coming soon",
+        "HazzetiEmin": "it'll be published in audio format"
     },
     "Hobbies": {
         "title": "hobbies & archives",
-        "Gallery": {
-            "title": "Drawing Gallery",
-            "text": "Doodles, drawings\nand paintings.",
-            "link": "/en/gallery"
-        },
         "DeviantArt": {
             "title": "DeviantArt",
             "text": ""

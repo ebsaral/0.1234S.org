@@ -55,10 +55,20 @@
         }
     },
     "Projects": {
-        "title": "projeler",        
+        "title": "projeler",
+        "Gallery": {
+            "title": "Çizim Galerisi",
+            "text": "Karalamalar, çizimler\nve resimler.",
+            "link": "/tr/gallery"
+        },
         "TouchSensei": {
             "title": "Touch Sensei",
             "text": "Basit bir mobil oyun.\nŞimdi deneyin. (Sadece iOS)"
+        },
+        "HazzetiEmin": {
+            "title": "Hazzeti Emin (HAV)",
+            "text": "Durum komedisi. (Ses)",
+            "link": "/tr/hazzeti-emin"
         },
         "CB": {
             "title": "CB\n(yapım aşamasında)",
@@ -70,15 +80,11 @@
         }
     },
     "Soon": {
-        "title": "yakında"
+        "title": "yakında",
+        "HazzetiEmin": "ses formatında yayınlanmak üzere"
     },
     "Hobbies": {
         "title": "ilgi alanları & arșivler",
-        "Gallery": {
-            "title": "Çizim Galerisi",
-            "text": "Karalamalar, çizimler\nve resimler.",
-            "link": "/tr/gallery"
-        },
         "DeviantArt": {
             "title": "DeviantArt",
             "text": ""

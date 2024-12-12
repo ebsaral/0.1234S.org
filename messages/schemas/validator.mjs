@@ -14,7 +14,14 @@ const TitleAndTextProperty = JSON.parse(
 	)
 );
 
+const TitleAndTextWithLinkProperty = JSON.parse(
+	await readFile(
+		new URL('./properties/TitleAndTextWithLink.json', import.meta.url)
+	)
+);
+
 v.addSchema(TitleAndTextProperty);
+v.addSchema(TitleAndTextWithLinkProperty);
 
 const schema = JSON.parse(
 	await readFile(
