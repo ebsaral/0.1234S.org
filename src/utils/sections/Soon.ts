@@ -3,6 +3,18 @@ import { SectionWithItemsType } from "@/components/SectionWithItems";
 
 const SoonItems : SectionItemType[] = [
     {
+        link: "Projects.HazzetiEmin.link",
+        image: {
+            src: "/images/hazzeti-emin-logo.jpeg",
+            alt: "Hazzeti Emin (H.A.V.)",
+            width: 120
+        },
+        translationPaths: {
+            title: "Projects.HazzetiEmin.title",
+            text: "Projects.HazzetiEmin.text",
+        }
+    },
+    {
         link: "https://www.linkedin.com/company/ebs-life-solutions",
         image: {
             src: "/images/ebs-life-solutions-animated-logo.gif",

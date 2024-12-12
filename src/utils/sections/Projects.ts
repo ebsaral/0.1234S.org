@@ -3,15 +3,15 @@ import { SectionWithItemsType } from "@/components/SectionWithItems";
 
 const ProjectsItems : SectionItemType[] = [
     {
-        link: "Hobbies.Gallery.link",
+        link: "Projects.Gallery.link",
         image: {
             src: "/images/gallery-logo.png",
             alt: "Gallery logo",
             width: 120
         },
         translationPaths: {
-            title: "Hobbies.Gallery.title",
-            text: "Hobbies.Gallery.text"
+            title: "Projects.Gallery.title",
+            text: "Projects.Gallery.text"
         }
     },
     {
