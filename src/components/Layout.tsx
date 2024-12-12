@@ -16,7 +16,7 @@ const Sections: SectionWithItemsType[] = [
 
 export default function Layout() {
     const t = useTranslations();
-    const lastUpdateDate = new Date("2024-12-09T22:40");
+    const lastUpdateDate = new Date("2024-12-12T07:21");
 
     const infoSectionKeys = [
       "education",
@@ -109,39 +109,6 @@ export default function Layout() {
           allow="autoplay"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/148439599&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         />
-          <div
-            style={{
-              fontSize: 10,
-              color: "#cccccc",
-              lineBreak: "anywhere",
-              wordBreak: "normal",
-              overflow: "hidden",
-              whiteSpace: "nowrap",
-              textOverflow: "ellipsis",
-              fontFamily:
-                "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
-              fontWeight: 100,
-              marginTop: 5
-            }}
-          >
-            <a
-              href="https://soundcloud.com/fattish"
-              title="fattish"
-              target="_blank"
-              style={{ color: "#cccccc", textDecoration: "none" }}
-            >
-              fattish
-            </a>{" "}
-            ·{" "}
-            <a
-              href="https://soundcloud.com/fattish/ferdi-ozbegen-koca-dunya-fattish-edit"
-              title="Ferdi Özbeğen - Koca Dünya (Fattish Edit)"
-              target="_blank"
-              style={{ color: "#cccccc", textDecoration: "none" }}
-            >
-              Ferdi Özbeğen - Koca Dünya (Fattish Edit)
-            </a>
-          </div>
         </div>
 
         <a
