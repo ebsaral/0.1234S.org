@@ -65,6 +65,16 @@ export default function Gallery() {
         />
     </div>
     
+    <div className="flex-col flex gap-6 mt-16 flex-wrap items-center justify-center text-center w-auto m-auto mb-10">
+      <Image
+        className="rounded-3xl"
+        src="/images/eminbugrasaral-2024.jpg"
+        alt="Emin Bugra Saral 2024"
+        width={350}
+        height={350}
+        priority
+      />
+    </div>
 
     <div className="text-center mt-10 mb-5 text-sm"><LastUpdate date={lastUpdateDate} /></div>
   </div>  
