@@ -29,7 +29,7 @@ export default function HazzetiEmin() {
     
 
     <div className="text-center mt-10 mb-5 text-sm"><LastUpdate date={lastUpdateDate} isDivine={true} /></div>
-    <div className="row-start-4 flex flex-wrap items-center justify-center">
+    <div className="row-start-4 flex flex-wrap items-center justify-center w-screen">
       <iframe
         width="100%"
         height={166}

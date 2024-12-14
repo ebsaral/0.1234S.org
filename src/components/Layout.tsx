@@ -100,7 +100,7 @@ export default function Layout() {
           {t("Apology.text")}
         </div>
         <div className="row-start-4 flex flex-wrap items-center justify-center"><LastUpdate date={lastUpdateDate} /></div>
-        <div className="row-start-4 flex flex-wrap items-center justify-center">
+        <div className="row-start-4 flex flex-wrap items-center justify-center w-screen">
         <iframe
           width="100%"
           height={166}
