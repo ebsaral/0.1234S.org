@@ -32,12 +32,12 @@ import HomePageLink from "./HomePageLink";
 export default function Gallery() {
     const [index, setIndex] = useState(-1);
     const t = useTranslations();
-    const lastUpdateDate = new Date("2024-12-06T09:49");
+    const lastUpdateDate = new Date("2024-12-14T13:29");
     
     const photos = [...doodles, ...drawings];
 
     return <div className="w-auto mr-3 ml-3">
-    <div className="flex-col flex gap-6 mt-2 flex-wrap items-center justify-center text-center w-auto m-auto mb-10">
+    <div className="flex-col flex gap-6 mt-2 flex-wrap items-center justify-center text-center w-auto sm:ml-10 sm:mr-10 ml-5 mr-5">
       <Image
         className="rounded-3xl"
         src="/images/gallery/eminbugrasaral-gallery-main.jpg"
@@ -50,7 +50,7 @@ export default function Gallery() {
       <h1 className="flex items-center text-2xl mt-2 font-bold">{t("Metadata.Gallery.title")}</h1>
       <p className="flex flex-row text-center text-lg">{t("Metadata.Gallery.description")}</p>
     </div>
-    <div className="flex flex-col justify-center">
+    <div className="flex flex-col justify-center mt-5 sm:ml-10 sm:mr-10 ml-5 mr-5">
         <h1 className="text-center text-2xl mt-2 mb-6 font-bold">{t("Gallery.doodles")}</h1>
         <RowsPhotoAlbum key="album1" photos={doodles} targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
         <h1 className="text-center text-2xl mt-10 mb-6 font-bold">{t("Gallery.drawings")}</h1>
@@ -77,5 +77,15 @@ export default function Gallery() {
     </div>
 
     <div className="text-center mt-10 mb-5 text-sm"><LastUpdate date={lastUpdateDate} /></div>
+    <div className="row-start-4 flex flex-wrap items-center justify-center mb-5 w-screen">
+      <iframe
+        width="100%"
+        height={166}
+        scrolling="no"
+        frameBorder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/416735193&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+      />
+    </div> 
   </div>  
 }
