@@ -127,8 +127,8 @@ const drawings = [
     asset: "/images/gallery/drawings/14-20151003.jpg",
     width: 960,
     height: 960,
-    alt: "Feelings",
-    title: "Feelings",
+    alt: "An angel to blame",
+    title: "An angel to blame",
     description: "03.10.2015 San Jose"
   },
 ].map(
