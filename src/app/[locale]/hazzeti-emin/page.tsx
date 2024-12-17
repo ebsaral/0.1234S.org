@@ -13,7 +13,7 @@ export async function generateMetadata({params: {locale}}: {
     openGraph: {
       images: [
         {
-          url:"/images/hazzeti-emin-logo-small.png"
+          url:"/images/hazzeti-emin-logo-small.jpeg"
         }
       ]
     }
