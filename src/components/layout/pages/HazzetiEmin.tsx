@@ -48,7 +48,7 @@ export default function HazzetiEmin() {
 
     return (
     <InnerLayout params={params}>
-      <div className="row-start-4 flex flex-wrap items-center justify-center w-screen">
+      <div className="flex flex-wrap gap-6 items-center justify-center w-screen">
         <Info params={infoParams} />
         <Soundcloud src={soundcloud.src} info={soundcloud.info} />
       </div>
