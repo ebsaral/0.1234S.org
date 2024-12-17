@@ -5,11 +5,13 @@ import { getTranslations } from "next-intl/server";
 export async function generateMetadata({params: {locale}}: {
   params: {locale: string};
 }) {
-  const t = await getTranslations({locale});
+ 
+  const t = await getTranslations({locale, namespace: "Pages.HazzetiEmin.Metadata"});
  
   return {
-    title: t("Pages.Home.Projects.HazzetiEmin.title"),
-    description: t("Pages.Home.Projects.HazzetiEmin.text"),
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords"),
     openGraph: {
       images: [
         {
