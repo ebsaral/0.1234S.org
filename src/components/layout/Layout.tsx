@@ -8,6 +8,7 @@ import { SoonSection } from "@/utils/sections/Soon";
 import { LinksSection } from "@/utils/sections/Links";
 import GitHubLink from "@/components/links/GitHubLink";
 import { InfoItem } from "./Info";
+import Soundcloud, { SoundcloudInterface } from "../Soundcloud";
 
 
 const Sections: SectionWithItemsType[] = [
@@ -29,6 +30,20 @@ export default function Layout() {
       "social_causes",
       "places"
     ]
+
+    const soundcloud: SoundcloudInterface = {
+      src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/148439599&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+      info: {
+        artist: {
+          title: "fattish",
+          url: "https://soundcloud.com/fattish"
+        },
+        song: {
+          title: "Ferdi Özbeğen - Koca Dünya (edit)",
+          url: "https://soundcloud.com/fattish/ferdi-ozbegen-koca-dunya-fattish-edit"
+        }
+      }
+    }
 
     return (
     <div className="grid grid-rows-[16px_1fr_20px] items-center gap-6 justify-items-center min-h-screen w-auto pb-8 font-[family-name:var(--font-geist-sans)]">
@@ -96,18 +111,8 @@ export default function Layout() {
         <div className="row-start-3 flex gap-6 pl-5 pr-5 flex-wrap items-center justify-center text-xs text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
           {t("Pages.Home.Apology.text")}
         </div>
-        <div className="row-start-4 flex flex-wrap items-center justify-center"><LastUpdate date={lastUpdateDate} /></div>
-        <div className="row-start-4 flex flex-wrap items-center justify-center w-screen">
-        <iframe
-          width="100%"
-          height={166}
-          scrolling="no"
-          frameBorder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/148439599&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        />
-        </div>
-
+        <Soundcloud src={soundcloud.src} info={soundcloud.info} />
+        <LastUpdate date={lastUpdateDate} />
         <GitHubLink />
       </main>
     </div>

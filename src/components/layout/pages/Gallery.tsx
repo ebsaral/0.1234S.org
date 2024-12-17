@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image"
 import GalleryLayout from "../GalleryLayout";
 import InnerLayout from "../InnerLayout";
+import Soundcloud, { SoundcloudInterface } from "@/components/Soundcloud";
 
 
 export default function Gallery() {
@@ -32,6 +33,20 @@ export default function Gallery() {
       lastUpdateDate: "2024-12-14T13:29"
     }
 
+    const soundcloud: SoundcloudInterface = {
+      src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/416735193&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+      info: {
+        artist: {
+          title: "Sergerdan__",
+          url: "https://soundcloud.com/sergerdan62"
+        },
+        song: {
+          title: "Azer Bülbül & Damian Marley - Dokunmayın Çok Fenayam",
+          url: "https://soundcloud.com/sergerdan62/azer-bulbul-damian-marley-dokunmayin-cok-fenayam"
+        }
+      }
+    }
+
     return <InnerLayout params={params}>
       <>
       <GalleryLayout albums={albums} />
@@ -46,16 +61,7 @@ export default function Gallery() {
         />
       </div>
 
-      <div className="row-start-4 flex flex-wrap items-center justify-center mb-5 w-screen">
-        <iframe
-          width="100%"
-          height={166}
-          scrolling="no"
-          frameBorder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/416735193&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        />
-      </div> 
+     <Soundcloud src={soundcloud.src} info={soundcloud.info} />
       </>
     </InnerLayout>
   }

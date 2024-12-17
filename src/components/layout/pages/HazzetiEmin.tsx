@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import InnerLayout from "../InnerLayout";
 import Info from "../Info";
+import Soundcloud, { SoundcloudInterface } from "@/components/Soundcloud";
 
 
 export default function HazzetiEmin() {
@@ -31,18 +32,25 @@ export default function HazzetiEmin() {
       }
     }
 
+    const soundcloud: SoundcloudInterface = {
+        src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308359738&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        info: {
+          artist: {
+            title: "onurzan",
+            url: "https://soundcloud.com/onurzan"
+          },
+          song: {
+            title: "Zeki Müren - Bir Yangının Külünü (edit)",
+            url: "https://soundcloud.com/onurzan/zeki-muren-bir-yanginin-kulunuonur-zan-edit"
+          }
+        }
+      }
+
     return (
     <InnerLayout params={params}>
       <div className="row-start-4 flex flex-wrap items-center justify-center w-screen">
         <Info params={infoParams} />
-        <iframe
-          width="100%"
-          height={166}
-          scrolling="no"
-          frameBorder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308359738&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        />
+        <Soundcloud src={soundcloud.src} info={soundcloud.info} />
       </div>
     </InnerLayout>
     )

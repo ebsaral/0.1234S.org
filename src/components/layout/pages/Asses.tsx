@@ -4,6 +4,7 @@ import InnerLayout from "../InnerLayout";
 import Info from "../Info";
 import asses from "@/utils/gallery/asses"
 import GalleryLayout from "../GalleryLayout";
+import Soundcloud, {SoundcloudInterface} from "@/components/Soundcloud";
 
 export default function Asses() {
     const t = useTranslations("Pages.Asses");
@@ -16,6 +17,20 @@ export default function Asses() {
       subtitle: t("subtitle"),
       publishDate: "2023-04-17T12:00",
       lastUpdateDate: "2024-12-17T20:55"
+    }
+
+    const soundcloud: SoundcloudInterface = {
+      src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1961423639&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+      info: {
+        artist: {
+          title: "Lukas",
+          url: "https://soundcloud.com/user-430651406"
+        },
+        song: {
+          title: "I Like it a Lot",
+          url: "https://soundcloud.com/user-430651406/i-like-it-a-lot"
+        }
+      }
     }
 
     const infoParams = {
@@ -39,6 +54,7 @@ export default function Asses() {
           <GoogleFormLink language="en" />
           <Info params={infoParams} />
           <GalleryLayout albums={[{title:`${t("gallery_title")}`, photos: asses}]}/>
+          <Soundcloud src={soundcloud.src} info={soundcloud.info} />
           </>
         </InnerLayout>
     )
