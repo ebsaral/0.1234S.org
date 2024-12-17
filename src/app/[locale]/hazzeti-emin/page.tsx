@@ -1,5 +1,5 @@
-import HazzetiEmin from "@/components/HazzetiEmin";
-import LanguageSelection from "@/components/LanguageSelection";
+import HazzetiEmin from "@/components/pages/HazzetiEmin";
+import LanguageSelection from "@/components/layout/LanguageSelection";
 import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata({params: {locale}}: {

@@ -1,5 +1,5 @@
-import Gallery from "@/components/Gallery"
-import LanguageSelection from "@/components/LanguageSelection";
+import Gallery from "@/components/pages/Gallery"
+import LanguageSelection from "@/components/layout/LanguageSelection";
 import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata({params: {locale}}: {

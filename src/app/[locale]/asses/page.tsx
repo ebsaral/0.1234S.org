@@ -1,15 +1,15 @@
-import Asses from "@/components/Asses";
-import LanguageSelection from "@/components/LanguageSelection";
+import Asses from "@/components/pages/Asses";
+import LanguageSelection from "@/components/layout/LanguageSelection";
 import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata({params: {locale}}: {
   params: {locale: string};
 }) {
-  const t = await getTranslations({locale});
+  const t = await getTranslations({locale, namespace: "Pages.Asses.Metadata"});
  
   return {
-    title: t("Projects.Asses.title"),
-    description: t("Projects.Asses.text"),
+    title: t("title"),
+    description: t("description"),
     openGraph: {
       images: [
         {

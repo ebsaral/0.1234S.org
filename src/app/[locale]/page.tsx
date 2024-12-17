@@ -1,5 +1,5 @@
 
-import Layout from "@/components/Layout";
+import Layout from "@/components/layout/Layout";
 import {getTranslations} from 'next-intl/server';
 
 export async function generateMetadata({params: {locale}}: {

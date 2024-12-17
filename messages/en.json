@@ -1,10 +1,14 @@
 {
     "General": {
+        "publish_date": "Publish date",
         "last_update": "Last update",
         "last_revelation": "Last revelation",
         "github_source": "GitHub source",
         "soon": "coming soon",
-        "home": "Home Page"
+        "home": "Home Page",
+        "view_google_form": "View Google Form Document",
+        "only_in_turkish": "Only in Turkish",
+        "only_in_english": "Only in English"
     },
     "Pages": {
         "Home": {
@@ -50,6 +54,11 @@
                     "text": "Doodles, drawings\nand paintings.",
                     "link": "/en/gallery"
                 },
+                "Asses": {
+                    "title": "Asses of Glyptothek",
+                    "text": "Another perspective\non museum touring.",
+                    "link": "/en/asses"
+                },
                 "TouchSensei": {
                     "title": "Touch Sensei",
                     "text": "A simple mobile game.\nTry it now. (Only in iOS)"
@@ -86,6 +95,29 @@
                 "title": "Drawing Gallery of Emin Bugra Saral",
                 "description": "The gallery section where I share my randomly scattered drawings, paintings and doodles.",
                 "keywords": "emin bugra saral, gallery, doodling, drawing, sketches, pencil drawing"
+            }
+        },
+        "Asses": {
+            "title": "Asses of Glyptothek",
+            "subtitle": "To reflect a different perspective on a museum touring, I created a short document to display the details and collect opinions.",
+            "Metadata": {
+                "title": "Asses of Glyptothek",
+                "description": "Asses of Glyptothek museum tour and a short creative document.",
+                "keywords": "asses,munich,Glyptothek,statues,sculptures"
+            },
+            "info": {
+                "purpose": {
+                    "title": "purpose",
+                    "text": "Word plays & art critic.\nCombining details in different environments.\nFunny thinking.\nSimplicity within a certain complexity."
+                },
+                "description": {
+                    "title": "description",
+                    "text": "I realized that people only remember the faces of the statues. They usually take the photos of the front side, or just the face. They always forget about the back side, or the butt. This bothers me a bit. Imagine that you are spending hours on perfecting the curves of an ass and nobody remembers how it looks like. Such a disappointment from an artist's side.\n\nWhile I was having a regular museum tour that I found via Meetup.com, I decided to collect stories under different photos of the statues and museum visitors. Different combinations of lightnings, statue positions, statue situations, visitors' locations and carefully chosen word combinations created an interesting collection. It became more interesting when I discussed my funnywise comments on the sculptures with other visitors."
+                },
+                "result": {
+                    "title": "result",
+                    "text": "I wish to continue this project by guiding different museum / art tours with my creative story-telling approach. I believe museum / gallery tours could be more fun and interesting, especially for people who enjoy experiencing different perspectives.\n\n Being mostly spontaneous with commentaries could create unique gallery visits, like a live theatre with existing art collections. Exploring hidden or visible details can make anyone to broaden their perspectives; enjoy their lives and visits deeper."
+                }
             }
         },
         "HazzetiEmin": {

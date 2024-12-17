@@ -1,5 +1,5 @@
-import { SectionItemType } from "@/components/SectionItem";
-import { SectionWithItemsType } from "@/components/SectionWithItems";
+import { SectionItemType } from "@/components/layout/SectionItem";
+import { SectionWithItemsType } from "@/components/layout/SectionWithItems";
 
 const LinksItems: SectionItemType[] = [
     {

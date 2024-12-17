@@ -1,10 +1,14 @@
 {
     "General": {
+        "publish_date": "Yayınlanma tarihi",
         "last_update": "Son güncelleme",
         "last_revelation": "Son vahiy",
         "github_source": "GitHub kaynağı",
         "soon": "yakında",
-        "home": "Ana Sayfa"
+        "home": "Ana Sayfa",
+        "view_google_form": "Google Form Dökümanına Göz At",
+        "only_in_turkish": "Sadece Türkçe",
+        "only_in_english": "Sadece İngilizce"
     },
     "Pages": {
         "Home": {
@@ -50,6 +54,11 @@
                     "text": "Karalamalar, çizimler\nve resimler.",
                     "link": "/tr/gallery"
                 },
+                "Asses": {
+                    "title": "Asses of Glyptothek",
+                    "text": "Müze gezisine dair\nbir bakış açısı.",
+                    "link": "/tr/asses"
+                },
                 "TouchSensei": {
                     "title": "Touch Sensei",
                     "text": "Basit bir mobil oyun.\nŞimdi deneyin. (Sadece iOS)"
@@ -86,6 +95,29 @@
                 "title": "Emin Buğra Saral: Çizim Galerisi",
                 "description": "Rastgele savrulan çizimlerimi, resimlerimi ve karalamalarımı paylaştığım galeri bölümü.",
                 "keywords": "emin buğra saral, galeri, çizim, karalama, karakalem"
+            }
+        },
+        "Asses": {
+            "title": "Asses of Glyptothek",
+            "subtitle": "Müze gezisine eğlenceli bir bakış açısı getirmek amacıyla, detayları yansıtan ve görüşleri toplayan kısa bir doküman hazırladım.",
+            "Metadata": {
+                "title": "Asses of Glyptothek",
+                "description": "Glyptothek müzesi turu ve kısa bir yaratıcı doküman.",
+                "keywords": "götler,münih,Glyptothek,heykel"
+            },
+            "info": {
+                "purpose": {
+                    "title": "amaç",
+                    "text": "Kelime oyunları ve sanat eleştirisi.\nFarklı ortamlardaki detayları birleştirme.\nKomik düşünme.\nBelirli bir karmaşıklık içinde sadelik."
+                },
+                "description": {
+                    "title": "tanım",
+                    "text": "İnsanların heykellerin sadece yüzlerini hatırladığını fark ettim. Genellikle ön tarafın veya sadece yüzün fotoğraflarını çekiyorlar. Arka tarafı veya popo kısmını her zaman unutuyorlar. Bu beni biraz rahatsız ediyor. Bir kıçın kıvrımlarını mükemmelleştirmek için saatler harcadığınızı ve kimsenin nasıl göründüğünü hatırlamadığını düşünün. Bir sanatçı açısından ne büyük bir hayal kırıklığı.\n\nMeetup.com üzerinden bulduğum düzenli bir müze turu yaparken, heykellerin ve müze ziyaretçilerinin farklı fotoğraflarının altında hikayeler toplamaya karar verdim. Farklı ışıklandırma kombinasyonları, heykel pozisyonları, heykel durumları, ziyaretçilerin konumları ve dikkatlice seçilmiş kelime kombinasyonları ilginç bir koleksiyon oluşturdu. Heykeller hakkındaki komik yorumlarımı diğer ziyaretçilerle tartıştığımda daha da ilginç hale geldi."
+                },
+                "result": {
+                    "title": "sonuç",
+                    "text": "Yaratıcı hikaye anlatma yaklaşımımla farklı müze/sanat turlarına rehberlik ederek bu projeyi sürdürmek istiyorum. Müze/galeri turlarının daha eğlenceli ve ilgi çekici olabileceğine inanıyorum, özellikle farklı bakış açılarını deneyimlemekten hoşlanan kişiler için.\n\n Çoğunlukla yorumlarla spontane olmak, mevcut sanat koleksiyonlarına sahip canlı bir tiyatro gibi benzersiz galeri ziyaretleri yaratabilir. Gizli veya görünür ayrıntıları keşfetmek, herkesin bakış açılarını genişletebilir; hayatlarından ve ziyaretlerinden daha derin bir şekilde keyif almasını sağlayabilir."
+                }
             }
         },
         "HazzetiEmin": {

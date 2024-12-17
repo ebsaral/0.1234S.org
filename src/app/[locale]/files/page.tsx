@@ -1,5 +1,5 @@
-import HomePageLink from "@/components/HomePageLink";
-import LanguageSelection from "@/components/LanguageSelection";
+import HomePageLink from "@/components/links/HomePageLink";
+import LanguageSelection from "@/components/layout/LanguageSelection";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";

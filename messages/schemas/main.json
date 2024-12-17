@@ -6,6 +6,9 @@
 	  "General": {
 		"type": "object",
 		"properties": {
+		  "publish_date": {
+			"type": "string"
+		  },
 		  "last_update": {
 			"type": "string"
 		  },
@@ -20,14 +23,27 @@
 		  },
 		  "home": {
 			"type": "string"
+		  },
+		  "view_google_form": {
+			"type": "string"
+		  },
+		  "only_in_turkish": {
+			"type": "string"
+		  },
+		  "only_in_english": {
+			"type": "string"
 		  }
 		},
 		"required": [
-		  "last_update",
+		  "publish_date",
+          "last_update",
 		  "last_revelation",
 		  "github_source",
 		  "soon",
-		  "home"
+		  "home",
+		  "view_google_form",
+		  "only_in_turkish",
+		  "only_in_english"
 		],
 		"additionalProperties": false
 	  },
@@ -58,6 +74,7 @@
 					"type": "string"
 				  },
 				  "Gallery": {"$ref": "/TitleAndTextWithLink"},
+				  "Asses": {"$ref": "/TitleAndTextWithLink"},
 				  "TouchSensei": {"$ref": "/TitleAndText"},
 				  "HazzetiEmin": {"$ref": "/TitleAndTextWithLink"},
 				  "CB": {"$ref": "/TitleAndText"},
@@ -66,6 +83,7 @@
 				"required": [
 				  "title",
 				  "Gallery",
+				  "Asses",
 				  "TouchSensei",
 				  "HazzetiEmin",
 				  "CB",
@@ -116,6 +134,26 @@
 			  "doodles",
 			  "drawings",
 			  "Metadata"
+			],
+			"additionalProperties": false
+		  },
+		  "Asses": {
+			"type": "object",
+			"properties": {
+			  "title": {
+				"type": "string"
+			  },
+			  "subtitle": {
+				"type": "string"
+			  },
+			  "Metadata": {"$ref": "/Metadata"},
+			  "info": {"$ref": "/PageInfo"}
+			},
+			"required": [
+			  "title",
+			  "subtitle",
+			  "Metadata",
+			  "info"
 			],
 			"additionalProperties": false
 		  },
@@ -199,6 +237,7 @@
 		"required": [
 		  "Home",
 		  "Gallery",
+		  "Asses",
 		  "HazzetiEmin",
 		  "Files",
 		  "NotFound"

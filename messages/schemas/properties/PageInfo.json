@@ -1,0 +1,12 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+    "id": "/PageInfo",
+  	"type": "object",
+  	"properties": {
+		"purpose": {"$ref": "/TitleAndText"},
+		"description": {"$ref": "/TitleAndText"},
+		"result": {"$ref": "/TitleAndText"}
+  	},
+	"required": ["purpose", "description", "result"],
+    "additionalProperties": false
+}

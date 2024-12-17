@@ -1,11 +1,12 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import SectionWithItems, { SectionWithItemsType } from "./SectionWithItems";
-import LastUpdate from "@/components/LastUpdate";
-import LanguageSelection from "@/components/LanguageSelection";
+import LastUpdate from "@/components/dates/LastUpdate";
+import LanguageSelection from "@/components/layout/LanguageSelection";
 import { ProjectsSection } from "@/utils/sections/Projects";
 import { SoonSection } from "@/utils/sections/Soon";
 import { LinksSection } from "@/utils/sections/Links";
+import GitHubLink from "@/components/links/GitHubLink";
 
 
 const Sections: SectionWithItemsType[] = [
@@ -16,7 +17,7 @@ const Sections: SectionWithItemsType[] = [
 
 export default function Layout() {
     const t = useTranslations();
-    const lastUpdateDate = new Date("2024-12-12T07:21");
+    const lastUpdateDate = new Date("2024-12-17T14:14");
 
     const infoSectionKeys = [
       "education",
@@ -111,26 +112,7 @@ export default function Layout() {
         />
         </div>
 
-        <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100 hover:underline hover:underline-offset-2"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/ebsaral/saral.me"
-          >
-            <svg
-              width="12"
-              height="12"
-              viewBox="0 0 12 12"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
-                fill="currentColor"
-              />
-            </svg>
-            <p className="ml-2 h-7">{t("General.github_source")}</p>
-          </a>
+        <GitHubLink />
       </main>
     </div>
     );

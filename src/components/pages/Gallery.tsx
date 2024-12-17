@@ -25,8 +25,8 @@ import doodles from "@/utils/gallery/doodles"
 import drawings from "@/utils/gallery/drawings"
 import { useTranslations } from "next-intl";
 import Image from "next/image"
-import LastUpdate from "@/components/LastUpdate";
-import HomePageLink from "./HomePageLink";
+import LastUpdate from "@/components/dates/LastUpdate";
+import HomePageLink from "@/components/links/HomePageLink";
 
 
 export default function Gallery() {

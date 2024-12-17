@@ -1,5 +1,5 @@
-import { SectionItemType } from "@/components/SectionItem";
-import { SectionWithItemsType } from "@/components/SectionWithItems";
+import { SectionItemType } from "@/components/layout/SectionItem";
+import { SectionWithItemsType } from "@/components/layout/SectionWithItems";
 
 const ProjectsItems : SectionItemType[] = [
     {
@@ -12,6 +12,18 @@ const ProjectsItems : SectionItemType[] = [
         translationPaths: {
             title: "Pages.Home.Projects.Gallery.title",
             text: "Pages.Home.Projects.Gallery.text"
+        }
+    },
+    {
+        link: "Pages.Home.Projects.Asses.link",
+        image: {
+            src: "/images/asses-logo-small.png",
+            alt: "Asses small logo",
+            width: 120
+        },
+        translationPaths: {
+            title: "Pages.Home.Projects.Asses.title",
+            text: "Pages.Home.Projects.Asses.text"
         }
     },
     {

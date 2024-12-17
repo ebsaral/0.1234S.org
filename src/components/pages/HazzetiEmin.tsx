@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image"
-import LastUpdate from "@/components/LastUpdate";
-import HomePageLink from "./HomePageLink";
+import LastUpdate from "@/components/dates/LastUpdate";
+import HomePageLink from "../links/HomePageLink";
 
 
 export default function HazzetiEmin() {

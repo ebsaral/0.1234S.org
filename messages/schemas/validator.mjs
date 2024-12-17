@@ -7,7 +7,7 @@ loadEnvConfig(process.cwd())
 
 const v = new Validator();
 
-const propertyFileNames = ["TitleAndText", "TitleAndTextWithLink", "Metadata"]
+const propertyFileNames = ["TitleAndText", "TitleAndTextWithLink", "Metadata", "PageInfo"]
 const schemaName = "main"
 
 for (let fileName of propertyFileNames) {
