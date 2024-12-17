@@ -51,8 +51,8 @@ export default function Asses() {
     return (
         <InnerLayout params={params}>
           <>
-          <GoogleFormLink language="en" />
           <Info params={infoParams} />
+          <GoogleFormLink language="en" />
           <GalleryLayout albums={[{title:`${t("gallery_title")}`, photos: asses}]}/>
           <Soundcloud src={soundcloud.src} info={soundcloud.info} />
           </>
