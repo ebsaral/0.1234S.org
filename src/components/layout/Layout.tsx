@@ -104,10 +104,6 @@ export default function Layout() {
         <div className="flex flex-col gap-6 row-start-2 items-justify pl-5 pr-5">
           {Sections.map((section, i) => <SectionWithItems key={`sectionWithItems_${i}`} translationPaths={section.translationPaths} items={section.items} minCol={section.minCol} maxCol={section.maxCol} />)}      
         </div>
-        <div className="flex gap-6 pl-5 pr-5 text-xs text-center justify-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl">
-          {t("Pages.Home.LegalWarning.title")}<br></br>
-          {t("Pages.Home.LegalWarning.text")}
-        </div>
         <div className="row-start-3 flex gap-6 pl-5 pr-5 flex-wrap items-center justify-center text-xs text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
           {t("Pages.Home.Apology.text")}
         </div>
