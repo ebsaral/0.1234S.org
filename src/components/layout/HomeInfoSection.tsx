@@ -7,7 +7,7 @@ import { InfoItem } from "./Info";
 export default function HomeInfoSection() {
     const t = useTranslations();
     const [collapsed, setCollapsed] = useState(true);
-    const title = collapsed ? `- ${t("Pages.Home.subtitle")} -` : `+ ${t("Pages.Home.subtitle")} +`
+    const title = collapsed ? `🫣 ${t("Pages.Home.subtitle")} 🫣` : `🤩 ${t("Pages.Home.subtitle")} 🤩`
     const infoSectionKeys = [
         "education",
         "work_experience",
