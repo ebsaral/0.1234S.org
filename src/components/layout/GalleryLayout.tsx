@@ -34,7 +34,7 @@ export default function GalleryLayout ({albums}: {albums: AlbumInterface[]}) {
         {albums.map((album, i) => {
             let count = 0;
             if(i>0) {
-                count = albums.slice(0, i).reduce((prev, _, currI, arr) => {return prev + arr[currI].photos.length}, albums[0].photos.length)
+                count = albums.slice(0, i-1).reduce((prev, _, currI, arr) => {return prev + arr[currI].photos.length}, albums[0].photos.length)
             }
             return (
                 <div key={`${i}-album-wrapper`} className="flex flex-col">
@@ -49,7 +49,6 @@ export default function GalleryLayout ({albums}: {albums: AlbumInterface[]}) {
             open={index >= 0}
             index={index}
             close={() => setIndex(-1)}
-            // enable optional lightbox plugins
             plugins={[Fullscreen, Slideshow, Thumbnails, Zoom, Captions]}
         />
     </div>
