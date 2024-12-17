@@ -146,12 +146,16 @@
 			  "subtitle": {
 				"type": "string"
 			  },
+			  "gallery_title": {
+				"type": "string"
+			  },
 			  "Metadata": {"$ref": "/Metadata"},
 			  "info": {"$ref": "/PageInfo"}
 			},
 			"required": [
 			  "title",
 			  "subtitle",
+			  "gallery_title",
 			  "Metadata",
 			  "info"
 			],
