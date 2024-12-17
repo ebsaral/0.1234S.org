@@ -166,12 +166,14 @@
 			  "subtitle": {
 				"type": "string"
 			  },
-			  "Metadata": {"$ref": "/Metadata"}
+			  "Metadata": {"$ref": "/Metadata"},
+			  "info": {"$ref": "/PageInfo"}
 			},
 			"required": [
 			  "title",
 			  "subtitle",
-			  "Metadata"
+			  "Metadata",
+			  "info"
 			],
 			"additionalProperties": false
 		  },

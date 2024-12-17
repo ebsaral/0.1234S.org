@@ -1,4 +1,4 @@
-import HazzetiEmin from "@/components/pages/HazzetiEmin";
+import HazzetiEmin from "@/components/layout/pages/HazzetiEmin";
 import LanguageSelection from "@/components/layout/LanguageSelection";
 import { getTranslations } from "next-intl/server";
 

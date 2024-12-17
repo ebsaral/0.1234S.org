@@ -1,4 +1,4 @@
-import Gallery from "@/components/pages/Gallery"
+import Gallery from "@/components/layout/pages/Gallery"
 import LanguageSelection from "@/components/layout/LanguageSelection";
 import { getTranslations } from "next-intl/server";
 

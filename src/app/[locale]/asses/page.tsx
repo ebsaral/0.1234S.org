@@ -1,4 +1,4 @@
-import Asses from "@/components/pages/Asses";
+import Asses from "@/components/layout/pages/Asses";
 import LanguageSelection from "@/components/layout/LanguageSelection";
 import { getTranslations } from "next-intl/server";
 

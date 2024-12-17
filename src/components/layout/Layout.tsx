@@ -7,6 +7,7 @@ import { ProjectsSection } from "@/utils/sections/Projects";
 import { SoonSection } from "@/utils/sections/Soon";
 import { LinksSection } from "@/utils/sections/Links";
 import GitHubLink from "@/components/links/GitHubLink";
+import { InfoItem } from "./Info";
 
 
 const Sections: SectionWithItemsType[] = [
@@ -80,12 +81,7 @@ export default function Layout() {
         <div className="row-start-3 flex-row space-y-2 gap-6 text-sm text-justify pl-5 pr-5 font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl">
           <div className="flex flex-col gap-6">
             {infoSectionKeys.map((infoKey, i)=>(
-              (
-                <div key={i} className="flex flex-col gap-6 sm:flex-row [&:not(:first-child)]:mt-10 sm:[&:not(:first-child)]:mt-2">
-                  <div className="sm:basis-1/3 font-bold text-2xl sm:text-right text-left">{t(`Pages.Home.${infoKey}.title`)}</div>
-                  <div className="sm:basis-2/3 col-span-2">{t(`Pages.Home.${infoKey}.text`)}</div>  
-                </div>
-              )
+              <InfoItem key={i} wide={false} title={t(`Pages.Home.${infoKey}.title`)} text={t(`Pages.Home.${infoKey}.text`)} />
             ))}
           </div>
         </div>

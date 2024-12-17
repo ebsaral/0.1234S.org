@@ -14,7 +14,7 @@ export default function PageInnerLayout({children, params}: {
     params: {image: ImageInterface, isSoon?: boolean, title: string, subtitle: string, publishDate?: string, lastUpdateDate?: string};
   }) {
     const t = useTranslations("General")
-    return (<main className="flex flex-col gap-8 row-start-2 items-center">
+    return (<main className="flex flex-col gap-8 items-center">
         <Image
             className="rounded-3xl"
             src={params.image.src}
@@ -25,7 +25,7 @@ export default function PageInnerLayout({children, params}: {
         />
         <HomePageLink />
         {params.isSoon && <h1 className="text-2xl mt-2 font-bold text-cyan-400">{t("soon")}</h1>}
-        <div className="row-start-3 flex gap-6 text-4xl text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
+        <div className="flex gap-6 text-4xl text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
             {params.title}
         </div>
         <div className="flex flex-row text-center text-lg ml-6 mr-6">

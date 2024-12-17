@@ -1,22 +1,40 @@
 import { useTranslations } from "next-intl";
-import InnerLayout from "./InnerLayout";
+import InnerLayout from "../InnerLayout";
+import Info from "../Info";
 
 
 export default function HazzetiEmin() {
-    const t = useTranslations();
+    const t = useTranslations("Pages.HazzetiEmin");
     const params = {
       image: {
         src: "/images/hazzeti-emin-logo.jpeg",
-        alt:"Hazzeti Emin (HAV)"},
-        isSoon: true,
-        title:t("Pages.HazzetiEmin.title"),
-        subtitle: t("Pages.HazzetiEmin.subtitle"),
-        lastUpdateDate: "2024-12-12T07:21"
+        alt:"Hazzeti Emin (HAV)"
+      },
+      isSoon: true,
+      title:t("title"),
+      subtitle: t("subtitle"),
+      lastUpdateDate: "2024-12-12T07:21"
+    }
+
+    const infoParams = {
+      purpose: {
+        title: t("info.purpose.title"),
+        text: t("info.purpose.text"),
+      },
+      description: {
+        title: t("info.description.title"),
+        text: t("info.description.text"),
+      },
+      result: {
+        title: t("info.result.title"),
+        text: t("info.result.text"),
       }
+    }
 
     return (
     <InnerLayout params={params}>
       <div className="row-start-4 flex flex-wrap items-center justify-center w-screen">
+        <Info params={infoParams} />
         <iframe
           width="100%"
           height={166}

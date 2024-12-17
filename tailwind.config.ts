@@ -26,6 +26,10 @@ const config: Config = {
     'sm:grid-cols-3',
     'sm:grid-cols-4',
     'sm:grid-cols-5',
+    'sm:basis-1/3',
+    'sm:basis-2/3',
+    'sm:basis-1/5',
+    'sm:basis-4/5'
   ]
 };
 export default config;
