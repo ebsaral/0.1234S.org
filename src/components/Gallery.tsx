@@ -31,7 +31,7 @@ import HomePageLink from "./HomePageLink";
 
 export default function Gallery() {
     const [index, setIndex] = useState(-1);
-    const t = useTranslations();
+    const t = useTranslations("Pages.Gallery");
     const lastUpdateDate = new Date("2024-12-14T13:29");
     
     const photos = [...doodles, ...drawings];
@@ -47,13 +47,13 @@ export default function Gallery() {
         priority
       />
       <HomePageLink />  
-      <h1 className="flex items-center text-2xl mt-2 font-bold">{t("Metadata.Gallery.title")}</h1>
-      <p className="flex flex-row text-center text-lg">{t("Metadata.Gallery.description")}</p>
+      <h1 className="flex items-center text-2xl mt-2 font-bold">{t("title")}</h1>
+      <p className="flex flex-row text-center text-lg">{t("subtitle")}</p>
     </div>
     <div className="flex flex-col justify-center mt-5 sm:ml-10 sm:mr-10 ml-5 mr-5">
-        <h1 className="text-center text-2xl mt-2 mb-6 font-bold">{t("Gallery.doodles")}</h1>
+        <h1 className="text-center text-2xl mt-2 mb-6 font-bold">{t("doodles")}</h1>
         <RowsPhotoAlbum key="album1" photos={doodles} targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
-        <h1 className="text-center text-2xl mt-10 mb-6 font-bold">{t("Gallery.drawings")}</h1>
+        <h1 className="text-center text-2xl mt-10 mb-6 font-bold">{t("drawings")}</h1>
         <RowsPhotoAlbum key="album2" photos={drawings} targetRowHeight={150} onClick={({ index }) => setIndex(doodles.length + index)} />
         <Lightbox
             slides={photos}

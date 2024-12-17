@@ -5,7 +5,7 @@ import {getTranslations} from 'next-intl/server';
 export async function generateMetadata({params: {locale}}: {
   params: {locale: string};
 }) {
-  const t = await getTranslations({locale, namespace: 'Metadata'});
+  const t = await getTranslations({locale, namespace: 'Pages.Home.Metadata'});
  
   return {
     title: t('title'),

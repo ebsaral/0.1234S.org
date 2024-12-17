@@ -4,7 +4,7 @@ import Image from "next/image";
 export type SectionItemType = {
     translationPaths: {
         title: string,
-        text: string
+        text?: string
     },
     link: string,
     image: {
@@ -36,7 +36,7 @@ export default async function SectionItem({item} : {item: SectionItemType}) {
               />
               <div className="flex flex-col gap-2 items-center justify-center">
                 <div className="flex text-center font-bold mb-1">{t(item.translationPaths.title)}</div>
-                {t(item.translationPaths.text) ??<div className="flex text-center hover:no-underline">{t(item.translationPaths.text)}</div>}
+                {item.translationPaths.text && (t(item.translationPaths.text) ??<div className="flex text-center hover:no-underline">{t(item.translationPaths.text)}</div>)}
               </div>
             
             </div>

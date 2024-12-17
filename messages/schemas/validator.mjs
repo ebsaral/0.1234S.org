@@ -7,59 +7,44 @@ loadEnvConfig(process.cwd())
 
 const v = new Validator();
 
+const propertyFileNames = ["TitleAndText", "TitleAndTextWithLink", "Metadata"]
+const schemaName = "main"
 
-const TitleAndTextProperty = JSON.parse(
-	await readFile(
-		new URL('./properties/TitleAndText.json', import.meta.url)
-	)
-);
-
-const TitleAndTextWithLinkProperty = JSON.parse(
-	await readFile(
-		new URL('./properties/TitleAndTextWithLink.json', import.meta.url)
-	)
-);
-
-v.addSchema(TitleAndTextProperty);
-v.addSchema(TitleAndTextWithLinkProperty);
+for (let fileName of propertyFileNames) {
+	const property = JSON.parse(
+		await readFile(
+			new URL(`./properties/${fileName}.json`, import.meta.url)
+		)
+	);
+	v.addSchema(property);
+}
 
 const schema = JSON.parse(
 	await readFile(
-		new URL('./main.json', import.meta.url)
+		new URL(`./${schemaName}.json`, import.meta.url)
 	)
 );
 
-
 const runAsync = async () => {
-	
-	const trJson = JSON.parse(
-		await readFile(
-			new URL('../tr.json', import.meta.url)
-		)
-	);
-	const enJson = JSON.parse(
-		await readFile(
-			new URL('../en.json', import.meta.url)
-		)
-	);
-	console.info(`Validating translation: tr.json`)
-	const trResult = v.validate(trJson, schema, {nestedErrors: true})
-	
-	console.info(`Validating translation: en.json`)
-	const enResult = v.validate(enJson, schema, {nestedErrors: true})
-
 	let hasError = false
 
-	if(!trResult.valid) {
-		console.log("Errors found in tr schema:")
-		console.error(trResult.toString())
-		hasError = true
-	}
-
-	if(!enResult.valid) {
-		console.log("Error(s) found in en schema:")
-		console.error(enResult.toString())
-		hasError = true
+	for(let locale of ["tr", "en"]) {
+		const json = JSON.parse(
+			await readFile(
+				new URL(`../${locale}.json`, import.meta.url)
+			)
+		);
+		console.info(`Validating schema: ${locale}.json`)
+		const result = v.validate(json, schema, {nestedErrors: true})
+		
+		if(result.valid) {
+			console.info(`Successfully validated schema: ${locale}.json`)
+		}
+		else {
+			console.log(`Errors found in ${locale} schema:`)
+			console.error(result.toString())
+			hasError = true
+		}
 	}
 
 	if(hasError) {

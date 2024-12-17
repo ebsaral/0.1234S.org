@@ -2,9 +2,9 @@ import type { MetadataRoute } from 'next'
  
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Emin Bugra Saral',
-    short_name: 'Personal website of Emin Bugra Saral',
-    description: 'Personal website of Emin Bugra Saral',
+    name: 'Portfolio of Emin Bugra Saral',
+    short_name: 'Emin Bugra Saral',
+    description: 'Portfolio of Emin Bugra Saral with details.',
     start_url: '/',
     display: 'standalone',
     background_color: '#0a0a0a',

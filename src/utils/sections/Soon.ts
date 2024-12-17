@@ -3,15 +3,15 @@ import { SectionWithItemsType } from "@/components/SectionWithItems";
 
 const SoonItems : SectionItemType[] = [
     {
-        link: "Projects.HazzetiEmin.link",
+        link: "Pages.Home.Projects.HazzetiEmin.link",
         image: {
             src: "/images/hazzeti-emin-logo.jpeg",
             alt: "Hazzeti Emin (H.A.V.)",
             width: 120
         },
         translationPaths: {
-            title: "Projects.HazzetiEmin.title",
-            text: "Projects.HazzetiEmin.text",
+            title: "Pages.Home.Projects.HazzetiEmin.title",
+            text: "Pages.Home.Projects.HazzetiEmin.text",
         }
     },
     {
@@ -22,8 +22,8 @@ const SoonItems : SectionItemType[] = [
             width: 120
         },
         translationPaths: {
-            title: "Projects.EBSLifeSolutions.title",
-            text: "Projects.EBSLifeSolutions.text"
+            title: "Pages.Home.Projects.EBSLifeSolutions.title",
+            text: "Pages.Home.Projects.EBSLifeSolutions.text"
         }
     },
     {
@@ -34,8 +34,8 @@ const SoonItems : SectionItemType[] = [
             width: 120
         },
         translationPaths: {
-            title: "Projects.CB.title",
-            text: "Projects.CB.text"
+            title: "Pages.Home.Projects.CB.title",
+            text: "Pages.Home.Projects.CB.text"
         }
     },
     
@@ -43,7 +43,7 @@ const SoonItems : SectionItemType[] = [
 
 export const SoonSection: SectionWithItemsType = {
     translationPaths: {
-        title: "Soon.title"
+        title: "General.soon"
     },
     items: SoonItems,
     minCol: 1,

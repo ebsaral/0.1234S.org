@@ -3,15 +3,15 @@ import { SectionWithItemsType } from "@/components/SectionWithItems";
 
 const ProjectsItems : SectionItemType[] = [
     {
-        link: "Projects.Gallery.link",
+        link: "Pages.Home.Projects.Gallery.link",
         image: {
             src: "/images/gallery-logo.png",
             alt: "Gallery logo",
             width: 120
         },
         translationPaths: {
-            title: "Projects.Gallery.title",
-            text: "Projects.Gallery.text"
+            title: "Pages.Home.Projects.Gallery.title",
+            text: "Pages.Home.Projects.Gallery.text"
         }
     },
     {
@@ -22,8 +22,8 @@ const ProjectsItems : SectionItemType[] = [
             width: 120
         },
         translationPaths: {
-            title: "Projects.TouchSensei.title",
-            text: "Projects.TouchSensei.text"
+            title: "Pages.Home.Projects.TouchSensei.title",
+            text: "Pages.Home.Projects.TouchSensei.text"
         }
     }
     
@@ -31,7 +31,7 @@ const ProjectsItems : SectionItemType[] = [
 
 export const ProjectsSection: SectionWithItemsType = {
     translationPaths: {
-        title: "Projects.title"
+        title: "Pages.Home.Projects.title"
     },
     items: ProjectsItems,
     minCol: 1,

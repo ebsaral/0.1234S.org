@@ -1,4 +1,5 @@
 {
+	"$schema": "http://json-schema.org/draft-07/schema#",
 	"id": "/TitleAndTextWithLink",
   	"type": "object",
   	"properties": {
@@ -6,5 +7,6 @@
 		"text": {"type": "string"},
 		"link": {"type": "string"}
   	},
-	"required": ["title", "text", "link"]
+	"required": ["title", "text", "link"],
+	"additionalProperties": false
 }

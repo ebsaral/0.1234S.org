@@ -3,7 +3,7 @@
 import {useTranslations} from 'next-intl';
  
 export default function Error() {
-  const t = useTranslations('NotFoundPage');
+  const t = useTranslations('Pages.NotFound');
  
   return (
     <div>

@@ -1,43 +1,97 @@
 {
-	"$schema": "http://json-schema.org/draft-04/schema#",
-	"id": "/main",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "JSON schema for Saral.me",
 	"type": "object",
 	"properties": {
-	  "Text": {
+	  "General": {
 		"type": "object",
 		"properties": {
-		  "LastUpdate": {
+		  "last_update": {
 			"type": "string"
 		  },
-		  "LastRevelation": {
+		  "last_revelation": {
 			"type": "string"
 		  },
-		  "GithubSource": {
+		  "github_source": {
+			"type": "string"
+		  },
+		  "soon": {
+			"type": "string"
+		  },
+		  "home": {
 			"type": "string"
 		  }
 		},
-		"required": ["LastUpdate", "LastRevelation", "GithubSource"]
+		"required": [
+		  "last_update",
+		  "last_revelation",
+		  "github_source",
+		  "soon",
+		  "home"
+		],
+		"additionalProperties": false
 	  },
-	  "NotFoundPage": {
+	  "Pages": {
 		"type": "object",
 		"properties": {
-		  "title": {
-			"type": "string"
-		  }
-		},
-		"required": ["title"]
-	  },
-	  "Metadata": {
-		"type": "object",
-		"properties": {
-		  "title": {
-			"type": "string"
-		  },
-		  "description": {
-			"type": "string"
-		  },
-		  "name": {
-			"type": "string"
+		  "Home": {
+			"type": "object",
+			"properties": {
+			  "Metadata": {"$ref": "/Metadata"},
+			  "title": {
+				"type": "string"
+			  },
+			  "subtitle": {
+				"type": "string"
+			  },
+			  "education": {"$ref": "/TitleAndText"},
+			  "work_experience": {"$ref": "/TitleAndText"},
+			  "consultancy_solutions": {"$ref": "/TitleAndText"},
+			  "personality_traits": {"$ref": "/TitleAndText"},
+			  "interests": {"$ref": "/TitleAndText"},
+			  "social_causes": {"$ref": "/TitleAndText"},
+			  "places": {"$ref": "/TitleAndText"},
+			  "Projects": {
+				"type": "object",
+				"properties": {
+				  "title": {
+					"type": "string"
+				  },
+				  "Gallery": {"$ref": "/TitleAndTextWithLink"},
+				  "TouchSensei": {"$ref": "/TitleAndText"},
+				  "HazzetiEmin": {"$ref": "/TitleAndTextWithLink"},
+				  "CB": {"$ref": "/TitleAndText"},
+				  "EBSLifeSolutions": {"$ref": "/TitleAndText"}
+				},
+				"required": [
+				  "title",
+				  "Gallery",
+				  "TouchSensei",
+				  "HazzetiEmin",
+				  "CB",
+				  "EBSLifeSolutions"
+				],
+				"additionalProperties": false
+			  },
+			  "LegalWarning": {"$ref": "/TitleAndText"},
+			  "Apology": {"$ref": "/TitleAndText"}
+			},
+			"required": [
+			  "Metadata",
+			  "title",
+			  "subtitle",
+			  "education",
+			  "work_experience",
+			  "consultancy_solutions",
+			  "personality_traits",
+			  "interests",
+			  "social_causes",
+			  "places",
+			  "Projects",
+			  "LegalWarning",
+			  "Apology"
+			],
+			"additionalProperties": false
 		  },
 		  "Gallery": {
 			"type": "object",
@@ -45,22 +99,116 @@
 			  "title": {
 				"type": "string"
 			  },
-			  "description": {
+			  "subtitle": {
 				"type": "string"
 			  },
-			  "keywords": {
+			  "doodles": {
+				"type": "string"
+			  },
+			  "drawings": {
+				"type": "string"
+			  },
+			  "Metadata": {"$ref": "/Metadata"}
+			},
+			"required": [
+			  "title",
+			  "subtitle",
+			  "doodles",
+			  "drawings",
+			  "Metadata"
+			],
+			"additionalProperties": false
+		  },
+		  "HazzetiEmin": {
+			"type": "object",
+			"properties": {
+			  "title": {
+				"type": "string"
+			  },
+			  "subtitle": {
+				"type": "string"
+			  },
+			  "Metadata": {"$ref": "/Metadata"}
+			},
+			"required": [
+			  "title",
+			  "subtitle",
+			  "Metadata"
+			],
+			"additionalProperties": false
+		  },
+		  "Files": {
+			"type": "object",
+			"properties": {
+			  "title": {
+				"type": "string"
+			  },
+			  "file_cv": {
+				"type": "object",
+				"properties": {
+				  "filename": {
+					"type": "string"
+				  },
+				  "type": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "filename",
+				  "type"
+				],
+				"additionalProperties": false
+			  },
+			  "Links": {
+				"type": "object",
+				"properties": {
+				  "download": {
+					"type": "string"
+				  },
+				  "link": {
+					"type": "string"
+				  }
+				},
+				"required": [
+				  "download",
+				  "link"
+				],
+				"additionalProperties": false
+			  }
+			},
+			"required": [
+			  "title",
+			  "file_cv",
+			  "Links"
+			],
+			"additionalProperties": false
+		  },
+		  "NotFound": {
+			"type": "object",
+			"properties": {
+			  "title": {
 				"type": "string"
 			  }
 			},
-			"required": ["title", "description", "keywords"]
+			"required": [
+			  "title"
+			],
+			"additionalProperties": false
 		  }
 		},
-		"required": ["title", "description", "name", "Gallery"]
+		"required": [
+		  "Home",
+		  "Gallery",
+		  "HazzetiEmin",
+		  "Files",
+		  "NotFound"
+		],
+		"additionalProperties": false
 	  },
-	  "Link": {
+	  "Links": {
 		"type": "object",
 		"properties": {
-		  "home": {
+		  "title": {
 			"type": "string"
 		  },
 		  "cvName": {
@@ -71,183 +219,53 @@
 		  },
 		  "contact": {
 			"type": "string"
-		  }
-		},
-		"required": ["home", "cvName", "cvLink", "contact"]
-	  },
-	  "Info": {
-		"type": "object",
-		"properties": {
-		  "title": {
+		  },
+		  "LinkedIn": {
 			"type": "string"
 		  },
-		  "education": {"$ref": "/TitleAndText"},
-		  "work_experience": {"$ref": "/TitleAndText"},
-		  "consultancy_solutions": {"$ref": "/TitleAndText"},
-		  "personality_traits": {"$ref": "/TitleAndText"},
-		  "interests": {"$ref": "/TitleAndText"},
-		  "social_causes": {"$ref": "/TitleAndText"},
-		  "places": {"$ref": "/TitleAndText"}
-		},
-		"required": ["title", "education", "work_experience", "consultancy_solutions", "personality_traits", "interests", "social_causes", "places"]
-	  },
-	  "Projects": {
-		"type": "object",
-		"properties": {
-		  "title": {
+		  "DeviantArt": {
 			"type": "string"
 		  },
-		  "Gallery": {"$ref": "/TitleAndTextWithLink"},
-		  "TouchSensei": {"$ref": "/TitleAndText"},
-		  "HazzetiEmin": {"$ref": "/TitleAndTextWithLink"},
-		  "CB": {"$ref": "/TitleAndText"},
-		  "EBSLifeSolutions": {"$ref": "/TitleAndText"}
-		},
-		"required": ["title", "Gallery", "TouchSensei", "HazzetiEmin", "CB", "EBSLifeSolutions"]
-	  },
-	  "Soon": {
-		"type": "object",
-		"properties": {
-		  "title": {
+		  "Github": {
 			"type": "string"
 		  },
-		  "HazzetiEmin": {
+		  "DevTo": {
+			"type": "string"
+		  },
+		  "Stackoverflow": {
+			"type": "string"
+		  },
+		  "SoundCloud": {
+			"type": "string"
+		  },
+		  "Vimeo": {
+			"type": "string"
+		  },
+		  "FetLife": {
 			"type": "string"
 		  }
-		},
-		"required": ["title", "HazzetiEmin"]
-	  },
-	  "Hobbies": {
-		"type": "object",
-		"properties": {
-		  "title": {
-			"type": "string"
-		  },
-		  "DeviantArt": {"$ref": "/TitleAndText"},
-		  "SoundCloud": {"$ref": "/TitleAndText"},
-		  "Vimeo": {"$ref": "/TitleAndText"}
-		},
-	    "required": ["title", "DeviantArt", "SoundCloud", "Vimeo"]
-	  },
-	  "Career": {
-		"type": "object",
-		"properties": {
-		  "title": {
-			"type": "string"
-		  },
-		  "Github": {"$ref": "/TitleAndText"},
-		  "DevTo": {"$ref": "/TitleAndText"},
-		  "Stackoverflow": {"$ref": "/TitleAndText"}
 		},
 		"required": [
 		  "title",
+		  "cvName",
+		  "cvLink",
+		  "contact",
+		  "LinkedIn",
+		  "DeviantArt",
 		  "Github",
 		  "DevTo",
-		  "Stackoverflow"
-		]
-	  },
-	  "SocialMedia": {
-		"type": "object",
-		"properties": {
-		  "title": {
-			"type": "string"
-		  },
-		  "LinkedIn": {"$ref": "/TitleAndText"},
-		  "FetLife": {"$ref": "/TitleAndText"}
-		},
-		"required": [
-		  "title",
-		  "LinkedIn",
+		  "Stackoverflow",
+		  "SoundCloud",
+		  "Vimeo",
 		  "FetLife"
-		]
-	  },
-	  "Apology": {"$ref": "/TitleAndText"},
-	  "LegalWarning": {"$ref": "/TitleAndText"},
-	  "Gallery": {
-		"type": "object",
-		"properties": {
-		  "doodles": {
-			"type": "string"
-		  },
-		  "drawings": {
-			"type": "string"
-		  }
-		},
-		"required": [
-		  "doodles",
-		  "drawings"
-		]
-	  },
-	  "Links": {
-		"type": "object",
-		"properties": {
-		  "title": {
-			"type": "string"
-		  }
-		},
-		"required": [
-		  "title"
-		]
-	  },
-	  "Files": {
-		"type": "object",
-		"properties": {
-		  "title": {
-			"type": "string"
-		  },
-		  "file_cv": {
-			"type": "object",
-			"properties": {
-			  "filename": {
-				"type": "string"
-			  },
-			  "type": {
-				"type": "string"
-			  }
-			},
-			"required": [
-			  "filename",
-			  "type"
-			]
-		  },
-		  "Links": {
-			"type": "object",
-			"properties": {
-			  "download": {
-				"type": "string"
-			  },
-			  "link": {
-				"type": "string"
-			  }
-			},
-			"required": [
-			  "download",
-			  "link"
-			]
-		  }
-		},
-		"required": [
-		  "title",
-		  "file_cv",
-		  "Links"
-		]
+		],
+		"additionalProperties": false
 	  }
 	},
 	"required": [
-	  "Text",
-	  "NotFoundPage",
-	  "Metadata",
-	  "Link",
-	  "Info",
-	  "Projects",
-	  "Soon",
-	  "Hobbies",
-	  "Career",
-	  "SocialMedia",
-	  "Apology",
-	  "LegalWarning",
-	  "Gallery",
-	  "Links",
-	  "Files"
-	]
-}
+	  "General",
+	  "Pages",
+	  "Links"
+	],
+	"additionalProperties": false
+  }

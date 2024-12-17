@@ -41,12 +41,12 @@ export default function Layout() {
           priority
         />
         <div className="row-start-3 flex gap-6 text-4xl text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
-          {t("Metadata.name")}
+          {t("Pages.Home.title")}
         </div>
         <div className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-            href={t("Link.cvLink")}
+            href={t("Links.cvLink")}
             target="_blank"
           >
             <Image
@@ -56,7 +56,7 @@ export default function Layout() {
               width={16}
               height={16}
             />
-            {t("Link.cvName")}
+            {t("Links.cvName")}
           </a>
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -69,20 +69,20 @@ export default function Layout() {
               width={16}
               height={16}
             />
-            {t("Link.contact")}
+            {t("Links.contact")}
           </a>
         </div>
         <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
         <div className="flex mb-6 text-center text-3xl font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
-          {t("Info.title")}
+          {t("Pages.Home.subtitle")}
         </div>
         <div className="row-start-3 flex-row space-y-2 gap-6 text-sm text-justify pl-5 pr-5 font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl">
           <div className="flex flex-col gap-6">
             {infoSectionKeys.map((infoKey, i)=>(
               (
                 <div key={i} className="flex flex-col gap-6 sm:flex-row [&:not(:first-child)]:mt-10 sm:[&:not(:first-child)]:mt-2">
-                  <div className="sm:basis-1/3 font-bold text-2xl sm:text-right text-left">{t(`Info.${infoKey}.title`)}</div>
-                  <div className="sm:basis-2/3 col-span-2">{t(`Info.${infoKey}.text`)}</div>  
+                  <div className="sm:basis-1/3 font-bold text-2xl sm:text-right text-left">{t(`Pages.Home.${infoKey}.title`)}</div>
+                  <div className="sm:basis-2/3 col-span-2">{t(`Pages.Home.${infoKey}.text`)}</div>  
                 </div>
               )
             ))}
@@ -93,11 +93,11 @@ export default function Layout() {
           {Sections.map((section, i) => <SectionWithItems key={`sectionWithItems_${i}`} translationPaths={section.translationPaths} items={section.items} minCol={section.minCol} maxCol={section.maxCol} />)}      
         </div>
         <div className="flex gap-6 pl-5 pr-5 text-xs text-center justify-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl">
-          {t("LegalWarning.title")}<br></br>
-          {t("LegalWarning.text")}
+          {t("Pages.Home.LegalWarning.title")}<br></br>
+          {t("Pages.Home.LegalWarning.text")}
         </div>
         <div className="row-start-3 flex gap-6 pl-5 pr-5 flex-wrap items-center justify-center text-xs text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
-          {t("Apology.text")}
+          {t("Pages.Home.Apology.text")}
         </div>
         <div className="row-start-4 flex flex-wrap items-center justify-center"><LastUpdate date={lastUpdateDate} /></div>
         <div className="row-start-4 flex flex-wrap items-center justify-center w-screen">
@@ -129,7 +129,7 @@ export default function Layout() {
                 fill="currentColor"
               />
             </svg>
-            <p className="ml-2 h-7">{t("Text.GithubSource")}</p>
+            <p className="ml-2 h-7">{t("General.github_source")}</p>
           </a>
       </main>
     </div>

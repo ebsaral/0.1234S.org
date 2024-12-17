@@ -21,9 +21,9 @@ export default function HazzetiEmin() {
       />
       
       <div className="flex flex-col gap-10 items-center justify-center">
-          <h1 className="text-2xl mt-2 font-bold">{t("Soon.title")}</h1>
-          <p className="text-center text-lg font-bold">{t("Projects.HazzetiEmin.title")}</p>
-          <p>{t("Soon.HazzetiEmin")}</p>
+          <h1 className="text-2xl mt-2 font-bold">{t("General.soon")}</h1>
+          <p className="text-center text-lg font-bold">{t("Pages.HazzetiEmin.title")}</p>
+          <p>{t("Pages.HazzetiEmin.subtitle")}</p>
       </div>
     </div>
     

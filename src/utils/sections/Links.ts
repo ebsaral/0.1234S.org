@@ -10,8 +10,7 @@ const LinksItems: SectionItemType[] = [
             width: 33
         },
         translationPaths: {
-            title: "SocialMedia.LinkedIn.title",
-            text: "SocialMedia.LinkedIn.text"
+            title: "Links.LinkedIn",
         }
     },
    
@@ -23,8 +22,7 @@ const LinksItems: SectionItemType[] = [
             width: 33
         },
         translationPaths: {
-            title: "Hobbies.DeviantArt.title",
-            text: "Hobbies.DeviantArt.text"
+            title: "Links.DeviantArt",
         }
     },
     {
@@ -35,8 +33,7 @@ const LinksItems: SectionItemType[] = [
             width: 33
         },
         translationPaths: {
-            title: "Hobbies.SoundCloud.title",
-            text: "Hobbies.SoundCloud.text"
+            title: "Links.SoundCloud",
         }
     },
     {
@@ -47,8 +44,7 @@ const LinksItems: SectionItemType[] = [
             width: 33
         },
         translationPaths: {
-            title: "Hobbies.Vimeo.title",
-            text: "Hobbies.Vimeo.text"
+            title: "Links.Vimeo",
         }
     },
     {
@@ -59,8 +55,7 @@ const LinksItems: SectionItemType[] = [
             width: 33
         },
         translationPaths: {
-            title: "Career.Github.title",
-            text: "Career.Github.text"
+            title: "Links.Github",
         }
     },
     {
@@ -71,8 +66,7 @@ const LinksItems: SectionItemType[] = [
             width: 33
         },
         translationPaths: {
-            title: "Career.DevTo.title",
-            text: "Career.DevTo.text"
+            title: "Links.DevTo",
         }
     },
     {
@@ -83,8 +77,7 @@ const LinksItems: SectionItemType[] = [
             width: 33
         },
         translationPaths: {
-            title: "Career.Stackoverflow.title",
-            text: "Career.Stackoverflow.text"
+            title: "Links.Stackoverflow",
         }
     },
     {
@@ -95,8 +88,7 @@ const LinksItems: SectionItemType[] = [
             width: 33
         },
         translationPaths: {
-            title: "SocialMedia.FetLife.title",
-            text: "SocialMedia.FetLife.text"
+            title: "Links.FetLife",
         }
     },
 ]

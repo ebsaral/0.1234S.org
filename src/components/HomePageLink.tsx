@@ -18,6 +18,6 @@ export default function HomePageLink() {
         width={16}
         height={16}
         />
-        {t("Link.home")}
+        {t("General.home")}
     </Link>
 }
