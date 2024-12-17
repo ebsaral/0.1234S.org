@@ -16,7 +16,7 @@ export default function Asses() {
       title: t("title"),
       subtitle: t("subtitle"),
       publishDate: "2023-04-17T12:00",
-      lastUpdateDate: "2024-12-17T20:55"
+      lastUpdateDate: "2024-12-17T21:55"
     }
 
     const soundcloud: SoundcloudInterface = {
