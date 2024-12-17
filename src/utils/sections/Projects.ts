@@ -47,5 +47,5 @@ export const ProjectsSection: SectionWithItemsType = {
     },
     items: ProjectsItems,
     minCol: 1,
-    maxCol: 2,
+    maxCol: 3,
 }
