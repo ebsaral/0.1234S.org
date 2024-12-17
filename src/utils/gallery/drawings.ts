@@ -44,14 +44,6 @@ const drawings = [
     description: "01.08.2023 Munich"
   },
   {
-    asset: "/images/gallery/drawings/5-20230801.jpg",
-    width: 2154,
-    height: 2000,
-    alt: "Sessiz",
-    title: "Sessiz",
-    description: "01.08.2023 Munich"
-  },
-  {
     asset: "/images/gallery/drawings/3-20230730.jpg",
     width: 2117,
     height: 2000,
