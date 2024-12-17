@@ -1,7 +1,4 @@
 import { useTranslations } from "next-intl";
-import Image from "next/image"
-import LastUpdate from "@/components/dates/LastUpdate";
-import HomePageLink from "../links/HomePageLink";
 import InnerLayout from "./InnerLayout";
 
 
