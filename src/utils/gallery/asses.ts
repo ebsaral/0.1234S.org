@@ -172,14 +172,14 @@ const asses = [
     title: "Rock Your Booty",
   },
   {
-    asset: "/images/gallery/asses/IMG_0037.jpeg",
+    asset: "/images/gallery/asses/IMG_0040.jpeg",
     width: 500,
     height: 667,
     alt: "The Master of Squats",
     title: "The Master of Squats",
   },
   {
-    asset: "/images/gallery/asses/IMG_0040.jpeg",
+    asset: "/images/gallery/asses/IMG_0037.jpeg",
     width: 500,
     height: 667,
     alt: "Bonus: 'But Face' (Go to the museum to find out why)",
