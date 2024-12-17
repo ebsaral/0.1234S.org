@@ -32,6 +32,9 @@
 		  },
 		  "only_in_english": {
 			"type": "string"
+		  },
+		  "show_more": {
+			"type": "string"
 		  }
 		},
 		"required": [
@@ -43,7 +46,8 @@
 		  "home",
 		  "view_google_form",
 		  "only_in_turkish",
-		  "only_in_english"
+		  "only_in_english",
+		  "show_more"
 		],
 		"additionalProperties": false
 	  },

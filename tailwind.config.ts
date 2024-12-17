@@ -29,7 +29,11 @@ const config: Config = {
     'sm:basis-1/3',
     'sm:basis-2/3',
     'sm:basis-1/5',
-    'sm:basis-4/5'
+    'sm:basis-4/5',
+    'gap-6',
+    'h-52',
+    'sm:h-28',
+    'overflow-hidden'
   ]
 };
 export default config;

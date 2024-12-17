@@ -8,7 +8,8 @@
         "home": "Home Page",
         "view_google_form": "View Google Form Document",
         "only_in_turkish": "Only in Turkish",
-        "only_in_english": "Only in English"
+        "only_in_english": "Only in English",
+        "show_more": "show more"
     },
     "Pages": {
         "Home": {

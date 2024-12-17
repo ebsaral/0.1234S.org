@@ -7,8 +7,8 @@ import { ProjectsSection } from "@/utils/sections/Projects";
 import { SoonSection } from "@/utils/sections/Soon";
 import { LinksSection } from "@/utils/sections/Links";
 import GitHubLink from "@/components/links/GitHubLink";
-import { InfoItem } from "./Info";
 import Soundcloud, { SoundcloudInterface } from "../Soundcloud";
+import HomeInfoSection from "./HomeInfoSection";
 
 
 const Sections: SectionWithItemsType[] = [
@@ -19,17 +19,7 @@ const Sections: SectionWithItemsType[] = [
 
 export default function Layout() {
     const t = useTranslations();
-    const lastUpdateDate = new Date("2024-12-17T21:56");
-
-    const infoSectionKeys = [
-      "education",
-      "work_experience",
-      "consultancy_solutions",
-      "personality_traits",
-      "interests",
-      "social_causes",
-      "places"
-    ]
+    const lastUpdateDate = new Date("2024-12-17T22:57");
 
     const soundcloud: SoundcloudInterface = {
       src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/148439599&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
@@ -90,16 +80,7 @@ export default function Layout() {
           </a>
         </div>
         <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
-        <div className="flex mb-6 text-center text-3xl font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
-          {t("Pages.Home.subtitle")}
-        </div>
-        <div className="row-start-3 flex-row space-y-2 gap-6 text-sm text-justify pl-5 pr-5 font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl">
-          <div className="flex flex-col gap-6">
-            {infoSectionKeys.map((infoKey, i)=>(
-              <InfoItem key={i} wide={false} title={t(`Pages.Home.${infoKey}.title`)} text={t(`Pages.Home.${infoKey}.text`)} />
-            ))}
-          </div>
-        </div>
+        <HomeInfoSection />
         <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
         <div className="flex flex-col gap-6 row-start-2 items-justify pl-5 pr-5">
           {Sections.map((section, i) => <SectionWithItems key={`sectionWithItems_${i}`} translationPaths={section.translationPaths} items={section.items} minCol={section.minCol} maxCol={section.maxCol} />)}      
