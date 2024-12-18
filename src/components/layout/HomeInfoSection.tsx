@@ -35,10 +35,9 @@ export default function HomeInfoSection() {
             </div>
         </div>
         {collapsed && (
-            <div className="flex flex-col text-lg text-center justify-center">
+            <div className="flex flex-col text-lg text-center justify-center cursor-pointer" onClick={() => setCollapsed(!collapsed)}>
                 <div 
-                    className="hover:underline underline-offset-4 cursor-pointer select-none"
-                    onClick={() => setCollapsed(!collapsed)}
+                    className="hover:underline underline-offset-4 select-none"
                 >
                     <SparkleText text={`(${t("General.show_more")})`}/>
                 </div>
