@@ -19,6 +19,7 @@
     "next-intl": "^3.25.3",
     "react": "^18",
     "react-dom": "^18",
+    "react-icons": "^5.4.0",
     "react-photo-album": "^3.0.2",
     "yet-another-react-lightbox": "^3.21.7"
   },

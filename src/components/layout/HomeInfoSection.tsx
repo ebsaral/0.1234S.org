@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { InfoItem } from "./Info";
+import { SparkleText } from "../animations/SparkleText";
 
 export default function HomeInfoSection() {
     const t = useTranslations();
@@ -29,7 +30,15 @@ export default function HomeInfoSection() {
             ))}
             </div>
         </div>
-        {collapsed && <div className="flex flex-col text-lg text-center justify-center"><div className="hover:underline underline-offset-4 cursor-pointer select-none" onClick={() => setCollapsed(!collapsed)}>{`(${t("General.show_more")})`}</div><div className="text-4xl">👅</div></div>}
+        {collapsed && <div className="flex flex-col text-lg text-center justify-center">
+            <div 
+                className="hover:underline underline-offset-4 cursor-pointer select-none"
+                onClick={() => setCollapsed(!collapsed)}
+            >
+                <SparkleText text={`(${t("General.show_more")})`}/>
+            </div>
+            <div className="text-4xl">👅</div>
+            </div>}
         </>
     )
 }

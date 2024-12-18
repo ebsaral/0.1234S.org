@@ -12,6 +12,22 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        starScale: {
+          "from, to": {
+            transform: "rotate(0) scale(0)",
+            opacity: "0",
+          },
+
+          "50%": {
+            transform: "rotate(180deg) scale(1)",
+            opacity: "0.70",
+          },
+        },
+      },
+      animation: {
+        starScale: "starScale 800ms ease infinite",
+      },
     },
   },
   plugins: [],
