@@ -27,7 +27,7 @@ export default function HomeInfoSection() {
                 <div>{emoji}</div>
             </div>
         </div>
-        <div className={`flex-row space-y-2 gap-6 text-sm text-justify pl-5 pr-5 font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl ${collapsed? "overflow-hidden":""}`}>
+        <div className={`flex-row space-y-2 gap-6 text-sm text-left sm:text-justify pl-5 pr-5 font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl ${collapsed? "overflow-hidden":""}`}>
             <div className={`flex flex-col gap-6 ${collapsed? "h-64 sm:h-28":""}`}>
             {infoSectionKeys.map((infoKey, i)=>(
                 <InfoItem key={i} wide={false} title={t(`Pages.Home.${infoKey}.title`)} text={t(`Pages.Home.${infoKey}.text`)} />
