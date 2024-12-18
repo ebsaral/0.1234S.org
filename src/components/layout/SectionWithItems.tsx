@@ -13,8 +13,8 @@ export type SectionWithItemsType = {
 export default function SectionWithItems({translationPaths, items = [], minCol, maxCol}: SectionWithItemsType) {
     const t = useTranslations();
     
-    return <div className="flex flex-col gap-6 items-center justify-center mb-12">
-        <div className="flex mb-6 text-center text-3xl font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
+    return <div className="flex flex-col gap-6 items-stretch justify-around mb-12">
+        <div className="mb-6 text-center text-3xl font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
           {t(translationPaths.title)}
         </div>
         

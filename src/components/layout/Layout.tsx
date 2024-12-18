@@ -10,7 +10,6 @@ import GitHubLink from "@/components/links/GitHubLink";
 import Soundcloud, { SoundcloudInterface } from "../Soundcloud";
 import HomeInfoSection from "./HomeInfoSection";
 
-
 const Sections: SectionWithItemsType[] = [
   ProjectsSection,
   SoonSection,
@@ -82,10 +81,10 @@ export default function Layout() {
         <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
         <HomeInfoSection />
         <hr className="w-full	h-px my-8 bg-gray-400 border-0 dark:bg-gray-700"></hr>
-        <div className="flex flex-col gap-6 row-start-2 items-justify pl-5 pr-5">
+        <div className="flex flex-col items-stretch justify-stretch gap-6 pl-5 pr-5">
           {Sections.map((section, i) => <SectionWithItems key={`sectionWithItems_${i}`} translationPaths={section.translationPaths} items={section.items} minCol={section.minCol} maxCol={section.maxCol} />)}      
         </div>
-        <div className="row-start-3 flex gap-6 pl-5 pr-5 flex-wrap items-center justify-center text-xs text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
+        <div className="flex gap-6 pl-5 pr-5 flex-wrap items-center justify-center text-xs text-center font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
           {t("Pages.Home.Apology.text")}
         </div>
         <Soundcloud src={soundcloud.src} info={soundcloud.info} />

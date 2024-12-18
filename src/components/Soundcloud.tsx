@@ -16,7 +16,6 @@ export interface SoundcloudInterface {
 export default function Soundcloud({className, src, info}: SoundcloudInterface) {
     const style = `flex flex-wrap items-center justify-center mb-5 w-screen pr-5 pl-5 ${className}`
     return  (
-
         <div className={style}>
             <iframe
             width="100%"
@@ -46,8 +45,8 @@ export default function Soundcloud({className, src, info}: SoundcloudInterface) 
                     style={{ color: "#cccccc"}}
                     >
                     {info.artist.title}
-                    </a>{" "}:{" "}
-                    <a
+                </a>{" "}:{" "}
+                <a
                     className="hover:underline"
                     href={info.song.url}
                     title={info.song.title}

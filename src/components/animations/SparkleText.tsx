@@ -28,14 +28,12 @@ export function SparkleText ({text}: {text: string}) {
   }, []);
 
   return (
-    <>
-        <div>
-            <span className="inline-block magic gradient-purple font-bold relative">
-              <span>{text}</span>
-              <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-yellow-200" />
-              <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-yellow-200" />
-            </span>
-        </div>
-    </>
+      <div>
+          <span className="inline-block magic gradient-purple font-bold relative">
+            <span>{text}</span>
+            <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-yellow-200" />
+            <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-yellow-200" />
+          </span>
+      </div>
   );
 };
