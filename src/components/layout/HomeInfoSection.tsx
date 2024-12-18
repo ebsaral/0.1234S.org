@@ -24,7 +24,7 @@ export default function HomeInfoSection() {
             {title}
         </div>
         <div className={`flex-row space-y-2 gap-6 text-sm text-justify pl-5 pr-5 font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl ${collapsed? "overflow-hidden":""}`}>
-            <div className={`flex flex-col sm:gap-6 ${collapsed? "h-52 sm:h-28":"gap-6"}`}>
+            <div className={`flex flex-col gap-6 ${collapsed? "h-64 sm:h-28":""}`}>
             {infoSectionKeys.map((infoKey, i)=>(
                 <InfoItem key={i} wide={false} title={t(`Pages.Home.${infoKey}.title`)} text={t(`Pages.Home.${infoKey}.text`)} />
             ))}
