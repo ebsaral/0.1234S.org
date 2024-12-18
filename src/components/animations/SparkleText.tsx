@@ -30,7 +30,7 @@ export function SparkleText ({text}: {text: string}) {
   return (
     <>
         <div>
-            <span className="inline-block magic bg-clip-text bg-gradient-to-r from-pink-500 via-purple-200 to-pink-500 text-transparent font-bold relative hover:from-purple-500 hover:via-pink-400 hover:to-pink-500">
+            <span className="inline-block magic gradient-purple font-bold relative">
               <span>{text}</span>
               <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-yellow-200" />
               <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-yellow-200" />
