@@ -1,14 +1,13 @@
 import Image from "next/image"
 import { useTranslations } from "next-intl";
-import LastUpdate from "@/components/dates/LastUpdate";
-import PublishDate from "@/components/dates/PublishDate";
-import HomePageLink from "@/components/links/HomePageLink";
-import InfoLinks from "@/components/links/InfoLinks";
-import { InnerLayoutInterface } from "./types";
+
+import { LastUpdate, PublishDate} from "@/components/dates";
+import { HomePageLink, InfoLinks} from "@/components/links";
+import { InnerLayout as InnerLayoutType } from "@/components/layout/types";
 
 export default function PageInnerLayout({children, params}: {
     children: React.ReactNode;
-    params: InnerLayoutInterface;
+    params: InnerLayoutType;
   }) {
     const t = useTranslations("General")
     return (<main className="flex flex-col gap-8 items-center">

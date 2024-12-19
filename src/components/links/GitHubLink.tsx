@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl"
-import OutLink from "./OutLink"
+
+import { OutLink } from "@/components/links"
 
 export default function GitHubLink () {
     const t = useTranslations("General")

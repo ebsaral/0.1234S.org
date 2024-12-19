@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
-import SectionItem from "./SectionItem";
-import { SectionWithItems as SectionWithItemsType } from "./types";
+
+import { SectionItem } from "@/components/layout";
+import { SectionWithItems as SectionWithItemsType } from "@/components/types";
 
 
 export default function SectionWithItems({translationPaths, items = [], minCol, maxCol}: SectionWithItemsType) {

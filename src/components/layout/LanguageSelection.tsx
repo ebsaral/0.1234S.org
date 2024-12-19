@@ -1,10 +1,10 @@
 "use client"
 
-import { Link } from "@/i18n/routing"
-import { useLocale } from "next-intl"
 import Image from "next/image"
-
+import { useLocale } from "next-intl"
 import { usePathname } from "next/navigation"
+
+import { Link } from "@/i18n/routing"
 
 export default function LanguageSelection({className=""} :{className?: string}) {
     const locale = useLocale()

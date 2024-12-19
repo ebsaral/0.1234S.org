@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import { useEffect } from "react";
 import { PiStarFourFill } from "react-icons/pi";
 
-export function SparkleText () {
+export default function SparkleText () {
   const t = useTranslations("General");
 
   // Source: https://ui.hextastudio.in/docs/examples/general/SparkleTextEffect

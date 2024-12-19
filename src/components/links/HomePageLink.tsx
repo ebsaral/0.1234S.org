@@ -1,6 +1,7 @@
-import { Link } from "@/i18n/routing";
-import { useLocale, useTranslations } from "next-intl"
 import Image from "next/image"
+import { useLocale, useTranslations } from "next-intl"
+
+import { Link } from "@/i18n/routing";
 
 export default function HomePageLink() {
     const t = useTranslations();

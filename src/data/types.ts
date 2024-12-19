@@ -1,4 +1,4 @@
-import { SoundcloudInterface } from "@/components/types";
+import { Soundcloud } from "@/components/types";
 
 export enum PAGES  {
     Home = "1",
@@ -8,5 +8,5 @@ export enum PAGES  {
 }
 
 export type RandomSoundcloud = {
-    [key in PAGES] : SoundcloudInterface[]
+    [key in PAGES] : Soundcloud[]
 }

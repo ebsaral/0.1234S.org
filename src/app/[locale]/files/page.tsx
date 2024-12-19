@@ -1,8 +1,9 @@
+import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
-import Link from "next/link";
-import InnerLayout from "@/components/layout/InnerLayout";
-import { InnerLayout as InnerLayoutType } from "@/components/layout/types";
+
+import { InnerLayout } from "@/components";
+import { InnerLayout as InnerLayoutType } from "@/types";
 
 export async function generateMetadata({params}: {
   params: Promise<{locale: string}>;

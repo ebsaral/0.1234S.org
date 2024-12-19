@@ -1,9 +1,8 @@
-import { SoundcloudInterface } from "@/components/types";
-import { PAGES, RandomSoundcloud } from "./types";
 import { random } from "@/utils";
+import { Soundcloud, PAGES, RandomSoundcloud} from "@/types";
 
 // Page: Home
-const kocaDunya: SoundcloudInterface = {
+const kocaDunya: Soundcloud = {
     src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/148439599&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
     info: {
         artist: {
@@ -18,7 +17,7 @@ const kocaDunya: SoundcloudInterface = {
 }
 
 // Page: Asses
-const iLikeItALot: SoundcloudInterface = {
+const iLikeItALot: Soundcloud = {
     src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1961423639&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
     info: {
     artist: {
@@ -33,7 +32,7 @@ const iLikeItALot: SoundcloudInterface = {
 }
 
 // Page: Gallery
-const dokunmayinCokFenayam: SoundcloudInterface = {
+const dokunmayinCokFenayam: Soundcloud = {
     src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/416735193&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
     info: {
       artist: {
@@ -48,7 +47,7 @@ const dokunmayinCokFenayam: SoundcloudInterface = {
 }
 
 // Page: Hazzeti Emin
-const birYangininKulunu: SoundcloudInterface = {
+const birYangininKulunu: Soundcloud = {
     src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308359738&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
     info: {
       artist: {
@@ -79,7 +78,7 @@ const SONGS: RandomSoundcloud = {
 }
 
 
-export function getRandomSoundcloud(page: PAGES): SoundcloudInterface {
+export function getRandomSoundcloud(page: PAGES): Soundcloud {
     const songs = SONGS[page];
     return random(songs)
 }

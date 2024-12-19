@@ -1,8 +1,10 @@
-import { Analytics } from '@vercel/analytics/react';
 import localFont from "next/font/local";
-import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
-import {routing} from '@/i18n/routing';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+
+import { Analytics } from '@vercel/analytics/react';
+
+import { routing } from '@/i18n/routing';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));

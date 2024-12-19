@@ -1,15 +1,11 @@
 
+import Image from "next/image"
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
-import Image from "next/image"
-import doodles from "@/data/gallery/doodles"
-import drawings from "@/data/gallery/drawings"
-import GalleryLayout from "@/components/layout/GalleryLayout";
-import InnerLayout from "@/components/layout/InnerLayout";
-import Soundcloud from "@/components/Soundcloud";
-import { InnerLayout as InnerLayoutType } from "@/components/layout/types";
-import { getRandomSoundcloud } from "@/data/soundcloud";
-import { PAGES } from "@/data/types";
+
+import { GalleryLayout, InnerLayout, Soundcloud } from "@/components";
+import { doodles, drawings, getRandomSoundcloud } from "@/data";
+import { InnerLayout as InnerLayoutType, PAGES } from "@/types";
 
 
 export async function generateMetadata({params}: {

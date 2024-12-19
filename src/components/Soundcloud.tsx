@@ -1,7 +1,7 @@
-import { SoundcloudInterface } from "./types"
+import { Soundcloud as SoundcloudType } from "@/components/types"
 
 
-export default function Soundcloud({className, src, info}: SoundcloudInterface) {
+export default function Soundcloud({className, src, info}: SoundcloudType) {
     const style = `page-section w-screen ${className}`
     return  (
         <div className={style}>

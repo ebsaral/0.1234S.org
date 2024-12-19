@@ -1,9 +1,8 @@
 "use client"
 
-import { useTranslations } from "next-intl";
 import { useState } from "react";
-import { InfoItem } from "./Info";
-import { SparkleText } from "../animations/SparkleText";
+import { useTranslations } from "next-intl";
+import { SparkleText, InfoItem } from "@/components";
 
 export default function HomeInfoSection() {
     const t = useTranslations("Pages.Home.Summary");

@@ -1,11 +1,9 @@
 import { getTranslations } from "next-intl/server";
-import InnerLayout from "@/components/layout/InnerLayout";
 import { useTranslations } from "next-intl";
-import Soundcloud from "@/components/Soundcloud";
-import Info from "@/components/layout/Info";
-import { InnerLayout as InnerLayoutType } from "@/components/layout/types";
-import { getRandomSoundcloud } from "@/data/soundcloud";
-import { PAGES } from "@/data/types";
+
+import {InnerLayout, Info, Soundcloud} from "@/components";
+import { getRandomSoundcloud } from "@/data";
+import { InnerLayout as InnerLayoutType, PAGES } from "@/types";
 
 export async function generateMetadata({params}: {
   params: Promise<{locale: string}>;

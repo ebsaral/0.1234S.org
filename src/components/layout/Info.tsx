@@ -1,4 +1,4 @@
-import { InfoSection } from "./types"
+import { InfoSection } from "@/components/layout/types"
 
 
 export function InfoItem({title, text, wide}: {title: string, text: string, wide?:boolean}) {

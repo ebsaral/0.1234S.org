@@ -1,14 +1,9 @@
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
-import GoogleFormLink from "@/components/links/GoogleFormLink";
-import InnerLayout from "@/components/layout/InnerLayout";
-import Info from "@/components/layout/Info";
-import asses from "@/data/gallery/asses"
-import GalleryLayout from "@/components/layout/GalleryLayout";
-import Soundcloud from "@/components/Soundcloud";
-import { InnerLayout as InnerLayoutType } from "@/components/layout/types";
-import { getRandomSoundcloud } from "@/data/soundcloud";
-import { PAGES } from "@/data/types";
+
+import { InnerLayout, Info, Soundcloud, GalleryLayout, GoogleFormLink } from "@/components";
+import { asses, getRandomSoundcloud } from "@/data"
+import { InnerLayout as InnerLayoutType, PAGES } from "@/types";
 
 
 export async function generateMetadata({params}: {
