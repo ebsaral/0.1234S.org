@@ -22,7 +22,7 @@ export default function SectionItem({item} : {item: SectionItemType}) {
 
     return (
           <a
-              className="flex flex-col items-center p-5 text-sm text-left font-[family-name:var(--font-geist-mono)] whitespace-pre-line border border-solid border-transparent transition-colors hover:underline hover:underline-offset-4 hover:bg-gray-800"
+              className="flex flex-col items-center p-5 text-sm text-left font-[family-name:var(--font-geist-mono)] whitespace-pre-line border border-solid border-transparent transition-colors hover:bg-gray-800"
               href={item.link.startsWith("http")?item.link:t(item.link)}
               target={item.link.startsWith("http")?"_blank":"_self"}
               rel="noopener noreferrer"
