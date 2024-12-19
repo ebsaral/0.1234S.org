@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import GoogleFormLink from "../../links/GoogleFormLink";
 import InnerLayout from "../InnerLayout";
 import Info from "../Info";
-import asses from "@/utils/gallery/asses"
+import asses from "@/data/gallery/asses"
 import GalleryLayout from "../GalleryLayout";
 import Soundcloud, {SoundcloudInterface} from "@/components/Soundcloud";
 
