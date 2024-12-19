@@ -19,34 +19,37 @@
                 "keywords": "Emin Bugra Saral"
             },
             "title": "Emin Bugra Saral",
-            "subtitle": "resume summary",
-            "education": {
-                "title": "Education",
-                "text": "Bachelors in Computer Science. (2008-2013)\nKoc University, Istanbul."
-            },
-            "work_experience": {
-                "title": "Work Experience",
-                "text": "Professional engineering services in the areas of management (guidance), culture cultivation and visionary solutions.\nEducative, innovative, international, inclusive, community friendly, healthy and fair solutions for everyone."
-            },
-            "consultancy_solutions": {
-                "title": "Consultancy Solutions",
-                "text": "Team Leader, Guide.\nProject / Product Manager.\nProduct Developer & Tester.\nCulture Cultivator.\nChief Spirit Officer."
-            },
-            "personality_traits": {
-                "title": "Personality Traits",
-                "text": "Authenticity, curiosity, adventurous bravery, openmind, directness, deep empathy with all surroundings (+ multi-dimensional inspiration source), creative problem solving, vision, being spontaneous, fast-learning in all areas."
-            },
-            "interests": {
-                "title": "Interests & Talents",
-                "text": "Social sciences, engineering, spirituality, creative writings (poem, article, essay, story, theory), electronic music, freestyle dancing, humor, creative cooking, team sports, painting, movies, activism, detailed impersonation (any known or unknown person in history), nature synchronization..."
-            },
-            "social_causes": {
-                "title": "Social Causes",
-                "text": "Equality for all:\nHonest & fair politics in all areas."
-            },
-            "places": {
-                "title": "Places Lived In",
-                "text": "Trabzon (Türkiye).\nIstanbul (Türkiye).\nBordeaux (France).\nSan Jose (USA). \nMunich (Germany).\nRight Now: Trabzon (Türkiye)."
+            "subtitle": "Simplicity within a certain complexity.",
+            "Summary": {
+                "title": "resume summary",
+                "education": {
+                    "title": "Education",
+                    "text": "Bachelors in Computer Science. (2008-2013)\nKoc University, Istanbul."
+                },
+                "work_experience": {
+                    "title": "Work Experience",
+                    "text": "Professional engineering services in the areas of management (guidance), culture cultivation and visionary solutions.\nEducative, innovative, international, inclusive, community friendly, healthy and fair solutions for everyone."
+                },
+                "consultancy_solutions": {
+                    "title": "Consultancy Solutions",
+                    "text": "Team Leader, Guide.\nProject / Product Manager.\nProduct Developer & Tester.\nCulture Cultivator.\nChief Spirit Officer."
+                },
+                "personality_traits": {
+                    "title": "Personality Traits",
+                    "text": "Authenticity, curiosity, adventurous bravery, openmind, directness, deep empathy with all surroundings (+ multi-dimensional inspiration source), creative problem solving, vision, being spontaneous, fast-learning in all areas."
+                },
+                "interests": {
+                    "title": "Interests & Talents",
+                    "text": "Social sciences, engineering, spirituality, creative writings (poem, article, essay, story, theory), electronic music, freestyle dancing, humor, creative cooking, team sports, painting, movies, activism, detailed impersonation (any known or unknown person in history), nature synchronization..."
+                },
+                "social_causes": {
+                    "title": "Social Causes",
+                    "text": "Equality for all:\nHonest & fair politics in all areas."
+                },
+                "places": {
+                    "title": "Places Lived In",
+                    "text": "Trabzon (Türkiye).\nIstanbul (Türkiye).\nBordeaux (France).\nSan Jose (USA). \nMunich (Germany).\nRight Now: Trabzon (Türkiye)."
+                }
             },
             "Projects": {
                 "title": "projects",
@@ -77,10 +80,6 @@
                     "title": "EBS Life Solutions\n(in the establishment phase)",
                     "text": "Consultancy company."
                 }
-            },
-            "LegalWarning": {
-                "title":"< A CLEAR, OPTIMIST & FRIENDLY WARNING >\n",
-                "text": "I do not consent to the gratuitous use of any information about me, my direct or indirect contributions or my name - whether included or not - in any research, articles, projects or actions involving financial gain. You are required to communicate with me verbally (face-to-face, directly) or in writing to work together on any of your projects or ideas. None of my communication channels contain any threatening intent. All content is for warning and/or educational purposes. No evidence or content will be legally used against you.\n\nYou must refrain from any direct or indirect action that may harm my biological or physiological integrity (my health). Your assumptions about me become reality for you and do not necessarily reflect my reality. It is already impossible for you to use any information, content, audio, visual or text you have about me against me. If you try to do otherwise than the warnings here, you agree to cause permanent damage to yourself.\n\nIt is strictly forbidden to test or question my honesty and good faith. It is mandatory for you to ask questions so that we can establish a healthy communication or relationship. Every communication I establish begins with 100% trust.\n\n< \/ A CLEAR, OPTIMIST & FRIENDLY WARNING >"
             },
             "Apology": {
                 "title": "Apology Text",
@@ -147,6 +146,7 @@
         },
         "Files": {
             "title": "Files",
+            "subtitle": "All public files under '/files' directory.",
             "file_cv": {
                 "filename": "Name",
                 "type": "Kind"

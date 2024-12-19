@@ -20,7 +20,7 @@ export function InfoItem({title, text, wide}: {title: string, text: string, wide
         titleClass += " sm:basis-1/3"
         textClass += " sm:basis-2/3"
     }
-    return <div className="flex flex-col gap-6 sm:flex-row [&:not(:first-child)]:mt-10 sm:[&:not(:first-child)]:mt-2">
+    return <div className="flex flex-col gap-2 sm:gap-6 sm:flex-row [&:not(:first-child)]:mt-4 sm:[&:not(:first-child)]:mt-2">
         <div className={titleClass}>{title}</div>
         <div className={textClass}>{text}</div>  
     </div>

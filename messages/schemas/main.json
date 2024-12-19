@@ -64,13 +64,30 @@
 			  "subtitle": {
 				"type": "string"
 			  },
-			  "education": {"$ref": "/TitleAndText"},
-			  "work_experience": {"$ref": "/TitleAndText"},
-			  "consultancy_solutions": {"$ref": "/TitleAndText"},
-			  "personality_traits": {"$ref": "/TitleAndText"},
-			  "interests": {"$ref": "/TitleAndText"},
-			  "social_causes": {"$ref": "/TitleAndText"},
-			  "places": {"$ref": "/TitleAndText"},
+			  "Summary": {
+				"type": "object",
+				"properties": {
+					"title": {"type": "string"},
+					"education": {"$ref": "/TitleAndText"},
+					"work_experience": {"$ref": "/TitleAndText"},
+					"consultancy_solutions": {"$ref": "/TitleAndText"},
+					"personality_traits": {"$ref": "/TitleAndText"},
+					"interests": {"$ref": "/TitleAndText"},
+					"social_causes": {"$ref": "/TitleAndText"},
+					"places": {"$ref": "/TitleAndText"}
+				},
+				"required": [
+				  "title",
+				  "education",
+				  "work_experience",
+				  "consultancy_solutions",
+				  "personality_traits",
+				  "interests",
+				  "social_causes",
+				  "places"
+				],
+				"additionalProperties": false
+			  },
 			  "Projects": {
 				"type": "object",
 				"properties": {
@@ -95,22 +112,14 @@
 				],
 				"additionalProperties": false
 			  },
-			  "LegalWarning": {"$ref": "/TitleAndText"},
 			  "Apology": {"$ref": "/TitleAndText"}
 			},
 			"required": [
 			  "Metadata",
 			  "title",
 			  "subtitle",
-			  "education",
-			  "work_experience",
-			  "consultancy_solutions",
-			  "personality_traits",
-			  "interests",
-			  "social_causes",
-			  "places",
+			  "Summary",
 			  "Projects",
-			  "LegalWarning",
 			  "Apology"
 			],
 			"additionalProperties": false
@@ -191,6 +200,9 @@
 			  "title": {
 				"type": "string"
 			  },
+			  "subtitle": {
+				"type": "string"
+			  },
 			  "file_cv": {
 				"type": "object",
 				"properties": {
@@ -226,6 +238,7 @@
 			},
 			"required": [
 			  "title",
+			  "subtitle",
 			  "file_cv",
 			  "Links"
 			],

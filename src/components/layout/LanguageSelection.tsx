@@ -11,7 +11,7 @@ export default function LanguageSelection({className=""} :{className?: string}) 
     const pathname = usePathname()
     const currentPage = pathname.replace(`/${locale}`, "") || "/"
 
-    return <div className={`row-start-3 flex gap-6 flex-wrap items-center justify-center ${className}`}>
+    return <div className={`page-header ${className}`}>
       <Image
           aria-hidden
           src="https://nextjs.org/icons/globe.svg"

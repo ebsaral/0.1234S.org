@@ -14,9 +14,10 @@ export interface SoundcloudInterface {
 }
 
 export default function Soundcloud({className, src, info}: SoundcloudInterface) {
-    const style = `flex flex-wrap items-center justify-center mb-5 w-screen pr-5 pl-5 ${className}`
+    const style = `page-section w-screen ${className}`
     return  (
         <div className={style}>
+            <hr className="page-break"></hr>
             <iframe
             width="100%"
             height={166}
@@ -24,7 +25,7 @@ export default function Soundcloud({className, src, info}: SoundcloudInterface) 
             src={src}
             />
             <div
-                className="text-sm mt-4"
+                className="text-center text-sm ml-6 mr-7"
                 style={{
                 color: "#cccccc",
                 lineBreak: "anywhere",
