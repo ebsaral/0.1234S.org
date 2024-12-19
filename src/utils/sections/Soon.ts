@@ -29,8 +29,8 @@ const SoonItems : SectionItemType[] = [
     {
         link: "https://cb.saral.me",
         image: {
-            src: "/images/emin-bugra-saral-100.jpg",
-            alt: "Emin Buğra Saral yüz fotoğrafı",
+            src: "/images/ebs-wall.png",
+            alt: "EBS - Breaking a wall",
             width: 120
         },
         translationPaths: {
