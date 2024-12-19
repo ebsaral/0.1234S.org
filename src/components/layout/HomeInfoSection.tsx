@@ -23,7 +23,7 @@ export default function HomeInfoSection() {
         <div className="flex mb-6 text-center text-3xl font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line select-none cursor-pointer" onClick={() => setCollapsed(!collapsed)}>
             <div className="flex flex-row gap-4">
                 <div>{emoji}</div>
-                <div className={collapsed ? "hover:underline underline-offset-8" : "gradient-purple"}>{t("title")}</div>
+                <div className={collapsed ? "hover:underline underline-offset-8" : "gradient-purple"}><h2>{t("title")}</h2></div>
                 <div>{emoji}</div>
             </div>
         </div>

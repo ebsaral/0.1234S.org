@@ -12,7 +12,8 @@ const SoonItems : SectionItemType[] = [
         translationPaths: {
             title: "Pages.Home.Projects.HazzetiEmin.title",
             text: "Pages.Home.Projects.HazzetiEmin.text",
-        }
+        },
+        titleStyle: "gradient-gray text-lg"
     },
     {
         link: "https://www.linkedin.com/company/ebs-life-solutions",
@@ -24,7 +25,8 @@ const SoonItems : SectionItemType[] = [
         translationPaths: {
             title: "Pages.Home.Projects.EBSLifeSolutions.title",
             text: "Pages.Home.Projects.EBSLifeSolutions.text"
-        }
+        },
+        titleStyle: "gradient-gray text-lg"
     },
     {
         link: "https://cb.saral.me",
@@ -36,7 +38,8 @@ const SoonItems : SectionItemType[] = [
         translationPaths: {
             title: "Pages.Home.Projects.CB.title",
             text: "Pages.Home.Projects.CB.text"
-        }
+        },
+        titleStyle: "gradient-gray text-lg"
     },
     
 ]

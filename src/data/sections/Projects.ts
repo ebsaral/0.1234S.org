@@ -12,7 +12,8 @@ const ProjectsItems : SectionItemType[] = [
         translationPaths: {
             title: "Pages.Home.Projects.Gallery.title",
             text: "Pages.Home.Projects.Gallery.text"
-        }
+        },
+        titleStyle: "gradient-blue text-lg"
     },
     {
         link: "Pages.Home.Projects.Asses.link",
@@ -24,7 +25,8 @@ const ProjectsItems : SectionItemType[] = [
         translationPaths: {
             title: "Pages.Home.Projects.Asses.title",
             text: "Pages.Home.Projects.Asses.text"
-        }
+        },
+        titleStyle: "gradient-blue text-lg"
     },
     {
         link: "https://touch-sensei.saral.me",
@@ -36,7 +38,8 @@ const ProjectsItems : SectionItemType[] = [
         translationPaths: {
             title: "Pages.Home.Projects.TouchSensei.title",
             text: "Pages.Home.Projects.TouchSensei.text"
-        }
+        },
+        titleStyle: "gradient-blue text-lg"
     }
     
 ]

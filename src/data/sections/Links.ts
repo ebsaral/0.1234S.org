@@ -11,7 +11,8 @@ const LinksItems: SectionItemType[] = [
         },
         translationPaths: {
             title: "Links.LinkedIn",
-        }
+        },
+        titleStyle: "text-sm"
     },
    
     {
@@ -23,7 +24,8 @@ const LinksItems: SectionItemType[] = [
         },
         translationPaths: {
             title: "Links.DeviantArt",
-        }
+        },
+        titleStyle: "text-sm"
     },
     {
         link: "https://www.soundcloud.com/ebsaral",
@@ -34,7 +36,8 @@ const LinksItems: SectionItemType[] = [
         },
         translationPaths: {
             title: "Links.SoundCloud",
-        }
+        },
+        titleStyle: "text-sm"
     },
     {
         link: "https://www.vimeo.com/rahmetli",
@@ -45,7 +48,8 @@ const LinksItems: SectionItemType[] = [
         },
         translationPaths: {
             title: "Links.Vimeo",
-        }
+        },
+        titleStyle: "text-sm"
     },
     {
         link: "https://www.github.com/ebsaral",
@@ -56,7 +60,8 @@ const LinksItems: SectionItemType[] = [
         },
         translationPaths: {
             title: "Links.Github",
-        }
+        },
+        titleStyle: "text-sm"
     },
     {
         link: "https://www.dev.to/ebsaral",
@@ -67,7 +72,8 @@ const LinksItems: SectionItemType[] = [
         },
         translationPaths: {
             title: "Links.DevTo",
-        }
+        },
+        titleStyle: "text-sm"
     },
     {
         link: "https://stackoverflow.com/users/1437254/emin-bugra-saral?tab=profile",
@@ -78,7 +84,8 @@ const LinksItems: SectionItemType[] = [
         },
         translationPaths: {
             title: "Links.Stackoverflow",
-        }
+        },
+        titleStyle: "text-sm"
     },
     {
         link: "https://fetlife.com/users/16201534",
@@ -89,7 +96,8 @@ const LinksItems: SectionItemType[] = [
         },
         translationPaths: {
             title: "Links.FetLife",
-        }
+        },
+        titleStyle: "text-sm"
     },
 ]
 

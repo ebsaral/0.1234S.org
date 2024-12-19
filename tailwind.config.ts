@@ -49,7 +49,9 @@ const config: Config = {
     'gap-6',
     'h-52',
     'sm:h-28',
-    'overflow-hidden'
+    'overflow-hidden',
+    'gradient-blue',
+    'gradient-gray'
   ]
 };
 export default config;

@@ -12,6 +12,8 @@ export type SectionItemType = {
         alt: string,
         width: number
     },
+    titleStyle?: string;
+    descriptionStyle?: string
 }
 
 export default function SectionItem({item} : {item: SectionItemType}) {
@@ -35,8 +37,8 @@ export default function SectionItem({item} : {item: SectionItemType}) {
                 priority
               />
               <div className="flex flex-col gap-2 items-center justify-center">
-                <div className="flex text-center font-bold mb-1">{t(item.translationPaths.title)}</div>
-                {item.translationPaths.text && (t(item.translationPaths.text) ??<div className="flex text-center hover:no-underline">{t(item.translationPaths.text)}</div>)}
+                <div className={`flex text-center font-bold ${item.titleStyle}`}>{t(item.translationPaths.title)}</div>
+                {item.translationPaths.text && (t(item.translationPaths.text) ??<div className={`flex text-center hover:no-underline ${item.descriptionStyle}`}>{t(item.translationPaths.text)}</div>)}
               </div>
             
             </div>

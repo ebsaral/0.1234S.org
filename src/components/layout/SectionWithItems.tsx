@@ -15,7 +15,7 @@ export default function SectionWithItems({translationPaths, items = [], minCol, 
     
     return <div className="page-section [&:not(:last-child)]:mb-12">
         <div className="mb-6 text-center text-3xl font-bold font-[family-name:var(--font-geist-mono)] whitespace-pre-line">
-          {t(translationPaths.title)}
+          <h2>{t(translationPaths.title)}</h2>
         </div>
         
         <div className={`grid sm:grid-cols-${maxCol} grid-cols-${minCol} gap-6`}>
