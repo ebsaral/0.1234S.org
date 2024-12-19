@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 import InnerLayout from "@/components/layout/InnerLayout";
-import { InnerLayoutInterface } from "@/components/layout/types";
+import { InnerLayout as InnerLayoutType } from "@/components/layout/types";
 
 export async function generateMetadata({params}: {
   params: Promise<{locale: string}>;
@@ -18,7 +18,7 @@ export async function generateMetadata({params}: {
 
 export default function Page() {
   const t = useTranslations("Pages.Files");
-  const params: InnerLayoutInterface = {
+  const params: InnerLayoutType = {
     title: t("title"),
     subtitle: t("subtitle"),
     publishDate: "2023-04-17T12:00",

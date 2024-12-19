@@ -1,6 +1,6 @@
-import { SectionItemType, SectionWithItemsType } from "@/components/layout/types"
+import { SectionItem, SectionWithItems } from "@/components/layout/types"
 
-const ProjectsItems : SectionItemType[] = [
+const ProjectsItems : SectionItem[] = [
     {
         link: "Pages.Home.Projects.Gallery.link",
         image: {
@@ -43,7 +43,7 @@ const ProjectsItems : SectionItemType[] = [
     
 ]
 
-export const ProjectsSection: SectionWithItemsType = {
+export const ProjectsSection: SectionWithItems = {
     translationPaths: {
         title: "Pages.Home.Projects.title"
     },

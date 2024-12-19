@@ -1,6 +1,6 @@
-import { SectionItemType, SectionWithItemsType } from "@/components/layout/types"
+import { SectionItem, SectionWithItems } from "@/components/layout/types"
 
-const LinksItems: SectionItemType[] = [
+const LinksItems: SectionItem[] = [
     {
         link: "https://www.linkedin.com/in/eminbugrasaral",
         image: {
@@ -100,7 +100,7 @@ const LinksItems: SectionItemType[] = [
     },
 ]
 
-export const LinksSection: SectionWithItemsType = {
+export const LinksSection: SectionWithItems = {
     translationPaths: {
         title: "Links.title"
     },

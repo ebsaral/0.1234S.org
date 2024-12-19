@@ -1,42 +1,42 @@
 import { Photo } from "react-photo-album";
 
 // GalleryLayout
-export interface AlbumInterface {
-    title: string;
+export type Album = {
+    title: string,
     photos: Photo[]
 }
 
 // Info
-export interface InfoSectionItem {
-    title: string;
+export type InfoSectionItem = {
+    title: string,
     text: string
 }
 
-export interface InfoSection {
-    purpose: InfoSectionItem;
-    description: InfoSectionItem;
+export type InfoSection = {
+    purpose: InfoSectionItem,
+    description: InfoSectionItem,
     result: InfoSectionItem
 }
 
 // InnerLayout
-export interface ImageInterface {
-    src: string;
-    alt: string;
+type Image = {
+    src: string,
+    alt: string
 }
 
-export interface InnerLayoutInterface {
-    image?: ImageInterface;
-    isSoon?: boolean;
-    title: string;
-    subtitle: string;
-    publishDate?: string;
-    lastUpdateDate?: string;
-    displayHomePageLink?: boolean;
-    displayInfoLinks?: boolean;
+export type InnerLayout = {
+    image?: Image,
+    isSoon?: boolean,
+    title: string,
+    subtitle: string,
+    publishDate?: string,
+    lastUpdateDate?: string,
+    displayHomePageLink?: boolean,
+    displayInfoLinks?: boolean
 }
 
 // SectionItem
-export interface SectionItemType {
+export type SectionItem = {
     translationPaths: {
         title: string;
         text?: string;
@@ -52,11 +52,11 @@ export interface SectionItemType {
 }
 
 // SectionWithItems
-export interface SectionWithItemsType {
+export type SectionWithItems = {
     translationPaths: {
         title: string
     };
-    items: SectionItemType[];
+    items: SectionItem[];
     minCol: number;
     maxCol: number;
 }

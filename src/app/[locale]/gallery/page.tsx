@@ -7,7 +7,7 @@ import drawings from "@/data/gallery/drawings"
 import GalleryLayout from "@/components/layout/GalleryLayout";
 import InnerLayout from "@/components/layout/InnerLayout";
 import Soundcloud from "@/components/Soundcloud";
-import { InnerLayoutInterface } from "@/components/layout/types";
+import { InnerLayout as InnerLayoutType } from "@/components/layout/types";
 import { getRandomSoundcloud } from "@/data/soundcloud";
 import { PAGES } from "@/data/types";
 
@@ -47,7 +47,7 @@ export default function Page() {
     
   ]
 
-  const params: InnerLayoutInterface = {
+  const params: InnerLayoutType = {
     image: {
       src: "/images/gallery/eminbugrasaral-gallery-main.jpg",
       alt: "Emin Bugra Saral"

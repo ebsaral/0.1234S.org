@@ -9,7 +9,7 @@ import Soundcloud from "@/components/Soundcloud";
 import { LinksSection } from "@/data/sections/Links";
 import { ProjectsSection } from "@/data/sections/Projects";
 import { SoonSection } from "@/data/sections/Soon";
-import { InnerLayoutInterface, SectionWithItemsType } from "@/components/layout/types";
+import { InnerLayout as InnerLayoutType, SectionWithItems as SectionWithItemsType } from "@/components/layout/types";
 import { getRandomSoundcloud } from "@/data/soundcloud";
 import { PAGES } from "@/data/types";
 
@@ -39,7 +39,7 @@ export async function generateMetadata({params}: {
 
 export default function Home() {
   const t = useTranslations("Pages.Home");
-  const params: InnerLayoutInterface = {
+  const params: InnerLayoutType = {
     image: {
       src: "/images/logo.png", 
       alt:"Emin Bugra Saral"

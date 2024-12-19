@@ -1,6 +1,6 @@
-import { SectionItemType, SectionWithItemsType } from "@/components/layout/types"
+import { SectionItem, SectionWithItems } from "@/components/layout/types"
 
-const SoonItems : SectionItemType[] = [
+const SoonItems : SectionItem[] = [
     {
         link: "Pages.Home.Projects.HazzetiEmin.link",
         image: {
@@ -43,7 +43,7 @@ const SoonItems : SectionItemType[] = [
     
 ]
 
-export const SoonSection: SectionWithItemsType = {
+export const SoonSection: SectionWithItems = {
     translationPaths: {
         title: "General.soon"
     },

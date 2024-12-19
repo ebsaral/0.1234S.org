@@ -6,7 +6,7 @@ import Info from "@/components/layout/Info";
 import asses from "@/data/gallery/asses"
 import GalleryLayout from "@/components/layout/GalleryLayout";
 import Soundcloud from "@/components/Soundcloud";
-import { InnerLayoutInterface } from "@/components/layout/types";
+import { InnerLayout as InnerLayoutType } from "@/components/layout/types";
 import { getRandomSoundcloud } from "@/data/soundcloud";
 import { PAGES } from "@/data/types";
 
@@ -32,7 +32,7 @@ export async function generateMetadata({params}: {
 
 export default function Page() {
     const t = useTranslations("Pages.Asses");
-    const params: InnerLayoutInterface = {
+    const params: InnerLayoutType = {
       image: {
         src: "/images/asses-logo.jpg", 
         alt:"Barberini Faun statue"
