@@ -51,7 +51,8 @@ const config: Config = {
     'sm:h-28',
     'overflow-hidden',
     'gradient-blue',
-    'gradient-gray'
+    'gradient-gray',
+    'text-lg'
   ]
 };
 export default config;
