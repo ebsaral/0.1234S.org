@@ -2,9 +2,10 @@ import Asses from "@/components/layout/pages/Asses";
 import LanguageSelection from "@/components/layout/LanguageSelection";
 import { getTranslations } from "next-intl/server";
 
-export async function generateMetadata({params: {locale}}: {
+export async function generateMetadata({params}: {
   params: {locale: string};
 }) {
+  const {locale} = await params;
   const t = await getTranslations({locale, namespace: "Pages.Asses.Metadata"});
  
   return {

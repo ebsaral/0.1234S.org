@@ -2,9 +2,10 @@ import Gallery from "@/components/layout/pages/Gallery"
 import LanguageSelection from "@/components/layout/LanguageSelection";
 import { getTranslations } from "next-intl/server";
 
-export async function generateMetadata({params: {locale}}: {
+export async function generateMetadata({params}: {
   params: {locale: string};
 }) {
+  const {locale} = await params;
   const t = await getTranslations({locale, namespace: "Pages.Gallery.Metadata"});
  
   return {

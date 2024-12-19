@@ -14,7 +14,7 @@ export type SectionItemType = {
     },
 }
 
-export default async function SectionItem({item} : {item: SectionItemType}) {
+export default function SectionItem({item} : {item: SectionItemType}) {
 
     const t = useTranslations();
 
