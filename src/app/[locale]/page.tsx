@@ -1,14 +1,14 @@
 
+import { useTranslations } from "next-intl";
+import {getTranslations} from 'next-intl/server';
 import HomeInfoSection from "@/components/layout/HomeInfoSection";
-import InnerLayout from "@/components/layout/InnerLayout";
+import InnerLayout, { InnerLayoutInterface } from "@/components/layout/InnerLayout";
 import SectionWithItems, { SectionWithItemsType } from "@/components/layout/SectionWithItems";
 import GitHubLink from "@/components/links/GitHubLink";
 import Soundcloud, { SoundcloudInterface } from "@/components/Soundcloud";
 import { LinksSection } from "@/data/sections/Links";
 import { ProjectsSection } from "@/data/sections/Projects";
 import { SoonSection } from "@/data/sections/Soon";
-import { useTranslations } from "next-intl";
-import {getTranslations} from 'next-intl/server';
 
 const Sections: SectionWithItemsType[] = [
   ProjectsSection,
@@ -36,14 +36,15 @@ export async function generateMetadata({params}: {
 
 export default function Home() {
   const t = useTranslations("Pages.Home");
-  const params = {
+  const params: InnerLayoutInterface = {
     image: {
       src: "/images/logo.png", 
       alt:"Emin Bugra Saral"
     }, 
     title: t("title"),
     subtitle: t("subtitle"),
-    lastUpdateDate: "2024-12-17T22:57"
+    lastUpdateDate: "2024-12-17T22:57",
+    displayInfoLinks: true
   }
   
   const soundcloud: SoundcloudInterface = {

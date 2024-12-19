@@ -1,8 +1,9 @@
 import Image from "next/image"
-import LastUpdate from "@/components/dates/LastUpdate";
-import HomePageLink from "../links/HomePageLink";
-import PublishDate from "../dates/PublishDate";
 import { useTranslations } from "next-intl";
+import LastUpdate from "@/components/dates/LastUpdate";
+import PublishDate from "@/components/dates/PublishDate";
+import HomePageLink from "@/components/links/HomePageLink";
+import InfoLinks from "@/components/links/InfoLinks";
 
 interface ImageInterface {
     src: string;
@@ -17,6 +18,7 @@ export interface InnerLayoutInterface {
     publishDate?: string;
     lastUpdateDate?: string;
     displayHomePageLink?: boolean;
+    displayInfoLinks?: boolean;
 }
 
 export default function PageInnerLayout({children, params}: {
@@ -39,6 +41,7 @@ export default function PageInnerLayout({children, params}: {
             <h1>{params.title}</h1>
             <p>{params.subtitle}</p>
         </div>
+        {params.displayInfoLinks && <InfoLinks />}
         {children}
         <div className="page-footer">
             {params.publishDate && <PublishDate date={new Date(params.publishDate)} />}
