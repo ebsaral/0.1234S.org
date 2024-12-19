@@ -4,7 +4,8 @@ import { useTranslations } from "next-intl";
 import Soundcloud from "@/components/Soundcloud";
 import Info from "@/components/layout/Info";
 import { InnerLayoutInterface } from "@/components/layout/types";
-import { SoundcloudInterface } from "@/components/types";
+import { getRandomSoundcloud } from "@/data/soundcloud";
+import { PAGES } from "@/data/types";
 
 export async function generateMetadata({params}: {
   params: Promise<{locale: string}>;
@@ -55,19 +56,8 @@ export default function Page() {
       }
     }
 
-    const soundcloud: SoundcloudInterface = {
-      src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308359738&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-      info: {
-        artist: {
-          title: "onurzan",
-          url: "https://soundcloud.com/onurzan"
-        },
-        song: {
-          title: "Zeki Müren - Bir Yangının Külünü (edit)",
-          url: "https://soundcloud.com/onurzan/zeki-muren-bir-yanginin-kulunuonur-zan-edit"
-        }
-      }
-    }
+    const soundcloud = getRandomSoundcloud(PAGES.HazzetiEmin)
+    
     return <InnerLayout params={params}>
       <div className="flex flex-wrap gap-6 items-center justify-center w-screen">
         <Info params={infoParams} />

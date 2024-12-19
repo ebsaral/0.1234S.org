@@ -10,7 +10,8 @@ import { LinksSection } from "@/data/sections/Links";
 import { ProjectsSection } from "@/data/sections/Projects";
 import { SoonSection } from "@/data/sections/Soon";
 import { InnerLayoutInterface, SectionWithItemsType } from "@/components/layout/types";
-import { SoundcloudInterface } from "@/components/types";
+import { getRandomSoundcloud } from "@/data/soundcloud";
+import { PAGES } from "@/data/types";
 
 const Sections: SectionWithItemsType[] = [
   ProjectsSection,
@@ -49,19 +50,8 @@ export default function Home() {
     displayInfoLinks: true
   }
   
-  const soundcloud: SoundcloudInterface = {
-    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/148439599&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-    info: {
-      artist: {
-        title: "fattish",
-        url: "https://soundcloud.com/fattish"
-      },
-      song: {
-        title: "Ferdi Özbeğen - Koca Dünya (edit)",
-        url: "https://soundcloud.com/fattish/ferdi-ozbegen-koca-dunya-fattish-edit"
-      }
-    }
-  }
+  const soundcloud = getRandomSoundcloud(PAGES.Home)
+
   return <InnerLayout params={params}>
     <>
           <hr className="page-break"></hr>

@@ -7,7 +7,8 @@ import asses from "@/data/gallery/asses"
 import GalleryLayout from "@/components/layout/GalleryLayout";
 import Soundcloud from "@/components/Soundcloud";
 import { InnerLayoutInterface } from "@/components/layout/types";
-import { SoundcloudInterface } from "@/components/types";
+import { getRandomSoundcloud } from "@/data/soundcloud";
+import { PAGES } from "@/data/types";
 
 
 export async function generateMetadata({params}: {
@@ -43,19 +44,7 @@ export default function Page() {
       displayHomePageLink: true
     }
 
-    const soundcloud: SoundcloudInterface = {
-      src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1961423639&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-      info: {
-        artist: {
-          title: "Lukas",
-          url: "https://soundcloud.com/user-430651406"
-        },
-        song: {
-          title: "I Like it a Lot",
-          url: "https://soundcloud.com/user-430651406/i-like-it-a-lot"
-        }
-      }
-    }
+    const soundcloud = getRandomSoundcloud(PAGES.Asses)
 
     const infoParams = {
       purpose: {

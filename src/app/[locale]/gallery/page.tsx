@@ -8,7 +8,8 @@ import GalleryLayout from "@/components/layout/GalleryLayout";
 import InnerLayout from "@/components/layout/InnerLayout";
 import Soundcloud from "@/components/Soundcloud";
 import { InnerLayoutInterface } from "@/components/layout/types";
-import { SoundcloudInterface } from "@/components/types";
+import { getRandomSoundcloud } from "@/data/soundcloud";
+import { PAGES } from "@/data/types";
 
 
 export async function generateMetadata({params}: {
@@ -57,19 +58,7 @@ export default function Page() {
     displayHomePageLink: true
   }
 
-  const soundcloud: SoundcloudInterface = {
-    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/416735193&color=%23474136&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-    info: {
-      artist: {
-        title: "Sergerdan__",
-        url: "https://soundcloud.com/sergerdan62"
-      },
-      song: {
-        title: "Azer Bülbül & Damian Marley - Dokunmayın Çok Fenayam",
-        url: "https://soundcloud.com/sergerdan62/azer-bulbul-damian-marley-dokunmayin-cok-fenayam"
-      }
-    }
-  }
+  const soundcloud = getRandomSoundcloud(PAGES.Gallery)
 
   return <InnerLayout params={params}>
     <>
