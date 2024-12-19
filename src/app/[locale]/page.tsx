@@ -2,13 +2,15 @@
 import { useTranslations } from "next-intl";
 import {getTranslations} from 'next-intl/server';
 import HomeInfoSection from "@/components/layout/HomeInfoSection";
-import InnerLayout, { InnerLayoutInterface } from "@/components/layout/InnerLayout";
-import SectionWithItems, { SectionWithItemsType } from "@/components/layout/SectionWithItems";
+import InnerLayout from "@/components/layout/InnerLayout";
+import SectionWithItems from "@/components/layout/SectionWithItems";
 import GitHubLink from "@/components/links/GitHubLink";
-import Soundcloud, { SoundcloudInterface } from "@/components/Soundcloud";
+import Soundcloud from "@/components/Soundcloud";
 import { LinksSection } from "@/data/sections/Links";
 import { ProjectsSection } from "@/data/sections/Projects";
 import { SoonSection } from "@/data/sections/Soon";
+import { InnerLayoutInterface, SectionWithItemsType } from "@/components/layout/types";
+import { SoundcloudInterface } from "@/components/types";
 
 const Sections: SectionWithItemsType[] = [
   ProjectsSection,

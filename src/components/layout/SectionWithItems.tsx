@@ -1,14 +1,8 @@
 import { useTranslations } from "next-intl";
-import SectionItem, { SectionItemType } from "./SectionItem";
+import SectionItem from "./SectionItem";
+import { SectionWithItemsType } from "./types";
 
-export type SectionWithItemsType = {
-    translationPaths: {
-        title: string
-    },
-    items: SectionItemType[],
-    minCol: number,
-    maxCol: number,
-}
+
 
 export default function SectionWithItems({translationPaths, items = [], minCol, maxCol}: SectionWithItemsType) {
     const t = useTranslations();

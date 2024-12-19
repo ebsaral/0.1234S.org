@@ -1,5 +1,4 @@
-import { SectionItemType } from "@/components/layout/SectionItem";
-import { SectionWithItemsType } from "@/components/layout/SectionWithItems";
+import { SectionItemType, SectionWithItemsType } from "@/components/layout/types"
 
 const SoonItems : SectionItemType[] = [
     {

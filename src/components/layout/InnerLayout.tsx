@@ -4,22 +4,7 @@ import LastUpdate from "@/components/dates/LastUpdate";
 import PublishDate from "@/components/dates/PublishDate";
 import HomePageLink from "@/components/links/HomePageLink";
 import InfoLinks from "@/components/links/InfoLinks";
-
-interface ImageInterface {
-    src: string;
-    alt: string;
-}
-
-export interface InnerLayoutInterface {
-    image?: ImageInterface;
-    isSoon?: boolean;
-    title: string;
-    subtitle: string;
-    publishDate?: string;
-    lastUpdateDate?: string;
-    displayHomePageLink?: boolean;
-    displayInfoLinks?: boolean;
-}
+import { InnerLayoutInterface } from "./types";
 
 export default function PageInnerLayout({children, params}: {
     children: React.ReactNode;

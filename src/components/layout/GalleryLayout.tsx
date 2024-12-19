@@ -3,7 +3,7 @@
 
 import { useState } from "react";
 
-import { Photo, RowsPhotoAlbum } from "react-photo-album";
+import { RowsPhotoAlbum } from "react-photo-album";
 import "react-photo-album/rows.css";
 
 import Lightbox from "yet-another-react-lightbox";
@@ -18,11 +18,8 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import Captions from "yet-another-react-lightbox/plugins/captions";
 
 import "yet-another-react-lightbox/plugins/thumbnails.css";
+import { AlbumInterface } from "./types";
 
-interface AlbumInterface {
-    title: string;
-    photos: Photo[]
-}
 
 export default function GalleryLayout ({albums}: {albums: AlbumInterface[]}) {
     const [index, setIndex] = useState(-1);

@@ -1,20 +1,8 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { SectionItemType } from "./types";
 
-export type SectionItemType = {
-    translationPaths: {
-        title: string,
-        text?: string
-    },
-    link: string,
-    image: {
-        src: string,
-        alt: string,
-        width: number
-    },
-    titleStyle?: string;
-    descriptionStyle?: string
-}
+
 
 export default function SectionItem({item} : {item: SectionItemType}) {
 

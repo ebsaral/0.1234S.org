@@ -1,13 +1,5 @@
-interface InfoSectionItem {
-    title: string;
-    text: string
-}
+import { InfoSection } from "./types"
 
-interface InfoSection {
-    purpose: InfoSectionItem;
-    description: InfoSectionItem;
-    result: InfoSectionItem
-}
 
 export function InfoItem({title, text, wide}: {title: string, text: string, wide?:boolean}) {
     let titleClass = "font-bold text-2xl sm:text-right text-left"

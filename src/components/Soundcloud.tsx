@@ -1,17 +1,5 @@
-export interface SoundcloudInterface {
-    className?: string;
-    src: string;
-    info: {
-        artist: {
-            url: string;
-            title: string;
-        };
-        song: {
-            url: string;
-            title: string;
-        }
-    }
-}
+import { SoundcloudInterface } from "./types"
+
 
 export default function Soundcloud({className, src, info}: SoundcloudInterface) {
     const style = `page-section w-screen ${className}`

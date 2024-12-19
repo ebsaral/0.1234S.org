@@ -5,8 +5,10 @@ import Image from "next/image"
 import doodles from "@/data/gallery/doodles"
 import drawings from "@/data/gallery/drawings"
 import GalleryLayout from "@/components/layout/GalleryLayout";
-import InnerLayout, { InnerLayoutInterface } from "@/components/layout/InnerLayout";
-import Soundcloud, { SoundcloudInterface } from "@/components/Soundcloud";
+import InnerLayout from "@/components/layout/InnerLayout";
+import Soundcloud from "@/components/Soundcloud";
+import { InnerLayoutInterface } from "@/components/layout/types";
+import { SoundcloudInterface } from "@/components/types";
 
 
 export async function generateMetadata({params}: {

@@ -1,8 +1,10 @@
 import { getTranslations } from "next-intl/server";
-import InnerLayout, { InnerLayoutInterface } from "@/components/layout/InnerLayout";
+import InnerLayout from "@/components/layout/InnerLayout";
 import { useTranslations } from "next-intl";
-import Soundcloud, { SoundcloudInterface } from "@/components/Soundcloud";
+import Soundcloud from "@/components/Soundcloud";
 import Info from "@/components/layout/Info";
+import { InnerLayoutInterface } from "@/components/layout/types";
+import { SoundcloudInterface } from "@/components/types";
 
 export async function generateMetadata({params}: {
   params: Promise<{locale: string}>;

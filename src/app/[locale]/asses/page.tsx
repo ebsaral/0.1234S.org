@@ -1,11 +1,13 @@
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import GoogleFormLink from "@/components/links/GoogleFormLink";
-import InnerLayout, { InnerLayoutInterface } from "@/components/layout/InnerLayout";
+import InnerLayout from "@/components/layout/InnerLayout";
 import Info from "@/components/layout/Info";
 import asses from "@/data/gallery/asses"
 import GalleryLayout from "@/components/layout/GalleryLayout";
-import Soundcloud, {SoundcloudInterface} from "@/components/Soundcloud";
+import Soundcloud from "@/components/Soundcloud";
+import { InnerLayoutInterface } from "@/components/layout/types";
+import { SoundcloudInterface } from "@/components/types";
 
 
 export async function generateMetadata({params}: {
