@@ -4,7 +4,7 @@
         "last_update": "Son güncelleme",
         "last_revelation": "Son vahiy",
         "github_source": "GitHub kaynağı",
-        "soon": "yakında",
+        "soon": "yakında gelenler",
         "home": "Ana Sayfa",
         "view_google_form": "Google Form Dökümanına Göz At",
         "only_in_turkish": "Sadece Türkçe",
@@ -20,6 +20,11 @@
             },
             "title": "Emin Buğra Saral",
             "subtitle": "Belirli bir karmaşanın içindeki basitlik.",
+            "shortcuts": {
+                "projects": "projeler",
+                "soon": "yakında gelenler",
+                "links": "bağlantılar"
+            },
             "Summary": {
                 "title": "öz geçmiş özeti",
                 "education": {

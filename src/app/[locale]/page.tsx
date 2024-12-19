@@ -2,7 +2,7 @@
 import { useTranslations } from "next-intl";
 import { getTranslations } from 'next-intl/server';
 
-import { HomeInfoSection, InnerLayout, SectionWithItems, GitHubLink, Soundcloud} from "@/components";
+import { HomeInfoSection, InnerLayout, SectionWithItems, GitHubLink, Soundcloud, HomeAnchorLinks, InfoLinks} from "@/components";
 import { LinksSection, ProjectsSection, SoonSection, getRandomSoundcloud } from "@/data";
 import { InnerLayout as InnerLayoutType, SectionWithItems as SectionWithItemsType, PAGES } from "@/types";
 
@@ -40,21 +40,23 @@ export default function Home() {
     title: t("title"),
     subtitle: t("subtitle"),
     lastUpdateDate: "2024-12-19T14:55",
-    displayInfoLinks: true
   }
   
   const soundcloud = getRandomSoundcloud(PAGES.Home)
 
   return <InnerLayout params={params}>
     <>
+          <HomeAnchorLinks />
+          <InfoLinks className="max-sm:hidden" />
           <hr className="page-break"></hr>
           <HomeInfoSection />
           <hr className="page-break"></hr>
           <div className="page-section">
-            {Sections.map((section, i) => <SectionWithItems key={`sectionWithItems_${i}`} translationPaths={section.translationPaths} items={section.items} minCol={section.minCol} maxCol={section.maxCol} />)}      
+            {Sections.map((section, i) => <SectionWithItems key={`sectionWithItems_${i}`} translationPaths={section.translationPaths} items={section.items} minCol={section.minCol} maxCol={section.maxCol} id={section.id} />)}      
           </div>
-          <Soundcloud src={soundcloud.src} info={soundcloud.info} />
           <GitHubLink />
+          <InfoLinks className="sm:hidden"/>
+          <Soundcloud src={soundcloud.src} info={soundcloud.info} />
           </>
       </InnerLayout>;
 }

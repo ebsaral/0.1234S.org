@@ -32,23 +32,22 @@ export type InnerLayout = {
     publishDate?: string,
     lastUpdateDate?: string,
     displayHomePageLink?: boolean,
-    displayInfoLinks?: boolean
 }
 
 // SectionItem
 export type SectionItem = {
     translationPaths: {
-        title: string;
-        text?: string;
-    };
-    link: string;
+        title: string,
+        text?: string
+    },
+    link: string,
     image: {
         src: string,
         alt: string,
         width: number
-    };
-    titleStyle?: string;
-    descriptionStyle?: string;
+    },
+    titleStyle?: string,
+    descriptionStyle?: string
 }
 
 // SectionWithItems
@@ -56,7 +55,8 @@ export type SectionWithItems = {
     translationPaths: {
         title: string
     };
-    items: SectionItem[];
-    minCol: number;
-    maxCol: number;
+    items: SectionItem[],
+    minCol: number,
+    maxCol: number,
+    id: string
 }

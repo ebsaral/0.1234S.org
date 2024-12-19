@@ -50,4 +50,5 @@ export const ProjectsSection: SectionWithItems = {
     items: ProjectsItems,
     minCol: 1,
     maxCol: 3,
+    id: "projects"
 }

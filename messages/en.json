@@ -20,6 +20,11 @@
             },
             "title": "Emin Bugra Saral",
             "subtitle": "Simplicity within a certain complexity.",
+            "shortcuts": {
+                "projects": "projects",
+                "soon": "coming soon",
+                "links": "links"
+            },
             "Summary": {
                 "title": "resume summary",
                 "education": {

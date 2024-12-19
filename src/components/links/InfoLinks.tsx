@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl"
 
-export default function InfoLinks() {
+export default function InfoLinks({className}: {className?: string}) {
     const t = useTranslations("Links")
     return (
-        <div className="flex gap-6 flex-wrap items-center justify-center">
+        <div className={`flex gap-6 flex-wrap items-center justify-center ${className}`}>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href={t("cvLink")}
