@@ -56,11 +56,26 @@ const loveMe: Soundcloud = {
     }
 }
 
+const hiLife: Soundcloud = {
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/68032302&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    info: {
+        artist: {
+            title: "Karim Korashy",
+            url: "https://soundcloud.com/karimkorashy"
+        },
+        song: {
+            title: "Monkey Safari - Hi Life",
+            url: "https://soundcloud.com/karimkorashy/monkey-safari-hi-life"
+        }
+    }
+}
+
 const songs = [
     iLikeItALot,
     ubahn,
     sambaOleg,
-    loveMe
+    hiLife,
+    loveMe,
 ]
 
 export default songs;
