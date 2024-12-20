@@ -191,7 +191,7 @@ const asses = [
       src: asset,
       alt,
       title: title ?? "",
-      description: title ? `${index + 1}) ${title}` : "",
+      description: title ? `${index + 1}) "${title}"` : "",
       width,
       height,
       srcSet: breakpoints.map((breakpoint) => ({
