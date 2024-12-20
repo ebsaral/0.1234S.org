@@ -2,8 +2,8 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
 import { InnerLayout, Info, Soundcloud, GalleryLayout, GoogleFormLink } from "@/components";
-import { asses, getRandomSoundcloud } from "@/data"
-import { InnerLayout as InnerLayoutType, PAGES } from "@/types";
+import { asses } from "@/data"
+import { InnerLayout as InnerLayoutType } from "@/types";
 
 
 export async function generateMetadata({params}: {
@@ -39,8 +39,6 @@ export default function Page() {
       displayHomePageLink: true
     }
 
-    const soundcloud = getRandomSoundcloud(PAGES.Asses)
-
     const infoParams = {
       purpose: {
         title: t("info.purpose.title"),
@@ -61,7 +59,7 @@ export default function Page() {
           <Info params={infoParams} />
           <GoogleFormLink language="en" />
           <GalleryLayout albums={[{title:`${t("gallery_title")}`, photos: asses}]}/>
-          <Soundcloud src={soundcloud.src} info={soundcloud.info} />
+          <Soundcloud  />
           </>
         </InnerLayout>
     );

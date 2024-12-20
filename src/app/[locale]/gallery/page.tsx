@@ -4,8 +4,8 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
 import { GalleryLayout, InnerLayout, Soundcloud } from "@/components";
-import { doodles, drawings, getRandomSoundcloud } from "@/data";
-import { InnerLayout as InnerLayoutType, PAGES } from "@/types";
+import { doodles, drawings } from "@/data";
+import { InnerLayout as InnerLayoutType } from "@/types";
 
 
 export async function generateMetadata({params}: {
@@ -54,7 +54,6 @@ export default function Page() {
     displayHomePageLink: true
   }
 
-  const soundcloud = getRandomSoundcloud(PAGES.Gallery)
 
   return <InnerLayout params={params}>
     <>
@@ -70,7 +69,7 @@ export default function Page() {
       />
     </div>
 
-  <Soundcloud src={soundcloud.src} info={soundcloud.info} />
+  <Soundcloud />
     </>
   </InnerLayout>;
 }

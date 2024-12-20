@@ -3,8 +3,8 @@ import { useTranslations } from "next-intl";
 import { getTranslations } from 'next-intl/server';
 
 import { HomeInfoSection, InnerLayout, SectionWithItems, GitHubLink, Soundcloud, HomeAnchorLinks, InfoLinks} from "@/components";
-import { LinksSection, ProjectsSection, SoonSection, getRandomSoundcloud } from "@/data";
-import { InnerLayout as InnerLayoutType, SectionWithItems as SectionWithItemsType, PAGES } from "@/types";
+import { LinksSection, ProjectsSection, SoonSection } from "@/data";
+import { InnerLayout as InnerLayoutType, SectionWithItems as SectionWithItemsType } from "@/types";
 
 const Sections: SectionWithItemsType[] = [
   ProjectsSection,
@@ -41,8 +41,6 @@ export default function Home() {
     subtitle: t("subtitle"),
     lastUpdateDate: "2024-12-19T14:55",
   }
-  
-  const soundcloud = getRandomSoundcloud(PAGES.Home)
 
   return <InnerLayout params={params}>
     <>
@@ -56,7 +54,7 @@ export default function Home() {
           </div>
           <GitHubLink />
           <InfoLinks className="sm:hidden"/>
-          <Soundcloud src={soundcloud.src} info={soundcloud.info} />
+          <Soundcloud />
           </>
       </InnerLayout>;
 }

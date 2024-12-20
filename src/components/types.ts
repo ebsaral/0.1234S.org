@@ -1,7 +1,6 @@
 export * from "@/components/layout/types"
 
 export type Soundcloud = {
-    className?: string,
     src: string,
     info: {
         artist: {

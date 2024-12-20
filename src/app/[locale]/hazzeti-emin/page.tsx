@@ -2,8 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
 import {InnerLayout, Info, Soundcloud} from "@/components";
-import { getRandomSoundcloud } from "@/data";
-import { InnerLayout as InnerLayoutType, PAGES } from "@/types";
+import { InnerLayout as InnerLayoutType } from "@/types";
 
 export async function generateMetadata({params}: {
   params: Promise<{locale: string}>;
@@ -54,12 +53,11 @@ export default function Page() {
       }
     }
 
-    const soundcloud = getRandomSoundcloud(PAGES.HazzetiEmin)
     
     return <InnerLayout params={params}>
       <div className="flex flex-wrap gap-6 items-center justify-center w-screen">
         <Info params={infoParams} />
-        <Soundcloud src={soundcloud.src} info={soundcloud.info} />
+        <Soundcloud />
       </div>
     </InnerLayout>;
 }

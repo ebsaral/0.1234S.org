@@ -9,7 +9,9 @@
         "view_google_form": "View Google Form Document",
         "only_in_turkish": "Only in Turkish",
         "only_in_english": "Only in English",
-        "show_more": "show more"
+        "show_more": "show more",
+        "shuffle": "Shuffle",
+        "loading": "Loading"
     },
     "Pages": {
         "Home": {

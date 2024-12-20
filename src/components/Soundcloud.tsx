@@ -1,16 +1,34 @@
-import { Soundcloud as SoundcloudType } from "@/components/types"
+"use client"
+
+import { useLocale, useTranslations } from "next-intl";
+import { useEffect, useState } from "react"
+import { FaShuffle } from "react-icons/fa6";
+
+import { getRandomSoundcloud } from "@/data";
+import { Soundcloud } from "@/types";
 
 
-export default function Soundcloud({className, src, info}: SoundcloudType) {
+export default function Component({className}: {className?: string}) {
+    const locale = useLocale()
+    const t = useTranslations("General")
+    
+    const [sound, setSound] = useState<Soundcloud>();
+    
+    useEffect(() => {
+        if(!sound){
+            setSound(getRandomSoundcloud(locale))
+        }
+    }, [sound, locale])
+
     const style = `page-section w-screen ${className}`
-    return  (
+    return  (sound ? (
         <div className={style}>
             <hr className="page-break"></hr>
             <iframe
-            width="100%"
-            height={166}
-            allow="autoplay"
-            src={src}
+                width="100%"
+                height={166}
+                allow="autoplay"
+                src={sound.src}
             />
             <div
                 className="text-center text-sm ml-6 mr-7"
@@ -28,23 +46,29 @@ export default function Soundcloud({className, src, info}: SoundcloudType) {
             >
                 <a
                     className="hover:underline"
-                    href={info.artist.url}
-                    title={info.artist.title}
+                    href={sound.info.artist.url}
+                    title={sound.info.artist.title}
                     target="_blank"
                     style={{ color: "#cccccc"}}
                     >
-                    {info.artist.title}
+                    {sound.info.artist.title}
                 </a>{" "}:{" "}
                 <a
                     className="hover:underline"
-                    href={info.song.url}
-                    title={info.song.title}
+                    href={sound.info.song.url}
+                    title={sound.info.song.title}
                     target="_blank"
                     style={{ color: "#cccccc"}}
                     >
-                    {info.song.title}
+                    {sound.info.song.title}
                 </a>
             </div>
+            <div className="m-auto p-2 hover:cursor-pointer hover:underline hover:underline-offset-2" onClick={() => setSound(getRandomSoundcloud(locale))}>
+                <div className="flex flex-row gap-2 items-center">
+                    <FaShuffle />{' '}{t("shuffle")}
+                </div>
+            </div>
         </div>
+        ) : <div className="page-break text-center">{'... '}{t("loading")}{' ...'}</div>
     )
 }
