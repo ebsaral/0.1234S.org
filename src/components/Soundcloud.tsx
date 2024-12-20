@@ -5,14 +5,14 @@ import { useEffect, useState } from "react"
 import { FaShuffle } from "react-icons/fa6";
 
 import { getRandomSoundcloud } from "@/data";
-import { Soundcloud } from "@/types";
+import { SoundcloudWithMeta } from "@/types";
 
 
 export default function Component({className}: {className?: string}) {
     const locale = useLocale()
     const t = useTranslations("General")
     
-    const [sound, setSound] = useState<Soundcloud>();
+    const [sound, setSound] = useState<SoundcloudWithMeta>();
     
     useEffect(() => {
         if(!sound){
@@ -28,7 +28,7 @@ export default function Component({className}: {className?: string}) {
                 width="100%"
                 height={166}
                 allow="autoplay"
-                src={sound.src}
+                src={sound.soundcloud.src}
             />
             <div
                 className="text-center text-sm ml-6 mr-7"
@@ -46,26 +46,26 @@ export default function Component({className}: {className?: string}) {
             >
                 <a
                     className="hover:underline"
-                    href={sound.info.artist.url}
-                    title={sound.info.artist.title}
+                    href={sound.soundcloud.info.artist.url}
+                    title={sound.soundcloud.info.artist.title}
                     target="_blank"
                     style={{ color: "#cccccc"}}
                     >
-                    {sound.info.artist.title}
+                    {sound.soundcloud.info.artist.title}
                 </a>{" "}:{" "}
                 <a
                     className="hover:underline"
-                    href={sound.info.song.url}
-                    title={sound.info.song.title}
+                    href={sound.soundcloud.info.song.url}
+                    title={sound.soundcloud.info.song.title}
                     target="_blank"
                     style={{ color: "#cccccc"}}
                     >
-                    {sound.info.song.title}
+                    {sound.soundcloud.info.song.title}
                 </a>
             </div>
             <div className="m-auto p-2 hover:cursor-pointer hover:underline hover:underline-offset-2" onClick={() => setSound(getRandomSoundcloud(locale))}>
                 <div className="flex flex-row gap-2 items-center">
-                    <FaShuffle />{' '}{t("shuffle")}
+                    <FaShuffle />{' '}{t("shuffle")}{` (${sound.meta.remaining} / ${sound.meta.total})`}
                 </div>
             </div>
         </div>

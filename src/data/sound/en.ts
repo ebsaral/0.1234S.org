@@ -28,10 +28,24 @@ const ubahn: Soundcloud = {
     }
 }
 
+const sambaOleg: Soundcloud = {
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332930776&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    info: {
+        artist: {
+            title: "Hanna & Lore",
+            url: "https://soundcloud.com/hanne-lore/hanne-lore-samba-oleg-snippet"
+        },
+        song: {
+            title: "Samba Oleg",
+            url: "https://soundcloud.com/hanne-lore/hanne-lore-samba-oleg-snippet"
+        }
+    }
+}
 
 const songs = [
     iLikeItALot,
-    ubahn
+    ubahn,
+    sambaOleg
 ]
 
 export default songs;

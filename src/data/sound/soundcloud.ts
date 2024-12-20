@@ -2,7 +2,7 @@ import { randomIndex } from "@/utils";
 import common from "@/data/sound/common"
 import tr from "@/data/sound/tr"
 import en from "@/data/sound/en"
-import { Soundcloud} from "@/types";
+import { Soundcloud, SoundcloudWithMeta} from "@/types";
 
 type Indexes = {
     tr: number[],
@@ -15,6 +15,14 @@ const displayedIndexes: Indexes = {
 }
 
 let prevIndex = -1;
+let currentLocale: string | undefined;
+
+function resetDefaults() {
+    prevIndex = - 1
+    currentLocale = undefined
+    displayedIndexes["tr"] = []
+    displayedIndexes["en"] = []
+} 
 
 function getRandomIndex(locale: string, songs: Soundcloud[]): number { 
     let targetArr = displayedIndexes[locale as keyof Indexes];
@@ -41,7 +49,12 @@ function getRandomIndex(locale: string, songs: Soundcloud[]): number {
     return index
 }
 
-export function getRandomSoundcloud(locale: string): Soundcloud {
+export function getRandomSoundcloud(locale: string): SoundcloudWithMeta{
+    if(locale !== currentLocale) {
+        resetDefaults();
+        currentLocale = locale;
+    }
+    
     const songs: Soundcloud[] = [...common];
     
     if(locale == "tr") {
@@ -52,5 +65,15 @@ export function getRandomSoundcloud(locale: string): Soundcloud {
     }
 
     const i = getRandomIndex(locale, songs)
-    return songs[i]
+    const total = songs.length
+    const remaining = displayedIndexes[locale as keyof Indexes].length
+    console.log(displayedIndexes)
+    
+    return {
+        soundcloud: songs[i],
+        meta: {
+            total,
+            remaining
+        }
+    }
 }
