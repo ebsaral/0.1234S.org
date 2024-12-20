@@ -70,12 +70,27 @@ const isteHendekIsteDeve: Soundcloud = {
     }
 }
 
+const paloma: Soundcloud = {
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/593694474&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    info: {
+      artist: {
+          title: "KYBELE",
+          url: "https://soundcloud.com/kybelean"
+      },
+      song: {
+        title: "MiRET & Tuğçe Kurtiş - Paloma (Kermesse Remix)",
+        url: "https://soundcloud.com/kybelean/kybele-records-miret-tugce-kurtis-paloma-kermesse-remix"
+      }
+    }
+}
+
 const songs = [
     birYangininKulunu,
     kocaDunya,
     yesOrrayt,
     anlaGaripHalimden,
-    isteHendekIsteDeve
+    isteHendekIsteDeve,
+    paloma
 ]
 
 export default songs;
