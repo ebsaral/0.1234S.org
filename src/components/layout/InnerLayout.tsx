@@ -16,6 +16,7 @@ export default function PageInnerLayout({children, params}: {
             className="rounded-3xl"
             src={params.image.src}
             alt={params.image.alt}
+            title={params.image.alt}
             width={350}
             height={350}
             priority

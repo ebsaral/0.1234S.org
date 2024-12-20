@@ -46,7 +46,7 @@ export default function Page() {
   const params: InnerLayoutType = {
     image: {
       src: "/images/gallery/eminbugrasaral-gallery-main.jpg",
-      alt: "Emin Bugra Saral"
+      alt: "Emin Bugra Saral - 2023"
     }, 
     title: t("title"),
     subtitle: t("subtitle"),
@@ -62,7 +62,8 @@ export default function Page() {
       <Image
         className="rounded-3xl"
         src="/images/eminbugrasaral-2024.jpg"
-        alt="Emin Bugra Saral 2024"
+        alt="Emin Bugra Saral - 2024"
+        title="Emin Bugra Saral - 2024"
         width={350}
         height={350}
         priority
