@@ -56,13 +56,26 @@ const anlaGaripHalimden: Soundcloud = {
     }
 }
 
-
+const isteHendekIsteDeve: Soundcloud = {
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/533274735&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    info: {
+      artist: {
+          title: "Kabus Kerim",
+          url: "https://soundcloud.com/karriem"
+      },
+      song: {
+        title: "Baris Manco - Iste Hendek Iste Deve (Edit)",
+        url: "https://soundcloud.com/karriem/baris-manco-iste-hendek-iste-deve-kabus-edit"
+      }
+    }
+}
 
 const songs = [
     birYangininKulunu,
     kocaDunya,
     yesOrrayt,
-    anlaGaripHalimden
+    anlaGaripHalimden,
+    isteHendekIsteDeve
 ]
 
 export default songs;
