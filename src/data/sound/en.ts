@@ -42,10 +42,25 @@ const sambaOleg: Soundcloud = {
     }
 }
 
+const loveMe: Soundcloud = {
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/31042078&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    info: {
+        artist: {
+            title: "Marek Hemmann",
+            url: "https://soundcloud.com/marekhemmann"
+        },
+        song: {
+            title: "Niconé & Sascha Braemer - Love Me (Remix)",
+            url: "https://soundcloud.com/marekhemmann/nicon-sascha-braemer-love-me"
+        }
+    }
+}
+
 const songs = [
     iLikeItALot,
     ubahn,
-    sambaOleg
+    sambaOleg,
+    loveMe
 ]
 
 export default songs;
