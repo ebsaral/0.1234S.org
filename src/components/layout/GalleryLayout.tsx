@@ -42,6 +42,9 @@ export default function GalleryLayout ({albums}: {albums: Album[]}) {
         })}
 
         <Lightbox
+            styles={{
+                root: {"--yarl__slide_description_text_align": "center"}
+            }}
             slides={photos}
             open={index >= 0}
             index={index}
