@@ -28,7 +28,7 @@ export default function PageInnerLayout({children, params}: {
             <p>{params.subtitle}</p>
         </div>
         {children}
-        <LanguageSelection className="mt-0" targetId="b" />
+        <LanguageSelection className="mt-0 sm:hidden" targetId="b" />
         <hr className="page-break mt-0 mb-0"></hr>
         <div className="page-footer">
             {params.publishDate && <PublishDate date={new Date(params.publishDate)} />}
