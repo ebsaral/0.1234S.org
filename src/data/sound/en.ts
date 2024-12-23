@@ -70,12 +70,42 @@ const hiLife: Soundcloud = {
     }
 }
 
+const soilAinTSolid: Soundcloud = {
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/46651221&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    info: {
+        artist: {
+            title: "Rafael",
+            url: "https://soundcloud.com/rafael8576"
+        },
+        song: {
+            title: "Soil Ain T Solid-25-7 Mode",
+            url: "https://soundcloud.com/rafael8576/soil-ain-t-solid-25-7-mode"
+        }
+    }
+}
+
+const yourWay: Soundcloud = {
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/21527178&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    info: {
+        artist: {
+            title: "Geschwister Schumann",
+            url: "https://soundcloud.com/geschwister-schumann"
+        },
+        song: {
+            title: "Geschwister Schumann - your way",
+            url: "https://soundcloud.com/geschwister-schumann/01-geschwister-schumann-your-1"
+        }
+    }
+}
+
 const songs = [
     iLikeItALot,
     ubahn,
     sambaOleg,
     hiLife,
     loveMe,
+    soilAinTSolid,
+    yourWay
 ]
 
 export default songs;
