@@ -98,6 +98,20 @@ const daglarDagladi: Soundcloud = {
     }
 }
 
+const uyanUyan: Soundcloud = {
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/291471813&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    info: {
+      artist: {
+          title: "Ipek Ipekcioglu",
+          url: "https://soundcloud.com/djipek"
+      },
+      song: {
+        title: "Uyan Uyan feat. Petra Nachtmanova",
+        url: "https://soundcloud.com/katermukke/ipek-ipekcioglu-uyan-uyan-feat-petra-nachtmanova"
+      }
+    }
+}
+
 
 const songs = [
     birYangininKulunu,
@@ -106,7 +120,8 @@ const songs = [
     anlaGaripHalimden,
     isteHendekIsteDeve,
     paloma,
-    daglarDagladi
+    daglarDagladi,
+    uyanUyan
 ]
 
 export default songs;
