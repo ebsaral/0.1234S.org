@@ -11,7 +11,9 @@
         "only_in_english": "Only in English",
         "show_more": "show more",
         "shuffle": "Shuffle",
-        "loading": "Loading"
+        "loading": "Loading",
+        "playlist": "Go to playlist",
+        "playlist_link": "https://soundcloud.com/ebsaral/sets/www-saral-me-english?si=0f11e089cb334044a55bf237142c1dba&utm_source=saral.me&utm_medium=text&utm_campaign=social_sharing"
     },
     "Pages": {
         "Home": {

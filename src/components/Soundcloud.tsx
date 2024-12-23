@@ -3,6 +3,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useState } from "react"
 import { FaShuffle } from "react-icons/fa6";
+import { PiPlaylist } from "react-icons/pi";
 
 import { getRandomSoundcloud } from "@/data";
 import { SoundcloudWithMeta } from "@/types";
@@ -66,6 +67,11 @@ export default function Component({className}: {className?: string}) {
             <div className="m-auto p-2 hover:cursor-pointer hover:underline hover:underline-offset-2" onClick={() => setSound(getRandomSoundcloud(locale))}>
                 <div className="flex flex-row gap-2 items-center">
                     <FaShuffle />{' '}{t("shuffle")}{` (${sound.meta.remaining} / ${sound.meta.total})`}
+                </div>
+            </div>
+            <div className="m-auto p-2 hover:cursor-pointer hover:underline hover:underline-offset-2">
+                <div className="flex flex-row gap-2 items-center ">
+                    <PiPlaylist />{' '}<a href={`${t("playlist_link")}`} target="_blank">{t("playlist")}</a>
                 </div>
             </div>
         </div>

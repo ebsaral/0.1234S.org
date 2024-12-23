@@ -41,6 +41,12 @@
 		  },
 		  "loading": {
 			"type": "string"
+		  },
+		  "playlist": {
+			"type": "string"
+		  },
+		  "playlist_link": {
+			"type": "string"
 		  }
 		},
 		"required": [
@@ -55,7 +61,9 @@
 		  "only_in_english",
 		  "show_more",
 		  "shuffle",
-		  "loading"
+		  "loading",
+		  "playlist",
+		  "playlist_link"
 		],
 		"additionalProperties": false
 	  },
