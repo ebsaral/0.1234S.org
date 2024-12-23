@@ -64,13 +64,11 @@ export default function Component({className}: {className?: string}) {
                     {sound.soundcloud.info.song.title}
                 </a>
             </div>
-            <div className="m-auto p-2 hover:cursor-pointer hover:underline hover:underline-offset-2" onClick={() => setSound(getRandomSoundcloud(locale))}>
-                <div className="flex flex-row gap-2 items-center">
+            <div className="flex flex-col gap-6 m-auto p-2 hover:cursor-pointer">
+                <div className="flex flex-row gap-2 items-center hover:underline hover:underline-offset-2" onClick={() => setSound(getRandomSoundcloud(locale))}>
                     <FaShuffle />{' '}{t("shuffle")}{` (${sound.meta.remaining} / ${sound.meta.total})`}
                 </div>
-            </div>
-            <div className="m-auto p-2 hover:cursor-pointer hover:underline hover:underline-offset-2">
-                <div className="flex flex-row gap-2 items-center ">
+                <div className="flex flex-row gap-2 items-center hover:underline hover:underline-offset-2">
                     <PiPlaylist />{' '}<a href={`${t("playlist_link")}`} target="_blank">{t("playlist")}</a>
                 </div>
             </div>
