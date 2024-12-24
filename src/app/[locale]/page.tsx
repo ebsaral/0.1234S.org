@@ -39,7 +39,7 @@ export default function Home() {
     }, 
     title: t("title"),
     subtitle: t("subtitle"),
-    lastUpdateDate: "2024-12-23T22:48",
+    lastUpdateDate: "2024-12-24T15:18",
   }
 
   return <InnerLayout params={params}>
