@@ -112,6 +112,21 @@ const uyanUyan: Soundcloud = {
     }
 }
 
+const yineYeniden: Soundcloud = {
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1189387195&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    info: {
+      artist: {
+          title: "KURT ADAM",
+          url: "https://soundcloud.com/kurtadam/kurt-adam-yine-yeniden"
+      },
+      song: {
+        title: "Yine Yeniden",
+        url: "https://soundcloud.com/kurtadam/kurt-adam-yine-yeniden"
+      }
+    }
+}
+
+
 
 const songs = [
     birYangininKulunu,
@@ -121,7 +136,8 @@ const songs = [
     isteHendekIsteDeve,
     paloma,
     daglarDagladi,
-    uyanUyan
+    uyanUyan,
+    yineYeniden
 ]
 
 export default songs;
