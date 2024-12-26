@@ -98,6 +98,20 @@ const yourWay: Soundcloud = {
     }
 }
 
+const ohYesBabyGrooveThatBooty: Soundcloud = {
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1964031315&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    info: {
+        artist: {
+            title: "GROOVELOAD",
+            url: "https://soundcloud.com/grooveload"
+        },
+        song: {
+            title: "Inflair - Special Request ( Grooveload Work Mashup )",
+            url: "https://soundcloud.com/grooveload/inflair-special-request-grooveload-work-mashup"
+        }
+    }
+}
+
 const songs = [
     iLikeItALot,
     ubahn,
@@ -105,7 +119,8 @@ const songs = [
     hiLife,
     loveMe,
     soilAinTSolid,
-    yourWay
+    yourWay,
+    ohYesBabyGrooveThatBooty
 ]
 
 export default songs;
