@@ -126,6 +126,19 @@ const yineYeniden: Soundcloud = {
     }
 }
 
+const dervis: Soundcloud = {
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1189387195&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    info: {
+      artist: {
+          title: "Bosnakov",
+          url: "https://soundcloud.com/kaanbosnak"
+      },
+      song: {
+        title: "Yaz - Dervisaki",
+        url: "https://soundcloud.com/kaanbosnak/yaz-dervisaki"
+      }
+    }
+}
 
 
 const songs = [
@@ -137,7 +150,8 @@ const songs = [
     paloma,
     daglarDagladi,
     uyanUyan,
-    yineYeniden
+    yineYeniden,
+    dervis
 ]
 
 export default songs;
