@@ -112,6 +112,20 @@ const ohYesBabyGrooveThatBooty: Soundcloud = {
     }
 }
 
+const inTheBar25: Soundcloud = {
+    src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/3762184&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    info: {
+        artist: {
+            title: "Bar 25 Music",
+            url: "https://soundcloud.com/bar25"
+        },
+        song: {
+            title: "Nicone, Sascha Braemer - Nur Mal Kurz (Original Mix)",
+            url: "https://soundcloud.com/bar25/b1-nur-mal-kurz-original-nicone-sascha-bremer-low-quality"
+        }
+    }
+}
+
 const songs = [
     iLikeItALot,
     ubahn,
@@ -120,7 +134,8 @@ const songs = [
     loveMe,
     soilAinTSolid,
     yourWay,
-    ohYesBabyGrooveThatBooty
+    ohYesBabyGrooveThatBooty,
+    inTheBar25
 ]
 
 export default songs;
