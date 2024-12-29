@@ -23,7 +23,7 @@ export default function Page() {
     title: t("title"),
     subtitle: t("subtitle"),
     publishDate: "2023-04-17T12:00",
-    lastUpdateDate: "2024-12-24T15:25",
+    lastUpdateDate: "2024-12-29T13:24",
     displayHomePageLink: true
   }
 
