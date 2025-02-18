@@ -21,7 +21,7 @@
             "title": "Emin Buğra Saral",
             "subtitle": "Belirli bir karmaşanın içindeki basitlik.",
             "shortcuts": {
-                "projects": "bazı fikirler",
+                "projects": "bazı projeler",
                 "soon": "yakında gelenler",
                 "links": "bağlantılar"
             },
@@ -53,7 +53,7 @@
                 }
             },
             "Projects": {
-                "title": "bazı fikirler",
+                "title": "bazı projeler",
                 "Gallery": {
                     "title": "Çizim Galerisi",
                     "text": "Karalamalar, çizimler\nve resimler.",
