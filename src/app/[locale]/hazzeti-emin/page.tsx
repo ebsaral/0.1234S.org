@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
-import {InnerLayout, Info, Soundcloud} from "@/components";
+import {InnerLayout, Info} from "@/components";
 import { InnerLayout as InnerLayoutType } from "@/types";
 
 export async function generateMetadata({params}: {
@@ -57,7 +57,6 @@ export default function Page() {
     return <InnerLayout params={params}>
       <div className="flex flex-wrap gap-6 items-center justify-center w-screen">
         <Info params={infoParams} />
-        <Soundcloud />
       </div>
     </InnerLayout>;
 }

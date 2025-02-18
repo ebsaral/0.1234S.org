@@ -9,11 +9,7 @@
         "view_google_form": "View Google Form Document",
         "only_in_turkish": "Only in Turkish",
         "only_in_english": "Only in English",
-        "show_more": "show more",
-        "shuffle": "Shuffle",
-        "loading": "Loading",
-        "playlist": "Go to playlist",
-        "playlist_link": "https://soundcloud.com/ebsaral/sets/www-saral-me-english?si=0f11e089cb334044a55bf237142c1dba&utm_source=saral.me&utm_medium=text&utm_campaign=social_sharing"
+        "show_more": "show more"
     },
     "Pages": {
         "Home": {
@@ -25,35 +21,31 @@
             "title": "Emin Bugra Saral",
             "subtitle": "Simplicity within a certain complexity.",
             "shortcuts": {
-                "projects": "projects",
+                "projects": "some ideas",
                 "soon": "coming soon",
                 "links": "links"
             },
             "Summary": {
                 "title": "resume summary",
                 "education": {
-                    "title": "Education",
+                    "title": "Formal Education",
                     "text": "Bachelors in Computer Science. (2008-2013)\nKoc University, Istanbul."
                 },
                 "work_experience": {
                     "title": "Work Experience",
-                    "text": "Professional engineering services in the areas of management (guidance), culture cultivation and visionary solutions.\nEducative, innovative, international, inclusive, community friendly, healthy and fair solutions for everyone."
-                },
-                "consultancy_solutions": {
-                    "title": "Consultancy Solutions",
-                    "text": "Team Leader, Guide.\nProject / Product Manager.\nProduct Developer & Tester.\nCulture Cultivator.\nChief Spirit Officer."
+                    "text": "Team Leader.\nEngineering Manager.\nProject & Product Manager.\nSoftware Engineer."
                 },
                 "personality_traits": {
                     "title": "Personality Traits",
-                    "text": "Authenticity, curiosity, adventurous bravery, openmind, directness, deep empathy with all surroundings (+ multi-dimensional inspiration source), creative problem solving, vision, being spontaneous, fast-learning in all areas."
+                    "text": "Empath, creative, (mostly) direct, honest, outgoing, fun & humorous, kind, helpful, solution oriented, educative, innovative, witty, curious, visionary, debater, fast learner, adventurous, spontaneous, authentic, cosmopolitan..."
                 },
                 "interests": {
                     "title": "Interests & Talents",
-                    "text": "Social sciences, engineering, spirituality, creative writings (poem, article, essay, story, theory), electronic music, freestyle dancing, humor, creative cooking, team sports, painting, movies, activism, detailed impersonation (any known or unknown person in history), nature synchronization..."
+                    "text": "Social sciences, engineering, logical spirituality, creative writing (poem, article, story), music (almost all genres), freestyle dancing, acting, creative cooking, team sports, driving, biking, painting, movies, criticism, activism, picky reading, detailed impersonation, nature synchronization, attention to details, continuous growth..."
                 },
                 "social_causes": {
-                    "title": "Social Causes",
-                    "text": "Equality for all:\nHonest & fair politics in all areas."
+                    "title": "Values",
+                    "text": "Seeking truth.\nEquality & Freedom."
                 },
                 "places": {
                     "title": "Places Lived In",
@@ -61,7 +53,7 @@
                 }
             },
             "Projects": {
-                "title": "projects",
+                "title": "some ideas",
                 "Gallery": {
                     "title": "Drawing Gallery",
                     "text": "Doodles, drawings\nand paintings.",
@@ -179,8 +171,6 @@
         "Github": "GitHub",
         "DevTo": "Dev.to",
         "Stackoverflow": "Stackoverflow",
-        "SoundCloud": "SoundCloud",
-        "Vimeo": "Vimeo",
         "FetLife": "FetLife (NSFW)"
     }
 }

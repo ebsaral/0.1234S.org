@@ -1,4 +1,3 @@
-export {default as GitHubLink} from './GitHubLink'
 export {default as GoogleFormLink} from './GoogleFormLink'
 export {default as HomeAnchorLinks} from './HomeAnchorLinks'
 export {default as HomePageLink} from './HomePageLink'

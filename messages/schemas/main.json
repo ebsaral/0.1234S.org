@@ -35,18 +35,6 @@
 		  },
 		  "show_more": {
 			"type": "string"
-		  },
-		  "shuffle": {
-			"type": "string"
-		  },
-		  "loading": {
-			"type": "string"
-		  },
-		  "playlist": {
-			"type": "string"
-		  },
-		  "playlist_link": {
-			"type": "string"
 		  }
 		},
 		"required": [
@@ -59,11 +47,7 @@
 		  "view_google_form",
 		  "only_in_turkish",
 		  "only_in_english",
-		  "show_more",
-		  "shuffle",
-		  "loading",
-		  "playlist",
-		  "playlist_link"
+		  "show_more"
 		],
 		"additionalProperties": false
 	  },
@@ -100,7 +84,6 @@
 					"title": {"type": "string"},
 					"education": {"$ref": "/TitleAndText"},
 					"work_experience": {"$ref": "/TitleAndText"},
-					"consultancy_solutions": {"$ref": "/TitleAndText"},
 					"personality_traits": {"$ref": "/TitleAndText"},
 					"interests": {"$ref": "/TitleAndText"},
 					"social_causes": {"$ref": "/TitleAndText"},
@@ -110,7 +93,6 @@
 				  "title",
 				  "education",
 				  "work_experience",
-				  "consultancy_solutions",
 				  "personality_traits",
 				  "interests",
 				  "social_causes",
@@ -328,12 +310,6 @@
 		  "Stackoverflow": {
 			"type": "string"
 		  },
-		  "SoundCloud": {
-			"type": "string"
-		  },
-		  "Vimeo": {
-			"type": "string"
-		  },
 		  "FetLife": {
 			"type": "string"
 		  }
@@ -348,8 +324,6 @@
 		  "Github",
 		  "DevTo",
 		  "Stackoverflow",
-		  "SoundCloud",
-		  "Vimeo",
 		  "FetLife"
 		],
 		"additionalProperties": false

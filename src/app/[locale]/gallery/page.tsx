@@ -3,7 +3,7 @@ import Image from "next/image"
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
-import { GalleryLayout, InnerLayout, Soundcloud } from "@/components";
+import { GalleryLayout, InnerLayout } from "@/components";
 import { doodles, drawings } from "@/data";
 import { InnerLayout as InnerLayoutType } from "@/types";
 
@@ -69,8 +69,6 @@ export default function Page() {
         priority
       />
     </div>
-
-  <Soundcloud />
     </>
   </InnerLayout>;
 }

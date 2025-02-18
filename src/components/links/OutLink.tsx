@@ -1,7 +1,7 @@
 export default function OutLink ({link, text}: {link: string, text: string}) {
     return (
         <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100 hover:underline hover:underline-offset-2"
+            className="flex items-center justify-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100 hover:underline hover:underline-offset-2"
             rel="noopener noreferrer"
             target="_blank"
             href={link}
@@ -18,7 +18,7 @@ export default function OutLink ({link, text}: {link: string, text: string}) {
                 fill="currentColor"
               />
             </svg>
-            <p className="ml-2 h-7">{text}</p>
+            <p className="ml-2 h-7 text-sm">{text}</p>
           </a>
     )
 }

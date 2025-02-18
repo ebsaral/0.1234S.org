@@ -15,19 +15,6 @@ const SoonItems : SectionItem[] = [
         titleStyle: "gradient-gray text-lg"
     },
     {
-        link: "https://www.linkedin.com/company/ebs-life-solutions",
-        image: {
-            src: "/images/ebs-life-solutions-animated-logo.gif",
-            alt: "EBS Life Solutions Logo",
-            width: 120
-        },
-        translationPaths: {
-            title: "Pages.Home.Projects.EBSLifeSolutions.title",
-            text: "Pages.Home.Projects.EBSLifeSolutions.text"
-        },
-        titleStyle: "gradient-gray text-lg"
-    },
-    {
         link: "https://cb.saral.me",
         image: {
             src: "/images/ebs-wall.png",

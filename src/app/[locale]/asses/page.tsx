@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
-import { InnerLayout, Info, Soundcloud, GalleryLayout, GoogleFormLink } from "@/components";
+import { InnerLayout, Info, GalleryLayout, GoogleFormLink } from "@/components";
 import { asses } from "@/data"
 import { InnerLayout as InnerLayoutType } from "@/types";
 
@@ -59,7 +59,6 @@ export default function Page() {
           <Info params={infoParams} />
           <GoogleFormLink language="en" />
           <GalleryLayout albums={[{title:`${t("gallery_title")}`, photos: asses}]}/>
-          <Soundcloud  />
           </>
         </InnerLayout>
     );

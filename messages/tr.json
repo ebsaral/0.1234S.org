@@ -9,11 +9,7 @@
         "view_google_form": "Google Form Dökümanına Göz At",
         "only_in_turkish": "Sadece Türkçe",
         "only_in_english": "Sadece İngilizce",
-        "show_more": "devamını göster",
-        "shuffle": "Değiştir",
-        "loading": "Yükleniyor",
-        "playlist": "Çalma listesini aç",
-        "playlist_link": "https://soundcloud.com/ebsaral/sets/www-saral-me-tuerkce?si=7816f8399f2c492094288ae360b83f1a&utm_source=saral.me&utm_medium=text&utm_campaign=social_sharing"
+        "show_more": "devamını göster"
     },
     "Pages": {
         "Home": {
@@ -25,35 +21,31 @@
             "title": "Emin Buğra Saral",
             "subtitle": "Belirli bir karmaşanın içindeki basitlik.",
             "shortcuts": {
-                "projects": "projeler",
+                "projects": "bazı fikirler",
                 "soon": "yakında gelenler",
                 "links": "bağlantılar"
             },
             "Summary": {
                 "title": "öz geçmiş özeti",
                 "education": {
-                    "title": "Eğitim",
+                    "title": "Özgün Eğitim",
                     "text": "Bilgisayar Bilimleri Lisansı. (2008-2013)\nKoç Üniversitesi, İstanbul."
                 },
                 "work_experience": {
                     "title": "İş Deneyimi",
-                    "text": "Yönetim (rehberlik), kültür yerleştirme ve vizyoner çözümler alanlarında profesyonel mühendislik hizmetleri.\nHerkes için eğitici, yenilikçi, uluslararası, kapsayıcı, toplum dostu, sağlıklı ve adil çözümler."
-                },
-                "consultancy_solutions": {
-                    "title": "Danışmanlık Çözümleri",
-                    "text": "Ekip Lideri, Rehber.\nProje / Ürün Yöneticisi.\nÜrün Geliştirici & Test Uzmanı.\nKültür Geliştirici.\n'Chief Spirit Officer'."
+                    "text": "Ekip Lideri / Rehber.\nProje / Ürün Yöneticisi.\nÜrün Geliştirici & Test Uzmanı.\nKültür Geliştirici."
                 },
                 "personality_traits": {
                     "title": "Karakter Özellikleri",
-                    "text": "Özgünlük, merak, maceracı cesaret, açık fikirlilik, doğrudanlık, tüm çevreyle derin empati (+ çok boyutlu ilham kaynağı), yaratıcı problem çözme, önsezi (vizyon), doğal, her alanda hızlı öğrenme."
+                    "text": "Empati kurabilen, yaratıcı, (çoğunlukla) direkt, dürüst, dışa dönük, eğlenceli ve esprili, nazik, yardımsever, çözüm odaklı, eğitici, yenilikçi, nüktedan, meraklı, vizyon sahibi, tartışmacı, hızlı öğrenen, maceracı, spontane, özgün, kozmopolit..."
                 },
                 "interests": {
                     "title":"İlgi Alanları & Yetenekler",
-                    "text": "Sosyal bilimler, mühendislik, maneviyat, yaratıcı yazılar (şiir, makale, deneme, öykü, teori), elektronik müzik, serbest dans, mizah, yaratıcı yemek pişirme, takım sporları, resim, film, aktivizm, kapsamlı taklit etme (tarihte bilinen veya bilinmeyen herhangi biri), doğa senkronizasyonu..."
+                    "text": "Sosyal bilimler, mühendislik, mantıksal maneviyat, yaratıcı yazarlık (şiir, makale, hikaye), müzik (neredeyse tüm türler), serbest stil dans, oyunculuk, yaratıcı yemek pişirme, takım sporları, araba kullanma, bisiklete binme, resim yapma, sinema, eleştiri, aktivizm, seçici okuma, ayrıntılı canlandırma, doğa senkronizasyonu, ayrıntılara dikkat, sürekli gelişim..."
                 },
                 "social_causes": {
-                    "title": "Sosyal Sorumluluk",
-                    "text": "Herkes için eşitlik:\nHer alanda dürüst ve adil siyaset."
+                    "title": "Değerler",
+                    "text": "Gerçeği aramak.\nEşitlik & Özgürlük."
                 },
                 "places": {
                     "title": "Yaşadığım Yerler",
@@ -61,7 +53,7 @@
                 }
             },
             "Projects": {
-                "title": "projeler",
+                "title": "bazı fikirler",
                 "Gallery": {
                     "title": "Çizim Galerisi",
                     "text": "Karalamalar, çizimler\nve resimler.",
@@ -179,8 +171,6 @@
         "Github": "GitHub",
         "DevTo": "Dev.to",
         "Stackoverflow": "Stackoverflow",
-        "SoundCloud": "SoundCloud",
-        "Vimeo": "Vimeo",
         "FetLife": "FetLife (18+)"
     }
 }

@@ -7,11 +7,10 @@ import { SparkleText, InfoItem } from "@/components";
 export default function HomeInfoSection() {
     const t = useTranslations("Pages.Home.Summary");
     const [collapsed, setCollapsed] = useState(true);
-    const emoji = collapsed ? "🫣" : "🤩";
+    const emoji = collapsed ? "" : "🤩";
     const infoSectionKeys = [
         "education",
         "work_experience",
-        "consultancy_solutions",
         "personality_traits",
         "interests",
         "social_causes",
