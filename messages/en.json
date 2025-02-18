@@ -21,7 +21,7 @@
             "title": "Emin Bugra Saral",
             "subtitle": "Simplicity within a certain complexity.",
             "shortcuts": {
-                "projects": "some ideas",
+                "projects": "some projects",
                 "soon": "coming soon",
                 "links": "links"
             },
@@ -53,7 +53,7 @@
                 }
             },
             "Projects": {
-                "title": "some ideas",
+                "title": "some projects",
                 "Gallery": {
                     "title": "Drawing Gallery",
                     "text": "Doodles, drawings\nand paintings.",
