@@ -2,7 +2,7 @@ import { SectionItem, SectionWithItems } from "@/components/layout/types"
 
 const LinksItems: SectionItem[] = [
     {
-        link: "https://www.linkedin.com/in/eminbugrasaral",
+        link: "https://www.linkedin.com/in/ebsaral",
         image: {
             src: "/images/linkedin-logo.png",
             alt: "LinkedIn logo",
