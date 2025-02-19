@@ -1,5 +1,7 @@
-import Image from "next/image";
 import { useTranslations } from "next-intl"
+import { FaFilePdf } from "react-icons/fa6";
+import { MdOutlineEmail } from "react-icons/md";
+
 
 export default function InfoLinks({className}: {className?: string}) {
     const t = useTranslations("Links")
@@ -10,26 +12,14 @@ export default function InfoLinks({className}: {className?: string}) {
           href={t("cvLink")}
           target="_blank"
         >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
+          <FaFilePdf />
           {t("cvName")}
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="mailto:eminbugrasaral@me.com"
         >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
+          <MdOutlineEmail />
           {t("contact")}
         </a>
       </div>

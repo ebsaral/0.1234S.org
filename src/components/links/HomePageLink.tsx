@@ -1,7 +1,7 @@
-import Image from "next/image"
 import { useLocale, useTranslations } from "next-intl"
 
 import { Link } from "@/i18n/routing";
+import { GrDomain } from "react-icons/gr";
 
 export default function HomePageLink() {
     const t = useTranslations();
@@ -12,13 +12,7 @@ export default function HomePageLink() {
         href="/"
         locale={locale}
     >
-        <Image
-        aria-hidden
-        src="https://nextjs.org/icons/window.svg"
-        alt="File icon"
-        width={16}
-        height={16}
-        />
+        <GrDomain />
         {t("General.home")}
     </Link>
 }

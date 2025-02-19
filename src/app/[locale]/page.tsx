@@ -2,7 +2,7 @@
 import { useTranslations } from "next-intl";
 import { getTranslations } from 'next-intl/server';
 
-import { HomeInfoSection, InnerLayout, SectionWithItems, HomeAnchorLinks, InfoLinks} from "@/components";
+import { HomeInfoSection, InnerLayout, SectionWithItems, InfoLinks} from "@/components";
 import { LinksSection, ProjectsSection, SoonSection } from "@/data";
 import { InnerLayout as InnerLayoutType, SectionWithItems as SectionWithItemsType } from "@/types";
 
@@ -43,8 +43,7 @@ export default function Home() {
 
   return <InnerLayout params={params}>
     <>
-      <HomeAnchorLinks />
-      <InfoLinks className="max-sm:hidden" />
+      <InfoLinks />
       <hr className="page-break"></hr>
       <HomeInfoSection />
       <hr className="page-break"></hr>
