@@ -64,20 +64,6 @@
 			  "subtitle": {
 				"type": "string"
 			  },
-			  "shortcuts": {
-				"type": "object",
-				"properties": {
-					"projects": {"type": "string"},
-					"soon": {"type": "string"},
-					"links": {"type": "string"}
-				},
-				"required": [
-					"projects",
-					"soon",
-					"links"
-				],
-				"additionalProperties": false
-			  },
 			  "Summary": {
 				"type": "object",
 				"properties": {
@@ -130,7 +116,6 @@
 			  "Metadata",
 			  "title",
 			  "subtitle",
-			  "shortcuts",
 			  "Summary",
 			  "Projects",
 			  "Apology"
