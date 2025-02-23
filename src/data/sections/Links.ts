@@ -26,18 +26,6 @@ const LinksItems: SectionItem[] = [
         titleStyle: "text-sm"
     },
     {
-        link: "https://www.dev.to/ebsaral",
-        image: {
-            src: "/images/devto-logo.png",
-            alt: "Dev.to logo",
-            width: 33
-        },
-        translationPaths: {
-            title: "Links.DevTo",
-        },
-        titleStyle: "text-sm"
-    },
-    {
         link: "https://stackoverflow.com/users/1437254/emin-bugra-saral?tab=profile",
         image: {
             src: "/images/stackoverflow-logo.png",
@@ -60,19 +48,7 @@ const LinksItems: SectionItem[] = [
             title: "Links.DeviantArt",
         },
         titleStyle: "text-sm"
-    },
-    {
-        link: "https://fetlife.com/users/16201534",
-        image: {
-            src: "/images/fetlife-logo.png",
-            alt: "FetLife logo",
-            width: 33
-        },
-        translationPaths: {
-            title: "Links.FetLife",
-        },
-        titleStyle: "text-sm"
-    },
+    }
 ]
 
 export const LinksSection: SectionWithItems = {
@@ -81,6 +57,6 @@ export const LinksSection: SectionWithItems = {
     },
     items: LinksItems,
     minCol: 2,
-    maxCol: 3,
+    maxCol: 4,
     id: "links"
 }

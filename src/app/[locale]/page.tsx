@@ -7,9 +7,9 @@ import { LinksSection, ProjectsSection, SoonSection } from "@/data";
 import { InnerLayout as InnerLayoutType, SectionWithItems as SectionWithItemsType } from "@/types";
 
 const Sections: SectionWithItemsType[] = [
+  LinksSection,
   ProjectsSection,
-  SoonSection,
-  LinksSection
+  SoonSection
 ]
 
 export async function generateMetadata({params}: {
@@ -46,7 +46,6 @@ export default function Home() {
       <InfoLinks />
       <hr className="page-break"></hr>
       <HomeInfoSection />
-      <hr className="page-break"></hr>
       <div className="page-section">
         {Sections.map((section, i) => <SectionWithItems key={`sectionWithItems_${i}`} translationPaths={section.translationPaths} items={section.items} minCol={section.minCol} maxCol={section.maxCol} id={section.id} />)}      
       </div>

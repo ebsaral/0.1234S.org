@@ -36,6 +36,6 @@ export const SoonSection: SectionWithItems = {
     },
     items: SoonItems,
     minCol: 1,
-    maxCol: 3,
+    maxCol: 2,
     id: "soon"
 }

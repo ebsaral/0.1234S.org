@@ -15,19 +15,6 @@ const ProjectsItems : SectionItem[] = [
         titleStyle: "gradient-blue text-lg"
     },
     {
-        link: "Pages.Home.Projects.Asses.link",
-        image: {
-            src: "/images/asses-logo-small.png",
-            alt: "Asses small logo",
-            width: 120
-        },
-        translationPaths: {
-            title: "Pages.Home.Projects.Asses.title",
-            text: "Pages.Home.Projects.Asses.text"
-        },
-        titleStyle: "gradient-blue text-lg"
-    },
-    {
         link: "https://touch-sensei.saral.me",
         image: {
             src: "/images/touch-sensei-logo.png",
@@ -49,6 +36,6 @@ export const ProjectsSection: SectionWithItems = {
     },
     items: ProjectsItems,
     minCol: 1,
-    maxCol: 3,
+    maxCol: 2,
     id: "projects"
 }
