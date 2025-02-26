@@ -44,8 +44,8 @@ export default function Page() {
 
   const params: InnerLayoutType = {
     image: {
-      src: "/images/eminbugrasaral-2024.jpg",
-      alt: "Emin Bugra Saral - 2024"
+      src: "/images/logo.png", 
+      alt:"Emin Bugra Saral"
     }, 
     title: t("title"),
     subtitle: t("subtitle"),
