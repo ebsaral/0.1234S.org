@@ -1,5 +1,4 @@
 
-import Image from "next/image"
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
@@ -56,19 +55,6 @@ export default function Page() {
 
 
   return <InnerLayout params={params}>
-    <>
     <GalleryLayout albums={albums} />
-    <div className="page-section">
-      <Image
-        className="rounded-3xl"
-        src="/images/gallery/eminbugrasaral-gallery-main.jpg"
-        alt="Emin Bugra Saral - 2023"
-        title="Emin Bugra Saral - 2023"
-        width={350}
-        height={350}
-        priority
-      />
-    </div>
-    </>
   </InnerLayout>;
 }

@@ -58,5 +58,6 @@ export type SectionWithItems = {
     items: SectionItem[],
     minCol: number,
     maxCol: number,
-    id: string
+    id: string,
+    displayTitle: boolean
 }
