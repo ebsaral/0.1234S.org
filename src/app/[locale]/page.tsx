@@ -34,7 +34,7 @@ export default function Home() {
   const params: InnerLayoutType = {
     image: {
       src: "/images/eminbugrasaral-2024.jpg",
-      alt: "Emin Bugra Saral - 2024"
+      alt: "Emin Bugra Saral, 2024."
     }, 
     title: t("title"),
     subtitle: t("subtitle")
