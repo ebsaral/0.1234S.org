@@ -240,14 +240,7 @@ const doodles = [
     height: 800,
     alt: "Doodle 34",
     title: "Doodle 34",
-  },
-  {
-    asset: "/images/gallery/doodles/35.JPG",
-    width: 542,
-    height: 800,
-    alt: "Doodle 35",
-    title: "Doodle 35",
-  },
+  }
 
 ].map(
   ({ asset, alt, width, height, title }) =>
