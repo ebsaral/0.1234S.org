@@ -39,7 +39,7 @@ export default function HomeInfoSection() {
                 >
                     <SparkleText />
                 </div>
-                <div className="text-4xl">👅</div>
+                <div className="text-4xl">🕺</div>
             </div>
             )
         }
