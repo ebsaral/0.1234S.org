@@ -15,7 +15,7 @@ const ProjectsItems : SectionItem[] = [
         titleStyle: "gradient-blue text-lg"
     },
     {
-        link: "https://touch-sensei.saral.me",
+        link: "https://touch-sensei-web.vercel.app",
         image: {
             src: "/images/touch-sensei-logo.png",
             alt: "Touch Sensei Logo",
