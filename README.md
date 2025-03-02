@@ -1,6 +1,6 @@
 ## Readme
 
-[Emin Bugra Saral](https://www.github.com/ebsaral)'s portfolio web: **[saral.me](https://saral.me)** is an umbrella domain for all kind of my projects and professional career.
+[Emin Bugra Saral](https://www.github.com/ebsaral)'s online personal presence: **[ebsaral.vercel.app](https://ebsaral.vercel.app)**.
 
 - I improve the coding style and design whenever I feel like painting some web bits with different code blocks.
 - I aim to reflect my thinking style in details, not my coding talents.
