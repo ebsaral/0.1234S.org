@@ -2,18 +2,6 @@ import { SectionItem, SectionWithItems } from "@/components/layout/types"
 
 const LinksItems: SectionItem[] = [
     {
-        link: "https://www.linkedin.com/in/ebsaral",
-        image: {
-            src: "/images/linkedin-logo.png",
-            alt: "LinkedIn logo",
-            width: 33
-        },
-        translationPaths: {
-            title: "Links.LinkedIn",
-        },
-        titleStyle: "text-sm"
-    },
-    {
         link: "https://www.github.com/ebsaral",
         image: {
             src: "/images/github-logo.png",
