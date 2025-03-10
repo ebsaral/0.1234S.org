@@ -12,7 +12,6 @@ export function generateStaticParams() {
 
 import "../globals.css";
 import { SpeedInsights } from '@vercel/speed-insights/next';
-import LanguageSelection from '@/components/layout/LanguageSelection';
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",
@@ -42,7 +41,6 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider messages={messages}>
           <div className="page-container">
-            <LanguageSelection />
             {children}
           </div>
           <Analytics />

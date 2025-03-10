@@ -5,21 +5,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: 'https://ebsaral.vercel.app',
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          tr: 'https://ebsaral.vercel.app/tr',
-        },
-      },
+      lastModified: new Date()
     },
     {
       url: 'https://ebsaral.vercel.app/gallery',
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          tr: 'https://ebsaral.vercel.app/tr/gallery',
-        },
-      },
+      lastModified: new Date()
     }
   ]
 }
