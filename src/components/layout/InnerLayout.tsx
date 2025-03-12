@@ -4,7 +4,6 @@ import { useTranslations } from "next-intl";
 import { LastUpdate, PublishDate} from "@/components/dates";
 import { HomePageLink} from "@/components/links";
 import { InnerLayout as InnerLayoutType } from "@/components/layout/types";
-import LanguageSelection from "./LanguageSelection";
 
 export default function PageInnerLayout({children, params}: {
     children: React.ReactNode;
@@ -28,7 +27,6 @@ export default function PageInnerLayout({children, params}: {
             <p>{params.subtitle}</p>
         </div>
         {children}
-        <LanguageSelection className="mt-0 sm:hidden" targetId="b" />
         <div className="page-footer">
             {params.publishDate && <PublishDate date={new Date(params.publishDate)} />}
             {params.lastUpdateDate && <LastUpdate date={new Date(params.lastUpdateDate)} />}
