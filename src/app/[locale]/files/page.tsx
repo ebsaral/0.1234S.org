@@ -38,7 +38,7 @@ export default function Page() {
           <div className="grid grid-cols-3 gap-6 p-6">
               <div>cv/english</div>
               <div>pdf</div>
-              <div><Link className="underline underline-offset-2" href="/files/cv/english.pdf" target="_blank">/files/cv/english.pdf</Link></div>
+              <div><Link className="underline underline-offset-2" href="/files/cv/english5.0.pdf" target="_blank">/files/cv/english.pdf</Link></div>
           </div>
           <div className="grid grid-cols-3 gap-6 p-6">
               <div>cv/turkish</div>
