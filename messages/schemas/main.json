@@ -297,6 +297,9 @@
 		  },
 		  "FetLife": {
 			"type": "string"
+		  },
+		  "Medium": {
+			"type": "string"
 		  }
 		},
 		"required": [
@@ -309,7 +312,8 @@
 		  "Github",
 		  "DevTo",
 		  "Stackoverflow",
-		  "FetLife"
+		  "FetLife",
+		  "Medium"
 		],
 		"additionalProperties": false
 	  }
