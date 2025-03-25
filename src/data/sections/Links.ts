@@ -36,6 +36,18 @@ const LinksItems: SectionItem[] = [
             title: "Links.Medium",
         },
         titleStyle: "text-sm"
+    },
+    {
+        link: "https://fetlife.com/users/16201534",
+        image: {
+            src: "/images/fetlife-logo.png",
+            alt: "FetLife logo",
+            width: 33
+        },
+        translationPaths: {
+            title: "Links.FetLife",
+        },
+        titleStyle: "text-sm"
     }
 ]
 
@@ -44,8 +56,8 @@ export const LinksSection: SectionWithItems = {
         title: "Links.title"
     },
     items: LinksItems,
-    minCol: 3,
-    maxCol: 3,
+    minCol: 2,
+    maxCol: 4,
     id: "links",
     displayTitle: true
 }
