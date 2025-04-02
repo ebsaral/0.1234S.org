@@ -14,18 +14,6 @@ const LinksItems: SectionItem[] = [
         titleStyle: "text-sm"
     },
     {
-        link: "https://www.deviantart.com/eminbugrasaral",
-        image: {
-            src: "/images/deviantart-logo.png",
-            alt: "DeviantArt logo",
-            width: 33
-        },
-        translationPaths: {
-            title: "Links.DeviantArt",
-        },
-        titleStyle: "text-sm"
-    },
-    {
         link: "https://www.medium.com/@ebsaral",
         image: {
             src: "/images/medium-logo.png",
@@ -37,6 +25,42 @@ const LinksItems: SectionItem[] = [
         },
         titleStyle: "text-sm"
     },
+    {
+        link: "https://www.dev.to/ebsaral",
+        image: {
+            src: "/images/dev-logo.png",
+            alt: "Dev.to logo",
+            width: 33
+        },
+        translationPaths: {
+            title: "Links.DevTo",
+        },
+        titleStyle: "text-sm"
+    },
+    {
+        link: "https://stackoverflow.com/users/1437254",
+        image: {
+            src: "/images/stackoverflow-logo.png",
+            alt: "Stackoverflow logo",
+            width: 33
+        },
+        translationPaths: {
+            title: "Links.Stackoverflow",
+        },
+        titleStyle: "text-sm"
+    },
+    {
+        link: "https://www.deviantart.com/eminbugrasaral",
+        image: {
+            src: "/images/deviantart-logo.png",
+            alt: "DeviantArt logo",
+            width: 33
+        },
+        translationPaths: {
+            title: "Links.DeviantArt",
+        },
+        titleStyle: "text-sm"
+    },    
     {
         link: "https://fetlife.com/users/16201534",
         image: {
@@ -56,8 +80,8 @@ export const LinksSection: SectionWithItems = {
         title: "Links.title"
     },
     items: LinksItems,
-    minCol: 2,
-    maxCol: 4,
+    minCol: 3,
+    maxCol: 3,
     id: "links",
     displayTitle: true
 }
