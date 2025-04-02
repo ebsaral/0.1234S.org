@@ -31,8 +31,8 @@ const drawings = [
     asset: "/images/gallery/drawings/9-20230805.jpg",
     width: 2113,
     height: 2000,
-    alt: "Half",
-    title: "Half",
+    alt: "0 divided by 2",
+    title: "0 divided by 2",
     description: "05.08.2023 Munich"
   },
   {
