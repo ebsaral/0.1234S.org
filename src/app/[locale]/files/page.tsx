@@ -36,9 +36,14 @@ export default function Page() {
               <div>{t("Links.link")}</div>
           </div>
           <div className="grid grid-cols-3 gap-6 p-6">
-              <div>cv/english</div>
+              <div>cv/english5.5</div>
               <div>pdf</div>
-              <div><Link className="underline underline-offset-2" href="/files/cv/english5.5.pdf" target="_blank">/files/cv/english.pdf</Link></div>
+              <div><Link className="underline underline-offset-2" href="/files/cv/english5.5.pdf" target="_blank">/files/cv/english5.5.pdf</Link></div>
+          </div>
+          <div className="grid grid-cols-3 gap-6 p-6">
+              <div>cv/english6.0</div>
+              <div>pdf</div>
+              <div><Link className="underline underline-offset-2" href="/files/cv/english6.0.pdf" target="_blank">/files/cv/english6.0.pdf</Link></div>
           </div>
           <div className="grid grid-cols-3 gap-6 p-6">
               <div>cv/turkish</div>
