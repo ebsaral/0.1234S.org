@@ -46,6 +46,11 @@ export default function Page() {
               <div><Link className="underline underline-offset-2" href="/files/cv/english6.0.pdf" target="_blank">/files/cv/english6.0.pdf</Link></div>
           </div>
           <div className="grid grid-cols-3 gap-6 p-6">
+              <div>cv/english6.1</div>
+              <div>pdf</div>
+              <div><Link className="underline underline-offset-2" href="/files/cv/english6.1.pdf" target="_blank">/files/cv/english6.1.pdf</Link></div>
+          </div>
+          <div className="grid grid-cols-3 gap-6 p-6">
               <div>cv/turkish</div>
               <div>pdf</div>
               <div><Link className="underline underline-offset-2" href="/files/cv/turkish.pdf" target="_blank">/files/cv/turkish.pdf</Link></div>
