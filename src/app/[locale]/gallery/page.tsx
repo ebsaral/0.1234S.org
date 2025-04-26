@@ -43,10 +43,6 @@ export default function Page() {
   ]
 
   const params: InnerLayoutType = {
-    image: {
-      src: "/images/logo.png", 
-      alt:"Emin Bugra Saral, 2023. Caption: 'Tire(d) a lot'"
-    }, 
     title: t("title"),
     subtitle: t("subtitle"),
     displayHomePageLink: true
