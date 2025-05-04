@@ -72,6 +72,7 @@
 					"work_experience": {"$ref": "/TitleAndText"},
 					"personality_traits": {"$ref": "/TitleAndText"},
 					"interests": {"$ref": "/TitleAndText"},
+					"talents": {"$ref": "/TitleAndText"},
 					"social_causes": {"$ref": "/TitleAndText"},
 					"places": {"$ref": "/TitleAndText"}
 				},
@@ -81,6 +82,7 @@
 				  "work_experience",
 				  "personality_traits",
 				  "interests",
+				  "talents",
 				  "social_causes",
 				  "places"
 				],

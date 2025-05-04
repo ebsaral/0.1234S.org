@@ -3,7 +3,7 @@ import { InfoSection } from "@/components/layout/types"
 
 export function InfoItem({title, text, wide}: {title: string, text: string, wide?:boolean}) {
     let titleClass = "font-bold text-2xl sm:text-right text-left"
-    let textClass = "col-span-2"
+    let textClass = "col-span-2 text-left leading-6"
     if(wide) {
         titleClass += " sm:basis-1/5"
         textClass += " sm:basis-4/5"

@@ -35,8 +35,12 @@
                     "text": "Empati kurabilen, yaratıcı, (çoğunlukla) direkt, dürüst, dışa dönük, eğlenceli ve esprili, nazik, yardımsever, çözüm odaklı, eğitici, yenilikçi, nüktedan, meraklı, vizyon sahibi, tartışmacı, hızlı öğrenen, maceracı, spontane, özgün, kozmopolit..."
                 },
                 "interests": {
-                    "title":"İlgi Alanları & Yetenekler",
-                    "text": "Sosyal bilimler, mühendislik, mantıksal maneviyat, yaratıcı yazarlık (şiir, makale, hikaye), müzik (neredeyse tüm türler), serbest stil dans, oyunculuk, yaratıcı yemek pişirme, takım sporları, araba kullanma, bisiklete binme, resim yapma, sinema, eleştiri, aktivizm, seçici okuma, ayrıntılı canlandırma, doğa senkronizasyonu, ayrıntılara dikkat, sürekli gelişim..."
+                    "title":"İlgi Alanları",
+                    "text": "Sosyal bilimler (psikoloji, sosyoloji, felsefe, tarih)\nMantıksal maneviyat (evrim, sağlıklı zihin ve beden)\nMüzik (neredeyse tüm türler)\nSürekli büyüme ve kişisel gelişim"
+                },
+                "talents": {
+                    "title": "Yetenekler",
+                    "text": "Yaratıcı yazarlık (şiir, makale, hikaye)\nDetaylı taklit (+ zamansız empati)\nSanat eleştirisi (resim, film, şarkı)\nSerbest stil dans (+ kulüp)\nYaratıcı yemek pişirme (vejetaryen)}\nTakım sporları (futbol, ​​basketbol, ​​voleybol)\nEkstrem sporlar (dağ bisikleti)\nResim (karakalem çizimi, karalamalar)\nFilm yapımcılığı (+ oyunculuk)\nSürüş (+ drift)\nHer türlü ayrıntıya deneyimli dikkat"
                 },
                 "social_causes": {
                     "title": "Değerler",

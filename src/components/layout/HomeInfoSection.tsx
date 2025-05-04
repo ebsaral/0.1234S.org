@@ -11,8 +11,9 @@ export default function HomeInfoSection() {
     const infoSectionKeys = [
         "education",
         "work_experience",
-        "personality_traits",
         "interests",
+        "talents",
+        "personality_traits",
         "social_causes",
         "places"
         ]

@@ -19,24 +19,28 @@
                 "keywords": "Emin Bugra Saral"
             },
             "title": "Emin Buğra Saral",
-            "subtitle": "Simplicity within a certain complexity.",
+            "subtitle": "Simplicity within a certain complexity",
             "Summary": {
                 "title": "resume summary",
                 "education": {
-                    "title": "Formal Education",
-                    "text": "Bachelors in Computer Science. (2008-2013)\nKoc University, Istanbul."
+                    "title": "Education",
+                    "text": "Bachelors in Computer Science\nKoc University, Istanbul"
                 },
                 "work_experience": {
                     "title": "Work Experience",
-                    "text": "Spirit Guide.\nTeam Lead.\nPeople Manager.\nProject & Product Manager.\nEngineering Manager.\nSolutions Expert."
+                    "text": "Spirit Guide\nTeam Lead\nPeople Manager\nProject & Product Manager\nEngineering Manager\nSolutions Expert"
+                },
+                "interests": {
+                    "title": "Interests",
+                    "text": "Social sciences\nLogical spirituality\nMusic (almost all genres)\nContinuous growth & personal development"
+                },
+                "talents": {
+                    "title": "Talents",
+                    "text": "Creative writing (poem, article, story)\nDetailed impersonation (+ timeless empathy)\nArt criticism (painting, movie, song)\nFreestyle dancing (+ clubbing)\nCreative cooking (vegetarian)\nTeam sports (football, basketball, volleyball)\nExtreme sports (mountain biking)\nPainting (pencil drawing, doodles)\nMovie making (+ acting)\nDriving (+ drifting)\nExperienced attention to all kind of details"
                 },
                 "personality_traits": {
                     "title": "Personality Traits",
-                    "text": "Adventurous, authentic, cosmopolitan, creative, curious, debater, direct, educative, emotional, empath, extrovert, friendly, funny, humorous, helpful, honest, innovative, logical, outgoing, rapid learner, solution oriented, spontaneous, visionary, witty..."
-                },
-                "interests": {
-                    "title": "Interests & Talents",
-                    "text": "Social sciences, engineering, logical spirituality, creative writing (poem, article, story), picky reading, art criticism, music (almost all genres), freestyle dancing, clubbing, creative cooking, team sports, extreme sports, biking, painting, movies (+ acting), driving (+ drifting), detailed impersonation, nature synchronization, attention to details, continuous growth..."
+                    "text": "Adventurous\nAuthentic\nCosmopolitan\nCreative\nCurious\nDebater\nDirect\nEducative\nEmotional\nEmpath\nExtrovert\nFriendly\nFunny\nHumorous\nHelpful\nHonest\nInnovative\nLogical\nOutgoing\nRapid learner\nSolution oriented\nSpontaneous\nVisionary\nWitty"
                 },
                 "social_causes": {
                     "title": "Social Values",
@@ -44,7 +48,7 @@
                 },
                 "places": {
                     "title": "Places Lived In",
-                    "text": "Trabzon (Türkiye).\nIstanbul (Türkiye).\nBordeaux (France).\nSan Jose (USA). \nMunich (Germany).\nRight Now: Trabzon (Türkiye)."
+                    "text": "Trabzon (Türkiye)\nIstanbul (Türkiye)\nBordeaux (France)\nSan Jose (USA)\nMunich (Germany)\nRight Now: Trabzon (Türkiye)"
                 }
             },
             "Projects": {
