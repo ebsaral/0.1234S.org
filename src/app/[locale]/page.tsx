@@ -32,6 +32,10 @@ export async function generateMetadata({params}: {
 export default function Home() {
   const t = useTranslations("Pages.Home");
   const params: InnerLayoutType = {
+    image: {
+      src: "/images/eminbugrasaral-2025.jpg",
+      alt: "Emin Bugra Saral, 2025."
+    }, 
     title: t("title"),
     subtitle: t("subtitle")
   }
