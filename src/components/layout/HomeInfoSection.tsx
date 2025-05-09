@@ -13,7 +13,6 @@ export default function HomeInfoSection() {
         "work_experience",
         "interests",
         "talents",
-        "personality_traits",
         "social_causes",
         "places"
         ]
