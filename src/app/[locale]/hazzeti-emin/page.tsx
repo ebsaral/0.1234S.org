@@ -17,7 +17,7 @@ export async function generateMetadata({params}: {
     openGraph: {
       images: [
         {
-          url:"/images/hazzeti-emin-logo-small.jpeg"
+          url:"/images/hazzeti-emin/logo-small.jpeg"
         }
       ]
     }
@@ -28,7 +28,7 @@ export default function Page() {
     const t = useTranslations("Pages.HazzetiEmin");
     const params: InnerLayoutType = {
       image: {
-        src: "/images/hazzeti-emin-logo.jpeg",
+        src: "/images/hazzeti-emin/logo.jpeg",
         alt:"Hazzeti Emin (HAV)"
       },
       isSoon: true,
