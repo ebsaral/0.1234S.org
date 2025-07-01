@@ -45,7 +45,11 @@ export default function Page() {
   const params: InnerLayoutType = {
     title: t("title"),
     subtitle: t("subtitle"),
-    displayHomePageLink: true
+    displayHomePageLink: true,
+    image: {
+      src: "/images/gallery/eminbugrasaral-gallery-main.jpg",
+      alt: "Emin Bugra Saral, 2023."
+    }, 
   }
 
 
