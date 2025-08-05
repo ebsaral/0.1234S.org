@@ -303,9 +303,6 @@
 		  "Stackoverflow": {
 			"type": "string"
 		  },
-		  "FetLife": {
-			"type": "string"
-		  },
 		  "Medium": {
 			"type": "string"
 		  }
@@ -322,7 +319,6 @@
 		  "Github",
 		  "DevTo",
 		  "Stackoverflow",
-		  "FetLife",
 		  "Medium"
 		],
 		"additionalProperties": false
