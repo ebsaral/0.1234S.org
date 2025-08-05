@@ -279,12 +279,6 @@
 		  "cvLink": {
 			"type": "string"
 		  },
-		  "politicalCvName": {
-			"type": "string"
-		  },
-		  "politicalCvLink": {
-			"type": "string"
-		  },
 		  "contact": {
 			"type": "string"
 		  },
@@ -311,8 +305,6 @@
 		  "title",
 		  "cvName",
 		  "cvLink",
-		  "politicalCvName",
-		  "politicalCvLink",
 		  "contact",
 		  "LinkedIn",
 		  "DeviantArt",

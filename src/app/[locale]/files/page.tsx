@@ -45,11 +45,6 @@ export default function Page() {
               <div>docx</div>
               <div><Link className="underline underline-offset-2" href="/files/cv/english.docx" target="_blank">/files/cv/english.docx</Link></div>
           </div>
-          <div className="grid grid-cols-3 gap-6 p-6">
-              <div>cv/politics</div>
-              <div>docx</div>
-              <div><Link className="underline underline-offset-2" href="/files/cv/politics.pdf" target="_blank">/files/cv/politics.pdf</Link></div>
-          </div>
       </div>
     </>
     </InnerLayout>;

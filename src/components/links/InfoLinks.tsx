@@ -17,13 +17,6 @@ export default function InfoLinks({className}: {className?: string}) {
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href={t("politicalCvLink")}
-        >
-          <FaRegFilePdf />
-          {t("politicalCvName")}
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="mailto:eminbugrasaral@me.com"
         >
           <MdOutlineEmail />
