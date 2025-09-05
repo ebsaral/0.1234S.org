@@ -97,6 +97,7 @@
 				  "Gallery": {"$ref": "/TitleAndTextWithLink"},
 				  "Asses": {"$ref": "/TitleAndTextWithLink"},
 				  "TouchSensei": {"$ref": "/TitleAndText"},
+				  "LogicalSpirituality": {"$ref": "/TitleAndText"},
 				  "HazzetiEmin": {"$ref": "/TitleAndTextWithLink"},
 				  "CB": {"$ref": "/TitleAndText"},
 				  "EBSLifeSolutions": {"$ref": "/TitleAndText"}
@@ -106,6 +107,7 @@
 				  "Gallery",
 				  "Asses",
 				  "TouchSensei",
+				  "LogicalSpirituality",
 				  "HazzetiEmin",
 				  "CB",
 				  "EBSLifeSolutions"
@@ -304,6 +306,9 @@
 			"type": "string"
 		  },
 		  "Medium": {
+			"type": "string"
+		  },
+		  "Spirituality": {
 			"type": "string"
 		  }
 		},

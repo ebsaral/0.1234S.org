@@ -2,6 +2,19 @@ import { SectionItem, SectionWithItems } from "@/components/layout/types"
 
 const ProjectsItems : SectionItem[] = [
     {
+        link: "https://spirituality.vercel.app",
+        image: {
+            src: "/images/logical-spirituality-logo.png",
+            alt: "Logical Spirituality Logo",
+            width: 120
+        },
+        translationPaths: {
+            title: "Pages.Home.Projects.LogicalSpirituality.title",
+            text: "Pages.Home.Projects.LogicalSpirituality.text"
+        },
+        titleStyle: "gradient-blue text-lg"
+    },
+    {
         link: "Pages.Home.Projects.Gallery.link",
         image: {
             src: "/images/gallery-logo.png",
@@ -27,7 +40,6 @@ const ProjectsItems : SectionItem[] = [
         },
         titleStyle: "gradient-blue text-lg"
     }
-    
 ]
 
 export const ProjectsSection: SectionWithItems = {
@@ -36,7 +48,7 @@ export const ProjectsSection: SectionWithItems = {
     },
     items: ProjectsItems,
     minCol: 1,
-    maxCol: 2,
+    maxCol: 3,
     id: "projects",
     displayTitle: false
 }
