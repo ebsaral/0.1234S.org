@@ -2,7 +2,7 @@ import { SectionItem, SectionWithItems } from "@/components/layout/types"
 
 const ProjectsItems : SectionItem[] = [
     {
-        link: "https://spirituality.vercel.app",
+        link: "https://1234s.org",
         image: {
             src: "/images/logical-spirituality-logo.png",
             alt: "Logical Spirituality Logo",
