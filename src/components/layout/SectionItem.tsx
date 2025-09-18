@@ -37,7 +37,7 @@ export default function SectionItem({item} : {item: SectionItemType}) {
           <a
               className="flex flex-col items-center p-5 text-sm text-left font-[family-name:var(--font-geist-mono)] whitespace-pre-line border border-solid border-transparent transition-colors hover:bg-gray-800"
               href={getLink(item)}
-              target={item.link.startsWith("http")?"_blank":"_self"}
+              target={isHttp(getLink(item))?"_blank":"_self"}
               rel="noopener noreferrer"
           >
             <div className="flex flex-col items-center justify-center gap-3">
