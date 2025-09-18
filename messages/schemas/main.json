@@ -96,11 +96,9 @@
 				  },
 				  "Gallery": {"$ref": "/TitleAndTextWithLink"},
 				  "Asses": {"$ref": "/TitleAndTextWithLink"},
-				  "TouchSensei": {"$ref": "/TitleAndText"},
-				  "LogicalSpirituality": {"$ref": "/TitleAndText"},
-				  "HazzetiEmin": {"$ref": "/TitleAndTextWithLink"},
-				  "CB": {"$ref": "/TitleAndText"},
-				  "EBSLifeSolutions": {"$ref": "/TitleAndText"}
+				  "TouchSensei": {"$ref": "/TitleAndTextWithLink"},
+				  "LogicalSpirituality": {"$ref": "/TitleAndTextWithLink"},
+				  "HazzetiEmin": {"$ref": "/TitleAndTextWithLink"}
 				},
 				"required": [
 				  "title",
@@ -108,21 +106,17 @@
 				  "Asses",
 				  "TouchSensei",
 				  "LogicalSpirituality",
-				  "HazzetiEmin",
-				  "CB",
-				  "EBSLifeSolutions"
+				  "HazzetiEmin"
 				],
 				"additionalProperties": false
-			  },
-			  "Apology": {"$ref": "/TitleAndText"}
+			  }
 			},
 			"required": [
 			  "Metadata",
 			  "title",
 			  "subtitle",
 			  "Summary",
-			  "Projects",
-			  "Apology"
+			  "Projects"
 			],
 			"additionalProperties": false
 		  },

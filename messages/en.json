@@ -65,29 +65,19 @@
                 },
                 "TouchSensei": {
                     "title": "Touch Sensei",
-                    "text": "A simple mobile game.\nTry it now. (Only in iOS)"
+                    "text": "A simple mobile game.\nTry it now. (Only in iOS)",
+                    "link": "https://touch-sensei-web.vercel.app"
                 },
                 "LogicalSpirituality": {
                     "title": "Logical Spirituality",
-                    "text": "Expanding Spirituality\nwith Logic in Nature."
+                    "text": "Expanding Spirituality\nwith Logic in Nature.",
+                    "link": "https://www.1234s.org"
                 },
                 "HazzetiEmin": {
                     "title": "Hazzeti Emin (HAV)",
                     "text": "Situation comedy\nin Turkish. (Audio)",
                     "link": "/en/hazzeti-emin"
-                },
-                "CB": {
-                    "title": "CB",
-                    "text": "Theories, articles, projects\nand works for a better\nfuture for everyone."
-                },
-                "EBSLifeSolutions": {
-                    "title": "EBS Life Solutions",
-                    "text": "Consultancy company."
                 }
-            },
-            "Apology": {
-                "title": "Apology Text",
-                "text": "If I have caused any negativity in your life (directly or indirectly) and you are right, I sincerely apologize. If I'm right, you must apologize."
             }
         },
         "Gallery": {
@@ -165,7 +155,7 @@
         }
     },
     "Links": {
-        "title": "───── ∞ ─────",
+        "title": "────────── ∞ ──────────",
         "cvName": "Resume (CV)",
         "cvLink": "files/cv/english.pdf",
         "politicalCvName": "Resume for Politics",

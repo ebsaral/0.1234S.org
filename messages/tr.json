@@ -65,29 +65,19 @@
                 },
                 "TouchSensei": {
                     "title": "Touch Sensei",
-                    "text": "Basit bir mobil oyun.\nŞimdi deneyin. (Sadece iOS)"
+                    "text": "Basit bir mobil oyun.\nŞimdi deneyin. (Sadece iOS)",
+                    "link": "https://touch-sensei-web.vercel.app"
                 },
                 "LogicalSpirituality": {
                     "title": "Mantıksal Maneviyat",
-                    "text": "Doğadaki Mantıkla\nManeviyatı Derinleştirmek."
+                    "text": "Doğadaki Mantıkla\nManeviyatı Derinleştirmek.",
+                    "link": "https://www.1234s.org"
                 },
                 "HazzetiEmin": {
                     "title": "Hazzeti Emin (HAV)",
                     "text": "Durum komedisi. (Ses)",
                     "link": "/tr/hazzeti-emin"
-                },
-                "CB": {
-                    "title": "CB",
-                    "text": "Daha iyi bir gelecek için\nteorilerim, makalelerim,\nprojelerim ve çalışmalarım."
-                },
-                "EBSLifeSolutions": {
-                    "title": "EBS Yaşam Çözümleri",
-                    "text": "Danışmanlık şirketi."
                 }
-            },
-            "Apology": {
-                "title": "Özür Metni",
-                "text": "Eğer hayatınızdaki herhangi bir olumsuzluğa (dolaylı veya dolaysız bir şekilde) sebep olduysam ve siz haklıysanız, samimiyetle özür dilerim. Ben haklıysam, özür dilemelisiniz."
             }
         },
         "Gallery": {
@@ -108,7 +98,7 @@
             "Metadata": {
                 "title": "Asses of Glyptothek",
                 "description": "Glyptothek müzesi turu ve kısa bir yaratıcı doküman.",
-                "keywords": "götler,münih,Glyptothek,heykel"
+                "keywords": "gottler,münih,Glyptothek,heykel"
             },
             "info": {
                 "purpose": {
@@ -165,11 +155,11 @@
         }
     },
     "Links": {
-        "title": "───── ∞ ─────",
+        "title": "────────── ∞ ──────────",
         "cvName": "Öz Geçmiş (CV)",
-        "cvLink": "files/cv/turkish.pdf",
+        "cvLink": "",
         "politicalCvName": "Politika için Öz Geçmiş",
-        "politicalCvLink": "files/cv/politics.pdf",
+        "politicalCvLink": "",
         "contact": "İletişim (e-posta)",
         "LinkedIn": "LinkedIn",
         "DeviantArt": "DeviantArt",
