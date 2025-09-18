@@ -4,7 +4,7 @@ const SoonItems : SectionItem[] = [
     {
         link: "Pages.Home.Projects.HazzetiEmin.link",
         image: {
-            src: "/images/hazzeti-emin-logo.jpeg",
+            src: "/images/hazzeti-emin/logo-small.jpeg",
             alt: "Hazzeti Emin (H.A.V.)",
             width: 120
         },
