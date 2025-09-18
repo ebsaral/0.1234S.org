@@ -12,22 +12,23 @@ const SoonItems : SectionItem[] = [
             title: "Pages.Home.Projects.HazzetiEmin.title",
             text: "Pages.Home.Projects.HazzetiEmin.text",
         },
-        titleStyle: "gradient-gray text-lg"
+        titleStyle: "gradient-gray text-lg",
+        displayLink: true
     },
     {
-        link: "https://cb.saral.me",
+        link: "Pages.Home.Projects.Asses.link",
         image: {
-            src: "/images/ebs-wall.png",
-            alt: "EBS - Breaking a wall",
+            src: "/images/asses-logo-small.png",
+            alt: "Asses of Glyptothek",
             width: 120
         },
         translationPaths: {
-            title: "Pages.Home.Projects.CB.title",
-            text: "Pages.Home.Projects.CB.text"
+            title: "Pages.Home.Projects.Asses.title",
+            text: "Pages.Home.Projects.Asses.text",
         },
-        titleStyle: "gradient-gray text-lg"
-    },
-    
+        titleStyle: "gradient-gray text-lg",
+        displayLink: true
+    }
 ]
 
 export const SoonSection: SectionWithItems = {
@@ -38,5 +39,5 @@ export const SoonSection: SectionWithItems = {
     minCol: 1,
     maxCol: 2,
     id: "soon",
-    displayTitle: false
+    displayTitle: true
 }

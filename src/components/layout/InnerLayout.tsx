@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { LastUpdate, PublishDate} from "@/components/dates";
 import { HomePageLink} from "@/components/links";
 import { InnerLayout as InnerLayoutType } from "@/components/layout/types";
+import LanguageSelection from "./LanguageSelection";
 
 export default function PageInnerLayout({children, params}: {
     children: React.ReactNode;
@@ -11,6 +12,7 @@ export default function PageInnerLayout({children, params}: {
   }) {
     const t = useTranslations("General")
     return (<main className="flex flex-col gap-8 items-center mt-10">
+        <LanguageSelection />
         {params.image && <Image
             className="rounded-3xl"
             src={params.image.src}

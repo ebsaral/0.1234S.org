@@ -57,7 +57,7 @@ export const LinksSection: SectionWithItems = {
     },
     items: LinksItems,
     minCol: 2,
-    maxCol: 2,
+    maxCol: 4,
     id: "links",
     displayTitle: true
 }

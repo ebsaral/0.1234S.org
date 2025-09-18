@@ -47,7 +47,8 @@ export type SectionItem = {
         width: number
     },
     titleStyle?: string,
-    descriptionStyle?: string
+    descriptionStyle?: string,
+    displayLink?: boolean
 }
 
 // SectionWithItems

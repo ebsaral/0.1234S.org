@@ -8,20 +8,20 @@ export default function InfoLinks({className}: {className?: string}) {
     const t = useTranslations("Links")
     return (
         <div className={`flex gap-6 flex-wrap items-center justify-center ${className}`}>
-        <a
+        {t("cvLink") && <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href={t("cvLink")}
         >
           <FaRegFilePdf />
           {t("cvName")}
-        </a>
-        <a
+        </a>}
+        {t("politicalCvLink") && <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href={t("politicalCvLink")}
         >
           <FaRegFilePdf />
           {t("politicalCvName")}
-        </a>
+        </a>}
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="mailto:eminbugrasaral@me.com"
