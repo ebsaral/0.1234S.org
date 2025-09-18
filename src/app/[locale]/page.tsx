@@ -23,7 +23,7 @@ export async function generateMetadata({params}: {
     openGraph: {
       images: [
         {
-          url:"/images/eminbugrasaral-2025-spoon.jpg"
+          url:"/images/logo.png"
         }
       ]
     }
@@ -34,8 +34,8 @@ export default function Home() {
   const t = useTranslations("Pages.Home");
   const params: InnerLayoutType = {
     image: {
-      src: "/images/eminbugrasaral-2025-spoon.jpg",
-      alt: "Emin Bugra Saral, 2025."
+      src: "/images/logo.png",
+      alt: "Emin Bugra Saral, 2023."
     }, 
     title: t("title"),
     subtitle: t("subtitle")
