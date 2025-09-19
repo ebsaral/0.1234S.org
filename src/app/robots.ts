@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://ebsaral.vercel.app/sitemap.xml',
+    sitemap: 'https://0.1234s.org/sitemap.xml',
   }
 }
