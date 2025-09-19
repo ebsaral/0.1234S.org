@@ -2,14 +2,14 @@ import { SectionItem, SectionWithItems } from "@/components/layout/types"
 
 const LinksItems: SectionItem[] = [
     {
-        link: "https://www.github.com/ebsaral",
+        link: "https://www.linkedin.com/in/eminbugrasaral",
         image: {
-            src: "/images/github-logo.png",
-            alt: "GitHub logo",
+            src: "/images/linkedin-logo.png",
+            alt: "LinkedIn logo",
             width: 33
         },
         translationPaths: {
-            title: "Links.Github",
+            title: "Links.LinkedIn",
         },
         titleStyle: "text-sm"
     },
@@ -22,6 +22,30 @@ const LinksItems: SectionItem[] = [
         },
         translationPaths: {
             title: "Links.Medium",
+        },
+        titleStyle: "text-sm"
+    },
+    {
+        link: "https://www.deviantart.com/eminbugrasaral",
+        image: {
+            src: "/images/deviantart-logo.png",
+            alt: "DeviantArt logo",
+            width: 33
+        },
+        translationPaths: {
+            title: "Links.DeviantArt",
+        },
+        titleStyle: "text-sm"
+    },
+    {
+        link: "https://www.github.com/ebsaral",
+        image: {
+            src: "/images/github-logo.png",
+            alt: "GitHub logo",
+            width: 33
+        },
+        translationPaths: {
+            title: "Links.Github",
         },
         titleStyle: "text-sm"
     },
@@ -56,8 +80,8 @@ export const LinksSection: SectionWithItems = {
         title: "Links.title"
     },
     items: LinksItems,
-    minCol: 2,
-    maxCol: 4,
+    minCol: 3,
+    maxCol: 3,
     id: "links",
     displayTitle: true
 }

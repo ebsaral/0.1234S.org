@@ -13,11 +13,15 @@ export default function SectionItem({item} : {item: SectionItemType}) {
       return link.startsWith("http")
     }
 
-    const getLink = (item: SectionItemType, short: boolean = false) => {
+    const trimText = (text: string, max: number = 20) => {
+      return text.substring(0, max)
+    }
+
+    const getLink = (item: SectionItemType, options: {short?: boolean, trim?: boolean} = {short: false, trim: false}) => {
       const isLocal = item.link.startsWith("/en") || item.link.startsWith("/tr");
       const link = isLocal || isHttp(item.link) ? item.link : t(item.link);
       
-      if(!short){
+      if(!options.short){
         return link
       }
 
@@ -26,10 +30,11 @@ export default function SectionItem({item} : {item: SectionItemType}) {
         if(webLink.startsWith("www")){
           return webLink.substring(4)
         }
-        return webLink
+        return options.trim ? trimText(webLink) : webLink
       }
       else {
-        return link.substring(3);
+        const t = link.substring(3);
+        return options.trim ? trimText(t) : t;
       }
     }
 
@@ -50,8 +55,8 @@ export default function SectionItem({item} : {item: SectionItemType}) {
                 priority
               />
               <div className="flex flex-col gap-2 items-center justify-center">
-                {item.displayLink && <div className="flex flex-row gap-2 items-center justify-center font-thin">
-                  <FaLink /> {getLink(item, true)}
+                {item.displayLink && <div className="flex flex-row gap-2 items-center justify-center text-center font-thin flex-wrap">
+                  <FaLink /> {getLink(item, {short: true})}
                 </div>}
                 <div className={`flex text-center font-bold ${item.titleStyle}`}>{t(item.translationPaths.title)}</div>
                 {item.translationPaths.text && (t(item.translationPaths.text) ??<div className={`flex text-center hover:no-underline ${item.descriptionStyle}`}>{t(item.translationPaths.text)}</div>)}
