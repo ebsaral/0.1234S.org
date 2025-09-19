@@ -11,7 +11,7 @@ export default function PageInnerLayout({children, params}: {
     params: InnerLayoutType;
   }) {
     const t = useTranslations("General")
-    return (<main className="flex flex-col gap-8 items-center mt-10">
+    return (<main className="flex flex-col gap-8 items-center mt-10 w-full">
         <LanguageSelection />
         {params.image && <Image
             className="rounded-3xl"

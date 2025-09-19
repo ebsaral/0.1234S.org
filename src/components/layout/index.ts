@@ -5,4 +5,6 @@ export {default as InnerLayout} from './InnerLayout'
 export {default as LanguageSelection} from './LanguageSelection'
 export {default as SectionItem} from './SectionItem'
 export {default as SectionWithItems} from './SectionWithItems'
+export {default as LinkSection} from './LinkSection'
+
 export * from './Info'

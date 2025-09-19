@@ -3,13 +3,13 @@ import { useTranslations } from "next-intl";
 import { getTranslations } from 'next-intl/server';
 
 import { InnerLayout, SectionWithItems, InfoLinks} from "@/components";
-import { LinksSection, ProjectsSection, SoonSection } from "@/data";
+import { ProjectsSection, SoonSection } from "@/data";
 import { InnerLayout as InnerLayoutType, SectionWithItems as SectionWithItemsType } from "@/types";
+import LinkSection from "@/components/layout/LinkSection";
 
 const Sections: SectionWithItemsType[] = [
   ProjectsSection,
-  SoonSection,
-  LinksSection
+  SoonSection
 ]
 
 export async function generateMetadata({params}: {
@@ -44,10 +44,11 @@ export default function Home() {
   return <InnerLayout params={params}>
     <>
       <InfoLinks />
-      <hr className="page-break"></hr>
+      <hr className="page-break-bold"></hr>
       <div className="page-section">
         {Sections.map((section, i) => <SectionWithItems key={`sectionWithItems_${i}`} displayTitle={section.displayTitle} translationPaths={section.translationPaths} items={section.items} minCol={section.minCol} maxCol={section.maxCol} id={section.id} />)}      
       </div>
+      <LinkSection id="links" />
     </>
     </InnerLayout>;
 }
