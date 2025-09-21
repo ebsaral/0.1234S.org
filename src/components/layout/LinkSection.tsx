@@ -63,11 +63,11 @@ export default function LinkSection({id}: {id: string}) {
     return <div id={id} className="page-section w-full mx-0 px-0">
         <hr className="page-break-bold"></hr>
         <div className={`flex flex-row flex-wrap justify-center items-center gap-6`}>
-            {iconProps.map((props, index) => <SocialIcon key={index} target="_blank" className="opacity-80	hover:opacity-100 hover:p-[1]" {...props} />)}
+            {iconProps.map((props, index) => <SocialIcon key={index} title={props.label} target="_blank" className="opacity-80	hover:opacity-100 hover:p-[1]" {...props} />)}
         </div>
         <hr className="page-break"></hr>
         <div className={`flex flex-row flex-wrap justify-center items-center gap-6`}>
-            {contactProps.map((props, index) => <SocialIcon key={index} target="_blank" className="opacity-80	hover:opacity-100 hover:p-[1]" {...props} />)}
+            {contactProps.map((props, index) => <SocialIcon key={index} title={props.label} target="_blank" className="opacity-80	hover:opacity-100 hover:p-[1]" {...props} />)}
         </div>
         
     </div>
