@@ -1,10 +1,10 @@
 "use client"
-import { useTranslations } from "next-intl";
+import { useIntlayer } from "next-intlayer";
 import { useEffect } from "react";
 import { PiStarFourFill } from "react-icons/pi";
 
 export default function SparkleText () {
-  const t = useTranslations("General");
+  const content = useIntlayer("page-shared");
 
   // Source: https://ui.hextastudio.in/docs/examples/general/SparkleTextEffect
   useEffect(() => {
@@ -33,7 +33,7 @@ export default function SparkleText () {
   return (
       <div>
           <span className="inline-block magic gradient-purple font-bold relative">
-            <span>({t("show_more")})</span>
+            <span>({content.showMore})</span>
             <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-yellow-200" />
             <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-yellow-200" />
           </span>

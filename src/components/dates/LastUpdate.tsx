@@ -1,8 +1,7 @@
-import { useFormatter, useTranslations } from "next-intl"
+import { useIntlayer } from "next-intlayer/server";
 
 export default function LastUpdate({date, isDivine=false}:{date:Date, isDivine?: boolean}) {
-    const t = useTranslations("General");
-    const format = useFormatter();
+    const content = useIntlayer("page-shared");
 
-    return <div className="flex text-sm">{isDivine?t("last_revelation"):t("last_update")}: {format.dateTime(date, {year: "numeric", month: "long", day: "2-digit", localeMatcher: "best fit", hour: "2-digit", minute: "2-digit"})}</div>
+    return <div className="flex text-sm">{isDivine?content.lastRevelation:content.lastUpdate}: {date}</div>
 }

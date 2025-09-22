@@ -1,3 +1,5 @@
+import { ContentProjects } from "@/types";
+import { Dictionary, Locales, LocalesValues } from "intlayer";
 import { Photo } from "react-photo-album";
 
 // GalleryLayout
@@ -25,6 +27,7 @@ type Image = {
 }
 
 export type InnerLayout = {
+    locale: LocalesValues,
     image?: Image,
     isSoon?: boolean,
     title: string,
@@ -53,12 +56,20 @@ export type SectionItem = {
 
 // SectionWithItems
 export type SectionWithItems = {
-    translationPaths: {
-        title: string
-    };
-    items: SectionItem[],
+    content: Dictionary<ContentProjects>,
     minCol: number,
     maxCol: number,
     id: string,
     displayTitle: boolean
+}
+
+// Quotes
+export type QuoteItem = {
+  title: string,
+  description: string
+}
+export type Quote = {
+  title: string,
+  subtitle: string,
+  items: QuoteItem[]
 }

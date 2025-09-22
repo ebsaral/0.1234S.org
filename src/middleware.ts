@@ -1,10 +1,6 @@
-import createMiddleware from 'next-intl/middleware';
-import {routing} from './i18n/routing';
- 
-export default createMiddleware(routing);
- 
+export { intlayerMiddleware as middleware } from "next-intlayer/middleware";
+
 export const config = {
-  // Match only internationalized pathnames
-  matcher: ['/', '/(tr|en)/:path*', '/gallery', '/files', '/asses', '/hazzeti-emin']
-  
+  matcher:
+    "/((?!api|static|assets|robots|sitemap|sw|service-worker|manifest|.*\\..*|_next).*)",
 };

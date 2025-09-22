@@ -1,43 +1,22 @@
-import type { MetadataRoute } from 'next'
+import { getMultilingualUrls } from "intlayer";
+import type { MetadataRoute } from "next";
+
+const baseUrl = "https://0.1234s.org";
+const pages = ["", "/asses", "/hazzeti-emin", "/gallery", "/quotes"]
+
+const sitemaps = pages.map((page) => {
+  const url = `${baseUrl}${page}`;
+  return {
+    url,
+    alternates: {
+      languages: { ...getMultilingualUrls(url) },
+    },
+    changeFrequency: "hourly",
+    lastModified: new Date(),
+  }
+})
 
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: 'https://0.1234s.org',
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          tr: 'https://0.1234s.org/tr',
-        },
-      }
-    },
-    {
-      url: 'https://0.1234s.org/gallery',
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          tr: 'https://0.1234s.org/tr/gallery',
-        },
-      }
-    },
-    {
-      url: 'https://0.1234s.org/hazzeti-emin',
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          tr: 'https://0.1234s.org/tr/hazzeti-emin',
-        },
-      }
-    },
-    {
-      url: 'https://0.1234s.org/asses',
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          tr: 'https://0.1234s.org/tr/asses',
-        },
-      }
-    }
-  ]
-}
+const sitemap = (): MetadataRoute.Sitemap => sitemaps as MetadataRoute.Sitemap;
+
+export default sitemap;

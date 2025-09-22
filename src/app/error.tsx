@@ -1,13 +1,13 @@
 'use client';
- 
-import {useTranslations} from 'next-intl';
- 
+
+import { useIntlayer } from "next-intlayer";
+
 export default function Error() {
-  const t = useTranslations('Pages.NotFound');
+  const content = useIntlayer('page');
  
   return (
     <div>
-      <h1>{t('title')}</h1>
+      <h1>{content.notFound}</h1>
     </div>
   );
 }

@@ -33,9 +33,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "messages/schemas/validator.mjs"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    ".intlayer",
+    ".next"
   ]
 }

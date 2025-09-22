@@ -1,17 +1,12 @@
 import localFont from "next/font/local";
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
-
+import type { NextLayoutIntlayer } from "next-intlayer";
+import { getHTMLTextDir } from "intlayer";
 import { Analytics } from '@vercel/analytics/react';
-
-import { routing } from '@/i18n/routing';
-
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({locale}));
-}
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import "../globals.css";
-import { SpeedInsights } from '@vercel/speed-insights/next';
+
+export { generateStaticParams } from "next-intlayer"; // Line to insert
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",
@@ -25,28 +20,17 @@ const geistMono = localFont({
 });
 
 
-export default async function RootLayout({
-  children,
-  params
-}: {
-  children: React.ReactNode;
-  params: Promise<{locale: string}>;
-}) {
-  const messages = await getMessages();
-  const {locale} = await params;
+const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
+  const { locale } = await params;
   return (
-    <html lang={locale}>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <NextIntlClientProvider messages={messages}>
-          <div className="page-container">
-            {children}
-          </div>
-          <Analytics />
-          <SpeedInsights />
-        </NextIntlClientProvider>
+    <html lang={locale} dir={getHTMLTextDir(locale)}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
 }
+
+export default LocaleLayout;

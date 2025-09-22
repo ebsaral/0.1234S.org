@@ -1,7 +1,6 @@
-// Since we have a root `not-found.tsx` page, a layout file
+import type { PropsWithChildren, FC } from "react";
+import "./globals.css";
 
-// is required, even if it's just passing children through.
-export default function RootLayout({children}: {children: React.ReactNode}) {
-  
-  return children;
-}
+const RootLayout: FC<PropsWithChildren> = ({ children }) => children;
+
+export default RootLayout;

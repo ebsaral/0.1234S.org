@@ -1,62 +1,46 @@
-import { getTranslations } from "next-intl/server";
-import { useTranslations } from "next-intl";
-
 import {InnerLayout, Info} from "@/components";
 import { InnerLayout as InnerLayoutType } from "@/types";
+import { NextPageIntlayer } from "next-intlayer";
+import { useIntlayer } from "next-intlayer/server";
 
-export async function generateMetadata({params}: {
-  params: Promise<{locale: string}>;
-}) {
-  const {locale} = await params;
-  const t = await getTranslations({locale, namespace: "Pages.HazzetiEmin.Metadata"});
- 
-  return {
-    title: t("title"),
-    description: t("description"),
-    keywords: t("keywords"),
-    openGraph: {
-      images: [
-        {
-          url:"/images/hazzeti-emin/logo-small.jpeg"
-        }
-      ]
-    }
-  };
-}
+const Page: NextPageIntlayer = async ({ params }) => {
+    const { locale } = await params;
+    const content = useIntlayer("page-hazzeti-emin", locale);
 
-export default function Page() {
-    const t = useTranslations("Pages.HazzetiEmin");
-    const params: InnerLayoutType = {
+    const layoutParams: InnerLayoutType = {
+      locale,
       image: {
         src: "/images/hazzeti-emin/logo.jpeg",
         alt:"Hazzeti Emin (HAV)"
       },
       isSoon: true,
-      title:t("title"),
-      subtitle: t("subtitle"),
-      lastUpdateDate: "2024-12-12T07:21",
+      title: content.title.value,
+      subtitle: content.subtitle.value,
+      //lastUpdateDate: "2024-12-12T07:21",
       displayHomePageLink: true
     }
 
     const infoParams = {
       purpose: {
-        title: t("info.purpose.title"),
-        text: t("info.purpose.text"),
+        title: content.sections[0].title.value,
+        text: content.sections[0].text.value,
       },
       description: {
-        title: t("info.description.title"),
-        text: t("info.description.text"),
+        title: content.sections[1].title.value,
+        text: content.sections[1].text.value,
       },
       result: {
-        title: t("info.result.title"),
-        text: t("info.result.text"),
+        title: content.sections[2].title.value,
+        text: content.sections[2].text.value,
       }
     }
 
     
-    return <InnerLayout params={params}>
+    return <InnerLayout params={layoutParams}>
       <div className="flex flex-wrap gap-6 items-center justify-center w-screen">
         <Info params={infoParams} />
       </div>
     </InnerLayout>;
 }
+
+export default Page;

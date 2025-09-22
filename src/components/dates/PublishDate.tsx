@@ -1,8 +1,7 @@
-import { useFormatter, useTranslations } from "next-intl"
+import { useIntlayer } from "next-intlayer/server";
 
 export default function LastUpdate({date}:{date:Date}) {
-    const t = useTranslations("General");
-    const format = useFormatter();
+    const content = useIntlayer("page-shared");
 
-    return <div className="flex text-sm">{t("publish_date")}: {format.dateTime(date, {year: "numeric", month: "long", day: "2-digit", localeMatcher: "best fit", hour: "2-digit", minute: "2-digit"})}</div>
+    return <div className="flex text-sm">{content.publishDate}: {date}</div>
 }

@@ -1,11 +1,12 @@
-import { useTranslations } from "next-intl"
+import { useIntlayer } from "next-intlayer/server";
 import { FaRegFilePdf } from "react-icons/fa";
 
 
 export default function InfoLinks({className}: {className?: string}) {
-    const t = useTranslations("Links")
-    const cvLink = t("cvLink")
-    const politicalCvLink = t("politicalCvLink")
+    const content = useIntlayer("page-home")
+    const cvLink = content.links.cv.link.value;
+    const politicalCvLink = content.links.politics.link.value;
+
     if (cvLink == "" && politicalCvLink == "") {
       return <></>
     }
@@ -13,17 +14,17 @@ export default function InfoLinks({className}: {className?: string}) {
         <div className={`flex gap-6 flex-wrap items-center justify-center ${className}`}>
         {cvLink !== "" && <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href={t("cvLink")}
+          href={cvLink}
         >
           <FaRegFilePdf />
-          {t("cvName")}
+          {content.links.cv.label}
         </a>}
         {politicalCvLink !== "" && <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href={t("politicalCvLink")}
+          href={politicalCvLink}
         >
           <FaRegFilePdf />
-          {t("politicalCvName")}
+          {content.links.politics.label}
         </a>}
       </div>
     )

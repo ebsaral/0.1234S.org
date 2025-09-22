@@ -1,50 +1,29 @@
-
-import { getTranslations } from "next-intl/server";
-import { useTranslations } from "next-intl";
-
 import { GalleryLayout, InnerLayout } from "@/components";
 import { doodles, drawings } from "@/data";
 import { InnerLayout as InnerLayoutType } from "@/types";
+import { NextPageIntlayer } from "next-intlayer";
+import { useIntlayer } from "next-intlayer/server";
 
 
-export async function generateMetadata({params}: {
-  params: Promise<{locale: string}>;
-}) {
-  const {locale} = await params;
-  const t = await getTranslations({locale, namespace: "Pages.Gallery.Metadata"});
- 
-  return {
-    title: t("title"),
-    description: t("description"),
-    keywords: t("keywords"),
-    openGraph: {
-      images: [
-        {
-          url:"/images/gallery-logo.png"
-        }
-      ]
-    }
-  };
-}
-
-export default function Page() {
-  const t = useTranslations("Pages.Gallery");
+const Page: NextPageIntlayer = async ({ params }) => {
+  const { locale } = await params;
+  const content = useIntlayer("page-gallery", locale);
     
   const albums = [
     {
-      title: t("doodles"),
+      title: content.doodles.value,
       photos: doodles
     },
     {
-      title: t("drawings"),
+      title: content.drawings.value,
       photos: drawings
-    },
-    
+    }
   ]
 
-  const params: InnerLayoutType = {
-    title: t("title"),
-    subtitle: t("subtitle"),
+  const layoutParams: InnerLayoutType = {
+    locale,
+    title: content.title.value,
+    subtitle: content.subtitle.value,
     displayHomePageLink: true,
     image: {
       src: "/images/gallery/eminbugrasaral-gallery-main.jpg",
@@ -53,7 +32,9 @@ export default function Page() {
   }
 
 
-  return <InnerLayout params={params}>
+  return <InnerLayout params={layoutParams}>
     <GalleryLayout albums={albums} />
   </InnerLayout>;
 }
+
+export default Page;

@@ -1,54 +1,46 @@
+import { type NextPageIntlayer, LocalPromiseParams } from "next-intlayer";
+import { useIntlayer } from "next-intlayer/server";
 
-import { useTranslations } from "next-intl";
-import { getTranslations } from 'next-intl/server';
-
-import { InnerLayout, SectionWithItems, InfoLinks} from "@/components";
-import { ProjectsSection, SoonSection } from "@/data";
-import { InnerLayout as InnerLayoutType, SectionWithItems as SectionWithItemsType } from "@/types";
+import { InnerLayout, InfoLinks } from "@/components";
+import { InnerLayout as InnerLayoutType } from "@/types";
 import LinkSection from "@/components/layout/LinkSection";
+import { Metadata } from "next";
+import { getPageMetadata } from "@/utils";
+import HomeSection from "@/components/layout/HomeSections";
 
-const Sections: SectionWithItemsType[] = [
-  ProjectsSection,
-  SoonSection
-]
+export const generateMetadata = async ({
+  params,
+}: LocalPromiseParams): Promise<Metadata> => {
+  const { locale } = await params;
 
-export async function generateMetadata({params}: {
-  params: Promise<{locale: string}>;
-}) {
-  const {locale} = await params;
-  const t = await getTranslations({locale, namespace: 'Pages.Home.Metadata'});
-  return {
-    title: t('title'),
-    description: t("description"),
-    openGraph: {
-      images: [
-        {
-          url:"/images/logo.png"
-        }
-      ]
-    }
-  };
-}
+  return getPageMetadata({locale})
+};
 
-export default function Home() {
-  const t = useTranslations("Pages.Home");
-  const params: InnerLayoutType = {
+const Page: NextPageIntlayer = async ({ params }) => {
+  const { locale } = await params;
+
+  const content = useIntlayer("page-home", locale);
+  
+  const layoutParams: InnerLayoutType = {
+    locale,
     image: {
-      src: "/images/logo.png",
-      alt: "Emin Bugra Saral, 2023."
+      src: content.image.src.value,
+      alt: content.image.alt.value
     }, 
-    title: t("title"),
-    subtitle: t("subtitle")
+    title: content.title.value,
+    subtitle: content.subtitle.value
   }
 
-  return <InnerLayout params={params}>
-    <>
-      <InfoLinks />
-      <hr className="page-break-bold"></hr>
-      <div className="page-section">
-        {Sections.map((section, i) => <SectionWithItems key={`sectionWithItems_${i}`} displayTitle={section.displayTitle} translationPaths={section.translationPaths} items={section.items} minCol={section.minCol} maxCol={section.maxCol} id={section.id} />)}      
-      </div>
-      <LinkSection id="links" />
-    </>
-    </InnerLayout>;
+  return (
+    <InnerLayout params={layoutParams}>
+      <>
+        <InfoLinks />
+        <hr className="page-break-bold"></hr>
+        <HomeSection />
+        <LinkSection id="links" />
+      </>
+      </InnerLayout>
+    )
 }
+
+export default Page;

@@ -1,36 +1,32 @@
 "use client"
 
-import { useLocale } from "next-intl"
-import { usePathname } from "next/navigation"
+import {
+  getLocaleName,
+  getLocalizedUrl,
+} from "intlayer";
 
-import { Link } from "@/i18n/routing"
+import { useLocale, useLocaleCookie } from "next-intlayer";
+import Link from "next/link";
 import { PiGlobeSimpleDuotone } from "react-icons/pi"
 
 export default function LanguageSelection({className="", targetId=""} :{className?: string, targetId?: string}) {
-    const locale = useLocale()
-    const pathname = usePathname()
-    const currentPage = pathname.replace(`/${locale}`, "") || "/"
-
-    const href = targetId ? `${currentPage}#${targetId}` : currentPage
-
+    const { locale, pathWithoutLocale, availableLocales } = useLocale();
+    const { setLocaleCookie } = useLocaleCookie();
+    console.log(locale)
     return <div className={`page-header ${className}`}>
       <PiGlobeSimpleDuotone className="text-xl" />
-      <Link
-        className={`flex items-center gap-2 hover:underline hover:underline-offset-4` + `${locale === 'tr' && '  font-bold'}`}
-        href={href}
-        locale="tr"
-        itemID={targetId}
-      >
-        Türkçe
-      </Link>
-      {" | "}
-      <Link
-        className={`flex items-center gap-2 hover:underline hover:underline-offset-4` + `${locale === 'en' && '  font-bold'}`}
-        href={href}
-        locale="en"
-        itemID={targetId}
-      >
-        English
-      </Link>
+      {availableLocales.map((localeItem) => (
+          <Link
+            className={`flex items-center gap-2 hover:underline hover:underline-offset-4` + `${locale === localeItem && ' font-bold'}`}
+            href={getLocalizedUrl(pathWithoutLocale, localeItem)}
+            hrefLang={localeItem}
+            key={localeItem}
+            aria-current={locale === localeItem ? "page" : undefined}
+            onClick={() => setLocaleCookie(localeItem)}
+            itemID={targetId}
+          >
+              {getLocaleName(localeItem)}
+          </Link>
+        ))}
     </div>
 }
