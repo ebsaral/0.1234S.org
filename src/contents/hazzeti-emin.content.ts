@@ -6,7 +6,7 @@ const pageContent = {
   content: {
     image: {
       src: "/images/hazzeti-emin/logo.jpeg",
-      alt: "image 3"
+      alt: "Hazzeti Emin (HAV)"
     },
     title: t({
       en: "Hazzeti Emin (HAV)",

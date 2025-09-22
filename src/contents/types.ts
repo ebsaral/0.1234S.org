@@ -12,7 +12,7 @@ type ContentBaseProjectPage = {
     href: string;
 }
 
-type ContentSectionItem = {
+export type ContentSectionItem = {
     title: string;
     text: string;
 }
@@ -82,4 +82,5 @@ export interface ContentShared {
   onlyInTurkish: string
   onlyInEnglish: string
   showMore: string
+  resumeWarningTR: string
 }

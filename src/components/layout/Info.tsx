@@ -1,4 +1,4 @@
-import { InfoSection } from "@/components/layout/types"
+import { ContentSectionItem } from "@/types"
 
 
 export function InfoItem({title, text, wide}: {title: string, text: string, wide?:boolean}) {
@@ -18,12 +18,12 @@ export function InfoItem({title, text, wide}: {title: string, text: string, wide
     </div>
 }
 
-export default function Info({params}: {params: InfoSection}) {
+export default function Info({sections} : {sections: ContentSectionItem[]}) {
     return <div className="flex-col space-y-2 gap-6 text-sm text-justify p-5 font-[family-name:var(--font-geist-mono)] whitespace-pre-line max-w-4xl">
     <div className="flex flex-col gap-6">
-        <InfoItem wide={true} title={params.purpose.title} text={params.purpose.text} />
-        <InfoItem wide={true} title={params.description.title} text={params.description.text} />
-        <InfoItem wide={true} title={params.result.title} text={params.result.text} />
+        <InfoItem wide={true} title={sections[0].title} text={sections[0].text} />
+        <InfoItem wide={true} title={sections[1].title} text={sections[1].text} />
+        <InfoItem wide={true} title={sections[2].title} text={sections[2].text} />
     </div>
   </div>
 }

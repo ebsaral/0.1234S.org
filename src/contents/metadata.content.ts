@@ -21,8 +21,8 @@ const metadataContent = {
     ],
     generator: "Next.js",
     keywords: t({
-      en: "emin buğra saral, logical spirituality, hazzeti emin",
-      tr: "emin buğra saral, mantıksal maneviyat, hazzeti emin"
+      en: "emin buğra saral",
+      tr: "emin buğra saral"
     }),
     referrer: "origin",
     creator: "0.1234S.org",

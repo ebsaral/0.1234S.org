@@ -12,7 +12,6 @@ import { PiGlobeSimpleDuotone } from "react-icons/pi"
 export default function LanguageSelection({className="", targetId=""} :{className?: string, targetId?: string}) {
     const { locale, pathWithoutLocale, availableLocales } = useLocale();
     const { setLocaleCookie } = useLocaleCookie();
-    console.log(locale)
     return <div className={`page-header ${className}`}>
       <PiGlobeSimpleDuotone className="text-xl" />
       {availableLocales.map((localeItem) => (

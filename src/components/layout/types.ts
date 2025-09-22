@@ -1,5 +1,5 @@
 import { ContentProjects } from "@/types";
-import { Dictionary, Locales, LocalesValues } from "intlayer";
+import { Dictionary, LocalesValues } from "intlayer";
 import { Photo } from "react-photo-album";
 
 // GalleryLayout
@@ -20,18 +20,10 @@ export type InfoSection = {
     result: InfoSectionItem
 }
 
-// InnerLayout
-type Image = {
-    src: string,
-    alt: string
-}
-
 export type InnerLayout = {
+    intlayerKey: string,
     locale: LocalesValues,
-    image?: Image,
     isSoon?: boolean,
-    title: string,
-    subtitle: string,
     publishDate?: string,
     lastUpdateDate?: string,
     displayHomePageLink?: boolean,

@@ -13,8 +13,8 @@ const pageContent = {
       tr: "Emin Buğra Saral"
     }),
     subtitle: t({
-      en: "Simplicity within a certain complexity",
-      tr: "Belirli bir karmaşanın içindeki basitlik"
+      en: "Simplicity within a certain complexity.",
+      tr: "Belirli bir karmaşanın içindeki basitlik."
     }),
     seperators: [
       t({

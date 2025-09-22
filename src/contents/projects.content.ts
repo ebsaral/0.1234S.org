@@ -1,4 +1,4 @@
-import { nest, t, type Dictionary } from "intlayer";
+import { t, type Dictionary } from "intlayer";
 import { ContentProjects } from "./types";
 
 const pageContent = {
@@ -26,12 +26,18 @@ const pageContent = {
       },
       {
         image: {
-          src: nest("page-gallery", "image.src"),
-          alt: nest("page-gallery", "image.alt")
+          src: "/images/gallery/eminbugrasaral-gallery-main.jpg",
+          alt: "Emin Buğra Saral, 2023."
         },
-        title: nest("page-gallery", "title"),
-        text: nest("page-gallery", "preview"),
-        href: nest("page-gallery", "href")
+        title: t({
+          en: "Drawing Gallery",
+          tr: "Çizim Galerisi"
+        }),
+        text: t({
+          en: "Doodles, drawings\nand paintings.",
+          tr: "Karalamalar, çizimler\nve resimler."
+        }),
+        href: "/gallery",
       },
       {
         image: {

@@ -1,7 +1,11 @@
-import { useIntlayer } from "next-intlayer/server";
+"use client";
 
-export default function LastUpdate({date}:{date:Date}) {
+import { useIntlayer, useLocale } from "next-intlayer";
+import { DATE_FORMAT_OPTIONS } from "./utils";
+
+export default function LastUpdate({date}:{date:string}) {
+    const { locale } = useLocale();
     const content = useIntlayer("page-shared");
 
-    return <div className="flex text-sm">{content.publishDate}: {date}</div>
+    return <div className="flex text-sm">{content.publishDate}: {new Date(date).toLocaleDateString(locale, DATE_FORMAT_OPTIONS)}</div>
 }

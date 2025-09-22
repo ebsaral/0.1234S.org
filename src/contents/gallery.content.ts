@@ -6,7 +6,7 @@ const pageContent = {
   content: {
     image: {
       src: "/images/gallery/eminbugrasaral-gallery-main.jpg",
-      alt: "image 2"
+      alt: "Emin Buğra Saral, 2023."
     },
     title: t({
       en: "Drawing Gallery",

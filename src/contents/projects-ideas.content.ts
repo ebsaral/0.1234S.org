@@ -1,4 +1,4 @@
-import { nest, t, type Dictionary } from "intlayer";
+import { t, type Dictionary } from "intlayer";
 import { ContentProjects } from "./types";
 
 const pageContent = {
@@ -11,21 +11,33 @@ const pageContent = {
     items: [
       {
         image: {
-          src: nest("page-hazzeti-emin", "image.src"),
-          alt: nest("page-hazzeti-emin", "image.alt"),
+          src: "/images/hazzeti-emin/logo.jpeg",
+          alt: "Hazzeti Emin (HAV)"
         },
-        title: nest("page-hazzeti-emin", "title"),
-        text: nest("page-hazzeti-emin", "preview"),
-        href: nest("page-hazzeti-emin", "href")
+        title: t({
+          en: "Hazzeti Emin (HAV)",
+          tr: "Hazzeti Emin (HAV)"
+        }),
+        text: t({
+          en: "Situation comedy\nin Turkish. (Audio)",
+          tr: "Durum komedisi. (Ses)"
+        }),
+        href: "/hazzeti-emin"
       },
       {
         image: {
-          src: nest("page-asses", "image.src"),
-          alt: nest("page-asses", "image.alt")
+          src: "/images/asses-logo.jpg",
+          alt: "Asses of Glyptothek",
         },
-        title: nest("page-asses", "title"),
-        text: nest("page-asses", "preview"),
-        href: nest("page-asses", "href")
+        title: t({
+          en: "Asses of Glyptothek",
+          tr: "Asses of Glyptothek"
+        }),
+        text: t({
+          en: "Another perspective\non museum touring.",
+          tr: "Müze gezisine dair\nbir bakış açısı."
+        }),
+        href: "/asses"
       }
     ]
   },

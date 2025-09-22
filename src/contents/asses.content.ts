@@ -8,7 +8,7 @@ const pageContent = {
   content: {
     image: {
       src: "/images/asses-logo.jpg",
-      alt: "image 1",
+      alt: "Asses of Glyptothek",
     },
     title: t({
       en: "Asses of Glyptothek",

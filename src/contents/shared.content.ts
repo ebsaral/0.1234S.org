@@ -43,7 +43,8 @@ const pageContent = {
     showMore: t({
       en: "show more",
       tr: "devamını göster"
-    })
+    }),
+    resumeWarningTR: "Öz Geçmiş bilgilerine sitenin 'English' sürümünden ulaşabilirsiniz.\nMaalesef çeviriler henüz hazır değil.",
   },
 } satisfies Dictionary<ContentShared>;
 
