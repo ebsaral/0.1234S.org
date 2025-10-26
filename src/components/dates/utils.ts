@@ -1,0 +1,1 @@
+export const DATE_FORMAT_OPTIONS: Intl.DateTimeFormatOptions = {year: "numeric", month: "long", day: "2-digit", localeMatcher: "best fit", hour: "2-digit", minute: "2-digit"};

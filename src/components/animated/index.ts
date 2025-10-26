@@ -1,0 +1,1 @@
+export {default as SparkleText} from './SparkleText'
