@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "intlayer watch --with 'next dev'",
-    "build": "next build --turbopack",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "intlayer watch": "intlayer build --watch"
   },
   "dependencies": {
     "@vercel/analytics": "^1.4.1",
