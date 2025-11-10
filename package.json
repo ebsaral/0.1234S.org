@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "prepare": "husky",
-    "intlayer watch": "intlayer build --watch"
+    "intlayer watch": "npx intlayer build --watch"
   },
   "dependencies": {
     "@vercel/analytics": "^1.4.1",
