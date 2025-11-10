@@ -17,7 +17,7 @@ const pageContent = {
       tr: "Belirli bir karmaşanın içindeki sadelik."
     }),
     description: t({
-      en: "A funnywise human with\n engineering, feeling and artistic skills.",
+      en: "A funnywise one with\n engineering, feeling and artistic skills.",
       tr: "Mühendislik, hissetme ve sanatsal\n becerileri olan eğlendeli biri."
     }),
     seperators: [
