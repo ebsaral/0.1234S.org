@@ -1,3 +1,5 @@
+import { SocialIconProps } from "react-social-icons";
+
 type Image = {
     src: string;
     alt: string;
@@ -44,7 +46,9 @@ export interface ContentHome {
     cv: {
       label: string
       link: string
-    }
+    },
+    social: SocialIconProps[],
+    contact: SocialIconProps[]
   },
   flags: { [key: string]: string}
 }
