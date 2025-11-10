@@ -81,10 +81,6 @@ const pageContent = {
             url: "http://flickr.com/photos/eminbugrasaral/"
         },
         {
-            label: "YouTube",
-            url: "https://www.youtube.com/@eminbugrasaral"
-        },
-                {
             label: "Couchsurfing",
             url: "https://www.couchsurfing.com/people/esaral",
             fallback: {
