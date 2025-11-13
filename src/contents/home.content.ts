@@ -43,8 +43,8 @@ const pageContent = {
             url: "https://www.linkedin.com/in/eminbugrasaral"
         },
         {
-            label: "Medium",
-            url: "https://www.medium.com/@ebsaral"
+            label: "Substack",
+            url: "https://substack.com/@ebsaral"
         },
         {
             label: "GitHub",
