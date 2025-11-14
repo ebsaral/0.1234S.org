@@ -135,6 +135,16 @@ const pageContent = {
           en: "Our 'so-called wise' ancestors have built our living conditions around slavery. At this time, people's respect is mostly based on slavery. People must realize that they are usually 'obeying' under superficial respect idioms.",
           tr: "'Sözde bilge' atalarımız yaşam koşullarımızı kölelik üzerine kurmuş. Günümüzde insanların saygısı çoğunlukla kölelik temellidir. İnsanlar, genellikle yüzeysel saygı kalıpları altında 'itaat ettiklerini' fark etmelidir."
         })
+      },
+      {
+        title: t({
+          en: "May my existence be a gift within the universe.",
+          tr: "Varlığım evrenin varlığına armağan olsun."
+        }),
+        text: t({
+          en: "Seeing life being sacred and sharing the universe as a whole is essential for a healthy future for everone.",
+          tr: "Yaşamı kutsal görmek ve evreni bir bütün olarak paylaşmak, herkesin sağlıklı bir geleceği olması için gereklidir."
+        })
       }
     ]
   },
