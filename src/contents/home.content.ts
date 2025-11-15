@@ -44,7 +44,7 @@ const pageContent = {
         },
         {
             label: "Substack",
-            url: "https://substack.com/@ebsaral"
+            url: "https://ebsaral.substack.com"
         },
         {
             label: "GitHub",
