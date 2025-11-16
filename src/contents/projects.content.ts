@@ -22,7 +22,7 @@ const pageContent = {
           en: "Expanding Spirituality\nwith Nature's Logic.",
           tr: "Doğanın Mantığıyla\nManeviyatı Derinleştirmek."
         }),
-        href: "https://www.1234s.org"
+        href: "https://www.1234S.org"
       },
       {
         image: {
