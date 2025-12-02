@@ -62,7 +62,7 @@ const pageContent = {
       social: [
         {
             label: "Instagram",
-            url: "https://www.instagram.com/eminbugrasaral"
+            url: "https://www.instagram.com/goettheus"
         },
         {
             label: "X",
