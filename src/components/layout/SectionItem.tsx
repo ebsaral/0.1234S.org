@@ -36,7 +36,7 @@ export default function SectionItem({href, title, titleStyle, text, textStyle, i
               <Image
                 src={imgSrc}
                 alt={imgAlt}
-                className={(spin ? "rounded-full animate-spin" : "rounded-2xl")}
+                className={"rounded-full" + (spin ? " animate-spin" : "")}
                 width={120}
                 height={120}
                 objectFit="cover"
