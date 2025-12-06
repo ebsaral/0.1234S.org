@@ -20,7 +20,7 @@ export default function PageInnerLayout({children, params}: {
                 <main className="flex flex-col gap-8 items-center w-full">
                     <LanguageSelection />
                     {content.image.src.value && <Image
-                        className="rounded-3xl"
+                        className="rounded-full"
                         src={content.image.src.value}
                         alt={content.image.alt.value}
                         title={content.image.alt.value}
