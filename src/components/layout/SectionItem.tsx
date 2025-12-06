@@ -4,7 +4,7 @@ import { FaLink } from "react-icons/fa6";
 import { LocalizedLink } from "../links";
 
 
-export default function SectionItem({href, title, titleStyle, text, textStyle, imgSrc, imgAlt} : {href: string, title: string, titleStyle: string, text: string, textStyle: string, imgSrc: string, imgAlt: string}) {
+export default function SectionItem({href, title, titleStyle, text, textStyle, imgSrc, imgAlt, spin} : {href: string, title: string, titleStyle: string, text: string, textStyle: string, imgSrc: string, imgAlt: string, spin?: boolean}) {
 
     const isHttp = (link: string) => {
       return link.startsWith("http")
@@ -33,15 +33,15 @@ export default function SectionItem({href, title, titleStyle, text, textStyle, i
               prefetch={true}
           >
             <div className="flex flex-col items-center justify-center gap-3">
-                <Image
-                  src={imgSrc}
-                  alt={imgAlt}
-                  className="rounded-2xl"
-                  width={120}
-                  height={120}
-                  objectFit="cover"
-                  priority
-                />
+              <Image
+                src={imgSrc}
+                alt={imgAlt}
+                className={(spin ? "rounded-full animate-spin" : "rounded-2xl")}
+                width={120}
+                height={120}
+                objectFit="cover"
+                priority
+              />
               <div className="flex flex-col gap-2 items-center justify-center">
                 <div className="flex flex-row gap-2 items-center justify-center text-center font-thin flex-wrap">
                   <FaLink /> {getLinkText(href)}

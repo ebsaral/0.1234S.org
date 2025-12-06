@@ -24,6 +24,7 @@ export type ContentProjectItem = {
   title: string;
   text: string;
   href: string;
+  spin?: boolean;
 }
 
 export interface ContentProjects  {

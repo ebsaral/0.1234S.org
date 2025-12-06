@@ -26,7 +26,7 @@ export default function HomeSection() {
           </div>
            */}
           <div className={`grid sm:grid-cols-${section.maxCol} grid-cols-${section.minCol} gap-6`}>
-              {section.content.items.map((item: any, x: any) => { return <SectionItem key={`sectionItem_${x}`} title={item.title.value} titleStyle={section.titleStyle} text={item.text.value} textStyle="" imgSrc={item.image.src.value} imgAlt={item.image.alt.value} href={item.href.value} />;
+              {section.content.items.map((item: any, x: any) => { return <SectionItem key={`sectionItem_${x}`} title={item.title.value} titleStyle={section.titleStyle} text={item.text.value} textStyle="" imgSrc={item.image.src.value} imgAlt={item.image.alt.value} href={item.href.value} spin={item.spin} />;
               })}
               {i==0 && <Quote /> }
           </div>
