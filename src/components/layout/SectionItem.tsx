@@ -27,7 +27,6 @@ export default function SectionItem({href, title, titleStyle, text, textStyle, i
           <LocalizedLink
               href={href}
               className="flex flex-col items-center p-5 text-sm text-left font-[family-name:var(--font-geist-mono)] whitespace-pre-line border border-solid border-transparent transition-colors hover:bg-gray-800 rounded-xl"
-              target={isHttp(href)?"_blank":"_self"}
               rel="noopener noreferrer"
               title={title}
               prefetch={true}
