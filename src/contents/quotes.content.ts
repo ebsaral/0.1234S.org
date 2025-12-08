@@ -39,7 +39,7 @@ const pageContent = {
       {
         title: t({
           en: "Human must learn their animality before calling themselves human being truly.",
-          tr: "İnsan, gerçekten insan olduğunu iddia etmeden önce hayvanlığını öğrenmelidir."
+          tr: "İçindeki hayvanlığı tam anlamıyla öğrenemeyen bir insan yarım kalmış demektir."
         }),
         text: t({
           en: "It's crucial to understand animality in humans to build a civilization on top of nature's being.",
@@ -69,7 +69,7 @@ const pageContent = {
       {
         title: t({
           en: "Your worth is not defined by others in the scale of growing together.",
-          tr: "Değerin, birlikte gelişme ölçeğinde başkaları tarafından tanımlanmaz."
+          tr: "Paylaştığımız ortak yaşam ölçeğinde, değerini başkaları tanımlayamaz."
         }),
         text: t({
           en: "It takes guts to admit failure(s) and learn from them. Being humble enough to learn from mistakes is an essential item for your growth circle.",
@@ -99,7 +99,7 @@ const pageContent = {
       {
         title: t({
           en: "Democracy is only an illusion if kingdoms are distributed over different companies.",
-          tr: "Krallıklar farklı şirketlere dağıtılmışsa demokrasi sadece bir yanılsamadır."
+          tr: "Eğer krallıklar farklı şirketlere dağıtılmışsa, demokrasi sadece bir yanılgıdır."
         }),
         text: t({
           en: "We heard about revolutions, industrializations and democracy in our common histories. We have never seen their capitals being shared among citizens equally. Democracy has never actually existed so far.",
@@ -119,7 +119,7 @@ const pageContent = {
       {
         title: t({
           en: "We don't belong to anyone or anywhere; we just try to get along on this chaotic sphere.",
-          tr: "Hiçbir yere ya da kimseye ait değiliz; bu kaotik kürede sadece uyum sağlamaya çalışıyoruz."
+          tr: "Aslında hiçbir yere ya da kimseye ait değiliz; bu kaotik kürede sadece uyum sağlamaya çalışıyoruz."
         }),
         text: t({
           en: "We must redefine ourselves to find our common path to infinity. Then we can follow bigger problems easier in peace.",
