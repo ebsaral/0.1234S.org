@@ -4,7 +4,9 @@ import { getHTMLTextDir } from "intlayer";
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
-import "../globals.css";
+import "../css/globals.css";
+import "../css/DatePicker.css";
+import "../css/Calendar.css";
 
 export { generateStaticParams } from "next-intlayer"; // Line to insert
 

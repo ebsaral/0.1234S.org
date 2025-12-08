@@ -5,6 +5,7 @@ export {default as LanguageSelection} from './LanguageSelection'
 export {default as SectionItem} from './SectionItem'
 export {default as HomeSections} from './HomeSections'
 export {default as LinkSection} from './LinkSection'
+export {default as DatePickerSection} from './DatePickerSection'
 export {default as Quote} from './Quote'
 
 export * from './Info'

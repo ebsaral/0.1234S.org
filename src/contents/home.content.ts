@@ -110,7 +110,11 @@ const pageContent = {
     flags: {
       [Locales.ENGLISH]: '🇺🇸',
       [Locales.TURKISH]: '🇹🇷',
-    }
+    },
+    datePickerQuote: t({
+        en: "Sum makes sense, some doesn't.",
+        tr: "Tanrı çarpar, kulları toplar."
+    })
   },
 } satisfies Dictionary<ContentHome>;
 

@@ -51,8 +51,9 @@ export interface ContentHome {
     work: SocialIconProps[],
     social: SocialIconProps[],
     contact: SocialIconProps[]
-  },
+  }
   flags: { [key: string]: string}
+  datePickerQuote: string
 }
 
 export interface ContentProjects  {
