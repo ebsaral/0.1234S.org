@@ -37,6 +37,8 @@ export interface ContentGallery extends ContentBaseProjectPage {
   drawings: string
 }
 
+type InsertionContent<T> = (input: T) => string;
+
 export interface ContentHome {
   title: string
   subtitle: string
@@ -53,7 +55,15 @@ export interface ContentHome {
     contact: SocialIconProps[]
   }
   flags: { [key: string]: string}
-  datePickerQuote: string
+  datePicker: {
+    quote: string
+    description: string
+    sumInsertion: InsertionContent<{value: number}>
+    mod: {
+      value: number,
+      text: InsertionContent<{value: number}>
+    }
+  }
 }
 
 export interface ContentProjects  {

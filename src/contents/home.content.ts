@@ -1,4 +1,4 @@
-import { Locales, t, type Dictionary } from "intlayer";
+import { insert, Locales, t, type Dictionary } from "intlayer";
 import { ContentHome } from "./types";
 
 const pageContent = {
@@ -111,10 +111,21 @@ const pageContent = {
       [Locales.ENGLISH]: '🇺🇸',
       [Locales.TURKISH]: '🇹🇷',
     },
-    datePickerQuote: t({
-        en: "Sum makes sense, some doesn't.",
-        tr: "Tanrı çarpar, kulları toplar."
-    })
+    datePicker: {
+      quote: t({
+          en: "Sum makes sense, some doesn't.",
+          tr: "Tanrı çarpar, kulları toplar."
+      }),
+      description: t({
+          en: "S(n) = sum of the digits of n",
+          tr: "S(n) = n sayısının rakamlarının toplamı"
+      }),
+      sumInsertion: insert("S({{value}})"),
+      mod: {
+        value: 9,
+        text: insert("(mod {{value}})")
+      }
+    }
   },
 } satisfies Dictionary<ContentHome>;
 
