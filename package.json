@@ -14,7 +14,7 @@
     "@vercel/analytics": "^1.4.1",
     "@vercel/speed-insights": "^1.1.0",
     "intlayer": "^7.3.9",
-    "next": "^16.0.7",
+    "next": "16.0.10",
     "next-intlayer": "^7.3.9",
     "react": "^19.2.1",
     "react-date-picker": "^12.0.1",
