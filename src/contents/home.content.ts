@@ -43,32 +43,16 @@ const pageContent = {
             url: "https://www.linkedin.com/in/eminbugrasaral"
         },
         {
-            label: "Substack",
-            url: "https://ebsaral.substack.com"
-        },
-        {
             label: "GitHub",
             url: "https://www.github.com/ebsaral"
         },
         {
-            label: "DEV",
-            url: "https://www.dev.to/ebsaral"
-        },
-        {
-            label: "Stackoverflow",
-            url: "https://stackoverflow.com/users/1437254"
-        },
+            label: "Substack",
+            url: "https://ebsaral.substack.com"
+        }
       ],
       social: [
         {
-            label: "Instagram",
-            url: "https://www.instagram.com/goettheus"
-        },
-        {
-            label: "X",
-            url: "https://www.x.com/eminbugrasaral"
-        },
-                {
             label: "DeviantArt",
             url: "https://www.deviantart.com/eminbugrasaral/gallery",
             fallback: {
