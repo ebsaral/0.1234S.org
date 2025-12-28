@@ -32,7 +32,9 @@ const Page: NextPageIntlayer = async ({ params }) => {
         <p className="mx-4 text-sm text-center whitespace-pre-line sm:whitespace-normal">{content.description}</p>
         <hr className="page-break-bold mt-0 mb-8"></hr>
         <HomeSection />
+        <hr className="page-break-bold"></hr>
         <LinkSection id="links" />
+        <hr className="page-break "></hr>
         <DatePickerSection />
       </>
       </InnerLayout>
