@@ -98,7 +98,7 @@ const pageContent = {
     datePicker: {
       quote: t({
           en: "Sum makes sense, some doesn't.",
-          tr: "Tanrı çarpar, kulları toplar."
+          tr: "Tanrı çarpma, kulları ise toplama işlemine bakar."
       }),
       description: t({
           en: "S(n) = sum of the digits of n",
