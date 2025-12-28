@@ -79,7 +79,7 @@ const pageContent = {
               en: "E-mail",
               tr: "E-posta"
             }),
-            url: "mailto:eminbugrasaral@me.com"
+            url: "mailto:ebsaral@icloud.com"
         },
         {
             label: "WhatsApp",
