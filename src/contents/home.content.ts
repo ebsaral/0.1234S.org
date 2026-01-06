@@ -18,7 +18,7 @@ const pageContent = {
     }),
     description: t({
       en: "A funnywise one with\n engineering, feeling and artistic skills.",
-      tr: "Mühendislik, hissetme ve sanatsal\n becerileri olan eğlendeli biri."
+      tr: "Mühendislik, sezgi ve sanatsal\n becerileri olan eğlendeli biri."
     }),
     seperators: [
       t({
