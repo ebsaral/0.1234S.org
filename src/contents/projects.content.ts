@@ -23,8 +23,8 @@ const pageContent = {
           tr: "Doğanın Mantığıyla\nManeviyatı Derinleştirmek."
         }),
         href: t({
-          en: "https://www.1234S.orn/spirituality",
-          tr: "https://www.1234S.orn/maneviyat"
+          en: "https://www.1234S.org/spirituality",
+          tr: "https://www.1234S.org/maneviyat"
         }),
         spin: true
       },
