@@ -59,7 +59,7 @@ const pageContent = {
       {
         title: t({
           en: "The best revenge is to be a better person than any enemy. Then there is neither revenge nor enemy.",
-          tr: "En iyi intikam, herhangi bir düşmandan daha iyi bir insan olmaktır. O zaman ne intikam kalır ne de düşman."
+          tr: "En iyi intikam, her düşmandan daha iyi bir insan olmaktır. O vakit ne intikam kalır ne de düşman."
         }),
         text: t({
           en: "An enemy is not necessarily a person; it can also be a bad experience. Returning no harm when it's done to you is a good approach to get better. It's harder to do empathy when you feel helpless because you must be patient. You must realize that you are not alone.",
