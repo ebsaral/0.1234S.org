@@ -42,6 +42,7 @@ const pageContent = {
           tr: "Karalamalar, çizimler\nve resimler."
         }),
         href: "/gallery",
+        spin: true
       }
     ]
   },
