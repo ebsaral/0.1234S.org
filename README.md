@@ -1,6 +1,6 @@
 ## Readme
 
-[Emin Buğra Saral](https://www.github.com/ebsaral)'s online personal presence: **[https://0.1234s.org](https://0.1234S.org)**.
+[Emin Buğra Saral](https://www.github.com/ebsaral)'s online presence at **[https://0.1234s.org](https://0.1234S.org)**.
 
 - I improve the coding style and design whenever I feel like painting some web bits with different code blocks.
 - I aim to reflect my thinking style in details, not my coding talents.

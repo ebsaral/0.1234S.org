@@ -59,7 +59,7 @@ const pageContent = {
       {
         title: t({
           en: "The best revenge is to be a better person than any enemy. Then there is neither revenge nor enemy.",
-          tr: "En iyi intikam, herhangi bir düşmandan daha iyi bir insan olmaktır. O zaman ne intikam kalır ne de düşman."
+          tr: "En iyi intikam, her düşmandan daha iyi bir insan olmaktır. O vakit ne intikam kalır ne düşman."
         }),
         text: t({
           en: "An enemy is not necessarily a person; it can also be a bad experience. Returning no harm when it's done to you is a good approach to get better. It's harder to do empathy when you feel helpless because you must be patient. You must realize that you are not alone.",
@@ -118,8 +118,8 @@ const pageContent = {
       },
       {
         title: t({
-          en: "We don't belong to anyone or anywhere; we just try to get along on this chaotic sphere.",
-          tr: "Aslında hiçbir yere ya da kimseye ait değiliz; bu kaotik kürede sadece uyum sağlamaya çalışıyoruz."
+          en: "We don't belong to anyone or anywhere; we just try to get along with this chaotic sphere.",
+          tr: "Aslında hiçbir yere ya da kimseye ait değiliz; bu kaotik küreye uyum sağlamaya çalışıyoruz."
         }),
         text: t({
           en: "We must redefine ourselves to find our common path to infinity. Then we can follow bigger problems easier in peace.",
@@ -129,7 +129,7 @@ const pageContent = {
       {
         title: t({
           en: "Respect must be built around freedom, not slavery.",
-          tr: "Saygı, kölelik değil özgürlük etrafında inşa edilmelidir."
+          tr: "Saygı, köleliğin değil özgürlüğün etrafında inşa edilmelidir."
         }),
         text: t({
           en: "Our 'so-called wise' ancestors have built our living conditions around slavery. At this time, people's respect is mostly based on slavery. People must realize that they are usually 'obeying' under superficial respect idioms.",
