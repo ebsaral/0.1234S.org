@@ -29,7 +29,7 @@ const pageContent = {
       {
         title: t({
           en: "Every living being is a piece of art shaped in all minds.",
-          tr: "Her canlı tüm zihinlerde şekillenmiş bir sanat eseridir."
+          tr: "Her canlı tüm zihinlerde şekil alan bir sanat eseridir."
         }),
         text: t({
           en: "We are shaping each other with our thoughts, cultures and actions. In a world where everybody is responsible from each other, it gets easier to understand how we sculpt each other's shapes.",
