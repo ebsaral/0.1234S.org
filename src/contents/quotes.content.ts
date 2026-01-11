@@ -28,7 +28,7 @@ const pageContent = {
     items: [
       {
         title: t({
-          en: "Every living being is a piece of art shaped in all minds.",
+          en: "Every being is an art piece getting shaped in all minds.",
           tr: "Her canlı tüm zihinlerde şekil alan bir sanat eseridir."
         }),
         text: t({
