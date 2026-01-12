@@ -48,7 +48,7 @@ const pageContent = {
         },
         {
             label: "Substack",
-            url: "https://ebsaral.substack.com"
+            url: "https://substack.com/@ebsaral"
         }
       ],
       social: [
