@@ -9,20 +9,20 @@ const pageContent = {
       alt: "Emin Buğra Saral, 2023."
     },
     title: t({
-      en: "Drawing Gallery",
-      tr: "Çizim Galerisi"
+      en: "Gallery",
+      tr: "Galerisi"
     }),
     description: t({
-      en: "The gallery section where I share my randomly scattered drawings, paintings and doodles.",
-      tr: "Rastgele savrulan çizimlerimi, resimlerimi ve karalamalarımı paylaştığım galeri bölümü."
+      en: "The gallery section where I share my randomly scattered drawings, paintings, doodles and graphics.",
+      tr: "Rastgele savrulan çizimlerimi, resimlerimi, karalamalarımı ve grafiklerimi paylaştığım galeri bölümü."
     }),
     subtitle: t({
-      en: "The gallery section where I share my randomly scattered drawings, paintings and doodles.",
-      tr: "Rastgele savrulan çizimlerimi, resimlerimi ve karalamalarımı paylaştığım galeri bölümü."
+      en: "The gallery section where I share my randomly scattered drawings, paintings, doodles and graphics.",
+      tr: "Rastgele savrulan çizimlerimi, resimlerimi, karalamalarımı ve grafiklerimi paylaştığım galeri bölümü."
     }),
     preview: t({
-      en: "Doodles, drawings\nand paintings.",
-      tr: "Karalamalar, çizimler\nve resimler."
+      en: "Doodles, drawings,\npaintings and graphics.",
+      tr: "Karalamalar, çizimler,\nresimler ve grafikler."
     }),
     href: "/gallery",
     doodles: t({
@@ -33,6 +33,10 @@ const pageContent = {
       en: "Paintings & Drawings",
       tr: "Resimler & Çizimler"
     }),
+    graphics: t({
+      en: "Graphics",
+      tr: "Grafiks"
+    })
   },
 } satisfies Dictionary<ContentGallery>;
 

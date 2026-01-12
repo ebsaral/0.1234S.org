@@ -35,6 +35,7 @@ export interface ContentProjects  {
 export interface ContentGallery extends ContentBaseProjectPage {
   doodles: string
   drawings: string
+  graphics: string
 }
 
 type InsertionContent<T> = (input: T) => string;

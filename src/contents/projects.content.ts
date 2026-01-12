@@ -34,12 +34,12 @@ const pageContent = {
           alt: "Drawing"
         },
         title: t({
-          en: "Drawing Gallery",
-          tr: "Çizim Galerisi"
+          en: "Gallery",
+          tr: "Galeri"
         }),
         text: t({
-          en: "Doodles, drawings\nand paintings.",
-          tr: "Karalamalar, çizimler\nve resimler."
+          en: "Doodles, drawings,\npaintings and graphics.",
+          tr: "Karalamalar, çizimler,\nresimler ve grafikler."
         }),
         href: "/gallery",
         spin: true

@@ -1,5 +1,5 @@
 import { GalleryLayout, InnerLayout } from "@/components";
-import { doodles, drawings } from "@/data";
+import { doodles, drawings, graphics } from "@/data";
 import { InnerLayout as InnerLayoutType } from "@/types";
 import { getPageMetadata } from "@/utils";
 import { getIntlayer } from "intlayer";
@@ -26,6 +26,10 @@ const Page: NextPageIntlayer = async ({ params }) => {
     {
       title: content.drawings,
       photos: drawings
+    },
+    {
+      title: content.graphics,
+      photos: graphics
     }
   ]
 
