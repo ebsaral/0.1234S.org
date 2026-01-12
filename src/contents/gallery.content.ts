@@ -35,7 +35,7 @@ const pageContent = {
     }),
     graphics: t({
       en: "Graphics",
-      tr: "Grafiks"
+      tr: "Grafikler"
     })
   },
 } satisfies Dictionary<ContentGallery>;
