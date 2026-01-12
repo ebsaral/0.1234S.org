@@ -13,7 +13,7 @@ export default function HomeSection() {
       content: projects,
       minCol: 1,
       maxCol: 3,
-      titleStyle: "gradient-blue text-lg"
+      titleStyle: "bg-gradient-to-r bg-clip-text text-transparent from-blue-400 via-pink-400 to-yellow-400 text-xl sm:text-xl"
     }
   ]
 
