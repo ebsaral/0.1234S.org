@@ -4,7 +4,7 @@ import { FaLink } from "react-icons/fa6";
 import { LocalizedLink } from "../links";
 
 
-export default function SectionItem({href, title, titleStyle, text, textStyle, imgSrc, imgAlt, spin} : {href: string, title: string, titleStyle: string, text: string, textStyle: string, imgSrc: string, imgAlt: string, spin?: boolean}) {
+export default function SectionItem({href, title, titleStyle, imgSrc, imgAlt, spin} : {href: string, title: string, titleStyle: string, text: string, textStyle: string, imgSrc: string, imgAlt: string, spin?: boolean}) {
 
     const isHttp = (link: string) => {
       return link.startsWith("http")
@@ -46,7 +46,7 @@ export default function SectionItem({href, title, titleStyle, text, textStyle, i
                   <FaLink /> {getLinkText(href)}
                 </div>
                 <div className={`flex text-center font-bold ${titleStyle}`}>{title}</div>
-                <div className={`flex text-center hover:no-underline ${textStyle}`}>{text}</div>
+                {/* <div className={`flex text-center hover:no-underline ${textStyle}`}>{text}</div> */}
               </div>
 
             </div>
