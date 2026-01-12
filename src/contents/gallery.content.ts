@@ -10,7 +10,7 @@ const pageContent = {
     },
     title: t({
       en: "Gallery",
-      tr: "Galerisi"
+      tr: "Galeri"
     }),
     description: t({
       en: "The gallery section where I share my randomly scattered drawings, paintings, doodles and graphics.",
