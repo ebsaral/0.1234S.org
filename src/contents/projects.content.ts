@@ -15,16 +15,16 @@ const pageContent = {
           alt: "logical spirituality"
         },
         title: t({
-          en: "Logical Spirituality",
-          tr: "Mantıksal Maneviyat"
+          en: "1234 Science & Art Association",
+          tr: "1234 Sanat ve İlim Derneği"
         }),
         text: t({
-          en: "Expanding Spirituality\nwith Nature's Logic.",
-          tr: "Doğanın Mantığıyla\nManeviyatı Derinleştirmek."
+          en: "Interconnectedness, Justice and Health in Nature.",
+          tr: "Doğada Bütünlük, Adalet ve Sağlık."
         }),
         href: t({
-          en: "https://www.1234S.org/spirituality",
-          tr: "https://www.1234S.org/maneviyat"
+          en: "https://www.1234S.org",
+          tr: "https://www.1234S.org"
         }),
         spin: true
       },
@@ -38,8 +38,8 @@ const pageContent = {
           tr: "Galeri"
         }),
         text: t({
-          en: "Doodles, drawings,\npaintings and graphics.",
-          tr: "Karalamalar, çizimler,\nresimler ve grafikler."
+          en: "Doodles, drawings, paintings and graphics.",
+          tr: "Karalamalar, çizimler, resimler ve grafikler."
         }),
         href: "/gallery",
         spin: true
