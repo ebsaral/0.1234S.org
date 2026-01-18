@@ -482,43 +482,43 @@
   resolved "https://registry.yarnpkg.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.4.tgz#b19f1f88ace8bfc20784a0ad31767f3438e025d1"
   integrity sha512-xIyj4wpYs8J18sVN3mSQjwrw7fKUqRw+Z5rnHNCy5fYTxigBz81u5mOMPmFumwjcn8+ld1ppptMBCLic1nz6ig==
 
-"@intlayer/ai@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/ai/-/ai-7.5.13.tgz#2d0ecf6f69d3bea4d7072c9a78ff5013282e871a"
-  integrity sha512-hl9GCB/BgIZvEieSMRaqOoHYBfur6kOiqak1d/ltIBQqIdOuWvlStEyhGTNRhtHvikbAmaWzfAGsbV28l6dPhw==
+"@intlayer/ai@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/ai/-/ai-7.5.14.tgz#88c0b0d2bdee68bb70dcdfdd9ff6491cad15dbfe"
+  integrity sha512-netP5S2bCbqgABwufPMjMAo5rLukSoeoGCDh52s1q3YuC6z7rVEnKguBBaBq197nnjOODoXVUGHQikffwQnsdw==
   dependencies:
     "@ai-sdk/anthropic" "2.0.56"
     "@ai-sdk/deepseek" "1.0.32"
     "@ai-sdk/google" "2.0.51"
     "@ai-sdk/mistral" "2.0.26"
     "@ai-sdk/openai" "2.0.88"
-    "@intlayer/api" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/types" "7.5.13"
+    "@intlayer/api" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/types" "7.5.14"
     ai "5.0.116"
     zod "4.2.1"
 
-"@intlayer/api@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/api/-/api-7.5.13.tgz#a8fecf0ede3ab753357befed962a87649b228ea4"
-  integrity sha512-2DoK0jlaaUlnEPZ15QiVBSmwpYOnM62sql8EfcXN7j1GCEtXNZ40/writXl1m/opEIvjYvq+wPg+5TapCRdMEw==
+"@intlayer/api@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/api/-/api-7.5.14.tgz#af3163549d960f9cde220da2793ce759864adda0"
+  integrity sha512-uVW0UAjr119jt+jBqaeY3yrXTIak2HZMs5L7t1YMuSbS1NROW0iDG/gJW2Bw5r08b7JleGTJ9qF86tM4X/nDBA==
   dependencies:
-    "@intlayer/config" "7.5.13"
-    "@intlayer/types" "7.5.13"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/types" "7.5.14"
 
-"@intlayer/chokidar@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/chokidar/-/chokidar-7.5.13.tgz#62bf4aed6e41842e3e05d40505d483c3648b0439"
-  integrity sha512-FAd3e0rQIaw0i/4jQjI4Y4d8BK8QaZmUnO4HLbJYHAzqKxmFdDFQq3vM5UepECj+p+nH3v1hMEpDreb6sKCKhg==
+"@intlayer/chokidar@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/chokidar/-/chokidar-7.5.14.tgz#094a52fbf843102aa68ce3726d411a440341f46b"
+  integrity sha512-OUxo8GV0f4Ows7B+nUiG9ECUsTV5lDCLvPqoP/222F0PCiQHTtleb57Yze5tAJX/bzPzLF+sKpDzADUKnkoy5w==
   dependencies:
-    "@intlayer/api" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/dictionaries-entry" "7.5.13"
-    "@intlayer/remote-dictionaries-entry" "7.5.13"
-    "@intlayer/types" "7.5.13"
-    "@intlayer/unmerged-dictionaries-entry" "7.5.13"
+    "@intlayer/api" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/dictionaries-entry" "7.5.14"
+    "@intlayer/remote-dictionaries-entry" "7.5.14"
+    "@intlayer/types" "7.5.14"
+    "@intlayer/unmerged-dictionaries-entry" "7.5.14"
     chokidar "3.6.0"
     crypto-js "4.2.0"
     defu "6.1.4"
@@ -526,98 +526,98 @@
     simple-git "3.30.0"
     ts-morph "27.0.2"
 
-"@intlayer/cli@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/cli/-/cli-7.5.13.tgz#67aa2f1eb4f3bb375d22ad9a67887bd70839cd90"
-  integrity sha512-YhVAt/5PiY1QnvlbZ1CqW8t1fCB6ixEZDNOSWHSIIC+N4hhX7AMrPvijKVan77cD+bwJFARc/WceyX+2atYjAg==
+"@intlayer/cli@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/cli/-/cli-7.5.14.tgz#e41965097103766b1dad6cc45c19d45e6df747a9"
+  integrity sha512-O+DKtY/J9RauuD1HS3e8nMm9WnUFYbvwo3xpFLb37pOiFBuoI25W60kVSgCCvpFxAHgfslOMgcueXXYGxsTTow==
   dependencies:
     "@clack/prompts" "^0.11.0"
-    "@intlayer/ai" "7.5.13"
-    "@intlayer/api" "7.5.13"
-    "@intlayer/chokidar" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/dictionaries-entry" "7.5.13"
-    "@intlayer/remote-dictionaries-entry" "7.5.13"
-    "@intlayer/types" "7.5.13"
-    "@intlayer/unmerged-dictionaries-entry" "7.5.13"
+    "@intlayer/ai" "7.5.14"
+    "@intlayer/api" "7.5.14"
+    "@intlayer/chokidar" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/dictionaries-entry" "7.5.14"
+    "@intlayer/remote-dictionaries-entry" "7.5.14"
+    "@intlayer/types" "7.5.14"
+    "@intlayer/unmerged-dictionaries-entry" "7.5.14"
     commander "14.0.1"
     eventsource "3.0.7"
     fast-glob "3.3.3"
 
-"@intlayer/config@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/config/-/config-7.5.13.tgz#5c10a954b355ba204596296c117569ba479b9bfe"
-  integrity sha512-PIN16MskoGVU8zVWvRzX+8TqLHQxCnfkG7JG5UzRLe2lvqJY1m2QFbMuRZ8IOgWz9JpOd2H5Sk6CLktMmtIOHw==
+"@intlayer/config@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/config/-/config-7.5.14.tgz#d6de526b1bd4e28a57615138319660435657af17"
+  integrity sha512-81kbsqE71zqyj1rSYyNFg1PltMfb3V0d7JEsXDHBameVLMexae2oqUOpSmChoKSay6MZL9t3INcvGv+6JGLW2Q==
   dependencies:
-    "@intlayer/types" "7.5.13"
+    "@intlayer/types" "7.5.14"
     defu "6.1.4"
     dotenv "16.6.1"
     esbuild "0.27.2"
     json5 "^2.2.3"
 
-"@intlayer/core@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/core/-/core-7.5.13.tgz#5c97e3ecf0579bd5b82b944dc2e57a960ebd12d3"
-  integrity sha512-XdY3Ru76TCWn2TUg/KaCr3XTNj/jJiBFrwTeSeSQ+ug1Fd0uqjAjbcEsdrRLaV6VIZ6WEYCSRQfsTsu4J/av2g==
+"@intlayer/core@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/core/-/core-7.5.14.tgz#50fd7e82281fe5303ed380c1a0a0a5363f79be0e"
+  integrity sha512-v09H9JgUShqOhnVZAhz+HWWSDTHVdz2k4y8w5IyLCR8xtkPeNSKaUUPYw93KevDp753HTPd1CGMEbg15hapK5g==
   dependencies:
-    "@intlayer/api" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/dictionaries-entry" "7.5.13"
-    "@intlayer/types" "7.5.13"
-    "@intlayer/unmerged-dictionaries-entry" "7.5.13"
+    "@intlayer/api" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/dictionaries-entry" "7.5.14"
+    "@intlayer/types" "7.5.14"
+    "@intlayer/unmerged-dictionaries-entry" "7.5.14"
     defu "6.1.4"
 
-"@intlayer/dictionaries-entry@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/dictionaries-entry/-/dictionaries-entry-7.5.13.tgz#3d1294599b74635b76d26199b8adc94d64ff252e"
-  integrity sha512-R7dyrRjY6osi0+gV9E4snR+bYZsEIzaCJeey0CjVPnta8/fX3Mxt5Bnhn7tOP+Aw/7EGUrZLFIVaItI5ExCKMw==
+"@intlayer/dictionaries-entry@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/dictionaries-entry/-/dictionaries-entry-7.5.14.tgz#1d8bbad6fa6020a9dda5b2c2a3d532512a654b3a"
+  integrity sha512-IdZ/bIH6qLIoWg2rJ9t0DuRyayjz/5XSFAJM7lw/i6v1Ty7CZglOn1Kekt9NWyMJ3cROgsMCivnFAM2ErzJ7mQ==
   dependencies:
-    "@intlayer/config" "7.5.13"
+    "@intlayer/config" "7.5.14"
 
-"@intlayer/editor-react@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/editor-react/-/editor-react-7.5.13.tgz#f6cc0c1ac275a8212111d051413a8f4845c43a0e"
-  integrity sha512-frZ1MJtR3cMzbp3HEueanGEn1znHUtnSwvYitWt8FiXokGTihYJt1ZujMs8V4CxJpXmsp1WYbnVEiPawEdPVMA==
+"@intlayer/editor-react@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/editor-react/-/editor-react-7.5.14.tgz#0cab0979acdf424eb78e8f6c1e8a7f7a7b918828"
+  integrity sha512-muwHwxxm7PzFNa7rsJ75AHJ1TktY3KGmemvrMRtoCVBw43S/lNIvCBoPG7rO3DUiMxULdW/pP4llzadg6K7jTw==
   dependencies:
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/editor" "7.5.13"
-    "@intlayer/types" "7.5.13"
-    "@intlayer/unmerged-dictionaries-entry" "7.5.13"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/editor" "7.5.14"
+    "@intlayer/types" "7.5.14"
+    "@intlayer/unmerged-dictionaries-entry" "7.5.14"
 
-"@intlayer/editor@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/editor/-/editor-7.5.13.tgz#4c2127a7632b424e8cf6bbad996f0eeccc0127cd"
-  integrity sha512-Eh6lOhaS2losHwYh/zhZrLT4rFALzN8s9VMw0+HO/LigiBfieS4JmN6GdPWZPGM0hqrE2xbv58NN3bfWdxUy4Q==
+"@intlayer/editor@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/editor/-/editor-7.5.14.tgz#98935b76ec866243db22ddf2ad6f7792d64fc739"
+  integrity sha512-jQjMH/Xf+xHmlcWYxpMgnoWKaIgpeblyjOCYQ0RhJY0yMO6p7JcJTFkR+z6c19Ndzc7ZzUOh9doghsyUndy36w==
 
-"@intlayer/remote-dictionaries-entry@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/remote-dictionaries-entry/-/remote-dictionaries-entry-7.5.13.tgz#f3e7fe2623d9ba9c7ea384462681d2acac58d2f7"
-  integrity sha512-CmUI8WYJ4Jv+6DLm18Fhz0Tl8Ws8qPbwpPv6su7r5CLMiomXvaFpvfSg6/pQ6XZTeFZHobIOGdvC2xvatw9kdA==
+"@intlayer/remote-dictionaries-entry@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/remote-dictionaries-entry/-/remote-dictionaries-entry-7.5.14.tgz#9adc9e8fed9450e1aff8ac39ed64d38bdd815710"
+  integrity sha512-ClEVvtXNuIQ3GQMaQkUoKcl6hLqLAlPT6DRF01kJd1yPuR15oYs1pX6f7MTtZgODrqxNX+k6VYzaBoz1+e23Jg==
   dependencies:
-    "@intlayer/config" "7.5.13"
+    "@intlayer/config" "7.5.14"
 
-"@intlayer/types@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/types/-/types-7.5.13.tgz#33a8f04f1a64b886f9e0698c7f06d17f5030b2c8"
-  integrity sha512-3X4RGUCBCFsxEmNLTORJvHrHnBd6nunhHrl9hgyzHDoH90QUXy75TAFdeVkvmfwwKra/AqII1UeeGB4Bq1l2vA==
+"@intlayer/types@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/types/-/types-7.5.14.tgz#49ffef0f064e080c715df57182bdc0a878c314a1"
+  integrity sha512-mH+9ySEp+cqCbxDznRCJlKX7X72AOGctzjyw7SU+cwMzYqwQTx8vt/+G51u+EBypU11kcVfGh5lbRwlyE2ayFQ==
 
-"@intlayer/unmerged-dictionaries-entry@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/unmerged-dictionaries-entry/-/unmerged-dictionaries-entry-7.5.13.tgz#246d467d36dfa2ad4e7474e8582387e57f65a61e"
-  integrity sha512-MfeyR4576aMoO3iZeDzNm4GZCrrTzMdlkSSfrtP5ynBH0ZATDz/jaRh7rvDeJFnYeQzaPlOXZn9A2EoWfVdKFQ==
+"@intlayer/unmerged-dictionaries-entry@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/unmerged-dictionaries-entry/-/unmerged-dictionaries-entry-7.5.14.tgz#7eb5a8f84660da0e024b70ed57fcaf6412f3065d"
+  integrity sha512-JxAfveuDjD2QKZCJs7twFZe5VlWmTN7oRxV9uhnUdqSW0PIGqaa3nUYi5PlvC0iB4oBZF0BjPO2bJ480pjO5ZA==
   dependencies:
-    "@intlayer/config" "7.5.13"
+    "@intlayer/config" "7.5.14"
 
-"@intlayer/webpack@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/webpack/-/webpack-7.5.13.tgz#343b4d3d07c9bfbce6edffd01eb312b6ca66c1fc"
-  integrity sha512-jKTxSIMPhz6eC1/cvHtqVJeAV/6Cdfo7v6MWNBuFMDr9TaErpx5XINWVy0foIFy7pComzZtUEIeks4jHdWCiog==
+"@intlayer/webpack@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/webpack/-/webpack-7.5.14.tgz#22a4ec8b3eb95e78065bc57e49b36f81a47fdd11"
+  integrity sha512-F9/5lYXRALyIVPIUC6IL0nJGU+4FnTGqR0QC5GZ833N/vT70Nt5s5Zq78zVHiFhNRV64/UDC/sXh3EHLP0HVUw==
   dependencies:
-    "@intlayer/chokidar" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/types" "7.5.13"
+    "@intlayer/chokidar" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/types" "7.5.14"
     crypto-js "4.2.0"
     fast-glob "3.3.3"
     webpack "5.104.1"
@@ -769,10 +769,10 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.5.tgz#4fc56c15c580b9adb7dc3c333a134e540b44bfb1"
   integrity sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==
 
-"@next/env@16.1.1":
-  version "16.1.1"
-  resolved "https://registry.yarnpkg.com/@next/env/-/env-16.1.1.tgz#3d06a470efff135746ef609cc02a4996512bd9ab"
-  integrity sha512-3oxyM97Sr2PqiVyMyrZUtrtM3jqqFxOQJVuKclDsgj/L728iZt/GyslkN4NwarledZATCenbk4Offjk1hQmaAA==
+"@next/env@16.1.3":
+  version "16.1.3"
+  resolved "https://registry.yarnpkg.com/@next/env/-/env-16.1.3.tgz#ac64174844e6f20c5527dcd9a1898c7437c1b997"
+  integrity sha512-BLP14oBOvZWXgfdJf9ao+VD8O30uE+x7PaV++QtACLX329WcRSJRO5YJ+Bcvu0Q+c/lei41TjSiFf6pXqnpbQA==
 
 "@next/eslint-plugin-next@15.1.1":
   version "15.1.1"
@@ -781,45 +781,45 @@
   dependencies:
     fast-glob "3.3.1"
 
-"@next/swc-darwin-arm64@16.1.1":
-  version "16.1.1"
-  resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-16.1.1.tgz#1e7e87fd21fcabce546dfb04fb946ecd9f866917"
-  integrity sha512-JS3m42ifsVSJjSTzh27nW+Igfha3NdBOFScr9C80hHGrWx55pTrVL23RJbqir7k7/15SKlrLHhh/MQzqBBYrQA==
+"@next/swc-darwin-arm64@16.1.3":
+  version "16.1.3"
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-16.1.3.tgz#bd085b5fc3f8f242391db37794bf83072ce33a4c"
+  integrity sha512-CpOD3lmig6VflihVoGxiR/l5Jkjfi4uLaOR4ziriMv0YMDoF6cclI+p5t2nstM8TmaFiY6PCTBgRWB57/+LiBA==
 
-"@next/swc-darwin-x64@16.1.1":
-  version "16.1.1"
-  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-16.1.1.tgz#6617d03b96bdffad7bf4df50d4a699faea0d04c3"
-  integrity sha512-hbyKtrDGUkgkyQi1m1IyD3q4I/3m9ngr+V93z4oKHrPcmxwNL5iMWORvLSGAf2YujL+6HxgVvZuCYZfLfb4bGw==
+"@next/swc-darwin-x64@16.1.3":
+  version "16.1.3"
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-16.1.3.tgz#1224e2438cb4dd550f2912e78766ae1dec44b593"
+  integrity sha512-aF4us2JXh0zn3hNxvL1Bx3BOuh8Lcw3p3Xnurlvca/iptrDH1BrpObwkw9WZra7L7/0qB9kjlREq3hN/4x4x+Q==
 
-"@next/swc-linux-arm64-gnu@16.1.1":
-  version "16.1.1"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-16.1.1.tgz#d8337e2f4881a80221a1f56ac3f979b665b7e574"
-  integrity sha512-/fvHet+EYckFvRLQ0jPHJCUI5/B56+2DpI1xDSvi80r/3Ez+Eaa2Yq4tJcRTaB1kqj/HrYKn8Yplm9bNoMJpwQ==
+"@next/swc-linux-arm64-gnu@16.1.3":
+  version "16.1.3"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-16.1.3.tgz#5e8faa2d719da7cd6bdad26e2f1807e1e04e6718"
+  integrity sha512-8VRkcpcfBtYvhGgXAF7U3MBx6+G1lACM1XCo1JyaUr4KmAkTNP8Dv2wdMq7BI+jqRBw3zQE7c57+lmp7jCFfKA==
 
-"@next/swc-linux-arm64-musl@16.1.1":
-  version "16.1.1"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-16.1.1.tgz#6c24392824406a50f27fb9cf4e49362d4666db1c"
-  integrity sha512-MFHrgL4TXNQbBPzkKKur4Fb5ICEJa87HM7fczFs2+HWblM7mMLdco3dvyTI+QmLBU9xgns/EeeINSZD6Ar+oLg==
+"@next/swc-linux-arm64-musl@16.1.3":
+  version "16.1.3"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-16.1.3.tgz#623d9d39d78c34f8f654d4c8db44e7550bb48a23"
+  integrity sha512-UbFx69E2UP7MhzogJRMFvV9KdEn4sLGPicClwgqnLht2TEi204B71HuVfps3ymGAh0c44QRAF+ZmvZZhLLmhNg==
 
-"@next/swc-linux-x64-gnu@16.1.1":
-  version "16.1.1"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-16.1.1.tgz#f1bd19fc7d119f27c4cf7f51915aef0f119c943f"
-  integrity sha512-20bYDfgOQAPUkkKBnyP9PTuHiJGM7HzNBbuqmD0jiFVZ0aOldz+VnJhbxzjcSabYsnNjMPsE0cyzEudpYxsrUQ==
+"@next/swc-linux-x64-gnu@16.1.3":
+  version "16.1.3"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-16.1.3.tgz#7a84571c352abe980d55de9cde5407109e12e555"
+  integrity sha512-SzGTfTjR5e9T+sZh5zXqG/oeRQufExxBF6MssXS7HPeZFE98JDhCRZXpSyCfWrWrYrzmnw/RVhlP2AxQm+wkRQ==
 
-"@next/swc-linux-x64-musl@16.1.1":
-  version "16.1.1"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-16.1.1.tgz#20c1ea0c98988c337614ce6fda01b82300ff00fd"
-  integrity sha512-9pRbK3M4asAHQRkwaXwu601oPZHghuSC8IXNENgbBSyImHv/zY4K5udBusgdHkvJ/Tcr96jJwQYOll0qU8+fPA==
+"@next/swc-linux-x64-musl@16.1.3":
+  version "16.1.3"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-16.1.3.tgz#45f029675175588d4493b8473ab554a61b9d0bad"
+  integrity sha512-HlrDpj0v+JBIvQex1mXHq93Mht5qQmfyci+ZNwGClnAQldSfxI6h0Vupte1dSR4ueNv4q7qp5kTnmLOBIQnGow==
 
-"@next/swc-win32-arm64-msvc@16.1.1":
-  version "16.1.1"
-  resolved "https://registry.yarnpkg.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-16.1.1.tgz#9d66be9dc4ebc458d445a7f6ee804f416d5c2daf"
-  integrity sha512-bdfQkggaLgnmYrFkSQfsHfOhk/mCYmjnrbRCGgkMcoOBZ4n+TRRSLmT/CU5SATzlBJ9TpioUyBW/vWFXTqQRiA==
+"@next/swc-win32-arm64-msvc@16.1.3":
+  version "16.1.3"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-16.1.3.tgz#74639d8f4a3ead4d65e89fc6fd9b13decee4d593"
+  integrity sha512-3gFCp83/LSduZMSIa+lBREP7+5e7FxpdBoc9QrCdmp+dapmTK9I+SLpY60Z39GDmTXSZA4huGg9WwmYbr6+WRw==
 
-"@next/swc-win32-x64-msvc@16.1.1":
-  version "16.1.1"
-  resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.1.1.tgz#96e9e335e2577481dab6fc7a2af48f3e4a28fbdb"
-  integrity sha512-Ncwbw2WJ57Al5OX0k4chM68DKhEPlrXBaSXDCi2kPi5f4d8b3ejr3RRJGfKBLrn2YJL5ezNS7w2TZLHSti8CMw==
+"@next/swc-win32-x64-msvc@16.1.3":
+  version "16.1.3"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.1.3.tgz#4ad1ea503dd903214e96a3fc49e637807022bcae"
+  integrity sha512-1SZVfFT8zmMB+Oblrh5OKDvUo5mYQOkX2We6VGzpg7JUVZlqe4DYOFGKYZKTweSx1gbMixyO1jnFT4thU+nNHQ==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -3033,15 +3033,15 @@ internal-slot@^1.0.7, internal-slot@^1.1.0:
     hasown "^2.0.2"
     side-channel "^1.1.0"
 
-intlayer@7.5.13, intlayer@^7.5.13:
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/intlayer/-/intlayer-7.5.13.tgz#4b9d3c191c85dc04d5b1f1b694e68e7573d795d5"
-  integrity sha512-sWqB7nuowvXogx7MPThPlTV9rYrpMXrzpMW3sA/RGApTm7cwcm4hokFkf4qlGNvwu+1xWCRk51zn07/NcsIzGA==
+intlayer@7.5.14, intlayer@^7.5.14:
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/intlayer/-/intlayer-7.5.14.tgz#e92703878f7108f0f9f6c70ac43260b2a6569b3b"
+  integrity sha512-3SaBCH4pKYN/QB+EREuLWf8KVhJN3nwKh2/SqYpfZgMb/bU5597/IJnEQmCxf6ntr2aNdIC87yzdsFZA+UUm3Q==
   dependencies:
-    "@intlayer/cli" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/types" "7.5.13"
+    "@intlayer/cli" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/types" "7.5.14"
 
 ipaddr.js@1.9.1:
   version "1.9.1"
@@ -3657,41 +3657,41 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-next-intlayer@^7.5.13:
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/next-intlayer/-/next-intlayer-7.5.13.tgz#4fe5c6f709e0a7f73174f8fe45b0e2159770b555"
-  integrity sha512-aEfMnpIgTPRXqZ4Bzoq2dr2KPTLO//0wmCfdVXFthkSEOvEuQKpvSgb5pXKgW0xCH7jD7740qHty7wlfQAPUvA==
+next-intlayer@^7.5.14:
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/next-intlayer/-/next-intlayer-7.5.14.tgz#4da24d8e7f2ce093b539da880025902a3e2a6013"
+  integrity sha512-WK1yjTO0t1FQGfAKZ/f0MuxC87WtfupXbnyL65FQNwdaWNTBPPIgI/6ptdQJnHqgjFkOolc8Fvct+6fHViMIsA==
   dependencies:
-    "@intlayer/chokidar" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/dictionaries-entry" "7.5.13"
-    "@intlayer/types" "7.5.13"
-    "@intlayer/webpack" "7.5.13"
+    "@intlayer/chokidar" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/dictionaries-entry" "7.5.14"
+    "@intlayer/types" "7.5.14"
+    "@intlayer/webpack" "7.5.14"
     defu "6.1.4"
     node-loader "2.1.0"
-    react-intlayer "7.5.13"
+    react-intlayer "7.5.14"
 
-next@16.1.1:
-  version "16.1.1"
-  resolved "https://registry.yarnpkg.com/next/-/next-16.1.1.tgz#4cc3477daa0fe22678532ff4778baee95842d866"
-  integrity sha512-QI+T7xrxt1pF6SQ/JYFz95ro/mg/1Znk5vBebsWwbpejj1T0A23hO7GYEaVac9QUOT2BIMiuzm0L99ooq7k0/w==
+next@16.1.3:
+  version "16.1.3"
+  resolved "https://registry.yarnpkg.com/next/-/next-16.1.3.tgz#032c0302252ee134b889e769bcae0c875fcc5b86"
+  integrity sha512-gthG3TRD+E3/mA0uDQb9lqBmx1zVosq5kIwxNN6+MRNd085GzD+9VXMPUs+GGZCbZ+GDZdODUq4Pm7CTXK6ipw==
   dependencies:
-    "@next/env" "16.1.1"
+    "@next/env" "16.1.3"
     "@swc/helpers" "0.5.15"
     baseline-browser-mapping "^2.8.3"
     caniuse-lite "^1.0.30001579"
     postcss "8.4.31"
     styled-jsx "5.1.6"
   optionalDependencies:
-    "@next/swc-darwin-arm64" "16.1.1"
-    "@next/swc-darwin-x64" "16.1.1"
-    "@next/swc-linux-arm64-gnu" "16.1.1"
-    "@next/swc-linux-arm64-musl" "16.1.1"
-    "@next/swc-linux-x64-gnu" "16.1.1"
-    "@next/swc-linux-x64-musl" "16.1.1"
-    "@next/swc-win32-arm64-msvc" "16.1.1"
-    "@next/swc-win32-x64-msvc" "16.1.1"
+    "@next/swc-darwin-arm64" "16.1.3"
+    "@next/swc-darwin-x64" "16.1.3"
+    "@next/swc-linux-arm64-gnu" "16.1.3"
+    "@next/swc-linux-arm64-musl" "16.1.3"
+    "@next/swc-linux-x64-gnu" "16.1.3"
+    "@next/swc-linux-x64-musl" "16.1.3"
+    "@next/swc-win32-arm64-msvc" "16.1.3"
+    "@next/swc-win32-x64-msvc" "16.1.3"
     sharp "^0.34.4"
 
 node-forge@^1:
@@ -4098,19 +4098,19 @@ react-icons@^5.4.0:
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-5.4.0.tgz#443000f6e5123ee1b21ea8c0a716f6e7797f7416"
   integrity sha512-7eltJxgVt7X64oHh6wSWNwwbKTCtMfK35hcjvJS0yxEAhPM8oUKdS3+kqaW1vicIltw+kR2unHaa12S9pPALoQ==
 
-react-intlayer@7.5.13:
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/react-intlayer/-/react-intlayer-7.5.13.tgz#055b11153bb62bfd20252c44ef295a5abc24135a"
-  integrity sha512-hDvz5jZTQVXl2A3+R8ES8nZfNufqY5sdJ3i5YHoUhDIMZbNKgvVupNsCqPq8oQlnBc4HvH3AQkJ78J1/eKR+Xw==
+react-intlayer@7.5.14:
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/react-intlayer/-/react-intlayer-7.5.14.tgz#688ce2ce26e51f40f9892ada8f56e1e48155fcc7"
+  integrity sha512-19Q/0/gwhc3fynvm2ruBQRzqCj/MU7onfZl27o1tWPUE88du2GK4U8FHL4Yfjdvs12KihdoV3KoChm3mBdSNGQ==
   dependencies:
-    "@intlayer/api" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/dictionaries-entry" "7.5.13"
-    "@intlayer/editor-react" "7.5.13"
-    "@intlayer/types" "7.5.13"
-    "@intlayer/unmerged-dictionaries-entry" "7.5.13"
-    intlayer "7.5.13"
+    "@intlayer/api" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/dictionaries-entry" "7.5.14"
+    "@intlayer/editor-react" "7.5.14"
+    "@intlayer/types" "7.5.14"
+    "@intlayer/unmerged-dictionaries-entry" "7.5.14"
+    intlayer "7.5.14"
 
 react-is@^16.13.1:
   version "16.13.1"
