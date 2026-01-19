@@ -21,8 +21,15 @@ const graphics = [
     asset: "/images/gallery/graphics/3.jpg",
     width: 480,
     height: 514,
-    alt: "Untitled Logo",
-    title: "Untitled Logo",
+    alt: "Sonsuzluk",
+    title: "Sonsuzluk",
+  },
+  {
+    asset: "/images/gallery/graphics/4.jpg",
+    width: 1422,
+    height: 800,
+    alt: "Looking for a real God nowadays? 🙄",
+    title: "Looking for a real God nowadays? 🙄",
   },
 ].map(
   ({ asset, alt, width, height, title }) =>
