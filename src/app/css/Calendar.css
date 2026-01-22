@@ -5,7 +5,7 @@
   border: 1px solid #a0a096;
   font: inherit;
   line-height: 1.125em;
-  color: #3f3f3f
+  color: #3f3f3f;
 }
 
 .react-calendar--doubleView {
@@ -60,7 +60,7 @@
 .react-calendar__navigation button:enabled:hover,
 .react-calendar__navigation button:enabled:focus {
   background-color: #999797;
-  color: white
+  color: white;
 }
 
 .react-calendar__month-view__weekdays {

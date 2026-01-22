@@ -1,21 +1,18 @@
-import { Locales, type IntlayerConfig } from "intlayer";
+import { Locales, type IntlayerConfig } from 'intlayer';
 
 const config: IntlayerConfig = {
   internationalization: {
-    locales: [
-      Locales.TURKISH,
-      Locales.ENGLISH
-    ],
+    locales: [Locales.TURKISH, Locales.ENGLISH],
     defaultLocale: Locales.TURKISH,
   },
   routing: {
-    mode: "prefix-all",
+    mode: 'prefix-all',
   },
   log: {
-    mode: "verbose"
+    mode: 'verbose',
   },
   build: {
-    importMode: "dynamic",
+    importMode: 'dynamic',
   },
 };
 

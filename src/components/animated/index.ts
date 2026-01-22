@@ -1,1 +1,1 @@
-export {default as SparkleText} from './SparkleText'
+export { default as SparkleText } from './SparkleText';

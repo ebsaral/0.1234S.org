@@ -1,1 +1,1 @@
-export * from "@/components/layout/types"
+export * from '@/components/layout/types';

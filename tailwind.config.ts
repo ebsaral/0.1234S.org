@@ -1,33 +1,33 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
       },
       keyframes: {
         starScale: {
-          "from, to": {
-            transform: "rotate(0) scale(0)",
-            opacity: "0",
+          'from, to': {
+            transform: 'rotate(0) scale(0)',
+            opacity: '0',
           },
 
-          "50%": {
-            transform: "rotate(180deg) scale(1)",
-            opacity: "0.70",
+          '50%': {
+            transform: 'rotate(180deg) scale(1)',
+            opacity: '0.70',
           },
         },
       },
       animation: {
-        starScale: "starScale 800ms ease infinite",
-        'spin': 'spin 2s linear infinite',
+        starScale: 'starScale 800ms ease infinite',
+        spin: 'spin 2s linear infinite',
       },
     },
   },
@@ -53,7 +53,7 @@ const config: Config = {
     'overflow-hidden',
     'gradient-blue',
     'gradient-gray',
-    'text-lg'
-  ]
+    'text-lg',
+  ],
 };
 export default config;

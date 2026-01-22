@@ -1,23 +1,23 @@
-"use client";
+'use client';
 
-import { useState } from "react";
+import { useState } from 'react';
 
-import { RowsPhotoAlbum } from "react-photo-album";
-import "react-photo-album/rows.css";
+import { RowsPhotoAlbum } from 'react-photo-album';
+import 'react-photo-album/rows.css';
 
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
-import "yet-another-react-lightbox/plugins/captions.css";
+import Lightbox from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
+import 'yet-another-react-lightbox/plugins/captions.css';
 
-import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
-import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
-import Zoom from "yet-another-react-lightbox/plugins/zoom";
-import Captions from "yet-another-react-lightbox/plugins/captions";
+import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen';
+import Slideshow from 'yet-another-react-lightbox/plugins/slideshow';
+import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
+import Zoom from 'yet-another-react-lightbox/plugins/zoom';
+import Captions from 'yet-another-react-lightbox/plugins/captions';
 
-import "yet-another-react-lightbox/plugins/thumbnails.css";
+import 'yet-another-react-lightbox/plugins/thumbnails.css';
 
-import { Album } from "@/components/layout/types";
+import { Album } from '@/components/layout/types';
 
 export default function GalleryLayout({ albums }: { albums: Album[] }) {
   const [index, setIndex] = useState(-1);
@@ -25,7 +25,7 @@ export default function GalleryLayout({ albums }: { albums: Album[] }) {
   const photos = albums.flatMap((value) => value.photos);
 
   return (
-    <div className="page-section">
+    <div className='page-section'>
       {albums.map((album, i) => {
         let count = 0;
         if (i > 0) {
@@ -37,8 +37,8 @@ export default function GalleryLayout({ albums }: { albums: Album[] }) {
           );
         }
         return (
-          <div key={`${i}-album-wrapper`} className="flex flex-col">
-            <h2 className="mb-5 mt-5 text-center">
+          <div key={`${i}-album-wrapper`} className='flex flex-col'>
+            <h2 className='mb-5 mt-5 text-center'>
               {album.title} {`(${album.photos.length})`}
             </h2>
             <RowsPhotoAlbum
@@ -53,7 +53,7 @@ export default function GalleryLayout({ albums }: { albums: Album[] }) {
 
       <Lightbox
         styles={{
-          root: { "--yarl__slide_description_text_align": "center" },
+          root: { '--yarl__slide_description_text_align': 'center' },
         }}
         slides={photos}
         open={index >= 0}

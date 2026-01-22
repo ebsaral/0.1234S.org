@@ -1,42 +1,42 @@
-import type { Photo } from "react-photo-album";
+import type { Photo } from 'react-photo-album';
 
 const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 
 const graphics = [
   {
-    asset: "/images/gallery/graphics/1.jpg",
+    asset: '/images/gallery/graphics/1.jpg',
     width: 1422,
     height: 800,
-    alt: "Then I emin you.",
-    title: "Then I emin you.",
+    alt: 'Then I emin you.',
+    title: 'Then I emin you.',
   },
   {
-    asset: "/images/gallery/graphics/2.jpg",
+    asset: '/images/gallery/graphics/2.jpg',
     width: 1422,
     height: 800,
-    alt: "İki İşlem",
-    title: "İki İşlem",
+    alt: 'İki İşlem',
+    title: 'İki İşlem',
   },
   {
-    asset: "/images/gallery/graphics/3.jpg",
+    asset: '/images/gallery/graphics/3.jpg',
     width: 480,
     height: 514,
-    alt: "Sonsuzluk",
-    title: "Sonsuzluk",
+    alt: 'Sonsuzluk',
+    title: 'Sonsuzluk',
   },
   {
-    asset: "/images/gallery/graphics/4.jpg",
+    asset: '/images/gallery/graphics/4.jpg',
     width: 1422,
     height: 800,
-    alt: "Looking for a real God nowadays? 🙄",
-    title: "Looking for a real God nowadays? 🙄",
+    alt: 'Looking for a real God nowadays? 🙄',
+    title: 'Looking for a real God nowadays? 🙄',
   },
 ].map(
   ({ asset, alt, width, height, title }) =>
     ({
       src: asset,
       alt,
-      title: title ?? "",
+      title: title ?? '',
       description: title,
       width,
       height,

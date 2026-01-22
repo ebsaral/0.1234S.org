@@ -1,2 +1,2 @@
-export * from "@/components/types"
-export * from "@/contents/types"
+export * from '@/components/types';
+export * from '@/contents/types';
