@@ -119,7 +119,7 @@ const pageContent = {
       {
         title: t({
           en: "We don't belong to anyone or anywhere; we just try to get along with this chaotic sphere.",
-          tr: 'Aslında hiçbir yere ya da kimseye ait değiliz; bu kaotik küreye uyum sağlamaya çalışıyoruz.',
+          tr: 'Hiç kimseye veya hiçbir yere ait değiliz. Sadece bu kaotik küreye uyum sağlamaya çalışıyoruz.',
         }),
         text: t({
           en: 'We must redefine ourselves to find our common path to infinity. Then we can follow bigger problems easier in peace.',
