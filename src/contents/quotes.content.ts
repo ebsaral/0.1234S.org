@@ -78,7 +78,7 @@ const pageContent = {
       },
       {
         title: t({
-          en: 'You are all born to be right but politically corrected.',
+          en: 'Freedom is the sacred right of (every) nation faithful to justice.',
           tr: "Hakkıdır, Hakk'a tapan (her) milletimin istiklal.",
         }),
         text: t({
