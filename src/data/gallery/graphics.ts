@@ -31,6 +31,13 @@ const graphics = [
     alt: 'Looking for a real God nowadays? 🙄',
     title: 'Looking for a real God nowadays? 🙄',
   },
+  {
+    asset: '/images/gallery/graphics/5.jpg',
+    width: 866,
+    height: 486,
+    alt: '50%50',
+    title: '50%50',
+  },
 ].map(
   ({ asset, alt, width, height, title }) =>
     ({
