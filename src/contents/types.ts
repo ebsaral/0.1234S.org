@@ -33,6 +33,7 @@ export interface ContentProjects {
 }
 
 export interface ContentGallery extends ContentBaseProjectPage {
+  quote: string;
   doodles: string;
   drawings: string;
   graphics: string;

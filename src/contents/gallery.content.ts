@@ -20,6 +20,10 @@ const pageContent = {
       en: 'The gallery section where I share my randomly scattered drawings, paintings, doodles and graphics.',
       tr: 'Rastgele savrulan çizimlerimi, resimlerimi, karalamalarımı ve grafiklerimi paylaştığım galeri bölümü.',
     }),
+    quote: t({
+      en: '',
+      tr: 'San, ve at bir kenara. Geride kalanlar düşünsün, gibi.',
+    }),
     preview: t({
       en: 'Doodles, drawings,\npaintings and graphics.',
       tr: 'Karalamalar, çizimler,\nresimler ve grafikler.',
