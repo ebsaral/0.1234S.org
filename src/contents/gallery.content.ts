@@ -13,12 +13,12 @@ const pageContent = {
       tr: 'Galeri',
     }),
     description: t({
-      en: 'The gallery section where I share my randomly scattered drawings, paintings, doodles and graphics.',
-      tr: 'Rastgele savrulan çizimlerimi, resimlerimi, karalamalarımı ve grafiklerimi paylaştığım galeri bölümü.',
+      en: "Drawings, paintings, doodles, and graphics that I scattered randomly, carrying my surroundings' imprints.",
+      tr: 'Çevremin izlerini taşıyarak rastgele savurduğum çizimler, resimler, karalamalar ve grafikler.',
     }),
     subtitle: t({
-      en: 'The gallery section where I share my randomly scattered drawings, paintings, doodles and graphics.',
-      tr: 'Rastgele savrulan çizimlerimi, resimlerimi, karalamalarımı ve grafiklerimi paylaştığım galeri bölümü.',
+      en: "Drawings, paintings, doodles, and graphics that I scattered randomly, carrying my surroundings' imprints.",
+      tr: 'Çevremin izlerini taşıyarak rastgele savurduğum çizimler, resimler, karalamalar ve grafikler.',
     }),
     quote: t({
       en: '',
