@@ -13,12 +13,12 @@ const pageContent = {
       tr: 'Galeri',
     }),
     description: t({
-      en: "Drawings, paintings, doodles, and graphics that I scattered randomly, carrying my surroundings' imprints.",
-      tr: 'Çevremin izlerini taşıyarak rastgele savurduğum çizimler, resimler, karalamalar ve grafikler.',
+      en: "Drawings, paintings, doodles, and graphics that I've created randomly, carrying my surroundings' imprints.",
+      tr: 'Çevremin izlerini taşıyarak rastgele yarattığım çizimler, resimler, karalamalar ve grafikler.',
     }),
     subtitle: t({
-      en: "Drawings, paintings, doodles, and graphics that I scattered randomly, carrying my surroundings' imprints.",
-      tr: 'Çevremin izlerini taşıyarak rastgele savurduğum çizimler, resimler, karalamalar ve grafikler.',
+      en: "Drawings, paintings, doodles, and graphics that I've created randomly, carrying my surroundings' imprints.",
+      tr: 'Çevremin izlerini taşıyarak rastgele yarattığım çizimler, resimler, karalamalar ve grafikler.',
     }),
     quote: t({
       en: '',
