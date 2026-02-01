@@ -2,7 +2,15 @@ import type { NextConfig } from 'next';
 import { withIntlayer } from 'next-intlayer/server';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return [
+      {
+        source: '/galeri',
+        destination: '/tr/gallery',
+        permanent: false,
+      },
+    ];
+  },
 };
 
 export default withIntlayer(nextConfig);
