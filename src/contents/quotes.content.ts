@@ -38,17 +38,7 @@ const pageContent = {
       },
       {
         title: t({
-          en: 'Human must learn their animality before calling themselves human being truly.',
-          tr: 'İçindeki hayvanlığı tam anlamıyla öğrenemeyen bir insan yarım kalmış demektir.',
-        }),
-        text: t({
-          en: "It's crucial to understand animality in humans to build a civilization on top of nature's being.",
-          tr: 'Doğanın üzerine bir uygarlık inşa edebilmek için insandaki hayvanlığı anlamak çok önemlidir.',
-        }),
-      },
-      {
-        title: t({
-          en: "Any power is temporary if it isn't used for good.",
+          en: "Any power is temporary if it isn't for good.",
           tr: 'İyilik için kullanılmayan her güç geçicidir.',
         }),
         text: t({
@@ -58,42 +48,12 @@ const pageContent = {
       },
       {
         title: t({
-          en: 'The best revenge is to be a better person than any enemy. Then there is neither revenge nor enemy.',
-          tr: 'En iyi intikam, her düşmandan daha iyi bir insan olmaktır. O vakit ne intikam kalır ne düşman.',
+          en: 'Human must learn their animality before calling themselves human being truly.',
+          tr: 'İçindeki hayvanlığı tam anlamıyla öğrenemeyen bir insan yarım kalmış demektir.',
         }),
         text: t({
-          en: "An enemy is not necessarily a person; it can also be a bad experience. Returning no harm when it's done to you is a good approach to get better. It's harder to do empathy when you feel helpless because you must be patient. You must realize that you are not alone.",
-          tr: 'Bir düşman illa bir kişi olmak zorunda değildir; kötü bir deneyim de olabilir. Sana zarar verildiğinde karşılık vermemek, daha iyi olmak için iyi bir yaklaşımdır. Kendini çaresiz hissettiğinde empati yapmak daha zordur çünkü sabırlı olmalısın. Yalnız olmadığını fark etmelisin.',
-        }),
-      },
-      {
-        title: t({
-          en: 'Your worth is not defined by others in the scale of growing together.',
-          tr: 'Paylaştığımız ortak yaşam ölçeğinde, değerini başkaları tanımlayamaz.',
-        }),
-        text: t({
-          en: 'It takes guts to admit failure(s) and learn from them. Being humble enough to learn from mistakes is an essential item for your growth circle.',
-          tr: 'Başarısızlıkları kabul edip onlardan ders almak cesaret ister. Hatalardan öğrenebilecek kadar alçakgönüllü olmak, gelişim çemberin için temel bir unsurdur.',
-        }),
-      },
-      {
-        title: t({
-          en: 'Freedom is the sacred right of (every) nation faithful to justice.',
-          tr: "Hakkıdır, Hakk'a tapan (her) milletimin istiklal.",
-        }),
-        text: t({
-          en: "I don't even know when we lost our touch with nature thus each other. Let's focus on future as much as we can.",
-          tr: 'Doğayla ve dolayısıyla birbirimizle temasımızı ne zaman kaybettiğimizi bile bilmiyorum. Geleceğe olabildiğince odaklanalım.',
-        }),
-      },
-      {
-        title: t({
-          en: 'Time only passes to move our responsibility further.',
-          tr: 'Zaman sadece sorumluluğumuzu ileriye taşımak için geçer.',
-        }),
-        text: t({
-          en: "The universe's time is frozen at infinity since its beginning. So nature doesn't die but loops in itself. We, mostly humans, have a sense of time because we are mortals under nature's guidance.",
-          tr: 'Evrenin zamanı başlangıcından beri sonsuzlukta donmuştur. Yani doğa ölmez, kendi içinde döngüye girer. Biz insanlar ise, çoğunlukla, doğanın rehberliğinde ölümlü olduğumuz için zaman algısına sahibiz.',
+          en: "It's crucial to understand animality in humans to build a civilization on top of nature's being.",
+          tr: 'Doğanın üzerine bir uygarlık inşa edebilmek için insandaki hayvanlığı anlamak çok önemlidir.',
         }),
       },
       {
@@ -108,22 +68,12 @@ const pageContent = {
       },
       {
         title: t({
-          en: "Time becomes more valuable when it's shared.",
-          tr: 'Zaman paylaşıldığında daha değerli olur.',
+          en: 'The best revenge is to remain a better person than any enemy. Then there is neither revenge nor enemy.',
+          tr: 'En iyi intikam, her düşmandan daha iyi bir insan kalabilmektir. O vakit ne intikam kalır ne düşman.',
         }),
         text: t({
-          en: "At the moment, we value ourselves by selling our time instead of sharing it. This attitude in economy disconnects people from each other and it shortens everyone's lifetime indirectly. Because people unwillingly struggle from roadblocks in current structure. We undirectly kill each other because we don't understand nature's reality deeply.",
-          tr: 'Şu anda, zamanı paylaşmak yerine satarak kendimize değer biçiyoruz. Bu ekonomik tutum, insanları birbirinden koparıyor ve dolaylı olarak herkesin ömrünü kısaltıyor. Çünkü insanlar mevcut yapının engelleriyle istemeden mücadele ediyor. Doğanın gerçekliğini derinlemesine anlamadığımız için birbirimizi dolaylı olarak öldürüyoruz.',
-        }),
-      },
-      {
-        title: t({
-          en: "We don't belong to anyone or anywhere; we just try to get along with this chaotic sphere.",
-          tr: 'Hiç kimseye veya hiçbir yere ait değiliz. Sadece bu kaotik küreye uyum sağlamaya çalışıyoruz.',
-        }),
-        text: t({
-          en: 'We must redefine ourselves to find our common path to infinity. Then we can follow bigger problems easier in peace.',
-          tr: 'Sonsuzluğa giden ortak yolumuzu bulmak için kendimizi yeniden tanımlamalıyız. O zaman daha büyük sorunların peşinden huzurla gidebiliriz.',
+          en: "An enemy is not necessarily a person; it can also be a bad experience. Returning no harm when it's done to you is a good approach to get better. It's harder to do empathy when you feel helpless because you must be patient. You must realize that you are not alone.",
+          tr: 'Bir düşman illa bir kişi olmak zorunda değildir; kötü bir deneyim de olabilir. Sana zarar verildiğinde karşılık vermemek, daha iyi olmak için iyi bir yaklaşımdır. Kendini çaresiz hissettiğinde empati yapmak daha zordur çünkü sabırlı olmalısın. Yalnız olmadığını fark etmelisin.',
         }),
       },
       {
@@ -134,6 +84,16 @@ const pageContent = {
         text: t({
           en: "Our 'so-called wise' ancestors have built our living conditions around slavery. At this time, people's respect is mostly based on slavery. People must realize that they are usually 'obeying' under superficial respect idioms.",
           tr: "'Sözde bilge' atalarımız yaşam koşullarımızı kölelik üzerine kurmuş. Günümüzde insanların saygısı çoğunlukla kölelik temellidir. İnsanlar, genellikle yüzeysel saygı kalıpları altında 'itaat ettiklerini' fark etmelidir.",
+        }),
+      },
+      {
+        title: t({
+          en: 'Freedom is the sacred right of (every) nation faithful to justice.',
+          tr: "Hakkıdır, Hakk'a tapan (her) milletimin istiklal.",
+        }),
+        text: t({
+          en: "I don't even know when we lost our touch with nature thus each other. Let's focus on future as much as we can.",
+          tr: 'Doğayla ve dolayısıyla birbirimizle temasımızı ne zaman kaybettiğimizi bile bilmiyorum. Geleceğe olabildiğince odaklanalım.',
         }),
       },
       {
