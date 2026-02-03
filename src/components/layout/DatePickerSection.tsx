@@ -68,15 +68,6 @@ export default function DatePickerSection() {
           <div>
             <em>{content.datePicker.description}</em>
           </div>
-          <div>
-            <div>
-              {`${dateArr[0]} + ${dateArr[1]} + ${dateArr[2]}`} = {`${dateTotal}`}
-            </div>
-            <div>
-              {sumInsertion({ value: dateTotal })} = {firstDateTotalSum}, {sumInsertion({ value: firstDateTotalSum })} ≡{' '}
-              {sum(dateTotal) % mod.value} {mod.text}
-            </div>
-          </div>
 
           <div>
             <div>
