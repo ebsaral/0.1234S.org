@@ -27,7 +27,6 @@ const Page: NextPageIntlayer = async ({ params }) => {
     <InnerLayout params={layoutParams}>
       <>
         <InfoLinks />
-        <p className='mx-4 text-sm text-center whitespace-pre-line sm:whitespace-normal'>{content.description}</p>
         <hr className='page-break-bold mt-0 mb-8'></hr>
         <HomeSection />
         <hr className='page-break-bold'></hr>
