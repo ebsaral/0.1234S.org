@@ -46,6 +46,7 @@ export interface ContentHome {
   subtitle: string;
   description: string;
   seperators: string[];
+  lastUpdate: string;
   image: Image;
   links: {
     cv: {

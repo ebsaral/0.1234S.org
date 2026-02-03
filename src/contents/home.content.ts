@@ -26,6 +26,12 @@ const pageContent = {
         tr: '───── ∞ ─────',
       }),
     ],
+    lastUpdate: insert(
+      t({
+        en: 'Last update: {{date}}',
+        tr: 'Son güncelleme: {{date}}',
+      }),
+    ),
     links: {
       cv: {
         label: t({
