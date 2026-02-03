@@ -1,11 +1,12 @@
 /* eslint-disable */
 
-import { useIntlayer } from 'next-intlayer/server';
+import { useIntlayer, useLocale } from 'next-intlayer/server';
 import SectionItem from './SectionItem';
 import Quote from './Quote';
 
 export default function HomeSection() {
-  const projects = useIntlayer('projects');
+  const { locale } = useLocale();
+  const projects = useIntlayer('projects', locale);
 
   const sections = [
     {
