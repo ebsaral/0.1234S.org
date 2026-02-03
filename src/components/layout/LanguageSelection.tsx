@@ -1,6 +1,6 @@
 'use client';
 
-import { getLocaleName, getLocalizedUrl, LocalesValues } from 'intlayer';
+import { getLocaleName, getLocalizedUrl } from 'intlayer';
 
 import { useIntlayer, useLocale } from 'next-intlayer';
 import Link from 'next/link';
@@ -9,12 +9,6 @@ import { PiGlobeSimpleDuotone } from 'react-icons/pi';
 export default function LanguageSelection({ className = '' }: { className?: string; targetId?: string }) {
   const { locale, pathWithoutLocale, setLocale, availableLocales } = useLocale();
   const content = useIntlayer('page-home');
-
-  const handleLocaleChange = (newLocale: LocalesValues) => {
-    setLocale(newLocale);
-    const newUrl = getLocalizedUrl(pathWithoutLocale, newLocale);
-    history.pushState({}, '', newUrl);
-  };
 
   return (
     <div className={`page-header ${className}`}>
@@ -29,7 +23,7 @@ export default function LanguageSelection({ className = '' }: { className?: stri
             href={getLocalizedUrl(pathWithoutLocale, localeItem)}
             hrefLang={localeItem}
             aria-current={locale === localeItem ? 'page' : undefined}
-            onClick={() => handleLocaleChange(localeItem)}
+            onClick={() => setLocale(localeItem)}
             replace
           >
             {getLocaleName(localeItem)}
