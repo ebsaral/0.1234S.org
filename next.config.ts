@@ -9,6 +9,16 @@ const nextConfig: NextConfig = {
         destination: '/tr/gallery',
         permanent: false,
       },
+      {
+        source: '/ozgecmis',
+        destination: '/files/cv/turkish.pdf',
+        permanent: false,
+      },
+      {
+        source: '/resume',
+        destination: '/files/cv/english.pdf',
+        permanent: false,
+      },
     ];
   },
 };
