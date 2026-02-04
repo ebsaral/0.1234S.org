@@ -38,6 +38,13 @@ const graphics = [
     alt: '50%50',
     title: '50%50',
   },
+  {
+    asset: '/images/gallery/graphics/6.jpg',
+    width: 1422,
+    height: 800,
+    alt: 'S',
+    title: 'S',
+  },
 ].map(
   ({ asset, alt, width, height, title }) =>
     ({
