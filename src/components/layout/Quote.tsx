@@ -26,7 +26,7 @@ export default function Quote() {
         {content.items[index].title}
       </p>
       <p className='absolute left-4 bottom-7 text-xs text-right w-10'>
-        {index + 1}
+        {index}
         {' / '}
         {content.items.length}
       </p>
