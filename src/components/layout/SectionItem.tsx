@@ -40,7 +40,7 @@ export default function SectionItem({
   return (
     <LocalizedLink
       href={href}
-      className='flex flex-col items-center p-5 text-sm text-left font-[family-name:var(--font-geist-mono)] whitespace-pre-line border border-solid border-transparent transition-colors hover:bg-gray-800 rounded-xl'
+      className='flex flex-col items-center p-5 text-sm text-left font-[family-name:var(--font-geist-mono)] whitespace-pre-line border border-solid border-transparent transition-colors hover:bg-gray-900 rounded-xl'
       rel='noopener noreferrer'
       title={title}
       prefetch={true}
