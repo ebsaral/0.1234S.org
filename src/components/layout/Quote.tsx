@@ -9,7 +9,6 @@ export default function Quote() {
 
   function next() {
     if (index + 1 < content.items.length) {
-      console.log('next');
       setIndex(index + 1);
     } else {
       setIndex(0);
@@ -19,8 +18,10 @@ export default function Quote() {
   return (
     <div
       onClick={() => next()}
-      className='relative flex align-middle items-center justify-center-80 p-6 border rounded-xl shadow-lg select-none cursor-pointer hover:bg-gray-800 hover:border-gray-800 min-h-60 max-w-lg'
+      className='relative flex align-middle items-center justify-center-80 p-6 border rounded-xl shadow-lg select-none cursor-pointer stars-box hover:border-gray-800 min-h-60 max-w-lg'
     >
+      <div className='stars' />
+
       <div className='absolute top-5 left-5 text-5xl'>“</div>
       <p className='text-center text-lg font-[family-name:var(--font-geist-mono)] whitespace-pre-line'>
         {content.items[index].title}
