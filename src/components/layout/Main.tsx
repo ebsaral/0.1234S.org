@@ -1,10 +1,8 @@
 import Image from 'next/legacy/image';
 
-import { LastUpdate, PublishDate } from '@/components/dates';
 import { HomePageLink } from '@/components/links';
 import LanguageSelection from './LanguageSelection';
 import { useIntlayer, useLocale } from 'next-intlayer/server';
-import Sea from '@/components/animated/Sea';
 import { InnerLayout } from './types';
 
 const Main = ({ children, params }: { children: React.ReactNode; params: InnerLayout }) => {
@@ -35,13 +33,6 @@ const Main = ({ children, params }: { children: React.ReactNode; params: InnerLa
         <p>{content.subtitle}</p>
       </div>
       {children}
-      <div className='page-footer'>
-        {params.publishDate && <PublishDate date={params.publishDate} />}
-        {params.lastUpdateDate && <LastUpdate date={params.lastUpdateDate} />}
-      </div>
-      <div id='b'></div>
-
-      <Sea className='mx-auto w-full -mt-40' />
     </main>
   );
 };

@@ -3,7 +3,10 @@
 import { useIntlayer, useLocale } from 'next-intlayer';
 import { DATE_FORMAT_OPTIONS } from './utils';
 
-export default function LastUpdate({ date }: { date: string }) {
+export default function LastUpdate({ date }: { date?: string }) {
+  if (!date) {
+    return <></>;
+  }
   const { locale } = useLocale();
   const content = useIntlayer('page-shared');
 

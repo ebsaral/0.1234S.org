@@ -60,7 +60,7 @@ export default function DatePickerSection() {
   };
 
   return (
-    <div className='page-section w-full mx-0 px-0'>
+    <div className='page-section w-full mx-0 px-0 pb-12'>
       <div className='w-auto m-auto flex flex-col justify-center items-center gap-4'>
         <em>{content.datePicker.quote}</em>
         <DatePicker className='w-full' onChange={onChange} value={value} locale={locale} clearIcon={null} />

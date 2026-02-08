@@ -3,6 +3,4 @@ export const DATE_FORMAT_OPTIONS: Intl.DateTimeFormatOptions = {
   month: 'long',
   day: '2-digit',
   localeMatcher: 'best fit',
-  hour: '2-digit',
-  minute: '2-digit',
 };

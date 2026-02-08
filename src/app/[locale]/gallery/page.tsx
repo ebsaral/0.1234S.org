@@ -1,4 +1,5 @@
-import { GalleryLayout, InnerLayout } from '@/components';
+import { GalleryLayout, InnerLayout, LastUpdate, PublishDate } from '@/components';
+import Sea from '@/components/animated/Sea';
 import { doodles, drawings, graphics } from '@/data';
 import { InnerLayout as InnerLayoutType } from '@/types';
 import { getPageMetadata } from '@/utils';
@@ -37,9 +38,18 @@ const Page: NextPageIntlayer = async ({ params }) => {
     displayHomePageLink: true,
   };
 
+  const publishDate = '';
+  const lastUpdateDate = '2026-02-07';
+
   return (
     <InnerLayout params={layoutParams}>
       <GalleryLayout albums={albums} />
+
+      <div className='page-footer'>
+        <PublishDate date={publishDate} />
+        <LastUpdate date={lastUpdateDate} />
+      </div>
+      <Sea className='mx-auto w-full -mt-24 -mb-40' />
     </InnerLayout>
   );
 };
