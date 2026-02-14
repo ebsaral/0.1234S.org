@@ -75,7 +75,9 @@ export interface ContentProjects {
 }
 
 export interface ContentQuotes extends ContentBaseProjectPage {
-  items: ContentSectionItem[];
+  items: {
+    title: string;
+  }[];
 }
 
 export interface ContentShared {

@@ -21,8 +21,6 @@ export default function Quote() {
       className='relative flex align-middle items-center justify-center-80 p-6 border rounded-xl shadow-lg select-none cursor-pointer stars-box hover:border-gray-800 min-h-60 max-w-lg'
     >
       <div className='stars' />
-
-      <div className='absolute top-5 left-5 text-5xl'>“</div>
       <p className='text-center text-lg font-[family-name:var(--font-geist-mono)] whitespace-pre-line'>
         {content.items[index].title}
       </p>
@@ -31,7 +29,6 @@ export default function Quote() {
         {' / '}
         {content.items.length}
       </p>
-      <div className='absolute bottom-0 right-5 text-5xl'>”</div>
     </div>
   );
 }
