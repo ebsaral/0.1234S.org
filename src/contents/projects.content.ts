@@ -15,8 +15,8 @@ const pageContent = {
           alt: 'logical spirituality',
         },
         title: t({
-          en: '1234 Science & Art Association',
-          tr: '1234 Sanat ve İlim Derneği',
+          en: 'Logical Spirituality',
+          tr: 'Mantıksal Maneviyat',
         }),
         text: t({
           en: 'Interconnectedness, Justice and Health in Nature.',
