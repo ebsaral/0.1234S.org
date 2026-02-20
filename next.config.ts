@@ -11,12 +11,22 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/ozgecmis',
-        destination: '/files/cv/turkish.pdf',
+        destination: '/files/cv/tr.pdf',
         permanent: false,
       },
       {
         source: '/resume',
-        destination: '/files/cv/english.pdf',
+        destination: '/files/cv/en.pdf',
+        permanent: false,
+      },
+      {
+        source: '/files/cv/english.pdf',
+        destination: '/files/cv/en.pdf',
+        permanent: false,
+      },
+      {
+        source: '/files/cv/turkish.pdf',
+        destination: '/files/cv/tr.pdf',
         permanent: false,
       },
     ];
