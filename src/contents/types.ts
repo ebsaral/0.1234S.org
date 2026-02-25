@@ -34,9 +34,9 @@ export interface ContentProjects {
 
 export interface ContentGallery extends ContentBaseProjectPage {
   quote: string;
-  doodles: string;
-  drawings: string;
-  graphics: string;
+  doodles: { title: string; subtitle?: string };
+  drawings: { title: string; subtitle?: string };
+  graphics: { title: string; subtitle?: string };
 }
 
 type InsertionContent<T> = (input: T) => string;

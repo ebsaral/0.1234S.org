@@ -19,15 +19,18 @@ const Page: NextPageIntlayer = async ({ params }) => {
 
   const albums = [
     {
-      title: content.doodles,
+      title: content.doodles.title,
+      subtitle: content.doodles.subtitle,
       photos: doodles,
     },
     {
-      title: content.drawings,
+      title: content.drawings.title,
+      subtitle: content.drawings.subtitle,
       photos: drawings,
     },
     {
-      title: content.graphics,
+      title: content.graphics.title,
+      subtitle: content.graphics.subtitle,
       photos: graphics,
     },
   ];
@@ -49,6 +52,7 @@ const Page: NextPageIntlayer = async ({ params }) => {
         <PublishDate date={publishDate} />
         <LastUpdate date={lastUpdateDate} />
       </div>
+      {content.quote && <p className='text-center text-xl italic'>{content.quote}</p>}
       <Sea className='mx-auto w-full -mt-24 -mb-40' />
     </InnerLayout>
   );

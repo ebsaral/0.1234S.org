@@ -29,7 +29,6 @@ const Main = ({ children, params }: { children: React.ReactNode; params: InnerLa
       {params.isSoon && <p className='text-2xl mt-2 font-bold text-cyan-400'>{sharedContent.soon}</p>}
       <div className='page-section text-center'>
         <h1>{content.title}</h1>
-        {content.quote && <p className='text-xl italic'>{content.quote}</p>}
         <p>{content.subtitle}</p>
       </div>
       {children}

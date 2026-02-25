@@ -5,6 +5,7 @@ import { Photo } from 'react-photo-album';
 // GalleryLayout
 export type Album = {
   title: string;
+  subtitle?: string;
   photos: Photo[];
 };
 

@@ -41,6 +41,7 @@ export default function GalleryLayout({ albums }: { albums: Album[] }) {
             <h2 className='mb-5 mt-5 text-center'>
               {album.title} {`(${album.photos.length})`}
             </h2>
+            {album.subtitle && <p className='mb-5 text-center text-sm'>{album.subtitle}</p>}
             <RowsPhotoAlbum
               key={`${i}-album`}
               photos={album.photos}
