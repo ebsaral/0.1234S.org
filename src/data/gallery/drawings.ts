@@ -128,7 +128,7 @@ const drawings = [
     ({
       src: asset,
       title: title ?? '',
-      description: description ? `"${title}"\n ${description}` : title,
+      description: description ? description : title,
       alt,
       width,
       height,

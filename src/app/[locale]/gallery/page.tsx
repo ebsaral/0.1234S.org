@@ -1,4 +1,4 @@
-import { GalleryLayout, InnerLayout, LastUpdate, PublishDate } from '@/components';
+import { Gallery, InnerLayout, LastUpdate, PublishDate } from '@/components';
 import Sea from '@/components/animated/Sea';
 import { doodles, drawings, graphics } from '@/data';
 import { InnerLayout as InnerLayoutType } from '@/types';
@@ -46,7 +46,7 @@ const Page: NextPageIntlayer = async ({ params }) => {
 
   return (
     <InnerLayout params={layoutParams}>
-      <GalleryLayout albums={albums} />
+      <Gallery albums={albums} />
 
       <div className='page-footer'>
         <PublishDate date={publishDate} />

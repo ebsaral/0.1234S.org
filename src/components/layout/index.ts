@@ -1,4 +1,4 @@
-export { default as GalleryLayout } from './GalleryLayout';
+export { default as Gallery } from './Gallery';
 export { default as Info } from './Info';
 export { default as InnerLayout } from './InnerLayout';
 export { default as LanguageSelection } from './LanguageSelection';

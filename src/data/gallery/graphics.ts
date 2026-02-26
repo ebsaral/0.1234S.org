@@ -44,7 +44,6 @@ const graphics = [
       src: asset,
       alt,
       title: title ?? '',
-      description: title,
       width,
       height,
       srcSet: breakpoints.map((breakpoint) => ({

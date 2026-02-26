@@ -18,10 +18,11 @@ import Captions from 'yet-another-react-lightbox/plugins/captions';
 import 'yet-another-react-lightbox/plugins/thumbnails.css';
 
 import { Album } from '@/components/layout/types';
+import { useIntlayer } from 'next-intlayer';
 
 export default function GalleryLayout({ albums }: { albums: Album[] }) {
   const [index, setIndex] = useState(-1);
-
+  const lightbox = useIntlayer('lightbox');
   const photos = albums.flatMap((value) => value.photos);
 
   return (
@@ -55,12 +56,38 @@ export default function GalleryLayout({ albums }: { albums: Album[] }) {
       <Lightbox
         styles={{
           root: { '--yarl__slide_description_text_align': 'center' },
+          slide: {
+            paddingTop: '65px',
+          },
         }}
         slides={photos}
         open={index >= 0}
         index={index}
         close={() => setIndex(-1)}
         plugins={[Fullscreen, Slideshow, Thumbnails, Zoom, Captions]}
+        captions={{
+          hidden: true,
+          showToggle: true,
+          descriptionTextAlign: 'center',
+        }}
+        thumbnails={{
+          showToggle: true,
+        }}
+        labels={{
+          Close: lightbox.close.value,
+          Next: lightbox.next.value,
+          Previous: lightbox.previous.value,
+          'Zoom in': lightbox.zoomIn.value,
+          'Zoom out': lightbox.zoomOut.value,
+          'Enter Fullscreen': lightbox.enterFullscreen.value,
+          'Exit Fullscreen': lightbox.exitFullscreen.value,
+          Play: lightbox.play.value,
+          Pause: lightbox.pause.value,
+          'Show thumbnails': lightbox.showThumbnails.value,
+          'Hide thumbnails': lightbox.hideThumbnails.value,
+          'Show captions': lightbox.showCaptions.value,
+          'Hide captions': lightbox.hideCaptions.value,
+        }}
       />
     </div>
   );
