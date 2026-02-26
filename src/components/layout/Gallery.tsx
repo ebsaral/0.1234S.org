@@ -72,6 +72,7 @@ export default function GalleryLayout({ albums }: { albums: Album[] }) {
         }}
         thumbnails={{
           showToggle: true,
+          hidden: true,
         }}
         labels={{
           Close: lightbox.close.value,
