@@ -1,30 +1,14 @@
-import { useIntlayer, useLocale } from 'next-intlayer/server';
+'use client';
+
+import { useIntlayer, useLocale } from 'next-intlayer';
 import { FaRegFilePdf } from 'react-icons/fa';
 
-import { headers } from 'next/headers';
-
-async function getHostUrl() {
-  const h = await headers();
-
-  const protocol = h.get('x-forwarded-proto') ?? 'http';
-
-  const host = h.get('x-forwarded-host') ?? h.get('host');
-
-  return `${protocol}://${host}`;
-}
-
-async function getFileLastModified(path: string) {
-  const host = await getHostUrl();
-  const res = await fetch(host + '/' + path);
-  return res.headers.get('last-modified') || '';
-}
-
-export default async function InfoLinks({ className }: { className?: string }) {
+export default function InfoLinks({ className }: { className?: string }) {
   const content = useIntlayer('page-home');
   const { locale } = useLocale();
   const cvLink = content.links.cv.link.value;
 
-  const lastUpdate = new Date(await getFileLastModified(cvLink));
+  const lastUpdate = new Date('2026-02-25');
 
   return (
     <div className={`flex gap-6 flex-wrap items-center justify-center ${className}`}>

@@ -1,14 +1,19 @@
+'use client';
+
 import Image from 'next/legacy/image';
 
 import { HomePageLink } from '@/components/links';
 import LanguageSelection from './LanguageSelection';
-import { useIntlayer, useLocale } from 'next-intlayer/server';
+import { useIntlayer, useLocale } from 'next-intlayer';
 import { InnerLayout } from './types';
+import { useEffect } from 'react';
 
 const Main = ({ children, params }: { children: React.ReactNode; params: InnerLayout }) => {
   const { locale } = useLocale();
   const sharedContent = useIntlayer('page-shared', locale);
   const content = useIntlayer(params.intlayerKey, locale);
+
+  useEffect(() => {}, [locale]);
 
   return (
     <main className='flex flex-col gap-8 items-center w-full'>

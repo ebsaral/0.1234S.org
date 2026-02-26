@@ -1,5 +1,7 @@
+'use client';
+
 import NextLink from 'next/link';
-import { useIntlayer, useLocale } from 'next-intlayer/server';
+import { useIntlayer, useLocale } from 'next-intlayer';
 import { GrDomain } from 'react-icons/gr';
 import { getLocalizedUrl } from 'intlayer';
 
