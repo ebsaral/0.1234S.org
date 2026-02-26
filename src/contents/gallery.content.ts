@@ -35,8 +35,8 @@ const pageContent = {
         tr: 'Karalamalar',
       }),
       subtitle: t({
-        en: 'Some memories from my mandatory military service in Ankara.',
-        tr: "Ankara'daki zorunlu askerlik hizmetim sürecinden geriye kalan hatıralar.",
+        en: 'Some memories from the period of my mandatory military service in Ankara.',
+        tr: "Ankara'daki zorunlu askerlik hizmetim sürecinden geriye kalan bazı hatıralar.",
       }),
     },
     drawings: {
