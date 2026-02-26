@@ -55,8 +55,8 @@ const pageContent = {
         tr: 'Grafikler',
       }),
       subtitle: t({
-        en: 'Word games, thought exercises, pastimes, and plenty of color.',
-        tr: 'Kelime oyunları, düşünce egzersizleri, vakit geçirmeceler ve bolca renk.',
+        en: 'Word plays, thought reflections, pastimes, and plenty of color.',
+        tr: 'Kelime oyunları, düşünce yansımaları, vakit geçirmeceler ve bolca renk.',
       }),
     },
   },
