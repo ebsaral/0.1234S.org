@@ -1,6 +1,4 @@
 import { type NextPageIntlayer, LocalPromiseParams } from 'next-intlayer';
-import { getIntlayer } from 'intlayer';
-
 import { InnerLayout, InfoLinks, DatePickerSection } from '@/components';
 import { InnerLayout as InnerLayoutType } from '@/types';
 import LinkSection from '@/components/layout/LinkSection';
@@ -16,10 +14,10 @@ export const generateMetadata = async ({ params }: LocalPromiseParams): Promise<
 
 const Page: NextPageIntlayer = async ({ params }) => {
   const { locale } = await params;
-  const content = getIntlayer('page-home', locale);
 
   const layoutParams: InnerLayoutType = {
     intlayerKey: 'page-home',
+    imgEffect: true,
     locale,
   };
 

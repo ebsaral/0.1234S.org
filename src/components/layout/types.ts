@@ -24,6 +24,7 @@ export type InfoSection = {
 export type InnerLayout = {
   intlayerKey: string;
   locale: LocalesValues;
+  imgEffect?: boolean;
   isSoon?: boolean;
   publishDate?: string;
   lastUpdateDate?: string;

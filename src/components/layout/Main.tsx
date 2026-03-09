@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 
 import { HomePageLink } from '@/components/links';
 import LanguageSelection from './LanguageSelection';
@@ -19,16 +19,19 @@ const Main = ({ children, params }: { children: React.ReactNode; params: InnerLa
     <main className='flex flex-col gap-8 items-center w-full'>
       <LanguageSelection />
       {content.image.src.value && (
-        <Image
-          className='rounded-full'
-          src={content.image.src.value}
-          alt={content.image.alt.value}
-          title={content.image.alt.value}
-          width={350}
-          height={350}
-          objectFit='cover'
-          priority
-        />
+        <div className='relative w-full max-w-[350px] aspect-square'>
+          {/* RIPPLE RING */}
+          {params.imgEffect && <div className='absolute z-10 inset-0 ripple-ring' />}
+
+          <Image
+            className='rounded-full object-cover'
+            src={content.image.src.value}
+            alt={content.image.alt.value}
+            title={content.image.alt.value}
+            fill
+            priority
+          />
+        </div>
       )}
       {params.displayHomePageLink && <HomePageLink />}
       {params.isSoon && <p className='text-2xl mt-2 font-bold text-cyan-400'>{sharedContent.soon}</p>}
