@@ -6,7 +6,10 @@ const pageContent = {
   content: {
     image: {
       src: '/images/logo.png',
-      alt: 'Emin Bugra Saral, 2023.',
+      alt: t({
+        en: 'EBS | Munich, 2023.',
+        tr: 'EBS | Münih, 2023.',
+      }),
     },
     title: t({
       en: 'Emin Buğra Saral',
