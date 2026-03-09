@@ -5,8 +5,8 @@ const pageContent = {
   key: 'page-gallery',
   content: {
     image: {
-      src: '/images/gallery-logo.png',
-      alt: 'Emin Buğra Saral, 2023.',
+      src: '/images/eminbugrasaral-2024.jpg',
+      alt: 'EBS | Trabzon, 2024.',
     },
     title: t({
       en: 'Gallery',
