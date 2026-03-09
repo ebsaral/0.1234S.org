@@ -404,7 +404,7 @@ p {
     transform: scale(0.05);
     opacity: 0.5;
   }
-  90% {
+  70% {
     transform: scale(1.015);
     opacity: 0.95;
   }
