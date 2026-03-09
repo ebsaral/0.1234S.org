@@ -53,9 +53,7 @@ export interface ContentHome {
       label: string;
       link: string;
     };
-    work: SocialIconProps[];
     social: SocialIconProps[];
-    contact: SocialIconProps[];
   };
   flags: { [key: string]: string };
   datePicker: {
