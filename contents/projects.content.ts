@@ -26,7 +26,7 @@ const pageContent = {
           en: 'https://www.1234S.org',
           tr: 'https://www.1234S.org',
         }),
-        spin: true,
+        spin: false,
       },
       {
         image: {
