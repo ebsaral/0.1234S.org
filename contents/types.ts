@@ -1,5 +1,3 @@
-import { SocialIconProps } from 'react-social-icons';
-
 type Image = {
   src: string;
   alt: string;
@@ -53,7 +51,10 @@ export interface ContentHome {
       label: string;
       link: string;
     };
-    social: SocialIconProps[];
+    social: {
+      label: string;
+      url: string;
+    }[];
   };
   flags: { [key: string]: string };
   datePicker: {
