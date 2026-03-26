@@ -28,6 +28,12 @@ const pageContent = {
     items: [
       {
         title: t({
+          en: "If me stating a fact is hurting your feelings, then your reality is grounded on a fake world you've built for yourself.",
+          tr: 'Eğer bir durumu sizinle paylaşmam hislerinize zarar veriyorsa, gerçeğiniz sahte bir dünyanın üzerine kurulu demektir.',
+        }),
+      },
+      {
+        title: t({
           en: 'Every being is an art piece getting shaped in all minds.',
           tr: 'Her canlı tüm zihinlerde şekil alan bir sanat eseridir.',
         }),
