@@ -21,7 +21,7 @@ export default function Quote() {
       className='relative flex align-middle items-center justify-center-80 p-6 border rounded-xl shadow-lg select-none cursor-pointer stars-box hover:border-gray-800 min-h-60 max-w-lg'
     >
       <div className='stars' />
-      <p className='text-center text-lg font-[family-name:var(--font-geist-mono)] whitespace-pre-line'>
+      <p className='text-center text-base font-[family-name:var(--font-geist-mono)] whitespace-pre-line'>
         {content.items[index].title}
       </p>
       <p className='absolute left-4 bottom-7 text-xs text-right w-10'>
