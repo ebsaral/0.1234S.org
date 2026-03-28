@@ -91,3 +91,11 @@ export interface ContentShared {
   onlyInEnglish: string;
   showMore: string;
 }
+
+export interface CountdownContent {
+  title: string;
+  days: string;
+  hours: string;
+  minutes: string;
+  seconds: string;
+}

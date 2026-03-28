@@ -1,10 +1,11 @@
 import { type NextPageIntlayer, LocalPromiseParams } from 'next-intlayer';
-import { InnerLayout, InfoLinks, DatePickerSection } from '@/components';
+import { InnerLayout, InfoLinks } from '@/components';
 import { InnerLayout as InnerLayoutType } from '@/types';
 import LinkSection from '@/components/layout/LinkSection';
 import { Metadata } from 'next';
 import { getPageMetadata } from '@/utils';
 import HomeSection from '@/components/layout/HomeSections';
+import CountdownClock from '@/components/animated/CountdownClock';
 
 export const generateMetadata = async ({ params }: LocalPromiseParams): Promise<Metadata> => {
   const { locale } = await params;
@@ -30,7 +31,7 @@ const Page: NextPageIntlayer = async ({ params }) => {
         <hr className='page-break-bold'></hr>
         <LinkSection id='links' />
         <hr className='page-break '></hr>
-        <DatePickerSection />
+        <CountdownClock className='mb-10 max-w-sm' targetDate={new Date('2026-09-16T23:59:59')} />
       </>
     </InnerLayout>
   );
