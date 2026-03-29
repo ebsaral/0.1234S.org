@@ -27,7 +27,7 @@ export default function LinkSection({ id }: { id: string }) {
   };
 
   return (
-    <div id={id} className='page-section w-full mx-auto flex items-center'>
+    <div id={id} className='page-section w-full mx-auto flex items-center mt-5 mb-10'>
       <div className={`grid grid-cols-5 justify-center items-center gap-5 sm:gap-10`}>
         {content.links.social.map((props, index) => {
           const Icon = getIconClass(index);

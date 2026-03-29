@@ -5,7 +5,6 @@ import LinkSection from '@/components/layout/LinkSection';
 import { Metadata } from 'next';
 import { getPageMetadata } from '@/utils';
 import HomeSection from '@/components/layout/HomeSections';
-import CountdownClock from '@/components/animated/CountdownClock';
 
 export const generateMetadata = async ({ params }: LocalPromiseParams): Promise<Metadata> => {
   const { locale } = await params;
@@ -28,10 +27,8 @@ const Page: NextPageIntlayer = async ({ params }) => {
         <InfoLinks />
         <hr className='page-break-bold mt-0 mb-8'></hr>
         <HomeSection />
-        <hr className='page-break-bold'></hr>
+        <hr className='page-break-bold mb-0'></hr>
         <LinkSection id='links' />
-        <hr className='page-break '></hr>
-        <CountdownClock className='mb-10 max-w-sm' targetDate={new Date('2026-09-16T23:59:59')} />
       </>
     </InnerLayout>
   );
