@@ -1,7 +1,7 @@
 import { getIntlayer } from 'intlayer';
 import { useLocale } from 'next-intlayer/server';
 import Link from 'next/link';
-import { TbBrandGithub, TbBrandFlickr, TbBrandCouchsurfing, TbBrandWhatsapp, TbBrandTiktok } from 'react-icons/tb';
+import { TbBrandInstagram, TbBrandFlickr, TbBrandCouchsurfing, TbBrandWhatsapp, TbBrandTiktok } from 'react-icons/tb';
 import { ContentHome } from '@/types';
 import { IconType } from 'react-icons';
 
@@ -12,7 +12,7 @@ export default function LinkSection({ id }: { id: string }) {
   const getIconClass = (index: number): IconType | null => {
     switch (index) {
       case 0:
-        return TbBrandGithub;
+        return TbBrandInstagram;
       case 1:
         return TbBrandFlickr;
       case 2:

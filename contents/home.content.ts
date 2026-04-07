@@ -48,8 +48,8 @@ const pageContent = {
       },
       social: [
         {
-          label: 'GitHub',
-          url: 'https://www.github.com/ebsaral',
+          label: 'Instagram',
+          url: 'https://www.instagram.com/goettheus',
         },
         {
           label: 'Flickr',
