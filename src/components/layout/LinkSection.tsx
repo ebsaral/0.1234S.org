@@ -1,7 +1,7 @@
 import { getIntlayer } from 'intlayer';
 import { useLocale } from 'next-intlayer/server';
 import Link from 'next/link';
-import { TbBrandGithub, TbBrandFlickr, TbBrandCouchsurfing, TbBrandWhatsapp, TbBrandTelegram } from 'react-icons/tb';
+import { TbBrandGithub, TbBrandFlickr, TbBrandCouchsurfing, TbBrandWhatsapp, TbBrandTiktok } from 'react-icons/tb';
 import { ContentHome } from '@/types';
 import { IconType } from 'react-icons';
 
@@ -20,7 +20,7 @@ export default function LinkSection({ id }: { id: string }) {
       case 3:
         return TbBrandWhatsapp;
       case 4:
-        return TbBrandTelegram;
+        return TbBrandTiktok;
       default:
         return null;
     }

@@ -64,8 +64,8 @@ const pageContent = {
           url: 'https://wa.me/905322580093',
         },
         {
-          label: 'Telegram',
-          url: 'https://t.me/ebsaral',
+          label: 'TikTok',
+          url: 'https://www.tiktok.com/@hazzeti.emin',
         },
       ],
     },
