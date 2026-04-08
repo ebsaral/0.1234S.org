@@ -48,8 +48,8 @@ const pageContent = {
       },
       social: [
         {
-          label: 'Instagram',
-          url: 'https://www.instagram.com/goettheus',
+          label: 'GitHub',
+          url: 'https://www.github.com/ebsaral',
         },
         {
           label: 'Flickr',
@@ -60,12 +60,28 @@ const pageContent = {
           url: 'https://www.couchsurfing.com/people/ebsaral',
         },
         {
-          label: 'WhatsApp',
-          url: 'https://wa.me/905322580093',
+          label: 'SoundCloud',
+          url: 'https://soundcloud.com/ebsaral',
+        },
+        {
+          label: 'Instagram',
+          url: 'https://www.instagram.com/goettheus',
         },
         {
           label: 'TikTok',
           url: 'https://www.tiktok.com/@hazzeti.emin',
+        },
+        {
+          label: 'Bluesky',
+          url: 'https://bsky.app/profile/ebsaral.bsky.social',
+        },
+        {
+          label: 'WhatsApp',
+          url: 'https://wa.me/905322580093',
+        },
+        {
+          label: 'Telegram',
+          url: 'https://t.me/ebsaral',
         },
       ],
     },
