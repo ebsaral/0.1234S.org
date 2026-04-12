@@ -3,6 +3,7 @@ import { useLocale } from 'next-intlayer/server';
 import Link from 'next/link';
 import {
   TbBrandInstagram,
+  TbBrandLinkedin,
   TbBrandFlickr,
   TbBrandCouchsurfing,
   TbBrandWhatsapp,
@@ -20,28 +21,20 @@ export default function LinkSection({ id }: { id: string }) {
   const content = getIntlayer('page-home', locale) as ContentHome;
 
   const getIconClass = (index: number): IconType | null => {
-    switch (index) {
-      case 0:
-        return TbBrandGithub;
-      case 1:
-        return TbBrandFlickr;
-      case 2:
-        return TbBrandCouchsurfing;
-      case 3:
-        return TbBrandSoundcloud;
-      case 4:
-        return TbBrandInstagram;
-      case 5:
-        return TbBrandTiktok;
-      case 6:
-        return TbBrandBluesky;
-      case 7:
-        return TbBrandWhatsapp;
-      case 8:
-        return TbBrandTelegram;
-      default:
-        return null;
-    }
+    const icons = [
+      TbBrandLinkedin,
+      TbBrandGithub,
+      TbBrandFlickr,
+      TbBrandCouchsurfing,
+      TbBrandSoundcloud,
+      TbBrandInstagram,
+      TbBrandTiktok,
+      TbBrandBluesky,
+      TbBrandWhatsapp,
+      TbBrandTelegram,
+    ];
+
+    return icons[index];
   };
 
   return (

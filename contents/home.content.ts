@@ -48,6 +48,10 @@ const pageContent = {
       },
       social: [
         {
+          label: 'LinkedIn',
+          url: 'https://www.linkedin.com/in/eminbugrasaral',
+        },
+        {
           label: 'GitHub',
           url: 'https://www.github.com/ebsaral',
         },
