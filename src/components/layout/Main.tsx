@@ -23,14 +23,16 @@ const Main = ({ children, params }: { children: React.ReactNode; params: InnerLa
           {/* RIPPLE RING */}
           {params.imgEffect && <div className='absolute z-10 inset-0 ripple-ring' />}
 
-          <Image
-            className='rounded-full object-cover'
-            src={content.image.src.value}
-            alt={content.image.alt.value}
-            title={content.image.alt.value}
-            fill
-            priority
-          />
+          <a href={content.image.src.value} title={content.image.alt.value}>
+            <Image
+              className='rounded-full object-cover'
+              src={content.image.src.value}
+              alt={content.image.alt.value}
+              title={content.image.alt.value}
+              fill
+              priority
+            />
+          </a>
         </div>
       )}
       {params.displayHomePageLink && <HomePageLink />}
