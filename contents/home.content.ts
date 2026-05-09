@@ -72,8 +72,8 @@ const pageContent = {
           url: 'https://www.instagram.com/goettheus',
         },
         {
-          label: 'TikTok',
-          url: 'https://www.tiktok.com/@hazzeti.emin',
+          label: 'Facebook',
+          url: 'https://www.facebook.com/ebsaral',
         },
         {
           label: 'Bluesky',
