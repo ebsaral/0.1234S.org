@@ -8,7 +8,7 @@ export default function InfoLinks({ className }: { className?: string }) {
   const { locale } = useLocale();
   const cvLink = content.links.cv.link.value;
 
-  const lastUpdate = new Date('2026-04-24');
+  const lastUpdate = new Date('2026-05-17');
 
   return (
     <div className={`flex gap-6 flex-wrap items-center justify-center ${className}`}>
