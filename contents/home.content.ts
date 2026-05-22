@@ -5,10 +5,10 @@ const pageContent = {
   key: 'page-home',
   content: {
     image: {
-      src: '/images/passport.jpg',
+      src: '/images/logo.png',
       alt: t({
-        en: 'EBS | Passport.',
-        tr: 'EBS | Pasaport.',
+        en: 'EBS | Munich, 2023.',
+        tr: 'EBS | Münih, 2023.',
       }),
     },
     title: t({
