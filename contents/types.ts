@@ -45,6 +45,7 @@ export interface ContentHome {
   description: string;
   seperators: string[];
   lastUpdate: string;
+  lastUpdateDate: string;
   image: Image;
   links: {
     cv: {
