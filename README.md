@@ -9,5 +9,7 @@
 **Did you know?**
 - The letter O is the fourth most common letter in the English alphabet.
 
+Oh, come on! 
+
 Hosted on [Vercel](https://vercel.com/). Coded with [Next.js](https://nextjs.org/) and
 [Tailwind](https://tailwindcss.com/).
