@@ -7,7 +7,7 @@
 - Sometimes I enjoy refactoring the code for a better reading and self-satisfaction.
 
 **Did you know?**
-- The letter ⟨o⟩ is the fourth most common letter in the English alphabet.
+- The letter O is the fourth most common letter in the English alphabet.
 
 Hosted on [Vercel](https://vercel.com/). Coded with [Next.js](https://nextjs.org/) and
 [Tailwind](https://tailwindcss.com/).
