@@ -70,7 +70,7 @@ const pageContent = {
         },
         {
           label: 'Instagram',
-          url: 'https://www.instagram.com/goettheus',
+          url: 'https://www.instagram.com/hazzeti.emin',
         },
         {
           label: 'Facebook',
