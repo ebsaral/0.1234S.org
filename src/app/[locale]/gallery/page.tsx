@@ -9,7 +9,7 @@ import { LocalPromiseParams, NextPageIntlayer } from 'next-intlayer';
 
 export const generateMetadata = async ({ params }: LocalPromiseParams): Promise<Metadata> => {
   const { locale } = await params;
-  return getPageMetadata({ locale, customPageKey: 'page-gallery' });
+  return getPageMetadata({ locale: locale!, customPageKey: 'page-gallery' });
 };
 
 const Page: NextPageIntlayer = async ({ params }) => {
@@ -37,7 +37,7 @@ const Page: NextPageIntlayer = async ({ params }) => {
 
   const layoutParams: InnerLayoutType = {
     intlayerKey,
-    locale,
+    locale: locale!,
     displayHomePageLink: true,
   };
 

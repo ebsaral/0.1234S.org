@@ -9,7 +9,7 @@ import HomeSection from '@/components/layout/HomeSections';
 export const generateMetadata = async ({ params }: LocalPromiseParams): Promise<Metadata> => {
   const { locale } = await params;
 
-  return getPageMetadata({ locale });
+  return getPageMetadata({ locale: locale! });
 };
 
 const Page: NextPageIntlayer = async ({ params }) => {
@@ -18,7 +18,7 @@ const Page: NextPageIntlayer = async ({ params }) => {
   const layoutParams: InnerLayoutType = {
     intlayerKey: 'page-home',
     imgEffect: true,
-    locale,
+    locale: locale!,
   };
 
   return (
