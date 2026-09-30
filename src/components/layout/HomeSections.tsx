@@ -2,7 +2,6 @@
 
 import { useIntlayer, useLocale } from 'next-intlayer/server';
 import SectionItem from './SectionItem';
-import Quote from './Quote';
 
 export default function HomeSection() {
   const { locale } = useLocale();
