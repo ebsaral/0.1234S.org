@@ -16,7 +16,7 @@ import {
 import { ContentHome } from '@/types';
 import { IconType } from 'react-icons';
 
-export default function LinkSection({ id }: { id: string }) {
+export default function LinkSection({ id, className }: { id: string; className?: string }) {
   const { locale } = useLocale();
   const content = getIntlayer('page-home', locale) as ContentHome;
 
@@ -38,8 +38,8 @@ export default function LinkSection({ id }: { id: string }) {
   };
 
   return (
-    <div id={id} className='page-section w-full mx-auto flex items-center mt-5 mb-10'>
-      <div className={`grid grid-cols-5 justify-center items-center gap-5 sm:gap-10`}>
+    <div id={id} className={`page-section w-full mx-auto flex items-center mt-5 mb-10 ${className}`}>
+      <div className={`flex flex-wrap items-center justify-center gap-8 sm:gap-6 w-auto sm:w-96`}>
         {content.links.social.map((props, index) => {
           const Icon = getIconClass(index);
           if (!Icon) {
@@ -48,11 +48,17 @@ export default function LinkSection({ id }: { id: string }) {
           return (
             <Link
               key={index}
-              className='group rounded-full w-12 h-12 flex items-center justify-center text-gray-100 bg-gray-900'
+              className='group w-[calc(28%-15px)] sm:w-[calc(20%)] flex flex-col items-center justify-center gap-3'
               title={props.label}
               href={props.url as string}
             >
-              <Icon className='group-hover:text-white group-hover:scale-110 transform-all duration-300 w-full h-full p-3' />
+              <div
+                key={index}
+                className='rounded-full w-12 h-12 flex flex-col items-center justify-center gap-3 text-gray-100 bg-gray-900'
+              >
+                <Icon className='group-hover:text-white group-hover:scale-110 transform-all duration-300 w-full h-full p-3' />
+              </div>
+              <div className='text-xs group-hover:scale-105 transform-all duration-300'>{props.label}</div>
             </Link>
           );
         })}

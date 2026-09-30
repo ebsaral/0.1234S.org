@@ -28,7 +28,7 @@ const Page: NextPageIntlayer = async ({ params }) => {
         <hr className='page-break-bold mt-0 mb-8'></hr>
         <HomeSection />
         <Quote className='mt-2' />
-        <LinkSection id='links' />
+        <LinkSection className='mt-8' id='links' />
       </>
     </InnerLayout>
   );
