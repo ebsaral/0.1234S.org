@@ -12,7 +12,7 @@ export default function HomeSection() {
     {
       content: projects,
       minCol: 1,
-      maxCol: 3,
+      maxCol: 2,
       titleStyle: 'text-xl sm:text-xl',
     },
   ];
@@ -30,6 +30,7 @@ export default function HomeSection() {
             <h2>{section.content.title}</h2>
           </div>
            */}
+
             <div className={`grid sm:grid-cols-${section.maxCol} grid-cols-${section.minCol} gap-6`}>
               {section.content.items.map((item: any, x: any) => {
                 return (
@@ -46,7 +47,6 @@ export default function HomeSection() {
                   />
                 );
               })}
-              {i == 0 && <Quote />}
             </div>
           </div>
         );

@@ -267,7 +267,7 @@ p {
   }
 }
 
-.stars-box:hover {
+.stars-box {
   background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
   overflow: hidden;
 }
@@ -282,7 +282,7 @@ p {
   }
 }
 
-.stars-box:hover .stars {
+.stars-box .stars {
   width: 1px;
   height: 1px;
   position: absolute;

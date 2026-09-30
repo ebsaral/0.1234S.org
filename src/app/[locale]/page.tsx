@@ -1,5 +1,5 @@
 import { type NextPageIntlayer, LocalPromiseParams } from 'next-intlayer';
-import { InnerLayout, InfoLinks } from '@/components';
+import { InnerLayout, InfoLinks, Quote } from '@/components';
 import { InnerLayout as InnerLayoutType } from '@/types';
 import LinkSection from '@/components/layout/LinkSection';
 import { Metadata } from 'next';
@@ -27,7 +27,7 @@ const Page: NextPageIntlayer = async ({ params }) => {
         <InfoLinks />
         <hr className='page-break-bold mt-0 mb-8'></hr>
         <HomeSection />
-        <hr className='page-break-bold mb-0'></hr>
+        <Quote className='mt-2' />
         <LinkSection id='links' />
       </>
     </InnerLayout>

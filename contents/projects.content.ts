@@ -15,8 +15,8 @@ const pageContent = {
           alt: 'logical spirituality',
         },
         title: t({
-          en: 'Logical Spirituality',
-          tr: 'Mantıksal Maneviyat',
+          en: 'Logical\nSpirituality',
+          tr: 'Mantıksal\nManeviyat',
         }),
         text: t({
           en: 'Interconnectedness, Justice and Health in Nature.',
