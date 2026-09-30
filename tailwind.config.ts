@@ -24,10 +24,16 @@ const config: Config = {
             opacity: '0.70',
           },
         },
+        slideToRight: {
+          '0%': { transform: 'translateX(4px)' },
+          '30%': { transform: 'translateX(10px)' },
+          '100%': { transform: 'translateX(4px)' },
+        },
       },
       animation: {
         starScale: 'starScale 800ms ease infinite',
         spin: 'spin 2s linear infinite',
+        'slide-to-right': 'slideToRight 2s linear infinite',
       },
     },
   },
