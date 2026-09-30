@@ -45,7 +45,7 @@ export default function SectionItem({
       title={title}
       prefetch={true}
     >
-      <div className='flex flex-col items-center justify-center gap-3 min-w-52'>
+      <div className='flex flex-col items-center justify-center gap-3 sm:min-w-36'>
         <Image
           src={imgSrc}
           alt={imgAlt}
