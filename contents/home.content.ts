@@ -57,6 +57,10 @@ const pageContent = {
           url: 'https://www.github.com/ebsaral',
         },
         {
+          label: 'Co-Founder',
+          url: 'https://www.startupschool.org/cofounder-matching/candidate/KfZfRGyVR',
+        },
+        {
           label: 'Flickr',
           url: 'http://flickr.com/photos/ebsaral/',
         },

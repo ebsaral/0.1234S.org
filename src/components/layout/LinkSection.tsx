@@ -4,6 +4,7 @@ import Link from 'next/link';
 import {
   TbBrandInstagram,
   TbBrandLinkedin,
+  TbBrandYcombinator,
   TbBrandFlickr,
   TbBrandCouchsurfing,
   TbBrandWhatsapp,
@@ -24,6 +25,7 @@ export default function LinkSection({ id, className }: { id: string; className?:
     const icons = [
       TbBrandLinkedin,
       TbBrandGithub,
+      TbBrandYcombinator,
       TbBrandFlickr,
       TbBrandCouchsurfing,
       TbBrandSoundcloud,
