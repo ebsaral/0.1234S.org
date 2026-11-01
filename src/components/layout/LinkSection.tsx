@@ -13,6 +13,7 @@ import {
   TbBrandSoundcloud,
   TbBrandBluesky,
   TbBrandTelegram,
+  TbBrandThreads,
 } from 'react-icons/tb';
 import { ContentHome } from '@/types';
 import { IconType } from 'react-icons';
@@ -30,6 +31,7 @@ export default function LinkSection({ id, className }: { id: string; className?:
       TbBrandCouchsurfing,
       TbBrandSoundcloud,
       TbBrandInstagram,
+      TbBrandThreads,
       TbBrandFacebook,
       TbBrandBluesky,
       TbBrandWhatsapp,

@@ -77,6 +77,10 @@ const pageContent = {
           url: 'https://www.instagram.com/hazzeti.emin',
         },
         {
+          label: 'Threads',
+          url: 'https://www.threads.com/@hazzeti.emin',
+        },
+        {
           label: 'Facebook',
           url: 'https://www.facebook.com/ebsaral',
         },
