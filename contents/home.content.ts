@@ -35,7 +35,7 @@ const pageContent = {
         tr: 'Son güncelleme: {{date}}',
       }),
     ),
-    lastUpdateDate: '2026-08-26',
+    lastUpdateDate: '2026-11-15',
     links: {
       cv: {
         label: t({
